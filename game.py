@@ -40374,9 +40374,7 @@ try:
                         if r0==12:
                             break
                     lf=[]
-                    rkk=['Portugal','Spain','France','Germany','Italy','Netherlands','Denmark','Croatia','Scotland','Serbia','Hungary','Belgium','Poland','Israel','Switzerland','Bosnia and Herzegovina',
-                    'England','Norway','Wales','Czechia','Greece','Austria','Turkiye','Ukraine','Slovenia','Georgia','Iceland','Republic of Ireland','Albania','Montenegro','Kazakhstan','Finland','Romania','Sweden',
-                    'North Macedonia','Northern Ireland','Slovakia','Kosovo','Bulgaria','Armenia','Belarus','Faroe Islands','Cyprus','Estonia','Latvia','Luxembourg','Azerbaijan','Lithuania','Moldova','San Marino','Malta','Gibraltar','Liechtenstein','Andorra']
+                    rkk=['Spain','Germany','Portugal','France','England','Norway','Wales','Czechia','Romania','Sweden','North Macedonia','Northern Ireland','Moldova','San Marino','Italy','Netherlands','Denmark','Croatia','Greece','Austria','Turkiye','Ukraine','Slovakia','Kosovo','Bulgaria','Armenia','Malta','Gibraltar']
                     for vbv in rkk:
                         if vbv not in TT0 and vbv not in rg:
                             lf.append(vbv)
