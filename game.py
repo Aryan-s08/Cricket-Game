@@ -40085,12 +40085,7 @@ try:
                     print()
                     print(rf[0],', ',rf[1],', ',rf[2],', ',rf[3],', ',rf[4],', ',rf[5],', ',rf[6],', ',rf[7],', ',rf[8],', ',rf[9],', ',rf[10],', ',rf[11],' have qualified for Round 2')
                     print()
-                    str='The best 8 Runners-up will be seeded for the Round 2 draw. the 16 teams will be divided into 4 qualifying paths A,B,C,D, where each path has 2 Semis and a Final. The winners of each qualifying path qualifies for the WC. Each Path will have 2 seeded and 2 unseeded teams.'
-                    for i in str:
-                        #time.sleep(0.03)
-                        print(i,flush=True,end='')
-                    print()
-                    print()
+                    
                     KO1=[]
                     KO2=[]
                     KO3=[]
@@ -40366,7 +40361,213 @@ try:
                     print()
                     print()
                     TT0=[]
-                    
+                    fif = {
+                    "Argentina": 1,
+                    "France": 2,
+                    "Brazil": 3,
+                    "England": 4,
+                    "Belgium": 5,
+                    "Croatia": 6,
+                    "Netherlands": 7,
+                    "Portugal": 8,
+                    "Italy": 9,
+                    "Spain": 10,
+                    "USA": 11,
+                    "Mexico": 12,
+                    "Morocco": 13,
+                    "Switzerland": 14,
+                    "Germany": 15,
+                    "Colombia": 16,
+                    "Uruguay": 17,
+                    "Denmark": 18,
+                    "Japan": 19,
+                    "Senegal": 20,
+                    "Iran": 21,
+                    "Peru": 22,
+                    "Sweden": 23,
+                    "Ukraine": 24,
+                    "Austria": 25,
+                    "South Korea": 26,
+                    "Australia": 27,
+                    "Serbia": 28,
+                    "Tunisia": 29,
+                    "Poland": 30,
+                    "Scotland": 31,
+                    "Hungary": 32,
+                    "Wales": 33,
+                    "Algeria": 34,
+                    "Egypt": 35,
+                    "Chile": 36,
+                    "Czechia": 37,
+                    "Ecuador": 38,
+                    "Nigeria": 40,
+                    "Cameroon": 41,
+                    "Turkiye": 42,
+                    "Norway": 43,
+                    "Canada": 44,
+                    "Panama": 45,
+                    "Costa Rica": 46,
+                    "Romania": 47,
+                    "Slovakia": 48,
+                    "Mali": 49,
+                    "Ivory Coast": 50,
+                    "Greece": 51,
+                    "Paraguay": 52,
+                    "Venezuela": 53,
+                    "Finland": 54,
+                    "Republic of Ireland": 55,
+                    "Jamaica": 56,
+                    "Saudi Arabia": 57,
+                    "Burkina Faso": 58,
+                    "Slovenia": 59,
+                    "Ghana": 60,
+                    "Qatar": 61,
+                    "Albania": 62,
+                    "South Africa": 63,
+                    "Bosnia and Herzegovina": 64,
+                    "North Macedonia": 65,
+                    "DR Congo": 66,
+                    "Iceland": 67,
+                    "Montenegro": 68,
+                    "Iraq": 69,
+                    "United Arab Emirates": 70,
+                    "Cape Verde": 71,
+                    "Israel": 72,
+                    "Oman": 73,
+                    "Northern Ireland": 74,
+                    "Uzbekistan": 75,
+                    "El Salvador": 76,
+                    "Honduras": 77,
+                    "Bulgaria": 78,
+                    "Georgia": 79,
+                    "China": 80,
+                    "Guinea": 81,
+                    "Zambia": 82,
+                    "Bolivia": 83,
+                    "Jordan": 84,
+                    "Luxembourg": 85,
+                    "Bahrain": 86,
+                    "Gabon": 87,
+                    "Haiti": 88,
+                    "Uganda": 89,
+                    "Curacao": 90,
+                    "Armenia": 91,
+                    "Equatorial Guinea": 92,
+                    "Syria": 93,
+                    "Vietnam": 94,
+                    "Benin": 95,
+                    "Kyrgyzstan": 96,
+                    "Palestine": 97,
+                    "Mauritania": 98,
+                    "Trinidad and Tobago": 99,
+                    "Kazakhstan": 100,
+                    "Lebanon": 101,
+                    "India": 102,
+                    "Guatemala": 103,
+                    "New Zealand": 104,
+                    "Belarus": 105,
+                    "Kenya": 106,
+                    "Guinea Bissau": 107,
+                    "Congo": 108,
+                    "Madagascar": 109,
+                    "Tajikistan": 110,
+                    "Kosovo": 111,
+                    "Thailand": 112,
+                    "Mozambique": 113,
+                    "Namibia": 114,
+                    "Estonia": 115,
+                    "North Korea": 116,
+                    "Angola": 117,
+                    "Gambia": 118,
+                    "Togo": 119,
+                    "Cyprus": 120,
+                    "Azerbaijan": 121,
+                    "Tanzania": 122,
+                    "Malawi": 123,
+                    "Sierra Leone": 124,
+                    "Zimbabwe": 125,
+                    "Libya": 126,
+                    "Central African Republic": 127,
+                    "Niger": 128,
+                    "Comoros": 129,
+                    "Sudan": 130,
+                    "Faroe Islands": 131,
+                    "Philippines": 132,
+                    "Rwanda": 133,
+                    "Solomon Islands": 134,
+                    "Malaysia": 135,
+                    "Kuwait": 136,
+                    "Latvia": 137,
+                    "Antigua and Barbuda": 138,
+                    "Nicaragua": 139,
+                    "Turkmenistan": 140,
+                    "Burundi": 141,
+                    "Ethiopia": 142,
+                    "Lithuania": 143,
+                    "Eswatini": 144,
+                    "Suriname": 145,
+                    "Saint Kitts and Nevis": 146,
+                    "Indonesia": 147,
+                    "Hong Kong": 148,
+                    "Botswana": 149,
+                    "Liberia": 150,
+                    "Dominican Republic": 151,
+                    "Lesotho": 152,
+                    "Andorra": 153,
+                    "Taiwan": 154,
+                    "Maldives": 155,
+                    "Yemen": 156,
+                    "Singapore": 157,
+                    "Afghanistan": 158,
+                    "Moldova": 159,
+                    "Puerto Rico": 160,
+                    "Myanmar": 161,
+                    "Papua New Guinea": 162,
+                    "Tahiti": 163,
+                    "New Caledonia": 164,
+                    "Guyana": 165,
+                    "Saint Lucia": 166,
+                    "South Sudan": 167,
+                    "Vanuatu": 168,
+                    "Cuba": 169,
+                    "Fiji": 170,
+                    "Malta": 171,
+                    "Barbados": 172,
+                    "Grenada": 173,
+                    "Bermuda": 174,
+                    "Nepal": 175,
+                    "Saint Vincent and Grenadines": 176,
+                    "Cambodia": 177,
+                    "Mauritius": 178,
+                    "Montserrat": 179,
+                    "Belize": 180,
+                    "Chad": 181,
+                    "Dominica": 182,
+                    "Mongolia": 183,
+                    "Bhutan": 184,
+                    "Macau": 185,
+                    "Laos": 186,
+                    "Sao Tome and Principe": 187,
+                    "Cook Islands": 188,
+                    "Bangladesh": 189,
+                    "Djibouti": 190,
+                    "Brunei": 191,
+                    "Timor Leste": 192,
+                    "Aruba": 193,
+                    "Somalia": 194,
+                    "Seychelles": 195,
+                    "Cayman Islands": 196,
+                    "Pakistan": 197,
+                    "Gibraltar": 198,
+                    "Liechtenstein": 199,
+                    "Bahamas": 200,
+                    "Guam": 201,
+                    "Sri Lanka": 202,
+                    "Turks and Caicos Islands": 203,
+                    "US Virgin Islands": 204,
+                    "British Virgin Islands": 205,
+                    "Anguilla": 206,
+                    "Tonga":207,"American Samoa":208,"Samoa":209,"San Marino": 210,"Eritrea":211}
                     r0=0
                     for i in data:
                         TT0.append(i)
@@ -40393,9 +40594,60 @@ try:
                         print(i,flush=True,end='')
                     print()
                     print()
+                    srtd = {}
+                    for i in TT0:
+                        if len(srtd) == 12:
+                            break
+                        srtd[i] = fif[i]
+                    srtd_sorted = sorted(srtd.items(),key = lambda item:item[1])
+                    srtd = dict(srtd_sorted)
+                    cont = []
+                    for i in srtd:
+                        cont.append(i)
+                    pot1 = cont[0:4]
+                    pot2 = cont[4:8]
+                    pot3 = cont[8:12]
+                    pot4 = lf
                     hst=[TT0[0],TT0[1],TT0[2],TT0[3],TT0[4],TT0[5],TT0[6],TT0[7]]
                     lo=[TT0[8],TT0[9],TT0[10],TT0[11],TT0[12],TT0[13],TT0[14],TT0[15]]
-                    import random
+                    potq1=[]
+                    potq2=[]
+                    potq3=[]
+                    potq4=[]
+                    for i in pot1:
+                        potq1.append(i+' ['+f"{fif[i]}"+']')
+                    for i in pot2:
+                        potq2.append(i+' ['+f"{fif[i]}"+']')
+                    for i in pot3:
+                        potq3.append(i+' ['+f"{fif[i]}"+']')
+                    for i in pot4:
+                        potq4.append(i+' ['+f"{fif[i]}"+']')
+                    SCORECARD={'Pot 1': potq1,'Pot 2': potq2,'Pot 3':potq3,'Pot 4':potq4}
+                    print()
+                    print()
+                    try:
+                        from tabulate import tabulate
+                        print(tabulate(SCORECARD, headers="keys",tablefmt="fancy_grid"))
+                    except:
+                        print()
+                        print()
+                        for f in SCORECARD:
+                            print(f)
+                            print()
+                            for i in SCORECARD[f]:
+                                print(i)
+                            print()
+                            print()
+                    random.shuffle(pot1)
+                    random.shuffle(pot2)
+                    random.shuffle(pot3)
+                    random.shuffle(pot4)
+
+                    str = 'The 16 teams have been divided into 4 pots based on FIFA Rankings and the 4th Pot contains teams that have qualified via Nations League Performances. These teams will be divided into 4 paths, each path has 2 semi-finals, Pot 1 vs Pot 4 team and Pot 2 vs Pot 3 team. Winner of Final qualifies for World Cup.'
+                    for i in str:
+                        #time.sleep(0.03)
+                        print(i,flush=True,end='')
+                    print()
                     random.shuffle(hst)
                     random.shuffle(lo)
                     str='Path A'
@@ -40404,12 +40656,12 @@ try:
                         print(i,flush=True,end='')
                     print()
                     print()
-                    str='Semi Final 1: '+hst[0]+' vs '+lo[0]
+                    str='Semi Final 1: '+pot1[0]+' vs '+pot4[0]
                     for i in str:
                         #time.sleep(0.03)
                         print(i,flush=True,end='')
                     print()
-                    str='Semi Final 2: '+hst[1]+' vs '+lo[1]
+                    str='Semi Final 2: '+pot2[0]+' vs '+pot3[0]
                     for i in str:
                         #time.sleep(0.03)
                         print(i,flush=True,end='')
@@ -40422,12 +40674,12 @@ try:
                         print(i,flush=True,end='')
                     print()
                     print()
-                    str='Semi Final 1: '+hst[2]+' vs '+lo[2]
+                    str='Semi Final 1: '+pot1[1]+' vs '+pot4[1]
                     for i in str:
                         #time.sleep(0.03)
                         print(i,flush=True,end='')
                     print()
-                    str='Semi Final 2: '+hst[3]+' vs '+lo[3]
+                    str='Semi Final 2: '+pot2[1]+' vs '+pot3[1]
                     for i in str:
                         #time.sleep(0.03)
                         print(i,flush=True,end='')
@@ -40440,12 +40692,12 @@ try:
                         print(i,flush=True,end='')
                     print()
                     print()
-                    str='Semi Final 1: '+hst[4]+' vs '+lo[4]
+                    str='Semi Final 1: '+pot1[2]+' vs '+pot4[2]
                     for i in str:
                         #time.sleep(0.03)
                         print(i,flush=True,end='')
                     print()
-                    str='Semi Final 2: '+hst[5]+' vs '+lo[5]
+                    str='Semi Final 2: '+pot2[2]+' vs '+pot3[2]
                     for i in str:
                         #time.sleep(0.03)
                         print(i,flush=True,end='')
@@ -40458,19 +40710,19 @@ try:
                         print(i,flush=True,end='')
                     print()
                     print()
-                    str='Semi Final 1: '+hst[6]+' vs '+lo[6]
+                    str='Semi Final 1: '+pot1[3]+' vs '+pot4[3]
                     for i in str:
                         #time.sleep(0.03)
                         print(i,flush=True,end='')
                     print()
-                    str='Semi Final 2: '+hst[7]+' vs '+lo[7]
+                    str='Semi Final 2: '+pot2[3]+' vs '+pot3[3]
                     for i in str:
                         #time.sleep(0.03)
                         print(i,flush=True,end='')
                     print()
                     print()
                     print()
-                    rfix=[[[hst[0],lo[0],hst[0],'11 Mar 2026'],[hst[2],lo[2],hst[2],'13 Mar 2026'],[hst[4],lo[4],hst[4],'17 Mar 2026'],[hst[6],lo[6],hst[6],'20 Mar 2026']],[[hst[1],lo[1],hst[1],'23 Mar 2026'],[hst[3],lo[3],hst[3],'26 Mar 2026'],[hst[5],lo[5],hst[5],'1 Apr 2026'],[hst[7],lo[7],hst[7],'4 Apr 2026']],[['Kutch','7 Apr 2026'],['Karachi','10 Apr 2026']],[['Kutch','15 Apr 2026'],['Colombo','20 Apr 2026']]]
+                    rfix=[[[pot1[0],pot4[0],pot1[0],'11 Mar 2026'],[pot1[1],pot4[1],pot1[1],'13 Mar 2026'],[pot1[2],pot4[2],pot1[2],'17 Mar 2026'],[pot1[3],pot4[3],pot1[3],'20 Mar 2026']],[[pot2[0],pot3[0],pot2[3],'23 Mar 2026'],[pot2[1],pot3[1],pot2[1],'26 Mar 2026'],[pot2[2],pot3[2],pot2[2],'1 Apr 2026'],[pot2[3],pot3[3],pot2[3],'4 Apr 2026']],[['Kutch','7 Apr 2026'],['Karachi','10 Apr 2026']],[['Kutch','15 Apr 2026'],['Colombo','20 Apr 2026']]]
                     for gt in range(4):   
 
                         print()
@@ -40540,22 +40792,22 @@ try:
                                 for nbm in range(3002222):
                                     pass
                                 if gt<2:
-                                    if i[0] in [hst[0],hst[1],lo[0],lo[1]]:
+                                    if i[0] in [pot1[0],pot2[0],pot3[0],pot4[0]]:
                                         print('Semi Final Path A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
-                                    if i[0] in [hst[2],hst[3],lo[2],lo[3]]:
+                                    if i[0] in [pot1[1],pot2[1],pot3[1],pot4[1]]:
                                         print('Semi Final Path B: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
-                                    if i[0] in [hst[4],hst[5],lo[4],lo[5]]:
+                                    if i[0] in [pot1[2],pot2[2],pot3[2],pot4[2]]:
                                         print('Semi Final Path C: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
-                                    if i[0] in [hst[6],hst[7],lo[6],lo[7]]:
+                                    if i[0] in [pot1[3],pot2[3],pot3[3],pot4[3]]:
                                         print('Semi Final Path D: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])  
                                 else:
-                                    if i[0] in [hst[0],hst[1],lo[0],lo[1]]:
+                                    if i[0] in [pot1[0],pot2[0],pot3[0],pot4[0]]:
                                         print('Final Path A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
-                                    if i[0] in [hst[2],hst[3],lo[2],lo[3]]:
+                                    if i[0] in [pot1[1],pot2[1],pot3[1],pot4[1]]:
                                         print('Final Path B: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
-                                    if i[0] in [hst[4],hst[5],lo[4],lo[5]]:
+                                    if i[0] in [pot1[2],pot2[2],pot3[2],pot4[2]]:
                                         print('Final Path C: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
-                                    if i[0] in [hst[6],hst[7],lo[6],lo[7]]:
+                                    if i[0] in [pot1[3],pot2[3],pot3[3],pot4[3]]:
                                         print('Final Path D: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2]) 
                                 print()
 
@@ -40566,23 +40818,23 @@ try:
                             for nbm in range(3002222):
                                     pass
                             if gt<2:
-                                if i[0] in [hst[0],hst[1],lo[0],lo[1]]:
+                                if i[0] in [pot1[0],pot2[0],pot3[0],pot4[0]]:
                                     print('Semi Final Path A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
-                                if i[0] in [hst[2],hst[3],lo[2],lo[3]]:
+                                if i[0] in [pot1[1],pot2[1],pot3[1],pot4[1]]:
                                     print('Semi Final Path B: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
-                                if i[0] in [hst[4],hst[5],lo[4],lo[5]]:
+                                if i[0] in [pot1[2],pot2[2],pot3[2],pot4[2]]:
                                     print('Semi Final Path C: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
-                                if i[0] in [hst[6],hst[7],lo[6],lo[7]]:
+                                if i[0] in [pot1[3],pot2[3],pot3[3],pot4[3]]:
                                     print('Semi Final Path D: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])  
                             else:
-                                if i[0] in [hst[0],hst[1],lo[0],lo[1]]:
+                                if i[0] in [pot1[0],pot2[0],pot3[0],pot4[0]]:
                                     print('Final Path A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
-                                if i[0] in [hst[2],hst[3],lo[2],lo[3]]:
+                                if i[0] in [pot1[1],pot2[1],pot3[1],pot4[1]]:
                                     print('Final Path B: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
-                                if i[0] in [hst[4],hst[5],lo[4],lo[5]]:
+                                if i[0] in [pot1[2],pot2[2],pot3[2],pot4[2]]:
                                     print('Final Path C: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
-                                if i[0] in [hst[6],hst[7],lo[6],lo[7]]:
-                                    print('Final Path D: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
+                                if i[0] in [pot1[3],pot2[3],pot3[3],pot4[3]]:
+                                    print('Final Path D: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2]) 
                             
                             print()
                             if i[0]==teamsp:
@@ -40888,7 +41140,7 @@ try:
                                         if i[0] in rfix[1][3]:
                                             rfix[3][1].insert(1,i[1])
                                     else:
-                                        WC.append(i[1])                            
+                                        WC.append(i[1])                
                 if 4+9==13: 
                     import time
                     import random
@@ -41147,13 +41399,44 @@ try:
                             print()
                     print()
                     print()
-                    str='The top 2 ranked teams qualify for the semi finals. Other 4 teams will play a seeded 1 legged quarterfinal. Winners of semi final will qualify for the World Cup.'
+                    str='The top 2 ranked teams qualify for the path finals. Other 4 teams will randomly be assigned into semi finals. Winners of path final will qualify for the World Cup.'
                     for i in str:
                         #time.sleep(0.03)
                         print(i,flush=True,end='')
                     print()
                     print()
-                    rfix=[[[gg[2],gg[5],gg[2],'12 Mar 2026']],[[gg[3],gg[4],gg[3],'15 Mar 2026']],[[gg[0],gg[0],'3 Apr 2026']],[[gg[1],gg[1],'8 Apr 2026']]]
+                    pot = gg[2::]
+                    top = gg[0:2]
+                    random.shuffle(pot)
+                    random.shuffle(top)
+                    str = 'Here are the paths for Inter Confederation Playoffs'
+                    for i in str:
+                        #time.sleep(0.03)
+                        print(i,flush=True,end='')
+                    print()
+                    str = 'Path 1 SF: ' + pot[0] + ' vs ' + pot[3]
+                    for i in str:
+                        #time.sleep(0.03)
+                        print(i,flush=True,end='')
+                    print()
+                    str = 'Path 1 Final: ' + top[0] + ' vs Winner of Path 1 SF'
+                    for i in str:
+                        #time.sleep(0.03)
+                        print(i,flush=True,end='')
+                    print()
+                    print()
+                    str = 'Path 2 SF: ' + pot[1] + ' vs ' + pot[2]
+                    for i in str:
+                        #time.sleep(0.03)
+                        print(i,flush=True,end='')
+                    print()
+                    str = 'Path 2 Final: ' + top[1] + ' vs Winner of Path 1 SF'
+                    for i in str:
+                        #time.sleep(0.03)
+                        print(i,flush=True,end='')
+                    print()
+                    print()
+                    rfix=[[[pot[0],pot[3],'Guadalajara','12 Mar 2026']],[[pot[1],pot[2],'Monterrey','15 Mar 2026']],[[top[1],'Monterrey','3 Apr 2026']],[[top[0],'Guadalajara','8 Apr 2026']]]
                     for gt in range(4):   
                         
                         print()
@@ -41518,212 +41801,212 @@ try:
                 print()
                 print()
                 fif = {
-                "Argentina": 1,
-                "France": 2,
-                "Brazil": 3,
-                "England": 4,
-                "Belgium": 5,
-                "Croatia": 6,
-                "Netherlands": 7,
-                "Portugal": 8,
-                "Italy": 9,
-                "Spain": 10,
-                "USA": 11,
-                "Mexico": 12,
-                "Morocco": 13,
-                "Switzerland": 14,
-                "Germany": 15,
-                "Colombia": 16,
-                "Uruguay": 17,
-                "Denmark": 18,
-                "Japan": 19,
-                "Senegal": 20,
-                "Iran": 21,
-                "Peru": 22,
-                "Sweden": 23,
-                "Ukraine": 24,
-                "Austria": 25,
-                "South Korea": 26,
-                "Australia": 27,
-                "Serbia": 28,
-                "Tunisia": 29,
-                "Poland": 30,
-                "Scotland": 31,
-                "Hungary": 32,
-                "Wales": 33,
-                "Algeria": 34,
-                "Egypt": 35,
-                "Chile": 36,
-                "Czechia": 37,
-                "Ecuador": 38,
-                "Nigeria": 40,
-                "Cameroon": 41,
-                "Turkiye": 42,
-                "Norway": 43,
-                "Canada": 44,
-                "Panama": 45,
-                "Costa Rica": 46,
-                "Romania": 47,
-                "Slovakia": 48,
-                "Mali": 49,
-                "Ivory Coast": 50,
-                "Greece": 51,
-                "Paraguay": 52,
-                "Venezuela": 53,
-                "Finland": 54,
-                "Republic of Ireland": 55,
-                "Jamaica": 56,
-                "Saudi Arabia": 57,
-                "Burkina Faso": 58,
-                "Slovenia": 59,
-                "Ghana": 60,
-                "Qatar": 61,
-                "Albania": 62,
-                "South Africa": 63,
-                "Bosnia and Herzegovina": 64,
-                "North Macedonia": 65,
-                "DR Congo": 66,
-                "Iceland": 67,
-                "Montenegro": 68,
-                "Iraq": 69,
-                "United Arab Emirates": 70,
-                "Cape Verde": 71,
-                "Israel": 72,
-                "Oman": 73,
-                "Northern Ireland": 74,
-                "Uzbekistan": 75,
-                "El Salvador": 76,
-                "Honduras": 77,
-                "Bulgaria": 78,
-                "Georgia": 79,
-                "China": 80,
-                "Guinea": 81,
-                "Zambia": 82,
-                "Bolivia": 83,
-                "Jordan": 84,
-                "Luxembourg": 85,
-                "Bahrain": 86,
-                "Gabon": 87,
-                "Haiti": 88,
-                "Uganda": 89,
-                "Curacao": 90,
-                "Armenia": 91,
-                "Equatorial Guinea": 92,
-                "Syria": 93,
-                "Vietnam": 94,
-                "Benin": 95,
-                "Kyrgyzstan": 96,
-                "Palestine": 97,
-                "Mauritania": 98,
-                "Trinidad and Tobago": 99,
-                "Kazakhstan": 100,
-                "Lebanon": 101,
-                "India": 102,
-                "Guatemala": 103,
-                "New Zealand": 104,
-                "Belarus": 105,
-                "Kenya": 106,
-                "Guinea Bissau": 107,
-                "Congo": 108,
-                "Madagascar": 109,
-                "Tajikistan": 110,
-                "Kosovo": 111,
-                "Thailand": 112,
-                "Mozambique": 113,
-                "Namibia": 114,
-                "Estonia": 115,
-                "North Korea": 116,
-                "Angola": 117,
-                "Gambia": 118,
-                "Togo": 119,
-                "Cyprus": 120,
-                "Azerbaijan": 121,
-                "Tanzania": 122,
-                "Malawi": 123,
-                "Sierra Leone": 124,
-                "Zimbabwe": 125,
-                "Libya": 126,
-                "Central African Republic": 127,
-                "Niger": 128,
-                "Comoros": 129,
-                "Sudan": 130,
-                "Faroe Islands": 131,
-                "Philippines": 132,
-                "Rwanda": 133,
-                "Solomon Islands": 134,
-                "Malaysia": 135,
-                "Kuwait": 136,
-                "Latvia": 137,
-                "Antigua and Barbuda": 138,
-                "Nicaragua": 139,
-                "Turkmenistan": 140,
-                "Burundi": 141,
-                "Ethiopia": 142,
-                "Lithuania": 143,
-                "Eswatini": 144,
-                "Suriname": 145,
-                "Saint Kitts and Nevis": 146,
-                "Indonesia": 147,
-                "Hong Kong": 148,
-                "Botswana": 149,
-                "Liberia": 150,
-                "Dominican Republic": 151,
-                "Lesotho": 152,
-                "Andorra": 153,
-                "Taiwan": 154,
-                "Maldives": 155,
-                "Yemen": 156,
-                "Singapore": 157,
-                "Afghanistan": 158,
-                "Moldova": 159,
-                "Puerto Rico": 160,
-                "Myanmar": 161,
-                "Papua New Guinea": 162,
-                "Tahiti": 163,
-                "New Caledonia": 164,
-                "Guyana": 165,
-                "Saint Lucia": 166,
-                "South Sudan": 167,
-                "Vanuatu": 168,
-                "Cuba": 169,
-                "Fiji": 170,
-                "Malta": 171,
-                "Barbados": 172,
-                "Grenada": 173,
-                "Bermuda": 174,
-                "Nepal": 175,
-                "Saint Vincent and Grenadines": 176,
-                "Cambodia": 177,
-                "Mauritius": 178,
-                "Montserrat": 179,
-                "Belize": 180,
-                "Chad": 181,
-                "Dominica": 182,
-                "Mongolia": 183,
-                "Bhutan": 184,
-                "Macau": 185,
-                "Laos": 186,
-                "Sao Tome and Principe": 187,
-                "Cook Islands": 188,
-                "Bangladesh": 189,
-                "Djibouti": 190,
-                "Brunei": 191,
-                "Timor Leste": 192,
-                "Aruba": 193,
-                "Somalia": 194,
-                "Seychelles": 195,
-                "Cayman Islands": 196,
-                "Pakistan": 197,
-                "Gibraltar": 198,
-                "Liechtenstein": 199,
-                "Bahamas": 200,
-                "Guam": 201,
-                "Sri Lanka": 202,
-                "Turks and Caicos Islands": 203,
-                "US Virgin Islands": 204,
-                "British Virgin Islands": 205,
-                "Anguilla": 206,
-                "Tonga":207,"American Samoa":208,"Samoa":209,"San Marino": 210,"Eritrea":211}
+                    "Argentina": 1,
+                    "France": 2,
+                    "Brazil": 3,
+                    "England": 4,
+                    "Belgium": 5,
+                    "Croatia": 6,
+                    "Netherlands": 7,
+                    "Portugal": 8,
+                    "Italy": 9,
+                    "Spain": 10,
+                    "USA": 11,
+                    "Mexico": 12,
+                    "Morocco": 13,
+                    "Switzerland": 14,
+                    "Germany": 15,
+                    "Colombia": 16,
+                    "Uruguay": 17,
+                    "Denmark": 18,
+                    "Japan": 19,
+                    "Senegal": 20,
+                    "Iran": 21,
+                    "Peru": 22,
+                    "Sweden": 23,
+                    "Ukraine": 24,
+                    "Austria": 25,
+                    "South Korea": 26,
+                    "Australia": 27,
+                    "Serbia": 28,
+                    "Tunisia": 29,
+                    "Poland": 30,
+                    "Scotland": 31,
+                    "Hungary": 32,
+                    "Wales": 33,
+                    "Algeria": 34,
+                    "Egypt": 35,
+                    "Chile": 36,
+                    "Czechia": 37,
+                    "Ecuador": 38,
+                    "Nigeria": 40,
+                    "Cameroon": 41,
+                    "Turkiye": 42,
+                    "Norway": 43,
+                    "Canada": 44,
+                    "Panama": 45,
+                    "Costa Rica": 46,
+                    "Romania": 47,
+                    "Slovakia": 48,
+                    "Mali": 49,
+                    "Ivory Coast": 50,
+                    "Greece": 51,
+                    "Paraguay": 52,
+                    "Venezuela": 53,
+                    "Finland": 54,
+                    "Republic of Ireland": 55,
+                    "Jamaica": 56,
+                    "Saudi Arabia": 57,
+                    "Burkina Faso": 58,
+                    "Slovenia": 59,
+                    "Ghana": 60,
+                    "Qatar": 61,
+                    "Albania": 62,
+                    "South Africa": 63,
+                    "Bosnia and Herzegovina": 64,
+                    "North Macedonia": 65,
+                    "DR Congo": 66,
+                    "Iceland": 67,
+                    "Montenegro": 68,
+                    "Iraq": 69,
+                    "United Arab Emirates": 70,
+                    "Cape Verde": 71,
+                    "Israel": 72,
+                    "Oman": 73,
+                    "Northern Ireland": 74,
+                    "Uzbekistan": 75,
+                    "El Salvador": 76,
+                    "Honduras": 77,
+                    "Bulgaria": 78,
+                    "Georgia": 79,
+                    "China": 80,
+                    "Guinea": 81,
+                    "Zambia": 82,
+                    "Bolivia": 83,
+                    "Jordan": 84,
+                    "Luxembourg": 85,
+                    "Bahrain": 86,
+                    "Gabon": 87,
+                    "Haiti": 88,
+                    "Uganda": 89,
+                    "Curacao": 90,
+                    "Armenia": 91,
+                    "Equatorial Guinea": 92,
+                    "Syria": 93,
+                    "Vietnam": 94,
+                    "Benin": 95,
+                    "Kyrgyzstan": 96,
+                    "Palestine": 97,
+                    "Mauritania": 98,
+                    "Trinidad and Tobago": 99,
+                    "Kazakhstan": 100,
+                    "Lebanon": 101,
+                    "India": 102,
+                    "Guatemala": 103,
+                    "New Zealand": 104,
+                    "Belarus": 105,
+                    "Kenya": 106,
+                    "Guinea Bissau": 107,
+                    "Congo": 108,
+                    "Madagascar": 109,
+                    "Tajikistan": 110,
+                    "Kosovo": 111,
+                    "Thailand": 112,
+                    "Mozambique": 113,
+                    "Namibia": 114,
+                    "Estonia": 115,
+                    "North Korea": 116,
+                    "Angola": 117,
+                    "Gambia": 118,
+                    "Togo": 119,
+                    "Cyprus": 120,
+                    "Azerbaijan": 121,
+                    "Tanzania": 122,
+                    "Malawi": 123,
+                    "Sierra Leone": 124,
+                    "Zimbabwe": 125,
+                    "Libya": 126,
+                    "Central African Republic": 127,
+                    "Niger": 128,
+                    "Comoros": 129,
+                    "Sudan": 130,
+                    "Faroe Islands": 131,
+                    "Philippines": 132,
+                    "Rwanda": 133,
+                    "Solomon Islands": 134,
+                    "Malaysia": 135,
+                    "Kuwait": 136,
+                    "Latvia": 137,
+                    "Antigua and Barbuda": 138,
+                    "Nicaragua": 139,
+                    "Turkmenistan": 140,
+                    "Burundi": 141,
+                    "Ethiopia": 142,
+                    "Lithuania": 143,
+                    "Eswatini": 144,
+                    "Suriname": 145,
+                    "Saint Kitts and Nevis": 146,
+                    "Indonesia": 147,
+                    "Hong Kong": 148,
+                    "Botswana": 149,
+                    "Liberia": 150,
+                    "Dominican Republic": 151,
+                    "Lesotho": 152,
+                    "Andorra": 153,
+                    "Taiwan": 154,
+                    "Maldives": 155,
+                    "Yemen": 156,
+                    "Singapore": 157,
+                    "Afghanistan": 158,
+                    "Moldova": 159,
+                    "Puerto Rico": 160,
+                    "Myanmar": 161,
+                    "Papua New Guinea": 162,
+                    "Tahiti": 163,
+                    "New Caledonia": 164,
+                    "Guyana": 165,
+                    "Saint Lucia": 166,
+                    "South Sudan": 167,
+                    "Vanuatu": 168,
+                    "Cuba": 169,
+                    "Fiji": 170,
+                    "Malta": 171,
+                    "Barbados": 172,
+                    "Grenada": 173,
+                    "Bermuda": 174,
+                    "Nepal": 175,
+                    "Saint Vincent and Grenadines": 176,
+                    "Cambodia": 177,
+                    "Mauritius": 178,
+                    "Montserrat": 179,
+                    "Belize": 180,
+                    "Chad": 181,
+                    "Dominica": 182,
+                    "Mongolia": 183,
+                    "Bhutan": 184,
+                    "Macau": 185,
+                    "Laos": 186,
+                    "Sao Tome and Principe": 187,
+                    "Cook Islands": 188,
+                    "Bangladesh": 189,
+                    "Djibouti": 190,
+                    "Brunei": 191,
+                    "Timor Leste": 192,
+                    "Aruba": 193,
+                    "Somalia": 194,
+                    "Seychelles": 195,
+                    "Cayman Islands": 196,
+                    "Pakistan": 197,
+                    "Gibraltar": 198,
+                    "Liechtenstein": 199,
+                    "Bahamas": 200,
+                    "Guam": 201,
+                    "Sri Lanka": 202,
+                    "Turks and Caicos Islands": 203,
+                    "US Virgin Islands": 204,
+                    "British Virgin Islands": 205,
+                    "Anguilla": 206,
+                    "Tonga":207,"American Samoa":208,"Samoa":209,"San Marino": 210,"Eritrea":211}
                 cc=0
                 #WC=['Mexico','Canada','USA']
                 #fifo=[]
