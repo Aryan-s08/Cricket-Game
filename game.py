@@ -1,7 +1,6 @@
 
 import time
-for l in range(1055655):
-	pass
+time.sleep(0.5)
 print()
 print("                                           Aryan's Games")
 print()
@@ -9,86 +8,74 @@ print()
 str=''
 str+="Here you will be able to play 10 different types of games as many times as you would like."
 for k in str:
-	for qp in range(55655):
-		pass
-	print(k,end='')
+	time.sleep(0.02)
+	print(k,end='',flush = True)
 print()
 print()
 str=''
 str+='1. Monty Hall Simulator'
 for k in str:
-	print(k,end='')
-	for qp in range(55655):
-		pass
+	print(k,end='',flush = True)
+	time.sleep(0.02)
 print()
 str=''
 str+='2. Country Hangman'
 for k in str:
-	print(k,end='')
-	for qp in range(55655):
-		pass
+	print(k,end='',flush = True)
+	time.sleep(0.02)
 print()
 str=''
 str+='3. Test match scorecard simulator'
 for k in str:
-	print(k,end='')
-	for qp in range(55655):
-		pass
+	print(k,end='',flush = True)
+	time.sleep(0.02)
 print()
 str=''
 str+='4. Ball by ball cricket simulator'
 for k in str:
-	print(k,end='')
-	for qp in range(55655):
-		pass
+	print(k,end='',flush = True)
+	time.sleep(0.02)
 print()
 str=''
 str+='5. Rock Paper Scissors'
 for k in str:
-	print(k,end='')
-	for qp in range(55655):
-		pass
+	print(k,end='',flush = True)
+	time.sleep(0.02)
 print()
 str=''
 str+='6. Hand Cricket'
 for k in str:
-	print(k,end='')
-	for qp in range(55655):
-		pass
+	print(k,end='',flush = True)
+	time.sleep(0.02)
 print()
 str=''
 str+='7. Tic Tac Toe'
 for k in str:
-	print(k,end='')
-	for qp in range(55655):
-		pass
+	print(k,end='',flush = True)
+	time.sleep(0.02)
 print()
 str=''
 str+='8. Connect 4'
 for k in str:
-	print(k,end='')
-	for qp in range(55655):
-		pass
+	print(k,end='',flush = True)
+	time.sleep(0.02)
 print()
 str=''
 str+='9. Football'
 for k in str:
-	print(k,end='')
-	for qp in range(55655):
-		pass
+	print(k,end='',flush = True)
+	time.sleep(0.02)
 print()
 str=''
 str+='10. Cricket'
 for k in str:
-	print(k,end='')
-	for qp in range(55655):
-		pass
+	print(k,end='',flush = True)
+	time.sleep(0.02)
 print()
 str='11. World Capitals Quiz'
 for k in str:
-	print(k,end='')
-	for qp in range(55655):
-		pass
+	print(k,end='',flush = True)
+	time.sleep(0.02)
 print()
 print()
 while True:
@@ -170,39 +157,34 @@ while A77>0:
 		str+='            Welcome to Hangman: Countries edition!'
 		points=0
 		for k in str:
-			print(k,end='')
-			for k in range(766544):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		str=''
 		print()
 		print()
 		str+='The rules of this game are:'
 		for k in str:
-			print(k,end='')
-			for k in range(766544):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		str=''
 		print()
 		print()
 		str+='1. First you have to input the no. of times you want to play the game and set the no. of lives.'
 		for k in str:
-			print(k,end='')
-			for k in range(766544):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		str=''
 		print()
 		str+='2. Then you have to guess a letter and if the country contains the letter, the updated answer will be displayed or else a life will be lost.'
 		for k in str:
-			print(k,end='')
-			for k in range(766544):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		str=''
 		print()
 		str+='3. Once a game ends, the country list will be updated with the current country being removed and the no. of lives can be set once again'
 		for k in str:
-			print(k,end='')
-			for k in range(766544):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		str=''
 		print()
 		print()
@@ -229,9 +211,9 @@ while A77>0:
 					p.remove(k)
 			for k in W:
 				if k==' ' or k=='-':
-					print('  ',end='')
+					print('  ',end='',flush = True)
 				if k!=' ' and k!='-':
-					print('_',end=' ')
+					print('_',end=' ',flush = True)
 			print()
 			while len(p)>0:
 				if n==0:
@@ -248,57 +230,52 @@ while A77>0:
 						str=''
 						str+='Game over!, the country was '
 						for k in str:
-							print(k,end='')
-							for k in range(776555):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						str=''
 						for k in w:
 							str+=k
 						for k in str:
-							print(k,end='')
-							for k in range(775566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						str=''
 						print()
 						str+='Thank you for playing the game, better luck next time!'
 						for k in str:
-							print(k,end='')
-							for k in range(775566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						L=[]
 						print()
 						break
 					if len(p)==0:
 						break
 					if k==' ' or k=='-':
-						print('   ',end='')
+						print('   ',end='',flush = True)
 					elif l==k:
 						if l in p:
 							p.remove(l)
 							
-						print(l,end=' ')
+						print(l,end=' ',flush = True)
 						L+=[l]
 					elif len(p)==0:
 						break
 					elif k in L:
-						print(k,end='')
+						print(k,end='',flush = True)
 					else:
-						print('_',end=' ')
+						print('_',end=' ',flush = True)
 					if l not in W:
 						if g==0:
 							str=''
 							str+='Incorrect guess, You lose a life'
 							for k in str:
-								print(k,end='')
-								for k in range(755566):
-									pass
+								print(k,end='',flush = True)
+								time.sleep(0.02)
 							str=''
 							str+='You now have '
 							print()
 							for k in str:
-								print(k,end='')
-								for k in range(755566):
-									pass
+								print(k,end='',flush = True)
+								time.sleep(0.02)
 							n-=1
 							print(n,end=' ')
 							str=''
@@ -307,17 +284,16 @@ while A77>0:
 							else:
 								str+='lives remaining'
 							for k in str:
-								print(k,end='')
-								for k in range(755566):
-									pass 
+								print(k,end='',flush = True)
+								time.sleep(0.02) 
 							g=1
 							print()
 							print()
 							str=''
 							if W[0]in L:
-								print(W[0],end=' ')
+								print(W[0],end=' ',flush = True)
 							else:
-								print('_',end=' ')
+								print('_',end=' ',flush = True)
 				print()
 			if len(p)==0:
 					print(w)
@@ -326,9 +302,8 @@ while A77>0:
 					str+='Congratulations on winning the game!'
 					points+=1
 					for k in str:
-						print(k,end='')
-						for k in range(755655):
-							pass
+						print(k,end='',flush = True)
+						time.sleep(0.02)
 					str=''
 					L=[]
 			print()
@@ -338,30 +313,26 @@ while A77>0:
 		str=''
 		str+='Oh, looks like you have reached the limit...re-run the program to play the game again!'
 		for k in str:
-				print(k,end='')
-				for k in range(755655):
-						pass
+				print(k,end='',flush = True)
+				time.sleep(0.02)
 				str=''
 		print()
 		str+='You were able to correctly guess'
 		for k in str:
-				print(k,end='')
-				for k in range(755655):
-						pass
+				print(k,end='',flush = True)
+				time.sleep(0.02)
 				str=''
 		print('',points,end=' ')
 		str+='out of'
 		for k in str:
-				print(k,end='')
-				for k in range(755655):
-						pass
+				print(k,end='',flush = True)
+				time.sleep(0.02)
 				str=''
 		print('',dupe,end=' ')
 		str+='countries.'
 		for k in str:
-				print(k,end='')
-				for k in range(755655):
-						pass
+				print(k,end='',flush = True)
+				time.sleep(0.02)
 				str=''
 		print()
 		print()
@@ -370,32 +341,28 @@ while A77>0:
 		str=''
 		str+='                     Test Match Scorecard Simulator'
 		for k in str:
-			print(k,end='')
-			for l in range(755566):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		print()
 		print()
 		import random
 		str=''
 		str+='1. Friendly match: This consists of a one off match between 2 teams.'
 		for k in str:
-			print(k,end='')
-			for l in range(555566):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		print()
 		str=''
 		str+='2. Test series: This will consist of a test series of multiple games between 2 teams.'
 		for k in str:
-			print(k,end='')
-			for l in range(555566):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		str=''
 		print()
 		str+='3. Tournament mode: In this mode you will face all stars team from 8 countries and you will have to beat them in one go to win the tournament.'
 		for k in str:
-			print(k,end='')
-			for l in range(555566):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		print()
 		print()
 		game=input('Enter the number corresponding to the mode you would like to play: ')
@@ -476,24 +443,21 @@ while A77>0:
 				str=''
 				str+='Pre match reporter Aryan: Greetings to all!'
 				for k in str:
-						print(k,end='')
-						for k in range(1055655):
-								pass
+						print(k,end='',flush = True)
+						time.sleep(0.02)
 				if game=='2':
 					print(' Welcome to Test match no: ',man,' of the series between',JP,'and',PJ,'.',end='')
 				str=''
 				str+=' It is a '
 				for k in str:
-						print(k,end='')
-						for k in range(4055655):
-								pass
+						print(k,end='',flush = True)
+						time.sleep(0.02)
 				print(random.choice(EEE),random.choice(FF),sep=' ',end=' ')
 				str=''
 				str+='here at '
 				for k in str:
-						print(k,end='')
-						for k in range(4055655):
-								pass
+						print(k,end='',flush = True)
+						time.sleep(0.02)
 				print(Aw,end='.')
 				print()
 				Mn=random.choice(HF)
@@ -501,39 +465,34 @@ while A77>0:
 				if Mn==1:
 					str+="Aryan's pitch report: This pitch seems to be very flat and can turn out to be a batting paradise...the new ball will be the key for bowlers"
 					for k in str:
-						print(k,end='')
-						for k in range(855655):
-								pass
+						print(k,end='',flush = True)
+						time.sleep(0.02)
 					str=''
 				if Mn==2:
 					str+="Aryan's pitch report: There is a lot of grass covering on the pitch which will provide bounce and movement to pacers. Some helmets might be put to test during the match!"
 					for k in str:
-						print(k,end='')
-						for k in range(855655):
-								pass
+						print(k,end='',flush = True)
+						time.sleep(0.02)
 					str=''
 				if Mn==3:
 					str+="Aryan's pitch report: The pitch seems to have little to no grass and is very dusty...batting on this will get tougher as the game progresses and spinners might be licking their lips!"
 					for k in str:
-						print(k,end='')
-						for k in range(855655):
-								pass
+						print(k,end='',flush = True)
+						time.sleep(0.02)
 					str=''
 				if Mn==4:
 					str+="Aryan's pitch report: It looks like a marvellous pitch which will put both the bowlers and batters to test and this match might be worth your attention!"
 					for k in str:
-						print(k,end='')
-						for k in range(855655):
-								pass
+						print(k,end='',flush = True)
+						time.sleep(0.02)
 					str=''
 				print()
 				print()
 				str=''
 				str+='The captains are ready for the toss...and the coin is flicked into the air!'
 				for k in str:
-						print(k,end='')
-						for k in range(1055655):
-								pass
+						print(k,end='',flush = True)
+						time.sleep(0.02)
 				print()
 				Cc=['heads','tails']
 				CC=input('Enter heads/tails:')
@@ -543,9 +502,8 @@ while A77>0:
 					print(JP,end=' ')
 					str+='have won the toss!'
 					for k in str:
-						print(k,end='')
-						for k in range(3055655):
-								pass
+						print(k,end='',flush = True)
+						time.sleep(0.02)
 					print()
 					Jkk=input('Would you like to bat or bowl first?:')
 					print()
@@ -554,51 +512,45 @@ while A77>0:
 						print(JP,end=' ')
 						str+='have chosen to bat first. Stay tuned for the 1st innings'
 						for k in str:
-							print(k,end='')
-							for k in range(855655):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						print()
 					else:
 						str=''
 						print(JP,end=' ')
 						str+='have chosen to bowl first. Stay tuned for the 1st innings'
 						for k in str:
-							print(k,end='')
-							for k in range(855655):
-								pass          
+							print(k,end='',flush = True)
+							time.sleep(0.02)          
 						print()
 				else:
 					str=''
 					print(PJ,end=' ')
 					str+='have won the toss!'
 					for k in str:
-						print(k,end='')
-						for k in range(1055655):
-								pass
+						print(k,end='',flush = True)
+						time.sleep(0.02)
 					print()
 					str=''
 					print(PJ,end=' ')
 					str+='have chosen to '
 					for k in str:
-						print(k,end='')
-						for k in range(1055655):
-								pass
+						print(k,end='',flush = True)
+						time.sleep(0.02)
 					print(random.choice(lb),'first. ',sep=' ',end='')
 					str=''
 					str+='Stay tuned for the 1st innings'
 					for k in str:
-						print(k,end='')
-						for k in range(1055655):
-								pass
+						print(k,end='',flush = True)
+						time.sleep(0.02)
 					print()
 				print()
 				str=''
 				str+='Enter the name and players of the team that are batting 1st followed by the team that is batting 2nd.'
 				print()
 				for k in str:
-						print(k,end='')
-						for k in range(1055655):
-								pass
+						print(k,end='',flush = True)
+						time.sleep(0.02)
 				print()
 				print()
 				str=''
@@ -646,21 +598,18 @@ while A77>0:
 				str=''
 				str+='1st Innings'
 				for k in str:
-					print(k,end='')
-					for l in range(775566):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.2)
 				print()
 				print()
 				winner=5
-				for l in range(19799999):
-					pass
+				time.sleep(0.8)
 				lll=random.choice(yy)
 				print('Name       ','Runs   ','Balls  ','S. Rate   ','Dismissal      ',sep='\t')
 				print()
 				for k in range(11):
-					for l in range(29799999):
-							pass
-					print(y[k],end='\t')
+					time.sleep(0.8)
+					print(y[k],end='\t',flush = True)
 					if k==8:
 						J=random.choice(Y)
 						if J==8:
@@ -749,9 +698,8 @@ while A77>0:
 							I1[y[k]]=KK
 							KK.append(b)
 							FI1[b]=y[k]
-					for l in range(29799999):
-							pass
-					print(b,end='\t')
+					time.sleep(0.8)
+					print(b,end='\t',flush=True)
 					if b<=10:
 						j=random.choice(H)
 						while j<1:
@@ -790,23 +738,20 @@ while A77>0:
 						q+=j
 					KK=[]
 					LF=[]
-					for l in range(29799999):
-							pass
-					print(j,end='\t')
+					time.sleep(0.8)
+					print(j,end='\t',flush=True)
 					if j==0:
 						f=0
 					else:
 						f=100*b/j
-					for l in range(29799999):
-							pass
-					print(round(f,2),end='\t')
+					time.sleep(0.8)
+					print(round(f,2),end='\t',flush=True)
 					if lll==k:
 						print('            Not out',end='\t')
 					else:
 						qq=random.choice(QQ)
 						if qq==1 or qq==5 or qq==8 or qq==12:
-							for l in range(29799999):
-								pass
+							time.sleep(0.8)
 							hk=random.choice(P)
 							kl=P[random.choice(pq)]
 							if hk==kl:
@@ -818,16 +763,14 @@ while A77>0:
 							else:
 								D1[kl]=1
 						if qq==2:
-							for l in range(29799999):
-								pass
+							time.sleep(0.8)
 							str=''
 							kl=random.choice(P)
 							str+=kl
 							lk=str.rstrip()
 							print(' Run Out (',lk,')',end='\t')
 						if qq==3 or qq==6 or qq==10 or qq==11:
-							for l in range(29799999):
-								pass
+							time.sleep(0.8)
 							kl=P[random.choice(pq)]
 							if kl in D1:
 								D1[kl]+=1
@@ -835,8 +778,7 @@ while A77>0:
 								D1[kl]=1                                      
 							print(' lbw                   ',kl,end='\t')
 						if  qq==4 or qq==7 or qq==9:
-							for l in range(29799999):
-								pass
+							time.sleep(0.8)
 							kl=P[random.choice(pq)]
 							if kl in D1:
 								D1[kl]+=1
@@ -867,8 +809,7 @@ while A77>0:
 				print()
 				F1=s
 				F11=s
-				for l in range(29799999):
-							pass
+				time.sleep(0.8)
 				print(v ,'scored ',s,' runs in ',GG,' overs at a rate of',(round(G,2)),' per over')
 				print()
 				print()
@@ -932,27 +873,22 @@ while A77>0:
 				hh=0
 				D={}
 				for k in D1:
-					for l in range(29799999):
-							pass
-					print(k,end='\t')
-					for l in range(29799999):
-							pass
-					print(l5[hh],end='\t')
-					for l in range(29799999):
-							pass
+					time.sleep(0.8)
+					print(k,end='\t',flush=True)
+					time.sleep(0.8)
+					print(l5[hh],end='\t',flush = True)
+					time.sleep(0.8)
 					D[k]=JB
 					JB.append(l5[hh])
-					print(Bf[hh],end='\t')
-					for l in range(29799999):
-							pass
+					print(Bf[hh],end='\t',flush = True)
+					time.sleep(0.8)
 					JB.append(Bf[hh])
-					print(D1[k],end='\t')
-					for l in range(29799999):
-							pass
+					print(D1[k],end='\t',flush = True)
+					time.sleep(0.8)
 					JB.append(D1[k])
 					sg[D1[k]]=k
 					gj=(Bf[hh])/(l5[hh])
-					print(round(gj,2),end='\t')
+					print(round(gj,2),end='\t',flush = True)
 					hh=hh+1
 					print()
 					JB=[]
@@ -1168,21 +1104,18 @@ while A77>0:
 				str=''
 				str+='1st Innings'
 				for k in str:
-					print(k,end='')
-					for l in range(775566):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.2)
 				print()
 				print()
-				for l in range(29799999):
-							pass
+				time.sleep(0.8)
 				D1={}
 				lll=random.choice(yy)
 				print('Name       ','Runs   ','Balls  ','S. Rate   ','Dismissal      ',sep='\t')
 				print()
 				for k in range(11):
-					for l in range(29799999):
-						pass
-					print(P[k],end='\t')
+					time.sleep(0.8)
+					print(P[k],end='\t',flush = True)
 					if k==8:
 						J=random.choice(Y)
 						if J==8:
@@ -1271,9 +1204,8 @@ while A77>0:
 							I2[P[k]]=KK
 							KK.append(b)
 							FI2[b]=P[k]
-					for l in range(29799999):
-						pass
-					print(b,end='\t')
+					time.sleep(0.8)
+					print(b,end='\t',flush=True)
 					if b<=10:
 						j=random.choice(H)
 						while j<1:
@@ -1311,23 +1243,20 @@ while A77>0:
 						KK.append(j)
 						q+=j
 					KK=[]
-					for l in range(29799999):
-						pass
-					print(j,end='\t')
+					time.sleep(0.8)
+					print(j,end='\t',flush=True)
 					if j==0:
 						f=0
 					else:
 						f=100*b/j
-					for l in range(29799999):
-						pass
-					print(round(f,2),end='\t') 
+					time.sleep(0.8)
+					print(round(f,2),end='\t',flush=True) 
 					if lll==k:
 						print('            Not out',end='\t')
 					else:
 						qq=random.choice(QQ)
 						if qq==1 or qq==5 or qq==9 or qq==12:
-							for l in range(29799999):
-								pass
+							time.sleep(0.8)
 							hk=random.choice(y)
 							kl=y[random.choice(pq)]
 							if hk==kl:
@@ -1339,16 +1268,14 @@ while A77>0:
 							else:
 								D1[kl]=1
 						if qq==2:
-							for l in range(29799999):
-								pass
+							time.sleep(0.8)
 							str=''
 							kl=random.choice(y)
 							str+=kl
 							lk=str.rstrip()
 							print(' Run Out (',lk,')',end='\t')
 						if qq==3 or qq==6 or qq==8 or qq==11:
-							for l in range(29799999):
-								pass
+							time.sleep(0.8)
 							kl=y[random.choice(pq)]
 							
 							print(' lbw                   ',kl,end='\t')
@@ -1357,8 +1284,7 @@ while A77>0:
 							else:
 								D1[kl]=1
 						if qq==4 or qq==7 or qq==10:
-							for l in range(29799999):
-								pass
+							time.sleep(0.8)
 							kl=y[random.choice(pq)]
 							
 							print('                     b ',kl,end='\t')
@@ -1388,8 +1314,7 @@ while A77>0:
 				GG=a+(c/10)
 				OT2=GG
 				print()
-				for l in range(29799999):
-							pass
+				time.sleep(0.8)
 				F2=T
 				F22=T
 				print(p ,'scored ',T,' runs in ',GG,' overs at a rate of',(round(d,2)),' per over')
@@ -1456,27 +1381,22 @@ while A77>0:
 				JB=[]
 				D={}
 				for k in D1:
-					for l in range(29799999):
-							pass
-					print(k,end='\t')
-					for l in range(29799999):
-							pass
-					print(l5[hh],end='\t')
-					for l in range(29799999):
-							pass
+					time.sleep(0.8)
+					print(k,end='\t',flush=True)
+					time.sleep(0.8)
+					print(l5[hh],end='\t',flush = True)
+					time.sleep(0.8)
 					D[k]=JB
 					JB.append(l5[hh])
-					print(Bf[hh],end='\t')
-					for l in range(29799999):
-							pass
+					print(Bf[hh],end='\t',flush = True)
+					time.sleep(0.8)
 					JB.append(Bf[hh])
-					print(D1[k],end='\t')
-					for l in range(29799999):
-							pass
+					print(D1[k],end='\t',flush = True)
+					time.sleep(0.8)
 					JB.append(D1[k])
 					sg[D1[k]]=k
 					gj=(Bf[hh])/(l5[hh])
-					print(round(gj,2),end='\t')
+					print(round(gj,2),end='\t',flush = True)
 					hh=hh+1
 					print()
 					JB=[]
@@ -1683,12 +1603,10 @@ while A77>0:
 						O22=Lab[9]
 						s=1
 				if F1>F2:
-					for l in range(29799999):
-							pass
+					time.sleep(0.8)
 					print(v,' leads by ',F1-F2,' runs')
 				else:
-					for l in range(29799999):
-							pass
+					time.sleep(0.8)
 					print(p,' leads by ',F2-F1,' runs')
 				print()
 				print()
@@ -1696,23 +1614,20 @@ while A77>0:
 				str=''
 				str+='2nd Innings'
 				for k in str:
-					print(k,end='')
-					for l in range(775566):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.2)
 				print()
 				print()
 				s=0
 				q=0
-				for l in range(29799999):
-					pass
+				time.sleep(0.8)
 				lll=random.choice(yy)
 				print('Name       ','Runs   ','Balls  ','S. Rate   ','Dismissal      ',sep='\t')
 				print()
 				D1={}
 				for k in range(11):
-					for l in range(29799999):
-							pass
-					print(y[k],end='\t')
+					time.sleep(0.8)
+					print(y[k],end='\t',flush = True)
 					if k==8:
 						J=random.choice(Y)
 						if J==8:
@@ -1801,9 +1716,8 @@ while A77>0:
 							I3[y[k]]=KK
 							KK.append(b)
 							FI3[b]=y[k]
-					for l in range(29799999):
-							pass
-					print(b,end='\t')
+					time.sleep(0.8)
+					print(b,end='\t',flush=True)
 					if b<=10:
 						j=random.choice(H)
 						while j<1:
@@ -1842,23 +1756,20 @@ while A77>0:
 						q+=j
 					KK=[]
 					LF=[]
-					for l in range(29799999):
-							pass
-					print(j,end='\t')
+					time.sleep(0.8)
+					print(j,end='\t',flush=True)
 					if j==0:
 						f=0
 					else:
 						f=100*b/j
-					for l in range(29799999):
-							pass
-					print(round(f,2),end='\t')
+					time.sleep(0.8)
+					print(round(f,2),end='\t',flush=True)
 					if lll==k:
 						print('            Not out',end='\t')
 					else:
 						qq=random.choice(QQ)
 						if qq==1 or qq==5 or qq==8 or qq==11:
-							for l in range(29799999):
-								pass
+							time.sleep(0.8)
 							hk=random.choice(P)
 							kl=P[random.choice(pq)]
 							if hk==kl:
@@ -1870,16 +1781,14 @@ while A77>0:
 							else:
 								D1[kl]=1
 						if qq==2:
-							for l in range(29799999):
-								pass
+							time.sleep(0.8)
 							str=''
 							kl=random.choice(P)
 							str+=kl
 							lk=str.rstrip()
 							print(' Run Out (',lk,')',end='\t')
 						if qq==3 or qq==6 or qq==9 or qq==12:
-							for l in range(29799999):
-								pass
+							time.sleep(0.8)
 							kl=P[random.choice(pq)]
 							if kl in D1:
 								D1[kl]+=1
@@ -1888,8 +1797,7 @@ while A77>0:
 							
 							print(' lbw                   ',kl,end='\t')
 						if qq==4 or qq==7 or qq==10:
-							for l in range(29799999):
-								pass
+							time.sleep(0.8)
 							kl=P[random.choice(pq)]
 							if kl in D1:
 								D1[kl]+=1
@@ -1920,8 +1828,7 @@ while A77>0:
 				print()
 				F33=s
 				F1=F1+s
-				for l in range(29799999):
-							pass
+				time.sleep(0.8)
 				print(v ,'scored ',s,' runs in ',GG,' overs at a rate of',(round(G,2)),' per over')
 				print()
 				print()
@@ -1988,27 +1895,22 @@ while A77>0:
 				JB=[]
 				D={}
 				for k in D1:
-					for l in range(29799999):
-							pass
-					print(k,end='\t')
-					for l in range(29799999):
-							pass
-					print(l5[hh],end='\t')
-					for l in range(29799999):
-							pass
+					time.sleep(0.8)
+					print(k,end='\t',flush=True)
+					time.sleep(0.8)
+					print(l5[hh],end='\t',flush = True)
+					time.sleep(0.8)
 					D[k]=JB
 					JB.append(l5[hh])
-					print(Bf[hh],end='\t')
-					for l in range(29799999):
-							pass
+					print(Bf[hh],end='\t',flush = True)
+					time.sleep(0.8)
 					JB.append(Bf[hh])
-					print(D1[k],end='\t')
-					for l in range(29799999):
-							pass
+					print(D1[k],end='\t',flush = True)
+					time.sleep(0.8)
 					JB.append(D1[k])
 					sg[D1[k]]=k
 					gj=(Bf[hh])/(l5[hh])
-					print(round(gj,2),end='\t')
+					print(round(gj,2),end='\t',flush = True)
 					hh=hh+1
 					print()
 					JB=[]
@@ -2215,8 +2117,7 @@ while A77>0:
 								O23=Lab[9]
 							k+=1
 						s=1
-				for k in range(3999999):
-					pass
+				time.sleep(0.8)
 				if F1>F2:
 					print(p+' need ',(F1-F2+1),' runs to win the match')
 				if F1<F2:
@@ -2232,13 +2133,11 @@ while A77>0:
 					str=''
 					str+='2nd Innings'
 					for k in str:
-						print(k,end='')
-						for l in range(775566):
-							pass
+						print(k,end='',flush = True)
+						time.sleep(0.02)
 					print()
 					print()
-					for l in range(29799999):
-								pass
+					time.sleep(0.8)
 					lll=random.choice(yy)
 					print('Name       ','Runs   ','Balls  ','S. Rate   ','Dismissal      ',sep='\t')
 					print()
@@ -2247,18 +2146,16 @@ while A77>0:
 						for k in range(11):
 							KK=[]
 							target+=1
-							for l in range(39799999):
-								pass
-							print(P[k],end='\t')
+							time.sleep(0.8)
+							print(P[k],end='\t',flush = True)
 							if k==8:
 								J=random.choice(Y)
 								if J==8:
 									b=random.choice(E)
 									if T+b<targ:
 										T+=b
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
@@ -2266,9 +2163,8 @@ while A77>0:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -2305,16 +2201,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('            Not out',end='\t')
 										I4[P[k]]=KK                        
 										FI4[b]=P[k]
@@ -2326,16 +2220,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -2372,16 +2264,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('            Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
@@ -2391,7 +2281,7 @@ while A77>0:
 									I4[P[k]]=KK
 									KK.append(b)
 									FI4[b]=P[k]
-									print(b,end='\t')
+									print(b,end='\t',flush=True)
 							if k==9:
 								J=random.choice(Y)
 								if J==8:
@@ -2401,16 +2291,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -2447,16 +2335,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('            Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
@@ -2468,16 +2354,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -2514,16 +2398,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('            Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
@@ -2533,7 +2415,7 @@ while A77>0:
 									I4[P[k]]=KK
 									KK.append(b)
 									FI4[b]=P[k]
-									print(b,end='\t')
+									print(b,end='\t',flush=True)
 							if k==10:
 								J=random.choice(Y)
 								if J==8:
@@ -2543,16 +2425,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -2589,16 +2469,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('            Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
@@ -2611,16 +2489,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -2657,16 +2533,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('            Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
@@ -2676,7 +2550,7 @@ while A77>0:
 									I4[P[k]]=KK
 									KK.append(b)
 									FI4[b]=P[k]
-									print(b,end='\t')
+									print(b,end='\t',flush=True)
 							if k<=7:
 								t=random.choice(U)
 								if t==6 or t==10:
@@ -2686,16 +2560,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -2732,16 +2604,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('            Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
@@ -2752,9 +2622,8 @@ while A77>0:
 									I4[P[k]]=KK
 									KK.append(b)
 									FI4[b]=P[k]
-									for l in range(39799999):
-											pass
-									print(b,end='\t')
+									time.sleep(0.8)
+									print(b,end='\t',flush=True)
 								if t==3 or t==4 or t==5 or t==15:
 									b=random.choice(H)
 									if T+b<targ:
@@ -2762,16 +2631,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -2808,16 +2675,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(19799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('            Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
@@ -2829,16 +2694,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -2875,16 +2738,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('             Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
@@ -2898,16 +2759,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -2944,22 +2803,19 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('             Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
 										break                    
-							for l in range(39799999):
-								pass
+							time.sleep(0.8)
 							if b<=10:
 								j=random.choice(H)
 								while j<1:
@@ -2997,24 +2853,21 @@ while A77>0:
 								KK.append(j)
 								q+=j
 							KK=[]
-							for l in range(39799999):
-								pass
-							print(j,end='\t')
+							time.sleep(0.8)
+							print(j,end='\t',flush=True)
 							if j==0:
 								f=0
 							else:
 								f=100*b/j
-							for l in range(39799999):
-								pass
-							print(round(f,2),end='\t') 
+							time.sleep(0.8)
+							print(round(f,2),end='\t',flush=True) 
 							if lll==k:
 								print('             Not out',end='\t')
 								target-=1
 							else:
 								qq=random.choice(QQ)
 								if qq==1 or qq==5 or qq==8 or qq==11:
-									for l in range(39799999):
-										pass
+									time.sleep(0.8)
 									hk=random.choice(y)
 									kl=y[random.choice(pq)]
 									if hk==kl:
@@ -3026,16 +2879,14 @@ while A77>0:
 									else:
 										D1[kl]=1
 								if qq==2:
-									for l in range(39799999):
-										pass
+									time.sleep(0.8)
 									str=''
 									kl=random.choice(y)
 									str+=kl
 									lk=str.rstrip()
 									print(' Run Out (',lk,')',end='\t')
 								if qq==3 or qq==6 or qq==9 or qq==12:
-									for l in range(39799999):
-										pass
+									time.sleep(0.8)
 									kl=y[random.choice(pq)]
 									print(' lbw                   ',kl,end='\t')
 									if kl in D1:
@@ -3043,8 +2894,7 @@ while A77>0:
 									else:
 										D1[kl]=1
 								if qq==4 or qq==7 or qq==10:
-									for l in range(39799999):
-										pass
+									time.sleep(0.8)
 									kl=y[random.choice(pq)]
 									print('                     b ',kl,end='\t')
 									if kl in D1:
@@ -3072,8 +2922,7 @@ while A77>0:
 						GG=a+(c/10)
 						OT4=GG
 						print()
-						for l in range(39799999):
-									pass
+						time.sleep(0.8)
 						print()
 						print(p ,'scored ',T,' runs in ',GG,' overs at a rate of',(round(d,2)),' per over')
 						F2=F2+T
@@ -3142,27 +2991,22 @@ while A77>0:
 						D={}
 						JB=[]
 						for k in D1:
-							for l in range(19799999):
-									pass
-							print(k,end='\t')
-							for l in range(19799999):
-									pass
-							print(l5[hh],end='\t')
-							for l in range(19799999):
-									pass
+							time.sleep(0.5)
+							print(k,end='\t',flush=True)
+							time.sleep(0.5)
+							print(l5[hh],end='\t',flush = True)
+							time.sleep(0.5)
 							D[k]=JB
 							JB.append(l5[hh])
-							print(Bf[hh],end='\t')
-							for l in range(19799999):
-									pass
+							print(Bf[hh],end='\t',flush = True)
+							time.sleep(0.5)
 							JB.append(Bf[hh])
-							print(D1[k],end='\t')
-							for l in range(19799999):
-									pass
+							print(D1[k],end='\t',flush = True)
+							time.sleep(0.5)
 							JB.append(D1[k])
 							sg[k]=D1[k]
 							gj=(Bf[hh])/(l5[hh])
-							print(round(gj,2),end='\t')
+							print(round(gj,2),end='\t',flush = True)
 							hh=hh+1
 							print()
 							JB=[]
@@ -3373,24 +3217,20 @@ while A77>0:
 							loser=p
 							margin=F1-F2
 						elif F1==F2:
-							for l in range(19799999):
-									pass
+							time.sleep(0.5)
 							print('The match was a tie!')
 						else:
 							winner=p
 							loser=v
 							margin=F2-F1
 						if F1!=F2 and winner==v:
-							for l in range(19799999):
-									pass
+							time.sleep(0.5)
 							print(winner,' beat ',loser,' by ',margin,' runs')
 						if F1!=F2 and winner==p and 11-target>1 and inn!=1:
-							for l in range(19799999):
-									pass
+							time.sleep(0.5)
 							print(p,' beat ',v,' by ',11-target,' wickets')
 						if F1!=F2 and winner==p and 11-target==1 and inn!=1:
-							for l in range(19799999):
-									pass
+							time.sleep(0.5)
 							print(p,' beat ',v,' by ',11-target,' wicket')
 						print()
 						print()
@@ -3399,146 +3239,119 @@ while A77>0:
 						str=''
 						str+='                      Match Summary'
 						for k in str:
-							print(k,end='')
-							for l in range(66666):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.04)
 						print()
 						print()
 						print()
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						print(v,'    ','vs','   ',p,' at ',Aw)
 						print()
 						print()
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						print(v, '1st Innings','                 ',F11,'(',OT1,')')
 						print()
 						print()
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						if HHH[0]//100>=1 and HHH[1]//100>=1:
 							print(HH,' ',HHH[0],'(',HHH[1],')','  ',end='\t')
 						else:
 							print(HH,' ',HHH[0],'(',HHH[1],')','        ',end='\t')
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						print(BI1,' ',WI1,'/',RI1,'(',O1,')','  ',end='\t')
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						print()
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						if JOO[0]//100>=1 and JOO[1]//100>=1:
 							print(JI,' ',JOO[0],'(',JOO[1],')','  ',end='\t')
 						else:
 							print(JI,' ',JOO[0],'(',JOO[1],')','        ',end='\t')
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						print(BI21,' ',WI21,'/',RI21,'(',O21,')','  ',end='\t')
 						print()
 						print()
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						print(p, '1st Innings','                 ',F22,'(',OT2,')')
 						print()
 						print()
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						if OOO[0]//100>=1 and OOO[1]//100>=1:
 							print(OO,' ',OOO[0],'(',OOO[1],')','  ',end='\t')
 						else:
 							print(OO,' ',OOO[0],'(',OOO[1],')        ',end='\t')
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						print(BI2,' ',WI2,'/',RI2,'(',O2,')','  ',end='\t')
 						print()
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						if OL[0]//100>=1 and OL[1]//100>=1:
 							print(OF,' ',OL[0],'(',OL[1],')','  ',end='\t')
 						else:
 							print(OF,' ',OL[0],'(',OL[1],')        ',end='\t')
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						print(BI22,' ',WI22,'/',RI22,'(',O22,')','  ',end='\t')
 						print()
 						print()
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						print(v, '2nd Innings','                 ',F33,'(',OT3,')')
 						print()
 						print()
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						if YYY[0]//100>=1 and YYY[1]//100>=1:
 							print(YY,' ',YYY[0],'(',YYY[1],')','  ',end='\t')
 						else:
 							print(YY,' ',YYY[0],'(',YYY[1],')        ',end='\t')
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						print(BI3,' ',WI3,'/',RI3,'(',O3,')','  ',end='\t')
 						print()
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						if Y89[0]//100>=1 and Y89[1]//100>=1:
 							print(Y7,' ',Y89[0],'(',Y89[1],')','  ',end='\t')
 						else:
 							print(Y7,' ',Y89[0],'(',Y89[1],')        ',end='\t')
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						print(BI23,' ',WI23,'/',RI23,'(',O23,')','  ',end='\t')
 						print()
 						print()
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						if winner==p and inn!=1:
 							print(p, '2nd Innings','                 ',F44,'/',target-1,'(',OT4,')')
 							print()
 							print()
-							for l in range(11999999):
-								pass
+							time.sleep(1.5)
 							if A78[0]//100>=1 and A78[1]//100>=1:
 								print(A7,' ',A78[0],'(',A78[1],')','  ',end='\t')
 							else:
 								print(A7,' ',A78[0],'(',A78[1],')        ',end='\t')
-							for l in range(11999999):
-								pass
+							time.sleep(1.5)
 							print(BI4,' ',WI4,'/',RI4,'(',O4,')','  ',end='\t')
 							print()
-							for l in range(11999999):
-								pass
+							time.sleep(1.5)
 							if target>=2:
 								if ABC[0]//100>=1 and ABC[1]//100>=1:
 									print(AA7,' ',ABC[0],'(',ABC[1],')','  ',end='\t')
 								else:
 									print(AA7,' ',ABC[0],'(',ABC[1],')        ',end='\t')
-								for l in range(11999999):
-									pass
+								time.sleep(1.5)
 								print(BI24,' ',WI24,'/',RI24,'(',O24,')','  ',end='\t')
 						if winner!=p and inn!=1:
 							print(p, '2nd Innings','                 ',F44,'(',OT4,')')
 							print()
 							print()
-							for l in range(11999999):
-								pass
+							time.sleep(1.5)
 							if A78[0]//100>=1 and A78[1]//100>=1:
 								print(A7,' ',A78[0],'(',A78[1],')','  ',end='\t')
 							else:
 								print(A7,' ',A78[0],'(',A78[1],')        ',end='\t')
-							for l in range(11999999):
-								pass
+							time.sleep(1.5)
 							print(BI4,' ',WI4,'/',RI4,'(',O4,')','  ',end='\t')
 							print()
-							for l in range(11999999):
-								pass
+							time.sleep(1.5)
 							if target>=2:
 								if ABC[0]//100>=1 and ABC[1]//100>=1:
 									print(AA7,' ',ABC[0],'(',ABC[1],')','  ',end='\t')
 								else:
 									print(AA7,' ',ABC[0],'(',ABC[1],')        ',end='\t')
-								for l in range(11999999):
-									pass
+								time.sleep(1.5)
 								print(BI24,' ',WI24,'/',RI24,'(',O24,')','  ',end='\t')
 						print()
 						print()
@@ -3549,33 +3362,28 @@ while A77>0:
 					loser=p
 					margin=F1-F2
 				elif F1==F2:
-					for l in range(19799999):
-							pass
+					time.sleep(0.5)
 					print('The match was a tie!')
 				else:
 					winner=p
 					loser=v
 					margin=F2-F1
 				if F1!=F2 and winner==v and inn!=1:
-					for l in range(19799999):
-							pass
+					time.sleep(0.5)
 					print(winner,' beat ',loser,' by ',margin,' runs')
 				print()
 				print()
 				man+=1
 				if F1!=F2 and winner==p and 11-target>1 and inn!=1:
-					for l in range(19799999):
-							pass
+					time.sleep(0.5)
 					print(p,' beat ',v,' by ',11-target,' wickets')
 					print()
 				if F1!=F2 and winner==p and 11-target==1 and inn!=1:
-					for l in range(19799999):
-							pass
+					time.sleep(0.5)
 					print(p,' beat ',v,' by ',11-target,' wicket')
 					print()
 				if inn==1:
-					for l in range(19799999):
-							pass
+					time.sleep(0.5)
 					print(p,' beat ',v,' by an innings and ',F2-F1,' runs')
 					print()
 				if game=='1':
@@ -3585,102 +3393,87 @@ while A77>0:
 				else:
 					ai+=1
 				if player>ai:
-					for k in range(19799999):
-						pass
+					time.sleep(1.5)
 					print(JP,'lead the ',nam,' match series by ',player,'-',ai)
 				elif player==ai:
-					for k in range(19799999):
-						pass
+					time.sleep(1.5)
 					print('The ',nam,' match series is tied at',player,'-',ai)
 				else:
-					for k in range(19799999):
-						pass
+					time.sleep(1.5)
 					print(PJ,'lead the ',nam,' match series by ',ai,'-',player)
 				print()
 				print()
 			if player>ai and game!='1':
-				for k in range(19799999):
-						pass
+				time.sleep(1.5)
 				print('That was an amazing series and ended ',player,'-',ai,' in favour of ',JP,'. Congratulations to you and ',JP)
 			if player==ai and game!='1':
-				for k in range(19799999):
-						pass
+				time.sleep(1.5)
 				print('The series ended on parity at ',player,'-',ai,'. We thank ',PJ,' and ',JP,' for providing high quality cricket.')
 			if player<ai and game!='1':
-				for k in range(19799999):
-						pass
+				time.sleep(1.5)
 				print('That was an amazing series and ended ',ai,'-',player,' in favour of ',PJ,'. Congratulations to ',PJ,' Better luck next time!')
 			print()
 			str=''
 			str+='Program made by Aryan ©'
 			for k in str:
-				print(k,end='')
-				for k in range(2155655):
-						pass
+				print(k,end='',flush = True)
+				time.sleep(0.05)
+			print()
 		if game=='3':
 				str=''
 				str+='Welcome to Tournament mode! The 8 teams you will be facing will come up shortly, type the corresponding number in order to have a brief introduction and the playing 11 of the team.'
 				for k in str:
-					print(k,end='')
-					for l in range(555566):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.02)
 				print()
 				print()
 				str=''
 				str+='1. West Indies All Stars'
 				for k in str:
-					print(k,end='')
-					for l in range(555566):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.02)
 				print()
 				str=''
 				str+='2. Australia All Stars'
 				for k in str:
-					print(k,end='')
-					for l in range(555566):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.02)
 				str=''
 				print()
 				str+='3. South Africa All Stars'
 				for k in str:
-					print(k,end='')
-					for l in range(555566):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.02)
 				str=''
 				print()
 				str+='4. India All Stars'
 				for k in str:
-					print(k,end='')
-					for l in range(555566):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.02)
 				str=''
 				print()
 				str+='5. Pakistan All Stars'
 				for k in str:
-					print(k,end='')
-					for l in range(555566):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.02)
 				str=''
 				print()
 				str+='6. New Zealand All Stars'
 				for k in str:
-					print(k,end='')
-					for l in range(555566):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.02)
 				str=''
 				print()
 				str+='7. Sri Lanka All Stars'
 				for k in str:
-					print(k,end='')
-					for l in range(555566):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.02)
 				print()
 				str=''
 				str+='8. England All Stars'
 				for k in str:
-					print(k,end='')
-					for l in range(555566):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.02)
 				print()
 				str=''
 				print()
@@ -3693,120 +3486,105 @@ while A77>0:
 						str=''
 						str+='The West Indies team of the 80s and 90s was one of the most feared teams of its time. The wrecker-in-chiefs being the deadly quartet of the fast bowlers or also known as Fearsome Foursome '
 						for k in str:
-							print(k,end='')
-							for l in range(555566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						print()
 						print()
 						str=''
 						str+='The star studded XI which you will face is:'
 						for k in str:
-							print(k,end='')
-							for l in range(555566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						print()
 						shlok=['1. Gordon Greenidge','2. Desmond Haynes','3. Brian Lara','4. Shivnarine Chanderpaul','5. Viv Richards','6. Clive Lloyd (c)','7. Jeff Dujon (wk)','8. Malcolm Marshall','9. Curtly Ambrose','10. Michael Holding','11. Courtney Walsh']
 						for k in range(11):
 							for x in shlok[k]:
-								print(x,end='')
-								for l in range(855566):
-									pass
+								print(x,end='',flush = True)
+								time.sleep(0.02)
 							print()
 					if son==2:
 						str=''
 						str+='This Australian team was filled with immense talent, pride and hunger to dominate. They won almost every test series they played and also reached all 4 World Cup finals between 1996 and 2007 winning all the latter 3.'
 						print()
 						for k in str:
-							print(k,end='')
-							for l in range(555566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						print()
 						print()
 						str=''
 						str+='The illustrious XI which you will face is:'
 						for k in str:
-							print(k,end='')
-							for l in range(555566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						print()
 						kohli=['1. Matthew Hayden','2. Justin Langer','3. Ricky Ponting (c)','4. Steve Waugh','5. Michael Clarke','6. Michael Hussey','7. Adam Gilchrist (wk)','8. Shane Warne','9. Brett Lee','10. Glenn Mcgrath','11. Dennis Lillee']
 						for k in range(11):
 							for x in kohli[k]:
-								print(x,end='')
-								for l in range(855566):
-									pass
+								print(x,end='',flush = True)
+								time.sleep(0.02)
 							print()
 					if son==3:
 						str=''
 						str+='The South Africans are known to be nasty and on your face. They have produced deadly fast bowlers and were the No. 1 test team from 2012-2015.'
 						print()
 						for k in str:
-							print(k,end='')
-							for l in range(555566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						str=''
 						print()
 						print()
 						str+='The accomplished XI which you will face is: '
 						for k in str:
-							print(k,end='')
-							for l in range(555566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						print()
 						dhawan=['1. Graeme Smith (c)','2. Gary Kirsten','3. Hashim Amla','4. Jacques Kallis','5. Ab de Villiers','6. Jp Duminy','7. Mark Boucher (wk)','8. Vernon Philander','9. Makhaya Ntini','10. Dale Steyn','11. Morne Morkel']
 						for k in range(11):
 							for x in dhawan[k]:
-								print(x,end='')
-								for l in range(855566):
-									pass
+								print(x,end='',flush = True)
+								time.sleep(0.02)
 							print()
 					if son==4:
 						str=''
 						str+="This Indian team has a dominating record at home like none other. This team was mainly known for its batting which might be India's best ever."
 						print()
 						for k in str:
-							print(k,end='')
-							for l in range(555566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						print()
 						print()
 						str=''
 						str+='The challenging XI that you will face is:'
 						for k in str:
-							print(k,end='')
-							for l in range(555566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						print()
 						nissanka=['1. Virender Sehwag','2. Sunil Gavaskar','3. Rahul Dravid','4. Sachin Tendulkar','5. Virat Kohli','6. Sourav Ganguly','7. MS Dhoni','8. Kapil Dev','9. Ravi Ashwin','10. Anil Kumble','11. Zaheer Khan']
 						for k in range(11):
 							for x in nissanka[k]:
-								print(x,end='')
-								for l in range(855566):
-									pass
+								print(x,end='',flush = True)
+								time.sleep(0.02)
 							print()
 					if son==5:
 						str=''
 						str+='Pakistan has always been synonymous with producing terrifying fast bowlers over the years, which have given batsmen sleepless nights'
 						print()
 						for k in str:
-							print(k,end='')
-							for l in range(555566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						print()
 						print()
 						str=''
 						str+='The XI that you will face is:'
 						for k in str:
-							print(k,end='')
-							for l in range(555566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						print()
 						binod=['1. Saeed Anwar','2. Zaheer Abbas','3. Younis Khan','4. Mohammed Yousuf','5. Inzamam ul Haq','6. Javed Miandad','7. Moin Khan','8. Imran Khan','9. Wasim Akram','10. Waqar Younis','11. Abdul Qadir']
 						for k in range(11):
 							for x in binod[k]:
-								print(x,end='')
-								for l in range(855566):
-									pass
+								print(x,end='',flush = True)
+								time.sleep(0.02)
 							print()
 					if son==6:
 						str=''
@@ -3814,24 +3592,21 @@ while A77>0:
 						print()
 						print()
 						for k in str:
-							print(k,end='')
-							for l in range(555566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						print()
 						print()
 						str=''
 						str+='The XI that you will face is:'
 						for k in str:
-							print(k,end='')
-							for l in range(555566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						print()
 						bhai=['1. Glenn Turner','2. Stephen Fleming','3. Martin Crowe','4. Kane Williamson','5. Ross Taylor','6. Brendon Mccullum','7. Chris Cairns','8. Richard Hadlee','9. Daniel Vettori','10. Tim Southee','11. Trent Boult']
 						for k in range(11):
 							for x in bhai[k]:
-								print(x,end='')
-								for l in range(855566):
-									pass
+								print(x,end='',flush = True)
+								time.sleep(0.02)
 							print()
 					if son==7:
 						str=''
@@ -3839,24 +3614,21 @@ while A77>0:
 						print()
 						print()
 						for k in str:
-							print(k,end='')
-							for l in range(555566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						print()
 						print()
 						str=''
 						str+='The XI that you will face is:'
 						for k in str:
-							print(k,end='')
-							for l in range(555566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						print()
 						kya=['1. Sanath Jayasuriya','2. Marvan Atapattu','3. Kumar Sangakkara','4. Mahela Jayawardene','5. Aravinda de Silva','6. Arjuna Ranatunga','7. Hashan Tillakaratne','8. Chaminda Vaas','9. Rangana Herath','10. Muttiah Muralitharan','11. Lasith Malinga' ]
 						for k in range(11):
 							for x in kya[k]:
-								print(x,end='')
-								for l in range(855566):
-									pass
+								print(x,end='',flush = True)
+								time.sleep(0.02)
 							print()     
 					if son==8:
 						str=''
@@ -3864,24 +3636,21 @@ while A77>0:
 						print()
 						print()
 						for k in str:
-							print(k,end='')
-							for l in range(555566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						print()
 						print()
 						str=''
 						str+='The XI that you will face is:'
 						for k in str:
-							print(k,end='')
-							for l in range(555566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(0.02)
 						print()
 						jeet=['1. Alastair Cook','2. Jack Hobbs','3. Michael Vaughan','4. Joe Root','5. Graham Gooch','6. Kevin Pietersen','7. Ian Botham','8. Andrew Flintoff','9. Graeme Swann','10. Stuart Broad','11. James Anderson']
 						for k in range(11):
 							for x in jeet[k]:
-								print(x,end='')
-								for l in range(855566):
-									pass
+								print(x,end='',flush = True)
+								time.sleep(0.02)
 							print() 
 					print()
 					uff=input('Would you like to have a look at any of these teams?[Yes/No] ')
@@ -3986,40 +3755,35 @@ while A77>0:
 					str=''
 					str+="Welcome to Aryan's live coverage of the all stars tournament!"
 					for k in str:
-							print(k,end='')
-							for k in range(1055655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.03)
 					print()
 					str=''
 					str+="Today's match will be played between "
 					for k in str:
-							print(k,end='')
-							for k in range(1055655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.03)
 					print(JP,'and',PJ)
 					print()
 					if sodhi>=1:
 						str="Your team's story now moves from "
 						for k in str:
-								print(k,end='')
-								for k in range(1055655):
-										pass
+								print(k,end='',flush = True)
+								time.sleep(0.03)
 						print(goli,'to',sonu)           
 					if game=='2':
 						print(' Welcome to Test match no: ',man,' of the series between ',JP,' and ',PJ,'.',end='')
 					str=''
 					str+='It is a '
 					for k in str:
-							print(k,end='')
-							for k in range(4055655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.03)
 					print(random.choice(EEE),random.choice(FF),sep=' ',end=' ')
 					str=''
 					str+='here at '
 					for k in str:
-							print(k,end='')
-							for k in range(4055655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.03)
 					print(sonu,end='.')
 					print()
 					Mn=random.choice(HF)
@@ -4027,39 +3791,34 @@ while A77>0:
 					if Mn==1:
 						str+="Aryan's pitch report: This pitch seems to be very flat and can turn out to be a batting paradise...the new ball will be the key for bowlers"
 						for k in str:
-							print(k,end='')
-							for k in range(855655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.03)
 						str=''
 					if Mn==2:
 						str+="Aryan's pitch report: There is a lot of grass covering on the pitch which will provide bounce and movement to pacers. Some helmets might be put to test during the match!"
 						for k in str:
-							print(k,end='')
-							for k in range(855655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.03)
 						str=''
 					if Mn==3:
 						str+="Aryan's pitch report: The pitch seems to have little to no grass and is very dusty...batting on this will get tougher as the game progresses and spinners might be licking their lips!"
 						for k in str:
-							print(k,end='')
-							for k in range(855655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.03)
 						str=''
 					if Mn==4:
 						str+="Aryan's pitch report: It looks like a marvellous pitch which will put both the bowlers and batters to test and this match might be worth your attention!"
 						for k in str:
-							print(k,end='')
-							for k in range(855655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.03)
 						str=''
 					print()
 					print()
 					str=''
 					str+='The captains are ready for the toss...and the coin is flicked into the air!'
 					for k in str:
-							print(k,end='')
-							for k in range(1055655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.03)
 					print()
 					Cc=['heads','tails']
 					CC=input('Enter heads/tails:')
@@ -4069,9 +3828,8 @@ while A77>0:
 						print(JP,end=' ')
 						str+='have won the toss!'
 						for k in str:
-							print(k,end='')
-							for k in range(3055655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.03)
 						print()
 						Jkk=input('Would you like to bat or bowl first?:')
 						print()
@@ -4080,9 +3838,8 @@ while A77>0:
 							print(JP,end=' ')
 							str+='have chosen to bat first. Stay tuned for the 1st innings'
 							for k in str:
-								print(k,end='')
-								for k in range(855655):
-									pass
+								print(k,end='',flush = True)
+								time.sleep(0.03)
 							P=bhide
 							p=tapu
 							v=JP
@@ -4092,9 +3849,8 @@ while A77>0:
 							print(JP,end=' ')
 							str+='have chosen to bowl first. Stay tuned for the 1st innings'
 							for k in str:
-								print(k,end='')
-								for k in range(855655):
-									pass  
+								print(k,end='',flush = True)
+								time.sleep(0.03)  
 							y=bhide
 							v=tapu
 							p=JP       
@@ -4104,25 +3860,22 @@ while A77>0:
 						print(PJ,end=' ')
 						str+='have won the toss!'
 						for k in str:
-							print(k,end='')
-							for k in range(1055655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.03)
 						print()
 						str=''
 						print(PJ,end=' ')
 						str+='have chosen to '
 						for k in str:
-							print(k,end='')
-							for k in range(1055655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.03)
 						anjali=random.choice(lb)
 						print(anjali,'first. ',sep=' ',end='')
 						str=''
 						str+='Stay tuned for the 1st innings'
 						for k in str:
-							print(k,end='')
-							for k in range(1055655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.03)
 						print()
 						if anjali=='bat':
 							y=bhide
@@ -4163,21 +3916,18 @@ while A77>0:
 					str=''
 					str+='1st Innings'
 					for k in str:
-						print(k,end='')
-						for l in range(775566):
-							pass
+						print(k,end='',flush = True)
+						time.sleep(0.8)
 					print()
 					print()
 					winner=5
-					for l in range(19799999):
-						pass
+					time.sleep(1)
 					lll=random.choice(yy)
 					print('Name       ','Runs   ','Balls  ','S. Rate   ','Dismissal      ',sep='\t')
 					print()
 					for k in range(11):
-						for l in range(19799999):
-								pass
-						print(y[k],end='\t')
+						time.sleep(1)
+						print(y[k],end='\t',flush = True)
 						if k==8:
 							J=random.choice(Y)
 							if J==8:
@@ -4265,9 +4015,8 @@ while A77>0:
 								I1[y[k]]=KK
 								KK.append(b)
 								FI1[b]=y[k]
-						for l in range(19799999):
-								pass
-						print(b,end='\t')
+						time.sleep(1)
+						print(b,end='\t',flush=True)
 						if b<=10:
 							j=random.choice(H)
 							while j<1:
@@ -4306,23 +4055,20 @@ while A77>0:
 							q+=j
 						KK=[]
 						LF=[]
-						for l in range(19799999):
-								pass
-						print(j,end='\t')
+						time.sleep(1)
+						print(j,end='\t',flush=True)
 						if j==0:
 							f=0
 						else:
 							f=100*b/j
-						for l in range(19799999):
-								pass
-						print(round(f,2),end='\t')
+						time.sleep(1)
+						print(round(f,2),end='\t',flush=True)
 						if lll==k:
 							print('             Not out',end='\t')
 						else:
 							qq=random.choice(QQ)
 							if qq==1 or qq==5 or qq==10 or qq==12:
-								for l in range(19799999):
-									pass
+								time.sleep(0.5)
 								hk=random.choice(P)
 								kl=P[random.choice(pq)]
 								if hk==kl:
@@ -4334,16 +4080,14 @@ while A77>0:
 								else:
 									D1[kl]=1
 							if qq==2:
-								for l in range(19799999):
-									pass
+								time.sleep(0.5)
 								str=''
 								kl=random.choice(P)
 								str+=kl
 								lk=str.rstrip()
 								print(' Run Out (',lk,')',end='\t')
 							if qq==3 or qq==6 or qq==8 or qq==11:
-								for l in range(19799999):
-									pass
+								time.sleep(0.5)
 								kl=P[random.choice(pq)]
 								if kl in D1:
 									D1[kl]+=1
@@ -4352,8 +4096,7 @@ while A77>0:
 								
 								print(' lbw                   ',kl,end='\t')
 							if qq==4 or qq==7 or qq==9:
-								for l in range(19799999):
-									pass
+								time.sleep(0.5)
 								kl=P[random.choice(pq)]
 								if kl in D1:
 									D1[kl]+=1
@@ -4384,8 +4127,7 @@ while A77>0:
 					print()
 					F1=s
 					F11=s
-					for l in range(19799999):
-								pass
+					time.sleep(1)
 					print(v ,'scored ',s,' runs in ',GG,' overs at a rate of',(round(G,2)),' per over')
 					print()
 					print()
@@ -4449,27 +4191,22 @@ while A77>0:
 					hh=0
 					D={}
 					for k in D1:
-						for l in range(19799999):
-								pass
-						print(k,end='\t')
-						for l in range(19799999):
-								pass
-						print(l5[hh],end='\t')
-						for l in range(19799999):
-								pass
+						time.sleep(1)
+						print(k,end='\t',flush=True)
+						time.sleep(1)
+						print(l5[hh],end='\t',flush = True)
+						time.sleep(1)
 						D[k]=JB
 						JB.append(l5[hh])
-						print(Bf[hh],end='\t')
-						for l in range(19799999):
-								pass
+						print(Bf[hh],end='\t',flush = True)
+						time.sleep(1)
 						JB.append(Bf[hh])
-						print(D1[k],end='\t')
-						for l in range(19799999):
-								pass
+						print(D1[k],end='\t',flush = True)
+						time.sleep(1)
 						JB.append(D1[k])
 						sg[D1[k]]=k
 						gj=(Bf[hh])/(l5[hh])
-						print(round(gj,2),end='\t')
+						print(round(gj,2),end='\t',flush = True)
 						hh=hh+1
 						print()
 						JB=[]
@@ -4685,21 +4422,18 @@ while A77>0:
 					str=''
 					str+='1st Innings'
 					for k in str:
-						print(k,end='')
-						for l in range(775566):
-							pass
+						print(k,end='',flush = True)
+						time.sleep(0.8)
 					print()
 					print()
-					for l in range(19799999):
-								pass
+					time.sleep(1)
 					D1={}
 					lll=random.choice(yy)
 					print('Name       ','Runs   ','Balls  ','S. Rate   ','Dismissal      ',sep='\t')
 					print()
 					for k in range(11):
-						for l in range(19799999):
-							pass
-						print(P[k],end='\t')
+						time.sleep(0.5)
+						print(P[k],end='\t',flush = True)
 						if k==8:
 							J=random.choice(Y)
 							if J==8:
@@ -4788,9 +4522,8 @@ while A77>0:
 								I2[P[k]]=KK
 								KK.append(b)
 								FI2[b]=P[k]
-						for l in range(19799999):
-							pass
-						print(b,end='\t')
+						time.sleep(0.5)
+						print(b,end='\t',flush=True)
 						if b<=10:
 							j=random.choice(H)
 							while j<1:
@@ -4828,23 +4561,20 @@ while A77>0:
 							KK.append(j)
 							q+=j
 						KK=[]
-						for l in range(19799999):
-							pass
-						print(j,end='\t')
+						time.sleep(0.5)
+						print(j,end='\t',flush=True)
 						if j==0:
 							f=0
 						else:
 							f=100*b/j
-						for l in range(19799999):
-							pass
-						print(round(f,2),end='\t') 
+						time.sleep(0.5)
+						print(round(f,2),end='\t',flush=True) 
 						if lll==k:
 							print('             Not out',end='\t')
 						else:
 							qq=random.choice(QQ)
 							if qq==1 or qq==5 or qq==10 or qq==11:
-								for l in range(19799999):
-									pass
+								time.sleep(0.5)
 								hk=random.choice(y)
 								kl=y[random.choice(pq)]
 								if hk==kl:
@@ -4856,16 +4586,14 @@ while A77>0:
 								else:
 									D1[kl]=1
 							if qq==2:
-								for l in range(19799999):
-									pass
+								time.sleep(0.5)
 								str=''
 								kl=random.choice(y)
 								str+=kl
 								lk=str.rstrip()
 								print(' Run Out (',lk,')',end='\t')
 							if qq==3 or qq==6 or qq==8 or qq==12:
-								for l in range(19799999):
-									pass
+								time.sleep(0.5)
 								kl=y[random.choice(pq)]                        
 								print(' lbw                   ',kl,end='\t')
 								if kl in D1:
@@ -4873,8 +4601,7 @@ while A77>0:
 								else:
 									D1[kl]=1
 							if qq==4 or qq==7 or qq==9:
-								for l in range(19799999):
-									pass
+								time.sleep(0.5)
 								kl=y[random.choice(pq)]
 								
 								print('                     b ',kl,end='\t')
@@ -4904,8 +4631,7 @@ while A77>0:
 					GG=a+(c/10)
 					OT2=GG
 					print()
-					for l in range(19799999):
-								pass
+					time.sleep(1)
 					F2=T
 					F22=T
 					print(p ,'scored ',T,' runs in ',GG,' overs at a rate of',(round(d,2)),' per over')
@@ -4972,27 +4698,22 @@ while A77>0:
 					JB=[]
 					D={}
 					for k in D1:
-						for l in range(19799999):
-								pass
-						print(k,end='\t')
-						for l in range(19799999):
-								pass
-						print(l5[hh],end='\t')
-						for l in range(19799999):
-								pass
+						time.sleep(1)
+						print(k,end='\t',flush=True)
+						time.sleep(1)
+						print(l5[hh],end='\t',flush = True)
+						time.sleep(1)
 						D[k]=JB
 						JB.append(l5[hh])
-						print(Bf[hh],end='\t')
-						for l in range(19799999):
-								pass
+						print(Bf[hh],end='\t',flush = True)
+						time.sleep(1)
 						JB.append(Bf[hh])
-						print(D1[k],end='\t')
-						for l in range(19799999):
-								pass
+						print(D1[k],end='\t',flush = True)
+						time.sleep(1)
 						JB.append(D1[k])
 						sg[D1[k]]=k
 						gj=(Bf[hh])/(l5[hh])
-						print(round(gj,2),end='\t')
+						print(round(gj,2),end='\t',flush = True)
 						hh=hh+1
 						print()
 						JB=[]
@@ -5199,12 +4920,10 @@ while A77>0:
 							O22=Lab[9]
 							s=1
 					if F1>F2:
-						for l in range(19799999):
-								pass
+						time.sleep(1)
 						print(v,' leads by ',F1-F2,' runs')
 					else:
-						for l in range(19799999):
-								pass
+						time.sleep(1)
 						print(p,' leads by ',F2-F1,' runs')
 					print()
 					print()
@@ -5212,23 +4931,20 @@ while A77>0:
 					str=''
 					str+='2nd Innings'
 					for k in str:
-						print(k,end='')
-						for l in range(775566):
-							pass
+						print(k,end='',flush = True)
+						time.sleep(0.8)
 					print()
 					print()
 					s=0
 					q=0
-					for l in range(19799999):
-						pass
+					time.sleep(1)
 					lll=random.choice(yy)
 					print('Name       ','Runs   ','Balls  ','S. Rate   ','Dismissal      ',sep='\t')
 					print()
 					D1={}
 					for k in range(11):
-						for l in range(19799999):
-								pass
-						print(y[k],end='\t')
+						time.sleep(1)
+						print(y[k],end='\t',flush = True)
 						if k==8:
 							J=random.choice(Y)
 							if J==8:
@@ -5316,9 +5032,8 @@ while A77>0:
 								I3[y[k]]=KK
 								KK.append(b)
 								FI3[b]=y[k]
-						for l in range(19799999):
-								pass
-						print(b,end='\t')
+						time.sleep(1)
+						print(b,end='\t',flush=True)
 						if b<=10:
 							j=random.choice(H)
 							while j<1:
@@ -5357,23 +5072,20 @@ while A77>0:
 							q+=j
 						KK=[]
 						LF=[]
-						for l in range(19799999):
-								pass
-						print(j,end='\t')
+						time.sleep(1)
+						print(j,end='\t',flush=True)
 						if j==0:
 							f=0
 						else:
 							f=100*b/j
-						for l in range(19799999):
-								pass
-						print(round(f,2),end='\t')
+						time.sleep(1)
+						print(round(f,2),end='\t',flush=True)
 						if lll==k:
 							print('             Not out',end='\t')
 						else:
 							qq=random.choice(QQ)
 							if qq==1 or qq==5 or qq==10 or qq==12:
-								for l in range(19799999):
-									pass
+								time.sleep(0.5)
 								hk=random.choice(P)
 								kl=P[random.choice(pq)]
 								if hk==kl:
@@ -5385,16 +5097,14 @@ while A77>0:
 								else:
 									D1[kl]=1
 							if qq==2:
-								for l in range(19799999):
-									pass
+								time.sleep(0.5)
 								str=''
 								kl=random.choice(P)
 								str+=kl
 								lk=str.rstrip()
 								print(' Run Out (',lk,')',end='\t')
 							if qq==3 or qq==6 or qq==8 or qq==11:
-								for l in range(19799999):
-									pass
+								time.sleep(0.5)
 								kl=P[random.choice(pq)]
 								if kl in D1:
 									D1[kl]+=1
@@ -5403,8 +5113,7 @@ while A77>0:
 								
 								print(' lbw                   ',kl,end='\t')
 							if qq==4 or qq==7 or qq==9:
-								for l in range(19799999):
-									pass
+								time.sleep(0.5)
 								kl=P[random.choice(pq)]
 								if kl in D1:
 									D1[kl]+=1
@@ -5435,8 +5144,7 @@ while A77>0:
 					print()
 					F33=s
 					F1=F1+s
-					for l in range(19799999):
-								pass
+					time.sleep(1)
 					print(v ,'scored ',s,' runs in ',GG,' overs at a rate of',(round(G,2)),' per over')
 					print()
 					print()
@@ -5503,27 +5211,22 @@ while A77>0:
 					JB=[]
 					D={}
 					for k in D1:
-						for l in range(39799999):
-								pass
-						print(k,end='\t')
-						for l in range(39799999):
-								pass
-						print(l5[hh],end='\t')
-						for l in range(39799999):
-								pass
+						time.sleep(0.8)
+						print(k,end='\t',flush=True)
+						time.sleep(0.8)
+						print(l5[hh],end='\t',flush = True)
+						time.sleep(0.8)
 						D[k]=JB
 						JB.append(l5[hh])
-						print(Bf[hh],end='\t')
-						for l in range(39799999):
-								pass
+						print(Bf[hh],end='\t',flush = True)
+						time.sleep(0.8)
 						JB.append(Bf[hh])
-						print(D1[k],end='\t')
-						for l in range(39799999):
-								pass
+						print(D1[k],end='\t',flush = True)
+						time.sleep(0.8)
 						JB.append(D1[k])
 						sg[D1[k]]=k
 						gj=(Bf[hh])/(l5[hh])
-						print(round(gj,2),end='\t')
+						print(round(gj,2),end='\t',flush = True)
 						hh=hh+1
 						print()
 						JB=[]
@@ -5730,8 +5433,7 @@ while A77>0:
 									O23=Lab[9]
 								k+=1
 							s=1
-					for k in range(3999999):
-						pass
+					time.sleep(1)
 					if F1>F2:
 						print(p+' need ',(F1-F2+1),' runs to win the match')
 					if F1<F2:
@@ -5747,13 +5449,11 @@ while A77>0:
 						str=''
 						str+='2nd Innings'
 						for k in str:
-							print(k,end='')
-							for l in range(775566):
-								pass
+							print(k,end='',flush = True)
+							time.sleep(1)
 						print()
 						print()
-						for l in range(19799999):
-									pass
+						time.sleep(0.5)
 						lll=random.choice(yy)
 						print('Name       ','Runs   ','Balls  ','S. Rate   ','Dismissal      ',sep='\t')
 						print()
@@ -5762,18 +5462,16 @@ while A77>0:
 						for k in range(11):
 							KK=[]
 							target+=1
-							for l in range(39799999):
-								pass
-							print(P[k],end='\t')
+							time.sleep(0.8)
+							print(P[k],end='\t',flush = True)
 							if k==8:
 								J=random.choice(Y)
 								if J==8:
 									b=random.choice(E)
 									if T+b<targ:
 										T+=b
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
@@ -5781,9 +5479,8 @@ while A77>0:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -5820,16 +5517,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('             Not out',end='\t')
 										I4[P[k]]=KK                        
 										FI4[b]=P[k]
@@ -5841,16 +5536,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -5887,16 +5580,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('             Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
@@ -5906,9 +5597,8 @@ while A77>0:
 									I4[P[k]]=KK
 									KK.append(b)
 									FI4[b]=P[k]
-									for l in range(39799999):
-											pass
-									print(b,end='\t')
+									time.sleep(0.8)
+									print(b,end='\t',flush=True)
 							if k==9:
 								J=random.choice(Y)
 								if J==8:
@@ -5918,16 +5608,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -5964,16 +5652,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('             Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
@@ -5985,16 +5671,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -6031,16 +5715,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('             Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
@@ -6050,7 +5732,7 @@ while A77>0:
 									I4[P[k]]=KK
 									KK.append(b)
 									FI4[b]=P[k]
-									print(b,end='\t')
+									print(b,end='\t',flush=True)
 							if k==10:
 								J=random.choice(Y)
 								if J==8:
@@ -6060,16 +5742,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -6106,16 +5786,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('             Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
@@ -6128,16 +5806,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -6174,16 +5850,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('             Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
@@ -6193,9 +5867,8 @@ while A77>0:
 									I4[P[k]]=KK
 									KK.append(b)
 									FI4[b]=P[k]
-									for l in range(39799999):
-											pass                                    
-									print(b,end='\t')
+									time.sleep(0.8)                                    
+									print(b,end='\t',flush=True)
 							if k<=7:
 								t=random.choice(U)
 								if t==6 or t==10:
@@ -6205,16 +5878,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -6251,16 +5922,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('             Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
@@ -6271,9 +5940,8 @@ while A77>0:
 									I4[P[k]]=KK
 									KK.append(b)
 									FI4[b]=P[k]
-									for l in range(39799999):
-											pass
-									print(b,end='\t')
+									time.sleep(0.8)
+									print(b,end='\t',flush=True)
 								if t==3 or t==4 or t==5 or t==15:
 									b=random.choice(H)
 									if T+b<targ:
@@ -6281,16 +5949,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -6327,16 +5993,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(19799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('             Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
@@ -6348,16 +6012,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -6394,16 +6056,14 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('             Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
@@ -6417,16 +6077,14 @@ while A77>0:
 										I4[P[k]]=KK
 										KK.append(b)
 										FI4[b]=P[k]
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 									else:
 										b=targ-T+random.choice(esse)
 										T+=b
 										KK.append(b)
-										for l in range(39799999):
-											pass
-										print(b,end='\t')
+										time.sleep(0.8)
+										print(b,end='\t',flush=True)
 										if b<=10:
 											j=random.choice(H)
 											while j<1:
@@ -6463,22 +6121,19 @@ while A77>0:
 													j=random.choice(F)
 											KK.append(j)
 											q+=j
-										for l in range(39799999):
-											pass
-										print(j,end='\t')
+										time.sleep(0.8)
+										print(j,end='\t',flush=True)
 										if j==0:
 											f=0
 										else:
 											f=100*b/j
-										for l in range(39799999):
-											pass
-										print(round(f,2),end='\t') 
+										time.sleep(0.8)
+										print(round(f,2),end='\t',flush=True) 
 										print('             Not out',end='\t')
 										I4[P[k]]=KK
 										FI4[b]=P[k]
 										break                    
-							for l in range(39799999):
-								pass
+							time.sleep(0.8)
 							if b<=10:
 								j=random.choice(H)
 								while j<1:
@@ -6516,24 +6171,21 @@ while A77>0:
 								KK.append(j)
 								q+=j
 							KK=[]
-							for l in range(39799999):
-								pass
-							print(j,end='\t')
+							time.sleep(0.8)
+							print(j,end='\t',flush=True)
 							if j==0:
 								f=0
 							else:
 								f=100*b/j
-							for l in range(39799999):
-								pass
-							print(round(f,2),end='\t') 
+							time.sleep(0.8)
+							print(round(f,2),end='\t',flush=True) 
 							if lll==k:
 								print('             Not out',end='\t')
 								target-=1
 							else:
 								qq=random.choice(QQ)
 								if qq==1 or qq==5 or qq==10 or qq==11:
-									for l in range(39799999):
-										pass
+									time.sleep(0.8)
 									hk=random.choice(y)
 									kl=y[random.choice(pq)]
 									if hk==kl:
@@ -6545,16 +6197,14 @@ while A77>0:
 									else:
 										D1[kl]=1
 								if qq==2:
-									for l in range(39799999):
-										pass
+									time.sleep(0.8)
 									str=''
 									kl=random.choice(y)
 									str+=kl
 									lk=str.rstrip()
 									print(' Run Out (',lk,')',end='\t')
 								if qq==3 or qq==6 or qq==9 or qq==12:
-									for l in range(39799999):
-										pass
+									time.sleep(0.8)
 									kl=y[random.choice(pq)]
 									print(' lbw                   ',kl,end='\t')
 									if kl in D1:
@@ -6562,8 +6212,7 @@ while A77>0:
 									else:
 										D1[kl]=1
 								if qq==4 or qq==7 or qq==8:
-									for l in range(39799999):
-										pass
+									time.sleep(0.8)
 									kl=y[random.choice(pq)]
 									print('                     b ',kl,end='\t')
 									if kl in D1:
@@ -6591,8 +6240,7 @@ while A77>0:
 						GG=a+(c/10)
 						OT4=GG
 						print()
-						for l in range(39799999):
-									pass
+						time.sleep(0.8)
 						print()
 						print(p ,'scored ',T,' runs in ',GG,' overs at a rate of',(round(d,2)),' per over')
 						F2=F2+T
@@ -6661,27 +6309,22 @@ while A77>0:
 						D={}
 						JB=[]
 						for k in D1:
-							for l in range(39799999):
-									pass
-							print(k,end='\t')
-							for l in range(39799999):
-									pass
-							print(l5[hh],end='\t')
-							for l in range(39799999):
-									pass
+							time.sleep(0.8)
+							print(k,end='\t',flush=True)
+							time.sleep(0.8)
+							print(l5[hh],end='\t',flush = True)
+							time.sleep(0.8)
 							D[k]=JB
 							JB.append(l5[hh])
-							print(Bf[hh],end='\t')
-							for l in range(39799999):
-									pass
+							print(Bf[hh],end='\t',flush = True)
+							time.sleep(0.8)
 							JB.append(Bf[hh])
-							print(D1[k],end='\t')
-							for l in range(39799999):
-									pass
+							print(D1[k],end='\t',flush = True)
+							time.sleep(0.8)
 							JB.append(D1[k])
 							sg[k]=D1[k]
 							gj=(Bf[hh])/(l5[hh])
-							print(round(gj,2),end='\t')
+							print(round(gj,2),end='\t',flush = True)
 							hh=hh+1
 							print()
 							JB=[]
@@ -6892,24 +6535,20 @@ while A77>0:
 							loser=p
 							margin=F1-F2
 						elif F1==F2:
-							for l in range(39799999):
-									pass
+							time.sleep(0.8)
 							print('The match was a tie!')
 						else:
 							winner=p
 							loser=v
 							margin=F2-F1
 						if F1!=F2 and winner==v:
-							for l in range(39799999):
-									pass
+							time.sleep(0.8)
 							print(winner,' beat ',loser,' by ',margin,' runs')
 						if F1!=F2 and winner==p and 11-target>1 and inn!=1:
-							for l in range(39799999):
-									pass
+							time.sleep(0.8)
 							print(p,' beat ',v,' by ',11-target,' wickets')
 						if F1!=F2 and winner==p and 11-target==1 and inn!=1:
-							for l in range(39799999):
-									pass
+							time.sleep(0.8)
 							print(p,' beat ',v,' by ',11-target,' wicket')
 					print()
 					print()
@@ -6918,19 +6557,16 @@ while A77>0:
 					str=''
 					str+='                      Match Summary'
 					for k in str:
-						print(k,end='')
-						for l in range(66666):
-							pass
+						print(k,end='',flush = True)
+						time.sleep(0.8)
 					print()
 					print()
 					print()
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					print(v,'    ','vs','   ',p,' at ',sonu)
 					print()
 					print()
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					VV=v+' 1st Innings'
 					PQR=p+' 1st Innings'
 					if len(VV)>len(PQR):
@@ -6941,112 +6577,92 @@ while A77>0:
 					print(dupee, '                 ',F11,'(',OT1,')')
 					print()
 					print()
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					if HHH[0]//100>=1 and HHH[1]//100>=1:
 						print(HH,' ',HHH[0],'(',HHH[1],')','  ',end='\t')
 					else:
 							print(HH,' ',HHH[0],'(',HHH[1],')','        ',end='\t')
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					print(BI1,' ',WI1,'/',RI1,'(',O1,')','  ',end='\t')
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					print()
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					if JOO[0]//100>=1 and JOO[1]//100>=1:
 						print(JI,' ',JOO[0],'(',JOO[1],')','  ',end='\t')
 					else:
 						print(JI,' ',JOO[0],'(',JOO[1],')','        ',end='\t')
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					print(BI21,' ',WI21,'/',RI21,'(',O21,')','  ',end='\t')
 					print()
 					print()
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					PQR=p+' 1st Innings'
 					dupeee=PQR.ljust(ddd)
 					print(dupeee, '                ',F22,'(',OT2,')')
 					print()
 					print()
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					if OOO[0]//100>=1 and OOO[1]//100>=1:
 						print(OO,' ',OOO[0],'(',OOO[1],')','  ',end='\t')
 					else:
 						print(OO,' ',OOO[0],'(',OOO[1],')        ',end='\t')
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					print(BI2,' ',WI2,'/',RI2,'(',O2,')','  ',end='\t')
 					print()
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					if OL[0]//100>=1 and OL[1]//100>=1:
 						print(OF,' ',OL[0],'(',OL[1],')','  ',end='\t')
 					else:
 						print(OF,' ',OL[0],'(',OL[1],')        ',end='\t')
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					print(BI22,' ',WI22,'/',RI22,'(',O22,')','  ',end='\t')
 					print()
 					print()
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					VV=v+' 2nd Innings'
 					dupee=VV.ljust(ddd)
 					print(dupee, '                ',F33,'(',OT3,')')
 					print()
 					print()
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					if YYY[0]//100>=1 and YYY[1]//100>=1:
 						print(YY,' ',YYY[0],'(',YYY[1],')','  ',end='\t')
 					else:
 						print(YY,' ',YYY[0],'(',YYY[1],')        ',end='\t')
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					print(BI3,' ',WI3,'/',RI3,'(',O3,')','  ',end='\t')
 					print()
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					if Y89[0]//100>=1 and Y89[1]//100>=1:
 						print(Y7,' ',Y89[0],'(',Y89[1],')','  ',end='\t')
 					else:
 						print(Y7,' ',Y89[0],'(',Y89[1],')        ',end='\t')
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					print(BI23,' ',WI23,'/',RI23,'(',O23,')','  ',end='\t')
 					print()
 					print()
-					for l in range(11999999):
-						pass
+					time.sleep(0.8)
 					if winner==p and inn!=1:
 						PQR=p+' 2nd Innings'
 						dupeee=PQR.ljust(ddd)
 						print(dupeee, '                 ',F44,'/',target-1,'(',OT4,')')
 						print()
 						print()
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						if A78[0]//100>=1 and A78[1]//100>=1:
 							print(A7,' ',A78[0],'(',A78[1],')','  ',end='\t')
 						else:
 							print(A7,' ',A78[0],'(',A78[1],')        ',end='\t')
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						print(BI4,' ',WI4,'/',RI4,'(',O4,')','  ',end='\t')
 						print()
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						if target>=2:
 							if ABC[0]//100>=1 and ABC[1]//100>=1:
 								print(AA7,' ',ABC[0],'(',ABC[1],')','  ',end='\t')
 							else:
 								print(AA7,' ',ABC[0],'(',ABC[1],')        ',end='\t')
-							for l in range(11999999):
-								pass
+							time.sleep(1.5)
 							print(BI24,' ',WI24,'/',RI24,'(',O24,')','  ',end='\t')
 					if winner!=p and inn!=1:
 						PQR=p+' 2nd Innings'
@@ -7054,25 +6670,21 @@ while A77>0:
 						print(dupeee, '                 ',F44,'(',OT4,')')
 						print()
 						print()
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						if A78[0]//100>=1 and A78[1]//100>=1:
 							print(A7,' ',A78[0],'(',A78[1],')','  ',end='\t')
 						else:
 							print(A7,' ',A78[0],'(',A78[1],')        ',end='\t')
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						print(BI4,' ',WI4,'/',RI4,'(',O4,')','  ',end='\t')
 						print()
-						for l in range(11999999):
-							pass
+						time.sleep(1.5)
 						if target>=2:
 							if ABC[0]//100>=1 and ABC[1]//100>=1:
 								print(AA7,' ',ABC[0],'(',ABC[1],')','  ',end='\t')
 							else:
 								print(AA7,' ',ABC[0],'(',ABC[1],')        ',end='\t')
-							for l in range(11999999):
-								pass
+							time.sleep(1.5)
 							print(BI24,' ',WI24,'/',RI24,'(',O24,')','  ',end='\t')
 					print()
 					print()
@@ -7083,32 +6695,27 @@ while A77>0:
 						loser=p
 						margin=F1-F2
 					elif F1==F2:
-						for l in range(19799999):
-								pass
+						time.sleep(1)
 						print('The match was a tie!')
 					else:
 						winner=p
 						loser=v
 						margin=F2-F1
 					if F1!=F2 and winner==v and inn!=1:
-						for l in range(19799999):
-								pass
+						time.sleep(1)
 						print(winner,' beat ',loser,' by ',margin,' runs')
 					print()
 					print()
 					if F1!=F2 and winner==p and 11-target>1 and inn!=1:
-						for l in range(19799999):
-								pass
+						time.sleep(1)
 						print(p,' beat ',v,' by ',11-target,' wickets')
 						print()
 					if F1!=F2 and winner==p and 11-target==1 and inn!=1:
-						for l in range(19799999):
-								pass
+						time.sleep(1)
 						print(p,' beat ',v,' by ',11-target,' wicket')
 						print()
 					if inn==1:
-						for l in range(19799999):
-								pass
+						time.sleep(1)
 						print(p,' beat ',v,' by an innings and ',F2-F1,' runs')
 						print()
 					if winner==v and bhide==y or winner==p and bhide==P:
@@ -7118,17 +6725,15 @@ while A77>0:
 					str=''
 					str+='Congrats! You now have to beat '
 					for k in str:
-						print(k,end='')
-						for l in range(1515556):
-							pass
+						print(k,end='',flush = True)
+						time.sleep(0.3)
 					sodhi+=1
 					print(8-sodhi,end=' ')
 					str=''
 					str+='more teams to win the cup!'
 					for k in str:
-						print(k,end='')
-						for l in range(1515556):
-							pass
+						print(k,end='',flush = True)
+						time.sleep(0.3)
 					print()
 					if winner==v and bhide==y or winner==p and bhide==P:
 						dhanush=0
@@ -7148,51 +6753,44 @@ while A77>0:
 						str=''
 						str+="How does it feel after reaching the summit of cricket teams in "
 						for k in str:
-							print(k,end='')
-							for m in range(1055655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.3)
 						print(aaa,'? ',end='')
 						jan=input()
 						print()
 						str=''
 						str+='Which team gave you the biggest scare on your journey? '
 						for k in str:
-							print(k,end='')
-							for m in range(1055655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.3)
 						feb=input()
 						print()
 						str=''
 						str+='Yes'
 						for k in str:
-							print(k,end='')
-							for m in range(1055655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.3)
 						print(' ',feb,end=', ')
 						str=''
 						str+='is a very skilled team but you still managed to triumph them which is commendable'
 						for k in str:
-							print(k,end='')
-							for m in range(1055655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.3)
 						print()
-						for m in range(15055655):
-									pass
+						time.sleep(0.3)
 						print()
 						str=''
 						str+="Hey! I am Aryan, the developer of this game!, I really hope you had fun during your journey which was the ultimate goal of creating this game. I have closely followed your team's journey and have decided to induct it into the hall of fame! Congratulations once again :)"
 						for k in str:
-							print(k,end='')
-							for m in range(1055655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.3)
 						print()
 						print()
 						str=''
 						str+='Hall of Fame XI'
 						for k in str:
-							print(k,end='')
-							for m in range(1055655):
-									pass
+							print(k,end='',flush = True)
+							time.sleep(0.3)
 						print(' (',JP,')')
 						print()
 						print()
@@ -7207,8 +6805,7 @@ while A77>0:
 							j+=1
 							for l in range(0,15):
 								print(k[l],end='')
-								for m in range(1055655):
-									pass
+								time.sleep(0.3)
 							print()               
 						goli=sonu
 						binodini=1
@@ -7219,26 +6816,23 @@ while A77>0:
 					str=''
 					str+='You managed to beat '
 					for k in str:
-						print(k,end='')
-						for l in range(1015556):
-							pass
+						print(k,end='',flush = True)
+						time.sleep(0.3)
 					print(sodhi,'teams')
 					print()
 					str=''
 					str+='Hard luck...It is no shame to lose to an all stars team! Better luck next time :)'
 					for k in str:
-						print(k,end='')
-						for l in range(1015556):
-							pass
+						print(k,end='',flush = True)
+						time.sleep(0.3)
 				print()
 	elif A8==4:
 		print()
 		str=''
 		str+='                     Ball by ball simulator'
 		for k in str:
-			print(k,end='')
-			for l in range(755566):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		print()
 		print()
 		import random
@@ -7255,9 +6849,8 @@ while A77>0:
 			str=''
 			str+='You have won the toss!'
 			for y in str:
-				print(y,end='')
-				for u in range(1055655):
-					pass
+				print(y,end='',flush=True)
+				time.sleep(0.03)
 			print()
 			choice=input('Would you like to bat or bowl first? ')
 			if choice=='bat':
@@ -7280,24 +6873,21 @@ while A77>0:
 			str=''
 			str+='has won the toss!'
 			for y in str:
-				print(y,end='')
-				for u in range(1055655):
-					pass
+				print(y,end='',flush=True)
+				time.sleep(0.03)
 			print()
 			print(t2,end=' ')
 			str=''
 			str+='has chosen to '
 			for y in str:
-				print(y,end='')
-				for u in range(1055655):
-					pass
+				print(y,end='',flush=True)
+				time.sleep(0.03)
 			str=''
 			print(j,end=' ')
 			str+='first'
 			for y in str:
-				print(y,end='')
-				for u in range(1055655):
-					pass
+				print(y,end='',flush=True)
+				time.sleep(0.03)
 			print()
 		over=int(input('Enter no of overs:'))
 		if over<=30:
@@ -7339,27 +6929,23 @@ while A77>0:
 						if store==2 and g=='Out':
 							continue
 						if g!='Out' and g!='Wide' and g!='No Ball':
-							for u in range(15255555):
-								pass
-							print(k,'.',d,'       ',g,' runs')
+							time.sleep(0.35)
+							print(k,'.',d,'       ',g,' runs',flush=True)
 							score1+=g
 						else:
 							if g=='Out':
 								w1+=1
-							for u in range(15255555):
-								pass
+							time.sleep(0.35)
 							print(k,'.',d,'         ',g)
 						if w1==10:
 							print()
 							if d==6:
-								for u in range(15255555):
-									pass
-								print(I1,'score: ',score1,'/',w1,' in ',k+1,' overs')
+								time.sleep(1.5)
+								print(I1,'score: ',score1,'/',w1,' in ',k+1,' overs',flush=True)
 								o1=k+1
 							else:
-								for u in range(15255555):
-									pass
-								print(I1,'score: ',score1,'/',w1,' in ',k,'.',d,' overs')
+								time.sleep(1.5)
+								print(I1,'score: ',score1,'/',w1,' in ',k,'.',d,' overs',flush=True)
 								o1=k+(d/10)
 							d=7
 							k=over
@@ -7374,7 +6960,7 @@ while A77>0:
 					print()
 					if w1!=10:
 						ye=score1/k
-						print(I1,'score: ',score1,'/',w1,' in ',k,' overs at a rate of',(round(ye,2)),'per over')
+						print(I1,'score: ',score1,'/',w1,' in ',k,' overs at a rate of',(round(ye,2)),'per over',flush=True)
 						o1=k
 					print()
 					if k/over>=0.75:
@@ -7401,27 +6987,23 @@ while A77>0:
 						if store==2 and g=='Out':
 							continue
 						if g!='Out' and g!='Wide' and g!='No Ball':
-							for u in range(15255555):
-								pass
-							print(k,'.',d,'       ',g,' runs')
+							time.sleep(0.35)
+							print(k,'.',d,'       ',g,' runs',flush=True)
 							score1+=g
 						else:
 							if g=='Out':
 								w1+=1
-							for u in range(15255555):
-								pass
-							print(k,'.',d,'         ',g)
+							time.sleep(0.35)
+							print(k,'.',d,'         ',g,flush=True)
 						if w1==10:
 							print()
 							if d==6:
-								for u in range(15255555):
-									pass
-								print(I1,'score: ',score1,'/',w1,' in ',k+1,' overs')
+								time.sleep(1.5)
+								print(I1,'score: ',score1,'/',w1,' in ',k+1,' overs',flush=True)
 								o1=k+1
 							else:
-								for u in range(15255555):
-									pass
-								print(I1,'score: ',score1,'/',w1,' in ',k,'.',d,' overs')
+								time.sleep(1.5)
+								print(I1,'score: ',score1,'/',w1,' in ',k,'.',d,' overs',flush=True)
 								o1=k+(d/10)
 							d=7
 							k=over
@@ -7436,13 +7018,13 @@ while A77>0:
 					print()
 					if w1!=10:
 						ye=score1/k
-						print(I1,'score: ',score1,'/',w1,' in ',k,' overs at a rate of',(round(ye,2)),'per over')
+						print(I1,'score: ',score1,'/',w1,' in ',k,' overs at a rate of',(round(ye,2)),'per over',flush=True)
 						o1=k
 					print()
 			da=(score1+1)/over
-			print(I2,' needs',score1+1,' runs at a rate of',(round(da,2)),' to win the match.')
+			print(I2,' needs',score1+1,' runs at a rate of',(round(da,2)),' to win the match.',flush=True)
 			print()
-			print(I2,' batting')
+			print(I2,' batting',flush=True)
 			print()
 			k=0
 			d=1
@@ -7471,21 +7053,18 @@ while A77>0:
 						if store==2 and g=='Out':
 							continue
 						if g!='Out' and g!='Wide' and g!='No Ball':
-							for u in range(15255555):
-								pass
-							print(k,'.',d,'       ',g,' runs')
+							time.sleep(0.35)
+							print(k,'.',d,'       ',g,' runs',flush=True)
 							score2+=g
 							if score2>score1:
 								print()
 								if d==6:
-									for u in range(15255555):
-										pass
-									print(I2,'score: ',score2,'/',w2,' in ',k+1,' overs')
+									time.sleep(1.5)
+									print(I2,'score: ',score2,'/',w2,' in ',k+1,' overs',flush=True)
 									o2=k+1
 								else:
-									for u in range(15255555):
-										pass
-									print(I2,'score: ',score2,'/',w2,' in ',k,'.',d,' overs')
+									time.sleep(1.5)
+									print(I2,'score: ',score2,'/',w2,' in ',k,'.',d,' overs',flush=True)
 									o2=k+(d/10)
 								d=7
 								k=over
@@ -7494,20 +7073,17 @@ while A77>0:
 						else:
 							if g=='Out':
 								w2+=1
-							for u in range(15255555):
-								pass
+							time.sleep(0.35)
 							print(k,'.',d,'         ',g)
 						if w2==10:
 								print()
 								if d==6:
-									for u in range(15255555):
-										pass
-									print(I2,'score: ',score2,'/',w2,' in ',k+1,' overs')
+									time.sleep(1.5)
+									print(I2,'score: ',score2,'/',w2,' in ',k+1,' overs',flush=True)
 									o2=k+1
 								else:
-									for u in range(15255555):
-										pass
-									print(I2,'score: ',score2,'/',w2,' in ',k,'.',d,' overs')
+									time.sleep(1.5)
+									print(I2,'score: ',score2,'/',w2,' in ',k,'.',d,' overs',flush=True)
 									o2=k+(d/10)
 								d=7
 								k=over
@@ -7524,13 +7100,12 @@ while A77>0:
 						o2=k
 					print()
 					if w2!=10 and score2<=score1 and k!=over:
-						print(I2,'score: ',score2,'/',w2,' in ',k,' overs')
+						print(I2,'score: ',score2,'/',w2,' in ',k,' overs',flush=True)
 					print()
 					if score2<score1 and k!=over and w2!=10:
 						ah=(score1-score2+1)/(over-k)
-						for u in range(15255555):
-							pass
-						print(I2,' need ',score1-score2+1,' runs to win in ',over-k,' overs at a rate of ',round(ah,2),' per over')
+						time.sleep(0.35)
+						print(I2,' need ',score1-score2+1,' runs to win in ',over-k,' overs at a rate of ',round(ah,2),' per over',flush=True)
 						print()
 						if k/over>=0.75:
 							break
@@ -7556,21 +7131,18 @@ while A77>0:
 						if store==2 and g=='Out':
 							continue
 						if g!='Out' and g!='Wide' and g!='No Ball':
-							for u in range(15255555):
-								pass
-							print(k,'.',d,'       ',g,' runs')
+							time.sleep(0.35)
+							print(k,'.',d,'       ',g,' runs',flush=True)
 							score2+=g
 							if score2>score1:
 								print()
 								if d==6:
-									for u in range(15255555):
-										pass
-									print(I2,'score: ',score2,'/',w2,' in ',k+1,' overs')
+									time.sleep(1.5)
+									print(I2,'score: ',score2,'/',w2,' in ',k+1,' overs',flush=True)
 									o2=k+1
 								else:
-									for u in range(15255555):
-										pass
-									print(I2,'score: ',score2,'/',w2,' in ',k,'.',d,' overs')
+									time.sleep(1.5)
+									print(I2,'score: ',score2,'/',w2,' in ',k,'.',d,' overs',flush=True)
 									o2=k+(d/10)
 								d=7
 								k=over
@@ -7579,20 +7151,17 @@ while A77>0:
 						else:
 							if g=='Out':
 								w2+=1
-							for u in range(15255555):
-								pass
+							time.sleep(0.35)
 							print(k,'.',d,'         ',g)
 						if w2==10:
 								print()
 								if d==6:
-									for u in range(15255555):
-										pass
-									print(I2,'score: ',score2,'/',w2,' in ',k+1,' overs')
+									time.sleep(1.5)
+									print(I2,'score: ',score2,'/',w2,' in ',k+1,' overs',flush=True)
 									o2=k+1
 								else:
-									for u in range(15255555):
-										pass
-									print(I2,'score: ',score2,'/',w2,' in ',k,'.',d,' overs')
+									time.sleep(1.5)
+									print(I2,'score: ',score2,'/',w2,' in ',k,'.',d,' overs',flush=True)
 									o2=k+(d/10)
 								d=7
 								k=over
@@ -7609,23 +7178,22 @@ while A77>0:
 						o2=k
 					print()
 					if w2!=10 and score2<=score1 and k!=over:
-						print(I2,'score: ',score2,'/',w2,' in ',k,' overs')
+						print(I2,'score: ',score2,'/',w2,' in ',k,' overs',flush=True)
 					print()
 					if score2<score1 and k!=over and w2!=10:
 						ah=(score1-score2+1)/(over-k)
-						for u in range(15255555):
-							pass
-						print(I2+' need ',score1-score2+1,' runs to win in ',over-k,' overs at a rate of ',round(ah,2),' per over')
+						time.sleep(1.5)
+						print(I2+' need ',score1-score2+1,' runs to win in ',over-k,' overs at a rate of ',round(ah,2),' per over',flush=True)
 						print()
-			print(I1,' scored ',score1,'/',w1,' in ',o1,' overs')
-			print(I2,' scored ',score2,'/',w2,' in ',o2,' overs')
+			print(I1,' scored ',score1,'/',w1,' in ',o1,' overs',flush=True)
+			print(I2,' scored ',score2,'/',w2,' in ',o2,' overs',flush=True)
 			print()
 			if score1>score2:
-				print(I1,' beat ',I2,' by ',(score1-score2),' runs')
+				print(I1,' beat ',I2,' by ',(score1-score2),' runs',flush=True)
 			elif score1==score2:
 				print('The match was a tie')
 			else:
-				print(I2,' beat ',I1,' by ',(10-w2),' wickets')
+				print(I2,' beat ',I1,' by ',(10-w2),' wickets',flush=True)
 			print()
 		if over>30:
 			L=[]
@@ -7665,27 +7233,23 @@ while A77>0:
 					if store==2 and g=='Out':
 						continue
 					if g!='Out' and g!='Wide' and g!='No Ball':
-						for u in range(15255555):
-							pass
-						print(k,'.',d,'       ',g,' runs')
+						time.sleep(0.35)
+						print(k,'.',d,'       ',g,' runs',flush=True)
 						score1+=g
 					else:
 						if g=='Out':
 							w1+=1
-						for u in range(15255555):
-							pass
-						print(k,'.',d,'         ',g)
+						time.sleep(0.35)
+						print(k,'.',d,'         ',g,flush=True)
 					if w1==10:
 						print()
 						if d==6:
-							for u in range(15255555):
-								pass
-							print(I1,'score: ',score1,'/',w1,' in ',k+1,' overs')
+							time.sleep(1.5)
+							print(I1,'score: ',score1,'/',w1,' in ',k+1,' overs',flush=True)
 							o1=k+1
 						else:
-							for u in range(15255555):
-								pass
-							print(I1,'score: ',score1,'/',w1,' in ',k,'.',d,' overs')
+							time.sleep(1.5)
+							print(I1,'score: ',score1,'/',w1,' in ',k,'.',d,' overs',flush=True)
 							o1=k+(d/10)
 						d=7
 						k=over
@@ -7700,11 +7264,11 @@ while A77>0:
 				print()
 				if w1!=10:
 					ye=score1/k
-					print(I1,'score: ',score1,'/',w1,' in ',k,' overs at a rate of',(round(ye,2)),'per over')
+					print(I1,'score: ',score1,'/',w1,' in ',k,' overs at a rate of',(round(ye,2)),'per over',flush=True)
 					o1=k
 				print()
 			da=(score1+1)/over
-			print(I2,' needs',score1+1,' runs at a rate of',(round(da,2)),' to win the match.')
+			print(I2,' needs',score1+1,' runs at a rate of',(round(da,2)),' to win the match.',flush=True)
 			print()
 			print(I2,' batting')
 			print()
@@ -7734,21 +7298,18 @@ while A77>0:
 					if store==2 and g=='Out':
 						continue
 					if g!='Out' and g!='Wide' and g!='No Ball':
-						for u in range(15255555):
-							pass
+						time.sleep(0.35)
 						print(k,'.',d,'       ',g,' runs')
 						score2+=g
 						if score2>score1:
 							print()
 							if d==6:
-								for u in range(15255555):
-									pass
-								print(I2,'score: ',score2,'/',w2,' in ',k+1,' overs')
+								time.sleep(1.5)
+								print(I2,'score: ',score2,'/',w2,' in ',k+1,' overs',flush=True)
 								o2=k+1
 							else:
-								for u in range(15255555):
-									pass
-								print(I2,'score: ',score2,'/',w2,' in ',k,'.',d,' overs')
+								time.sleep(1.5)
+								print(I2,'score: ',score2,'/',w2,' in ',k,'.',d,' overs',flush=True)
 								o2=k+(d/10)
 							d=7
 							k=over
@@ -7757,20 +7318,17 @@ while A77>0:
 					else:
 						if g=='Out':                   
 							w2+=1
-						for u in range(15255555):
-							pass
+						time.sleep(0.35)
 						print(k,'.',d,'         ',g)
 					if w2==10:
 							print()
 							if d==6:
-								for u in range(15255555):
-									pass
-								print(I2,'score: ',score2,'/',w2,' in ',k+1,' overs')
+								time.sleep(1.5)
+								print(I2,'score: ',score2,'/',w2,' in ',k+1,' overs',flush=True)
 								o2=k+1
 							else:
-								for u in range(15255555):
-									pass
-								print(I2,'score: ',score2,'/',w2,' in ',k,'.',d,' overs')
+								time.sleep(1.5)
+								print(I2,'score: ',score2,'/',w2,' in ',k,'.',d,' overs',flush=True)
 								o2=k+(d/10)
 							d=7
 							k=over
@@ -7787,23 +7345,22 @@ while A77>0:
 					o2=k
 				print()
 				if w2!=10 and score2<=score1 and k!=over:
-					print(I2,'score: ',score2,'/',w2,' in ',k,' overs')
+					print(I2,'score: ',score2,'/',w2,' in ',k,' overs',flush=True)
 				print()
 				if score2<score1 and k!=over and w2!=10:
 					ah=(score1-score2+1)/(over-k)
-					for u in range(15255555):
-						pass
+					time.sleep(1.5)
 					print(I2,' need ',(score1-score2+1),' runs to win in ',(over-k),' overs at a rate of ',(round(ah,2)),' per over')
 					print()
-			print(I1,' scored ',score1,'/',w1,' in ',o1,' overs')
-			print(I2,' scored ',score2,'/',w2,' in ',o2,' overs')
+			print(I1,' scored ',score1,'/',w1,' in ',o1,' overs',flush=True)
+			print(I2,' scored ',score2,'/',w2,' in ',o2,' overs',flush=True)
 			print()
 			if score1>score2:
-				print(I1,' beat ',I2,' by ',(score1-score2),' runs')
+				print(I1,' beat ',I2,' by ',(score1-score2),' runs',flush=True)
 			elif score1==score2:
 				print('The match was a tie')
 			else:
-				print(I2,' beat ',I1,' by ',(10-w2),' wickets')
+				print(I2,' beat ',I1,' by ',(10-w2),' wickets',flush=True)
 			print()
 	elif A8==5:
 		import random
@@ -7811,13 +7368,11 @@ while A77>0:
 		str=''
 		str+='                     Rock Paper Scissors'
 		for k in str:
-			print(k,end='')
-			for l in range(755566):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		print()
 		print()
-		for l in range(19799999):
-			pass
+		time.sleep(1)
 		no=int(input('Enter the number of times you would like to play this game:'))
 		print()
 		p=0
@@ -7836,16 +7391,14 @@ while A77>0:
 			str=''
 			str+='You chose '
 			for k in str:
-				print(k,end='')
-				for l in range(755565):
-					pass
+				print(k,end='',flush = True)
+				time.sleep(0.03)
 			print(A.capitalize())
 			str=''
 			str+='Computer chose '
 			for k in str:
-				print(k,end='')
-				for l in range(755565):
-					pass
+				print(k,end='',flush = True)
+				time.sleep(0.03)
 			print(G.capitalize())
 			print()
 			str=''
@@ -7853,54 +7406,48 @@ while A77>0:
 				str+='You win this round!'
 				p+=1
 				for k in str:
-					print(k,end='')
-					for l in range(755565):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.03)
 				print()
 				print('You:',p,'  ','Computer:',c)
 			if A=='rock' and G=='paper':
 				str+='Computer wins this round!'
 				c+=1
 				for k in str:
-					print(k,end='')
-					for l in range(755565):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.03)
 				print()
 				print('You:',p,'  ','Computer:',c)
 			if A=='scissors' and G=='paper':
 				str+='You win this round!'
 				p+=1
 				for k in str:
-					print(k,end='')
-					for l in range(755565):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.03)
 				print()
 				print('You:',p,'  ','Computer:',c)
 			if A=='scissors' and G=='rock':
 				str+='Computer wins this round!'
 				c+=1
 				for k in str:
-					print(k,end='')
-					for l in range(755565):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.03)
 				print()
 				print('You:',p,'  ','Computer:',c)
 			if A=='paper' and G=='rock':
 				str+='You win this round!'
 				p+=1
 				for k in str:
-					print(k,end='')
-					for l in range(755565):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.03)
 				print()
 				print('You:',p,'  ','Computer:',c)
 			if A=='paper' and G=='scissors':
 				str+='Computer wins this round!'
 				c+=1
 				for k in str:
-					print(k,end='')
-					for l in range(755565):
-						pass
+					print(k,end='',flush = True)
+					time.sleep(0.03)
 				print()
 				print('You:',p,'  ','Computer:',c)
 			if A==G:
@@ -7929,13 +7476,11 @@ while A77>0:
 		str=''
 		str+='                     Hand Cricket game'
 		for k in str:
-			print(k,end='')
-			for l in range(755566):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		print()
 		print()
-		for l in range(19799999):
-						pass
+		time.sleep(1)
 		oo=input('Choose heads/tails:')
 		print()
 		ll=random.choice(e)
@@ -7943,33 +7488,27 @@ while A77>0:
 		bat1=0
 		w1=0
 		if ll==oo:
-			for l in range(19799999):
-							pass
+			time.sleep(0.5)
 			print('You have won the toss')
-			for l in range(19799999):
-									pass
+			time.sleep(0.5)
 			eda=input('Would you like to bat or bowl 1st? ')
 			if eda=='bat':
 				player=1
 				bat1=player
 				computer=0
-				for l in range(19799999):
-									pass
+				time.sleep(0.5)
 				print('You will bat first')
 			else:
 				player=0
 				bat1='computer'
 				computer=1
-				for l in range(19799999):
-									pass
+				time.sleep(0.5)
 				print('You will bowl first')
 		else:
 			tapu=random.choice(gogi)
-			for l in range(19799999):
-									pass
+			time.sleep(0.5)
 			print('Computer won the toss')
-			for l in range(19799999):
-									pass
+			time.sleep(0.5)
 			print('Computer has chosen to',tapu,'first')
 			if tapu=='bat':
 				player=0
@@ -7980,8 +7519,7 @@ while A77>0:
 				computer=0
 				bat1=player
 		print()
-		for l in range(19799999):
-									pass
+		time.sleep(0.5)
 		p=int(input('Enter no of wickets:'))
 		dupe=p
 		dupe2=dupe
@@ -7990,12 +7528,10 @@ while A77>0:
 		W=[1,2]
 		Oh=[4,5,6]
 		while p>0:
-			for l in range(19799999):
-									pass
+			time.sleep(0.5)
 			m=int(input('Enter number:'))
 			if m>6 or m<0:
-				for l in range(19799999):
-									pass
+				time.sleep(0.5)
 				print('Please enter number between 0 and 6')
 				print()
 				continue
@@ -8011,21 +7547,17 @@ while A77>0:
 			if m==f:
 				p-=1
 				w1+=1
-				for l in range(19799999):
-									pass
+				time.sleep(0.5)
 				print("Last action=",m)
 				if bat1==player:
-					for l in range(19799999):
-									pass
+					time.sleep(0.5)
 					print('You are out! Your score is ',s,'/',w1)
 				else:
-					for l in range(19799999):
-									pass
+					time.sleep(0.5)
 					print("Computer is out! Computer's score is ",s,'/',w1)
 				if p==0:
 					print()
-					for l in range(19799999):
-									pass
+					time.sleep(0.5)
 					print('Innings over, score:',s,'/',w1)
 					print()
 			else:
@@ -8033,39 +7565,31 @@ while A77>0:
 					s+=m
 				else:
 					s+=f
-				for l in range(19799999):
-									pass
+				time.sleep(0.5)
 				print("Last action=",m)
-				for l in range(19799999):
-									pass
+				time.sleep(0.5)
 				print("Opponent's action=",f)
 				if bat1==player:
-					for l in range(19799999):
-									pass
+					time.sleep(0.5)
 					print('Your score is ',s,'/',w1)
 				else:
-					for l in range(19799999):
-									pass
+					time.sleep(0.5)
 					print("Computer's score is ",s,'/',w1)
 			print()
 		q=0
 		w2=0
 		if bat1==player:
-			for l in range(19799999):
-									pass
+			time.sleep(0.5)
 			print('Computer needs ',s+1,' runs to win in ',dupe,' wickets')
 		else:
-			for l in range(19799999):
-									pass
+			time.sleep(0.5)
 			print('You need ',s+1,' runs to win in ',dupe,' wickets')
 		print()
 		while dupe>0:
-			for l in range(19799999):
-									pass
+			time.sleep(0.5)
 			m=int(input('Enter number:'))
 			if m>6 or m<0:
-				for l in range(19799999):
-									pass
+				time.sleep(0.5)
 				print('Please enter number between 0 and 6')
 				print()
 				continue
@@ -8081,20 +7605,16 @@ while A77>0:
 			if m==f:
 				dupe-=1
 				w2+=1
-				for l in range(19799999):
-									pass
+				time.sleep(0.5)
 				print("Last action=",m)
 				if bat1=='computer':
-					for l in range(19799999):
-									pass
+					time.sleep(0.5)
 					print('You are out! Your score is ',q,'/',w2)
 				if bat1!='computer':
-					for l in range(19799999):
-									pass
+					time.sleep(0.5)
 					print("Computer is out! Computer's score is ",q,'/',w2)
 				if dupe==0:
-					for l in range(19799999):
-									pass
+					time.sleep(0.5)
 					print('Innings over, score:',q,'/',w2)
 					break
 			else:
@@ -8102,88 +7622,70 @@ while A77>0:
 					q+=m
 				else:
 					q+=f
-				for l in range(19799999):
-									pass
+				time.sleep(0.5)
 				print("Last action=",m)
-				for l in range(19799999):
-									pass
+				time.sleep(0.5)
 				print("Opponent's action=",f)
 				if bat1=='computer':
-					for l in range(19799999):
-									pass
+					time.sleep(0.5)
 					print('Your score is ',q,'/',w2)
 				if bat1!='computer':
-					for l in range(19799999):
-									pass
+					time.sleep(0.5)
 					print("Computer's score is ",q,'/',w2)
 				if q>s:
 					break
 			print()
 			if bat1==player and w2!=dupe:
-				for l in range(19799999):
-									pass
+				time.sleep(0.5)
 				print('Computer needs',s-q+1,'runs to win in',dupe2-w2,'wickets')
 			else:
-				for l in range(19799999):
-									pass
+				time.sleep(0.5)
 				print('You need',s-q+1,'runs to win in',dupe2-w2,'wickets')
 			print()
 		print()
 		if bat1==player:
-			for l in range(19799999):
-									pass
+			time.sleep(0.5)
 			print('Your score:',s,'/',w1)
-			for l in range(19799999):
-									pass
+			time.sleep(0.5)
 			print("Computer's score:",q,'/',w2)
 		else:
-			for l in range(19799999):
-									pass
+			time.sleep(0.5)
 			print("Computer's score:",s,'/',w1)
-			for l in range(19799999):
-									pass
+			time.sleep(0.5)
 			print("Your score:",q,'/',w2)
 		print()
 		if bat1==player and s>q:
-			for l in range(19799999):
-									pass
+			time.sleep(0.5)
 			print('You won by',s-q,'runs')
 		if bat1==player and q>s:
-			for l in range(19799999):
-									pass
+			time.sleep(0.5)
 			print('Computer won by',dupe,'wickets')
 		if bat1=='computer' and s>q:
-			for l in range(19799999):
-									pass
+			time.sleep(0.5)
 			print('Computer won by',s-q,'runs')
 		if bat1=='computer' and q>s:
-			for l in range(19799999):
-									pass
+			time.sleep(0.5)
 			print('You won by',dupe,'wickets')
 		if (bat1=='computer' or bat1==player) and q==s:
-			for l in range(19799999):
-									pass
+			time.sleep(0.5)
 			print('It was a tie!')
 	elif A8==7:
 		import random
 		str=''
 		str+='                     Tic Tac Toe'
 		for k in str:
-			print(k,end='')
-			for l in range(1055655):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.05)
 		print()
 		print()
-		for k in range(29799999):
-						pass
+		time.sleep(0.5)
 		gk=int(input('Enter the no of times you would like to play:'))
 		print()
 		p=0
 		c=0
 		kk=1
 		while gk>0:
-			for l in range(12979999):
-				pass
+			time.sleep(0.5)
 			print()
 			print('     Round ',kk)
 			kk+=1
@@ -8273,8 +7775,7 @@ while A77>0:
 					o9=occ
 				M.remove(i)
 				J=M
-			for k in range(29799999):
-						pass
+			time.sleep(0.5)
 			print('    ','|','    ','|','    ')
 			print(v1,'|',v2,'|',v3)
 			print('━━━━━','━━━━━━','━━━━')
@@ -8362,8 +7863,7 @@ while A77>0:
 							v9='X   '
 							o9=occ
 						J.remove(g)
-					for k in range(29799999):
-						pass
+					time.sleep(0.5)
 					print('    ','|','    ','|','    ')
 					print(v1,'|',v2,'|',v3)
 					print('━━━━━','━━━━━━','━━━━')
@@ -8499,8 +7999,7 @@ while A77>0:
 						J.remove(g)
 					print()
 					print()
-					for k in range(29799999):
-						pass
+					time.sleep(0.5)
 					print('    ','|','    ','|','    ')
 					print(v1,'|',v2,'|',v3)
 					print('━━━━━','━━━━━━','━━━━')
@@ -8571,32 +8070,28 @@ while A77>0:
 		str=''
 		str+='                      Connect 4'
 		for k in str:
-			print(k,end='')
-			for l in range(755655):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.05)
 		print()
 		print()
 		str=''
 		str+='The rules of this game are:'
 		for k in str:
-			print(k,end='')
-			for l in range(755655):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.05)
 		print()
 		print()
 		str=''
 		str+='1. You have to choose column numbers between 1 and 7 and your pointer will drop in the column as far down as possible.'
 		for k in str:
-			print(k,end='')
-			for l in range(755655):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		str=''
 		print()
 		str+='2. If you are able to get 4 pointers in a row horizontally, vertically or diagonally then you win the game.'
 		for k in str:
-			print(k,end='')
-			for l in range(755655):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.05)
 		print()
 		print()
 		g=0
@@ -8606,13 +8101,11 @@ while A77>0:
 		print()
 		while mayank>0:
 			occ=''
-			for l in range(19799999):
-							pass
+			time.sleep(0.5)
 			print('                  Round ',kk)
 			print()
 			v11=v12=v13=v14=v15=v16=v21=v22=v23=v24=v25=v26=v31=v32=v33=v34=v35=v36=v41=v42=v43=v44=v45=v46=v51=v52=v53=v54=v55=v56=v61=v62=v63=v64=v65=v66=v71=v72=v73=v74=v75=v76='    '
-			for l in range(1979999):
-					pass
+			time.sleep(0.5)
 			print('   1   ','  2  ','   3   ','  4  ','   5  ','   6  ','   7  ',)
 			print(' ━━━━━━','━━━━━━','━━━━━━','━━━━━━','━━━━━━','━━━━━━','━━━━━━')
 			print('|',v11,'|',v21,'|',v31,'|',v41,'|',v51,'|',v61,'|',v71,'|')
@@ -8638,12 +8131,10 @@ while A77>0:
 			L=[1,2]
 			q=random.choice(L)
 			if q==1:
-				for l in range(1979999):
-					pass
+				time.sleep(0.5)
 				print()
 				print('You will go first')
-				for l in range(1979999):
-					pass
+				time.sleep(0.5)
 				print()
 				p=int(input('Enter column number:'))
 				if p==1:
@@ -8670,8 +8161,7 @@ while A77>0:
 			M=[1,2,3,4,5,6,7]
 			r=random.choice(M)
 			if q==2:
-				for l in range(19979999):
-					pass
+				time.sleep(0.5)
 				print()
 				print('Computer will go first')
 				if r==1:
@@ -8696,8 +8186,7 @@ while A77>0:
 					v76='  ○ '
 					o76=occ
 			print()
-			for l in range(1979999):
-					pass
+			time.sleep(0.5)
 			print('   1   ','  2  ','   3   ','  4  ','   5  ','   6  ','   7  ',)
 			print(' ━━━━━━','━━━━━━','━━━━━━','━━━━━━','━━━━━━','━━━━━━','━━━━━━')
 			print('|',v11,'|',v21,'|',v31,'|',v41,'|',v51,'|',v61,'|',v71,'|')
@@ -8725,19 +8214,16 @@ while A77>0:
 				s=1
 				while j<=41:
 					if s%2!=0:
-						for l in range(1979999):
-							pass
+						time.sleep(0.5)
 						k=int(input('Enter column number:'))
 						if k<1 or k>7:
-							for l in range(1979999):
-								pass
+							time.sleep(0.5)
 							print('Column numbers are between 1 and 7')
 							print()
 							continue
 						if k==1:
 								if o16==occ and o15==occ and o14==occ and o13==occ and o12==occ and o11==occ:
-									for l in range(1979999):
-										pass
+									time.sleep(0.5)
 									print('Column 1 is filled please try again')
 									print()
 									continue
@@ -8761,8 +8247,7 @@ while A77>0:
 									o16=occ
 						if k==2:
 								if o26==occ and o25==occ and o24==occ and o23==occ and o22==occ and o21==occ:
-									for l in range(1979999):
-										pass
+									time.sleep(0.5)
 									print('Column 2 is filled please try again')
 									print()
 									continue
@@ -8786,8 +8271,7 @@ while A77>0:
 									o26=occ
 						if k==3:
 								if o36==occ and o35==occ and o34==occ and o33==occ and o32==occ and o31==occ:
-									for l in range(1979999):
-										pass
+									time.sleep(0.5)
 									print('Column 3 is filled please try again')
 									print()
 									continue
@@ -8811,8 +8295,7 @@ while A77>0:
 									o36=occ
 						if k==4:
 								if o46==occ and o45==occ and o44==occ and o43==occ and o42==occ and o41==occ:
-									for l in range(1979999):
-										pass
+									time.sleep(0.5)
 									print('Column 4 is filled please try again')
 									print()
 									continue
@@ -8836,8 +8319,7 @@ while A77>0:
 									o46=occ
 						if k==5:
 								if o56==occ and o55==occ and o54==occ and o53==occ and o52==occ and o51==occ:
-									for l in range(1979999):
-										pass
+									time.sleep(0.5)
 									print('Column 5 is filled please try again')
 									print()
 									continue
@@ -8861,8 +8343,7 @@ while A77>0:
 									o56=occ
 						if k==6:
 								if o66==occ and o65==occ and o64==occ and o63==occ and o62==occ and o61==occ:
-									for l in range(1979999):
-										pass
+									time.sleep(0.5)
 									print('Column 6 is filled please try again')
 									print()
 									continue
@@ -8886,8 +8367,7 @@ while A77>0:
 									o66=occ
 						if k==7:
 								if o76==occ and o75==occ and o74==occ and o73==occ and o72==occ and o71==occ:
-									for l in range(1979999):
-										pass
+									time.sleep(0.5)
 									print('Column 7 is filled please try again')
 									print()
 									continue
@@ -9065,8 +8545,7 @@ while A77>0:
 							if o76!=occ:
 								v76='  ○ '
 								o76=occ
-					for l in range(19799999):
-									pass
+					time.sleep(0.5)
 					print()
 					print('   1   ','  2  ','   3   ','  4  ','   5  ','   6  ','   7  ',)
 					print(' ━━━━━━','━━━━━━','━━━━━━','━━━━━━','━━━━━━','━━━━━━','━━━━━━')
@@ -9094,8 +8573,7 @@ while A77>0:
 					s+=1
 					if (v11==v21==v31==v41 and v11!='    ') or (v21==v31==v41==v51 and v41!='    ') or (v31==v41==v51==v61 and v41!='    ') or (v41==v51==v61==v71 and v41!='    ') or (v12==v22==v32==v42 and v22!='    ') or (v22==v32==v42==v52 and v42!='    ') or (v32==v42==v52==v62 and v42!='    ') or (v42==v52==v62==v72 and v42!='    ') or (v13==v23==v33==v43 and v33!='    ') or (v23==v33==v43==v53 and v43!='    ') or (v33==v43==v53==v63 and v43!='    ') or (v43==v53==v63==v73 and v43!='    ') or (v14==v24==v34==v44 and v44!='    ') or (v24==v34==v44==v54 and v44!='    ') or (v34==v44==v54==v64 and v44!='    ') or (v44==v54==v64==v74 and v44!='    ') or (v15==v25==v35==v45 and v45!='    ') or (v25==v35==v45==v55 and v55!='    ') or (v35==v45==v55==v65 and v55!='    ') or (v45==v55==v65==v75 and v55!='    ') or (v16==v26==v36==v46 and v46!='    ') or (v26==v36==v46==v56 and v46!='    ') or (v36==v46==v56==v66 and v66!='    ') or (v46==v56==v66==v76 and v66!='    ') or (v11==v12==v13==v14 and v13!='    ') or (v12==v13==v14==v15 and v13!='    ') or (v13==v14==v15==v16 and v13!='    ') or (v21==v22==v23==v24 and v23!='    ') or (v22==v23==v24==v25 and v23!='    ') or (v23==v24==v25==v26 and v23!='    ') or (v31==v32==v33==v34 and v33!='    ') or (v32==v33==v34==v35 and v33!='    ') or (v33==v34==v35==v36 and v33!='    ') or (v41==v42==v43==v44 and v44!='    ') or (v42==v43==v44==v45 and v44!='    ') or (v43==v44==v45==v46 and v44!='    ') or (v51==v52==v53==v54 and v52!='    ') or (v52==v53==v54==v55 and v55!='    ') or (v53==v54==v55==v56 and v55!='    ') or (v61==v62==v63==v64 and v62!='    ') or (v62==v63==v64==v65 and v65!='    ') or (v63==v64==v65==v66 and v66!='    ') or (v71==v72==v73==v74 and v72!='    ') or (v72==v73==v74==v75 and v75!='    ') or (v73==v74==v75==v76 and v75!='    ') or (v11==v22==v33==v44 and v22!='    ') or (v22==v33==v44==v55 and v55!='    ') or (v33==v44==v55==v66 and v66!='    ') or (v12==v23==v34==v45 and v23!='    ') or (v23==v34==v45==v56 and v56!='    ') or (v13==v24==v35==v46 and v46!='    ') or (v21==v32==v43==v54 and v54!='    ') or (v32==v43==v54==v65 and v65!='    ') or (v43==v54==v65==v76 and v76!='    ') or (v31==v42==v53==v64 and v64!='    ') or (v42==v53==v64==v75 and v75!='    ') or (v41==v52==v63==v74 and v74!='    ') or (v16==v25==v34==v43 and v25!='    ') or (v25==v34==v43==v52 and v52!='    ') or (v34==v43==v52==v61 and v61!='    ') or (v26==v35==v44==v53 and v26!='    ') or (v35==v44==v53==v62 and v62!='    ') or (v44==v53==v62==v71 and v71!='    ') or (v36==v45==v54==v63 and v63!='    ') or (v45==v54==v63==v72 and v72!='    ') or (v46==v55==v64==v73 and v73!='    ') or (v15==v24==v33==v42 and v42!='    ') or (v24==v33==v42==v51 and v51!='    ') or (v14==v23==v32==v41 and v41!='    '):
 						print()
-						for l in range(1979999):
-									pass
+						time.sleep(0.5)
 						if v11==v21==v31==v41=='  ○ ':
 							print('Computer wins')
 							c+=1
@@ -9321,18 +8799,15 @@ while A77>0:
 				s=0
 				while j<=41:
 					if s%2!=0:
-						for l in range(1979999):
-								pass
+						time.sleep(0.5)
 						k=int(input('Enter column number:'))
 						if k<1 or k>7:
-							for l in range(1979999):
-										pass
+							time.sleep(0.5)
 							print('Column numbers are between 1 and 7')
 							print()
 							continue
 						if k==1:
-								for l in range(1979999):
-										pass
+								time.sleep(0.5)
 								if o16==occ and o15==occ and o14==occ and o13==occ and o12==occ and o11==occ:
 									print('Column 1 is filled please try again')
 									print()
@@ -9357,8 +8832,7 @@ while A77>0:
 									o16=occ
 						if k==2:
 								if o26==occ and o25==occ and o24==occ and o23==occ and o22==occ and o21==occ:
-									for l in range(1979999):
-										pass
+									time.sleep(0.5)
 									print('Column 2 is filled please try again')
 									print()
 									continue
@@ -9382,8 +8856,7 @@ while A77>0:
 									o26=occ
 						if k==3:
 								if o36==occ and o35==occ and o34==occ and o33==occ and o32==occ and o31==occ:
-									for l in range(1979999):
-										pass
+									time.sleep(0.5)
 									print('Column 3 is filled please try again')
 									print()
 									continue
@@ -9407,8 +8880,7 @@ while A77>0:
 									o36=occ
 						if k==4:
 								if o46==occ and o45==occ and o44==occ and o43==occ and o42==occ and o41==occ:
-									for l in range(1979999):
-										pass
+									time.sleep(0.5)
 									print('Column 4 is filled please try again')
 									print()
 									continue
@@ -9432,8 +8904,7 @@ while A77>0:
 									o46=occ
 						if k==5:
 								if o56==occ and o55==occ and o54==occ and o53==occ and o52==occ and o51==occ:
-									for l in range(1979999):
-										pass
+									time.sleep(0.5)
 									print('Column 5 is filled please try again')
 									print()
 									continue
@@ -9457,8 +8928,7 @@ while A77>0:
 									o56=occ
 						if k==6:
 								if o66==occ and o65==occ and o64==occ and o63==occ and o62==occ and o61==occ:
-									for l in range(1979999):
-										pass
+									time.sleep(0.5)
 									print('Column 6 is filled please try again')
 									print()
 									continue
@@ -9482,8 +8952,7 @@ while A77>0:
 									o66=occ
 						if k==7:
 								if o76==occ and o75==occ and o74==occ and o73==occ and o72==occ and o71==occ:
-									for l in range(1979999):
-										pass
+									time.sleep(0.5)
 									print('Column 7 is filled please try again')
 									print()
 									continue
@@ -9661,8 +9130,7 @@ while A77>0:
 							if o76!=occ:
 								v76='  ■ '
 								o76=occ
-					for l in range(19799999):
-									pass
+					time.sleep(0.5)
 					print()
 					print('   1   ','  2  ','   3   ','  4  ','   5  ','   6  ','   7  ',)
 					print(' ━━━━━━','━━━━━━','━━━━━━','━━━━━━','━━━━━━','━━━━━━','━━━━━━')
@@ -9690,8 +9158,7 @@ while A77>0:
 					s+=1
 					if (v11==v21==v31==v41 and v11!='    ') or (v21==v31==v41==v51 and v41!='    ') or (v31==v41==v51==v61 and v41!='    ') or (v41==v51==v61==v71 and v41!='    ') or (v12==v22==v32==v42 and v22!='    ') or (v22==v32==v42==v52 and v42!='    ') or (v32==v42==v52==v62 and v42!='    ') or (v42==v52==v62==v72 and v42!='    ') or (v13==v23==v33==v43 and v33!='    ') or (v23==v33==v43==v53 and v43!='    ') or (v33==v43==v53==v63 and v43!='    ') or (v43==v53==v63==v73 and v43!='    ') or (v14==v24==v34==v44 and v44!='    ') or (v24==v34==v44==v54 and v44!='    ') or (v34==v44==v54==v64 and v44!='    ') or (v44==v54==v64==v74 and v44!='    ') or (v15==v25==v35==v45 and v45!='    ') or (v25==v35==v45==v55 and v55!='    ') or (v35==v45==v55==v65 and v55!='    ') or (v45==v55==v65==v75 and v55!='    ') or (v16==v26==v36==v46 and v46!='    ') or (v26==v36==v46==v56 and v46!='    ') or (v36==v46==v56==v66 and v66!='    ') or (v46==v56==v66==v76 and v66!='    ') or (v11==v12==v13==v14 and v13!='    ') or (v12==v13==v14==v15 and v13!='    ') or (v13==v14==v15==v16 and v13!='    ') or (v21==v22==v23==v24 and v23!='    ') or (v22==v23==v24==v25 and v23!='    ') or (v23==v24==v25==v26 and v23!='    ') or (v31==v32==v33==v34 and v33!='    ') or (v32==v33==v34==v35 and v33!='    ') or (v33==v34==v35==v36 and v33!='    ') or (v41==v42==v43==v44 and v44!='    ') or (v42==v43==v44==v45 and v44!='    ') or (v43==v44==v45==v46 and v44!='    ') or (v51==v52==v53==v54 and v52!='    ') or (v52==v53==v54==v55 and v55!='    ') or (v53==v54==v55==v56 and v55!='    ') or (v61==v62==v63==v64 and v62!='    ') or (v62==v63==v64==v65 and v65!='    ') or (v63==v64==v65==v66 and v66!='    ') or (v71==v72==v73==v74 and v72!='    ') or (v72==v73==v74==v75 and v75!='    ') or (v73==v74==v75==v76 and v75!='    ') or (v11==v22==v33==v44 and v22!='    ') or (v22==v33==v44==v55 and v55!='    ') or (v33==v44==v55==v66 and v66!='    ') or (v12==v23==v34==v45 and v23!='    ') or (v23==v34==v45==v56 and v56!='    ') or (v13==v24==v35==v46 and v46!='    ') or (v21==v32==v43==v54 and v54!='    ') or (v32==v43==v54==v65 and v65!='    ') or (v43==v54==v65==v76 and v76!='    ') or (v31==v42==v53==v64 and v64!='    ') or (v42==v53==v64==v75 and v75!='    ') or (v41==v52==v63==v74 and v74!='    ') or (v16==v25==v34==v43 and v25!='    ') or (v25==v34==v43==v52 and v52!='    ') or (v34==v43==v52==v61 and v61!='    ') or (v26==v35==v44==v53 and v26!='    ') or (v35==v44==v53==v62 and v62!='    ') or (v44==v53==v62==v71 and v71!='    ') or (v36==v45==v54==v63 and v63!='    ') or (v45==v54==v63==v72 and v72!='    ') or (v46==v55==v64==v73 and v73!='    ') or (v15==v24==v33==v42 and v42!='    ') or (v24==v33==v42==v51 and v51!='    ') or (v14==v23==v32==v41 and v41!='    '):
 						print()
-						for l in range(1979999):
-									pass
+						time.sleep(0.5)
 						if v11==v21==v31==v41=='  ■ ':
 							print('Computer wins')
 							c+=1
@@ -10472,26 +9939,22 @@ while A77>0:
 							x=random.randint(1,75)
 						else:
 							x = random.randint(20, 50)
-					for k in range(3002222):
-						pass
+					time.sleep(0.2)
 					print(Pxi[i]+':',x)
 					D[Pxi[i]]=x
 				if Pxi[i] in Pmid:
 					y=random.randint(50,90)
-					for k in range(3002222):
-						pass
+					time.sleep(0.5)
 					print(Pxi[i]+':',y)
 					D[Pxi[i]]=y
 				if Pxi[i] in Pdef:
 					z=random.randint(75,97)
-					for k in range(3002222):
-						pass
+					time.sleep(0.5)
 					print(Pxi[i]+':',z)
 					D[Pxi[i]]=z
 				if Pxi[i] in Pgol:
 					r=random.randint(87,99)
-					for k in range(3002222):
-						pass
+					time.sleep(0.5)
 					print(Pxi[i]+':',r)
 					D[Pxi[i]]=r
 			return ''
@@ -10504,7 +9967,10 @@ while A77>0:
 			global l
 			if y in Pxi:
 				ball=player
-				print('Here are the ratings of your corner kick takers')
+				str = 'Here are the ratings of your corner kick takers'
+				for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 				print()
 				F={}
 				for i in range(len(Pxi)):
@@ -10535,17 +10001,22 @@ while A77>0:
 					break
 				print()
 				time.sleep(0.71)
-				print(cn.title()+' has crossed the ball into the box...')
+				str = cn.title()+' has crossed the ball into the box...'
+				for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+				print()
 				if random.randint(1,100)<=F[cn.title()]:
-					for k in range(3002222):
-						pass
+					time.sleep(0.5)
 					co=Pxi[random.randint(1,10)]
 					time.sleep(0.71)
-					print('and its gone to '+co+'!')
+					str = 'and its gone to '+co+'!'
+					for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 					maar=random.randint(20,87)
 					S=(maar/(maar+random.randint(20,87)))*100
-					for k in range(3002222):
-						pass
+					time.sleep(0.5)
 					print('Chances of successful shot:',(round(S,2)))
 					print()
 					while binod!=1:
@@ -10575,22 +10046,29 @@ while A77>0:
 							thala=random.randint(1,4)
 							if thala<4:
 								qw=random.choice(Cxi)
-								for k in range(3002222):
-									pass
-								print(co+' has shot this and its deflected off a diving '+Cgol[0]+' towards '+qw)
+								time.sleep(0.5)
+								str = co+' has shot this and its deflected off a diving '+Cgol[0]+' towards '+qw
+								for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 								pos=qw
 								ball=comp
 							else:
-								for k in range(3002222):
-									pass
-								print(co+' has shot this and its deflected off a diving '+Cgol[0]+' for another corner ')
+								time.sleep(0.5)
+								str = co+' has shot this and its deflected off a diving '+Cgol[0]+' for another corner '
+								for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 								ball=player
 								corner(co)
 				else:
 					ball=comp
 					pos=random.choice(Cxi)
 					time.sleep(0.71)
-					print('The ball has been intercepted by ',pos)
+					str = 'The ball has been intercepted by '+pos
+					for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 			else:
 							import random
 							c=random.randint(1,7)
@@ -10601,11 +10079,18 @@ while A77>0:
 									x=random.randint(23,72)
 									o=random.choice(Cattack)
 									if random.randint(1,100)<=x:
-										for k in range(3002222):
-											pass
-										print('The corner will be taken by '+o)
+										time.sleep(0.5)
+										str = 'The corner will be taken by '+o
+										for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 										time.sleep(0.71)
-										print(o+' has crossed the ball into the box...')
+										print()
+										str = o+' has crossed the ball into the box...'
+										for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+										print()
 										maar=random.randint(20,87)
 										S=(maar/(maar+random.randint(20,87)))*100
 										if random.randint(1,100)<=(S//1):
@@ -10621,39 +10106,60 @@ while A77>0:
 											thala=random.randint(1,4)
 											if thala<4:
 												qw=random.choice(Pxi)
-												for k in range(3002222):
-														pass
-												print(o+' has shot this and its deflected off a diving '+Pgol[0]+' towards '+qw)
+												time.sleep(0.5)
+												str = o+' has shot this and its deflected off a diving '+Pgol[0]+' towards '+qw
+												for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 												pos=qw
 												ball=player
 											else:
-												for k in range(3002222):
-														pass
-												print(o+' has shot this and its deflected off a diving '+Pgol[0]+' for another corner ')
+												time.sleep(0.5)
+												str = o+' has shot this and its deflected off a diving '+Pgol[0]+' for another corner '
+												for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 												ball=comp
 												corner(o)
+											print()
 									else:
 										time.sleep(0.71)
 										ball=player
 										pos=random.choice(Pxi)
-										print('The corner will be taken by '+random.choice(Cxi))
-										for k in range(3002222):
-											pass
-										print('The ball is crossed into the box...')
-										for k in range(3002222):
-											pass
-										print('The ball has been intercepted by ',pos)
-
+										str = 'The corner will be taken by '+random.choice(Cxi)
+										for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
+										str = 'The ball is crossed into the box...'
+										for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
+										str = 'The ball has been intercepted by ' + pos
+										for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+										print()
 								elif d==3:
 									x=random.randint(20,83)
 									o=random.choice(Cmid)
 									if random.randint(1,100)<=x:
 										time.sleep(0.71)
-										print('The corner will be taken by '+o)
-										for k in range(3002222):
-											pass
-										print(o+' has crossed the ball into the box...')
+										str = 'The corner will be taken by '+o
+										for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
+										str = o+' has crossed the ball into the box...'
+										for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 										maar=random.randint(20,87)
+										print()
 										S=(maar/(maar+random.randint(20,87)))*100
 										if random.randint(1,100)<=(S//1):
 											ball=player
@@ -10668,34 +10174,50 @@ while A77>0:
 											thala=random.randint(1,4)
 											if thala<4:
 												qw=random.choice(Pxi)
-												for k in range(3002222):
-														pass
-												print(o+' has shot this and its deflected off a diving '+Pgol[0]+' towards '+qw)
+												time.sleep(0.5)
+												str = o+' has shot this and its deflected off a diving '+Pgol[0]+' towards '+qw
+												for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 												ball=player
+												print()
 												pos=qw
 											else:
-												for k in range(3002222):
-														pass
-												print(o+' has shot this and its deflected off a diving '+Pgol[0]+' for another corner ')
+												time.sleep(0.5)
+												str = o+' has shot this and its deflected off a diving '+Pgol[0]+' for another corner '
+												for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 												ball=comp
+												print()
 												corner(o)
 									else:
 										time.sleep(0.71)
 										ball=player
 										pos=random.choice(Pxi)
-										print('The ball has been intercepted by ',pos)
+										str = 'The ball has been intercepted by '+pos
+										for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+										print()
 								else:
 									x=random.randint(13,75)
 									o=random.choice(Cdef)
 									time.sleep(0.71)
 									if random.randint(1,100)<=x:
-										for k in range(3002222):
-											pass
-										print('The corner will be taken by '+o)
-										for k in range(3002222):
-											pass
-										print(o+' has crossed the ball into the box...')
+										time.sleep(0.5)
+										str = 'The corner will be taken by '+o
+										for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
+										str = o+' has crossed the ball into the box...'
+										for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 										maar=random.randint(20,87)
+										print()
 										S=(maar/(maar+random.randint(20,87)))*100
 										if random.randint(1,100)<=(S//1):
 											ball=player
@@ -10704,42 +10226,61 @@ while A77>0:
 											Cg[l]=o
 											time.sleep(0.71)
 											golo(o)
-											for k in range(3002222):
-																	pass
-											print(player,goals[0],'-',goals[1],comp)
+											time.sleep(0.5)
+											str = player+' '+goals[0]+' - '+goals[1]+' '+comp
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 										else:
 											time.sleep(0.71)
 											thala=random.randint(1,4)
 											if thala<4:
 												qw=random.choice(Pxi)
-												for k in range(3002222):
-														pass
-												print(o+' has shot this and its deflected off a diving '+Pgol[0]+' towards '+qw)
+												time.sleep(0.5)
+												str = o+' has shot this and its deflected off a diving '+Pgol[0]+' towards '+qw
+												for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 												pos=qw
 												ball=player
+												print()
 											else:
-												for k in range(3002222):
-														pass
-												print(o+' has shot this and its deflected off a diving '+Pgol[0]+' for another corner ')
+												time.sleep(0.5)
+												str = o+' has shot this and its deflected off a diving '+Pgol[0]+' for another corner '
+												for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+												print()
 												ball=comp
 												corner(o)
+												
 									else:
 										time.sleep(0.71)
 										ball=player
 										pos=random.choice(Pxi)
-										print('The ball has been intercepted by ',pos)
+										str = 'The ball has been intercepted by '+ pos
+										for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+										print()
 							else:
 									x=random.randint(1,20)
 									time.sleep(0.71)
 									o=random.choice(Cgol)
 									if random.randint(1,100)<=x:
-										for k in range(3002222):
-											pass
-										print('The corner will be taken by '+o)
-										for k in range(3002222):
-											pass
-										print(o+' has crossed the ball into the box...')
+										time.sleep(0.5)
+										str = 'The corner will be taken by '+o
+										for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
+										str = o+' has crossed the ball into the box...'
+										for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 										maar=random.randint(20,87)
+										print()
 										S=(maar/(maar+random.randint(20,87)))*100
 										if random.randint(1,100)<=(S//1):
 											ball=player
@@ -10748,38 +10289,52 @@ while A77>0:
 											Cg[l]=o
 											time.sleep(0.71)
 											golo(o)
-											for k in range(3002222):
-																	pass
+											time.sleep(0.5)
 											print(player,goals[0],'-',goals[1],comp)
 										else:
 											time.sleep(0.71)
 											thala=random.randint(1,4)
 											if thala<4:
 												qw=random.choice(Pxi)
-												for k in range(3002222):
-														pass
-												print(o+' has shot this and its deflected off a diving '+Pgol[0]+' towards '+qw)
+												time.sleep(0.5)
+												str = o+' has shot this and its deflected off a diving '+Pgol[0]+' towards '+qw
+												for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 												pos=qw
 												ball=player
+												print()
 											else:
-												for k in range(3002222):
-														pass
-												print(o+' has shot this and its deflected off a diving '+Pgol[0]+' for another corner ')
+												time.sleep(0.5)
+												str = o+' has shot this and its deflected off a diving '+Pgol[0]+' for another corner '
+												for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 												ball=comp
+												print()
 												corner(o)
 									else:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										ball=player
 										pos=random.choice(Pxi)
 										time.sleep(0.71)
-										print('The corner will be taken by '+o)
-										for k in range(3002222):
-											pass
-										print(o+' has crossed the ball into the box...')
-										for k in range(3002222):
-											pass
-										print('The ball has been intercepted by ',pos)
+										str = 'The corner will be taken by '+o
+										for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
+										str = o+' has crossed the ball into the box...'
+										for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
+										str = 'The ball has been intercepted by '+pos
+										for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+										print()
 			return ''
 				
 		def penalty(x):
@@ -10793,12 +10348,10 @@ while A77>0:
 						print()
 						time.sleep(0.71)
 						if x in Pxi:
-							for k in range(3002222):
-								pass
+							time.sleep(0.5)
 							xp=random.choice(Cxi)
 						else:
-							for k in range(3002222):
-								pass
+							time.sleep(0.5)
 							xp=random.choice(Pxi)
 						anm=[("Oh, calamity strikes in the penalty area! A mistimed tackle, a desperate lunge, and the referee doesn't hesitate to point to the spot. The defending team now faces the music."),
 
@@ -10824,31 +10377,31 @@ while A77>0:
 						ae=random.randint(0,9)
 						av=anm[ae]
 						for i in av:
+							time.sleep(0.02)
 							print(i,flush=True,end='')
 						print()
 						if x in Pxi:
-							for k in range(3002222):
-								pass
+							time.sleep(0.5)
 							print('Here are the following conversion rates of your players')
 							print()
 							F={}
 							for i in range(len(Pxi)):
-										if Pxi[i] in Pattack:
-											x=random.randint(53,82)
-											print(Pxi[i]+':',x)
-											F[Pxi[i]]=x
-										if Pxi[i] in Pmid:
-											y=random.randint(50,70)
-											print(Pxi[i]+':',y)
-											F[Pxi[i]]=y
-										if Pxi[i] in Pdef:
-											z=random.randint(40,55)
-											print(Pxi[i]+':',z)
-											F[Pxi[i]]=z
-										if Pxi[i] in Pgol:
-											r=random.randint(1,10)
-											print(Pxi[i]+':',r)
-											F[Pxi[i]]=r
+								if Pxi[i] in Pattack:
+									x=random.randint(53,82)
+									print(Pxi[i]+':',x)
+									F[Pxi[i]]=x
+								if Pxi[i] in Pmid:
+									y=random.randint(50,70)
+									print(Pxi[i]+':',y)
+									F[Pxi[i]]=y
+								if Pxi[i] in Pdef:
+									z=random.randint(40,55)
+									print(Pxi[i]+':',z)
+									F[Pxi[i]]=z
+								if Pxi[i] in Pgol:
+									r=random.randint(1,10)
+									print(Pxi[i]+':',r)
+									F[Pxi[i]]=r
 							print()
 							while binod!=1:
 								fk=input('Enter the player you would like to take the penalty:')
@@ -10861,49 +10414,53 @@ while A77>0:
 							time.sleep(0.71)
 							global ball
 							if random.randint(1,100)<=F[fk.title()]:
-								for k in range(3002222):
-									pass
-								print(fk.title()+' has shot the ball towards '+Cgol[0]+'...')
-								for k in range(3002222):
-									pass
+								time.sleep(0.5)
+								str = fk.title()+' has shot the ball towards '+Cgol[0]+'...'
+								for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+								time.sleep(0.5)
 								time.sleep(0.71)
 								fk=fk.title()
 								golo(fk)
 								pos=random.choice(Cmid)
 								goals[0]+=1
 								Pg[l]=fk.title()
-								for k in range(3002222):
-														pass
+								time.sleep(0.5)
 								print(player,goals[0],'-',goals[1],comp)
 								ball=comp
 							else:
-								for k in range(3002222):
-									pass
-								print(fk.title()+' has shot the ball towards '+Cgol[0]+'...')
-								for k in range(3002222):
-									pass
+								time.sleep(0.5)
+								str = fk.title()+' has shot the ball towards '+Cgol[0]+'...'
+								for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+								time.sleep(0.5)
 								time.sleep(0.71)
 								con=random.randint(1,3)
 								print()
 								if con==1:
-									for k in range(3002222):
-														pass
+									time.sleep(0.5)
 									ball=comp
 									pos=Cgol[0]
 									save(pos)
 								elif con==2:
-									for k in range(3002222):
-														pass
+									time.sleep(0.5)
 									time.sleep(0.71)
-									print('He has saved it and it has gone for a corner!')
+									str = 'He has saved it and it has gone for a corner!'
+									for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 									ball=player
 									corner(fk.title())
 								else:
 									kem=random.choice(Cdef)
-									for k in range(3002222):
-														pass
+									time.sleep(0.5)
 									time.sleep(0.71)
-									print('He has saved it and it is deflected towards '+kem)
+									str = 'He has saved it and it is deflected towards '+kem
+									for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 									ball=comp
 									pos=kem
 						else:
@@ -10915,12 +10472,13 @@ while A77>0:
 									x=random.randint(33,52)
 									o=random.choice(Cattack)
 									if random.randint(1,100)<=x:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The penalty will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The penalty will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
 										time.sleep(0.71)
 										golo(o)
 										pos=random.choice(Pmid)
@@ -10929,44 +10487,51 @@ while A77>0:
 										goals[1]+=1
 										print(player,goals[0],'-',goals[1],comp)
 									else:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The penalty will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The penalty will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
 										con=random.randint(1,3)
 										time.sleep(0.71)
 										if con==1:
-											for k in range(3002222):
-														pass
+											time.sleep(0.5)
 											ball=player
 											pos=Pgol[0]
 											save(pos)
 										elif con==2:
-											for k in range(3002222):
-														pass
-											print(o+' goes for goal and it is deflected away for a corner')
+											time.sleep(0.5)
+											str = o+' goes for goal and it is deflected away for a corner'
+											for k in str:
+												time.sleep(0.02)
+												print(k, end = '', flush = True)
 											ball=comp
+											print()
 											corner(o)
 										else:
-											for k in range(3002222):
-														pass
+											time.sleep(0.5)
 											kem=random.choice(Pdef)
-											print(o+' goes for goal and it is deflected away towards '+kem)
+											str = o+' goes for goal and it is deflected away towards '+kem
+											for k in str:
+												time.sleep(0.02)
+												print(k, end = '', flush = True)
 											ball=player
+											print()
 											pos=kem
 
 								elif d==3:
 									x=random.randint(40,62)
 									o=random.choice(Cmid)
 									if random.randint(1,100)<=x:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The penalty will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The penalty will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
 										time.sleep(0.71)
 										golo(o)
 										pos=random.choice(Pmid)
@@ -10975,45 +10540,52 @@ while A77>0:
 										Cg[l]=o
 										print(player,goals[0],'-',goals[1],comp)
 									else:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The penalty will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The penalty will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
 										con=random.randint(1,3)
 										if con==1:
-											for k in range(3002222):
-														pass
+											time.sleep(0.5)
 											time.sleep(0.71)
 											ball=player
 											pos=Pgol[0]
 											save(pos)
 										elif con==2:
 											time.sleep(0.71)
-											for k in range(3002222):
-														pass
-											print(o+' goes for goal and it is deflected away for a corner')
+											time.sleep(0.5)
+											str = o+' goes for goal and it is deflected away for a corner'
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=comp
+											print()
 											corner(o)
 										else:
 											time.sleep(0.71)
-											for k in range(3002222):
-														pass
+											time.sleep(0.5)
 											kem=random.choice(Pdef)
-											print(o+' goes for goal and it is deflected away towards '+kem)
+											str = o+' goes for goal and it is deflected away towards '+kem
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=player
+											print()
 											pos=kem
 								else:
 									x=random.randint(10,20)
 									o=random.choice(Cdef)
 									if random.randint(1,100)<=x:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The penalty will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The penalty will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
 										time.sleep(0.71)
 										golo(o)
 										pos=random.choice(Pmid)
@@ -11022,45 +10594,52 @@ while A77>0:
 										goals[1]+=1
 										print(player,goals[0],'-',goals[1],comp)
 									else:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The penalty will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The penalty will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
 										con=random.randint(1,3)
 										if con==1:
-											for k in range(3002222):
-														pass
+											time.sleep(0.5)
 											time.sleep(0.71)
 											ball=player
 											pos=Pgol[0]
 											save(pos)
 										elif con==2:
 											time.sleep(0.71)
-											for k in range(3002222):
-														pass
-											print(o+' goes for goal and it is deflected away for a corner')
+											time.sleep(0.5)
+											str = o+' goes for goal and it is deflected away for a corner'
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=comp
+											print()
 											corner(o)
 										else:
 											kem=random.choice(Pdef)
-											for k in range(3002222):
-														pass
+											time.sleep(0.5)
 											time.sleep(0.71)
-											print(o+' goes for goal and it is deflected away towards '+kem)
+											str = o+' goes for goal and it is deflected away towards '+kem
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=player
+											print()
 											pos=kem
 							else:
 									x=random.randint(1,15)
 									o=random.choice(Cgol)
 									if random.randint(1,100)<=x:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The penalty will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The penalty will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
 										time.sleep(0.71)
 										golo(o)
 										pos=random.choice(Pmid)
@@ -11069,51 +10648,46 @@ while A77>0:
 										Cg[l]=o
 										print(player,goals[0],'-',goals[1],comp)
 									else:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The penalty will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The penalty will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
 										con=random.randint(1,3)
 										time.sleep(0.71)
 										if con==1:
-											for k in range(3002222):
-														pass
+											time.sleep(0.5)
 											ball=player
 											pos=Pgol[0]
 											save(pos)
 										elif con==2:
-											for k in range(3002222):
-														pass
-											print(o+' goes for goal and it is deflected away for a corner')
+											time.sleep(0.5)
+											str = o+' goes for goal and it is deflected away for a corner'
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=comp
+											print()
 											corner(o)
 										else:
-											for k in range(3002222):
-														pass
+											time.sleep(0.5)
 											kem=random.choice(Pdef)
-											print(o+' goes for goal and it is deflected away towards '+kem)
+											str = o+' goes for goal and it is deflected away towards '+kem
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=player
+											print()
 											pos=kem
 						return ''
+		time.sleep(0.5)
 		print()
-		for k in range(102222):
-														pass
-		print('                            Football Game')
-		print()
-		for k in range(102222):
-														pass
-		print('1. Man City vs Arsenal')
-		for k in range(102222):
-														pass
-		print('2. Custom Teams')
-		print('3. UEFA Champions League 2023-24')
-		print('4. FIFA World Cup 2022')
-		print('5. Euros 2024')
-		print('6. Premier League 2024-2025')
-		print('7. FIFA World Cup 2026 Qualifiers and Tournament')
-		print()
+		str = "                            Football Game\n\n\n1. Man City vs Arsenal\n2. Custom Teams\n3. UEFA Champions League 2023-24\n4. FIFA World Cup 2022\n5. Euros 2024\n6. Premier League 2024-2025\n7. FIFA World Cup 2026 Qualifiers and Tournament\n\n"
+		for k in str:
+			time.sleep(0.02)
+			print(k,end = '', flush = True)
 		def MATCH(region = 'a',stage = 'b', match = 'c'):
 			global Pxi
 			global Pattack
@@ -11129,6 +10703,7 @@ while A77>0:
 			global Pmid
 			global j
 			global goa
+			global l
 			global Cattack
 			global binod
 			global Cdef
@@ -11148,26 +10723,22 @@ while A77>0:
 				print()
 				print('             ',end='')
 				print(Shirt3('         '))
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('          '+b[0]+'                '+b[1]+'                    '+b[2])
 				print('             ',end='')
 				print(Shirt3('         '))
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('            '+c[0]+'                  '+c[1]+'                 '+c[2])
 				print('',end='')
 				print(Shirt4('                 '))
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('  '+d[0]+'              '+d[1]+'               '+d[2]+'                  '+d[3])
 				print('                                  ',end='')
 				print(Tshirt('                                  '))
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('                                   '+e[0])
 				print()
@@ -11184,20 +10755,17 @@ while A77>0:
 				time.sleep(0.71)
 				print('                        '+b[0]+'              '+b[1])
 				print(Shirt4('                 '))
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('     '+c[0]+'              '+c[1]+'               '+c[2]+'                  '+c[3])
 				print('',end='')
 				print(Shirt4('                 '))
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('    '+d[0]+'              '+d[1]+'               '+d[2]+'                  '+d[3])
 				print('                                  ',end='')
 				print(Tshirt('                                  '))
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('                                    '+e[0])
 				print()
@@ -11209,26 +10777,22 @@ while A77>0:
 				print()
 				print('             ',end='')
 				print(Shirt3('         '))
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('          '+b[0]+'                '+b[1]+'                    '+b[2])
 				print('',end='')
 				print(Shirt4('                '))
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('    '+c[0]+'                 '+c[1]+'                 '+c[2]+'               '+c[3])
 				print('             ',end='')
 				print(Shirt3('         '))
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('          '+d[0]+'                '+d[1]+'                   '+d[2])
 				print('                                  ',end='')
 				print(Tshirt('                                  '))
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('                                   '+e[0])
 				print()
@@ -11242,8 +10806,7 @@ while A77>0:
 				print('                         /   \                /   \  ')
 				print('                          | |                  | |   ')
 				print()
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('                      '+b[0]+'                '+b[1])
 				print('',end='')
@@ -11251,20 +10814,17 @@ while A77>0:
 				print('    /   \             /   \         /   \          /   \        /   \  ')
 				print('     | |               | |           | |            | |          | |   ')
 				print()
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('  '+c[0]+'              '+c[1]+'        '+c[2]+'       '+c[3]+'       '+c[4])
 				print('             ',end='')
 				print(Shirt3('         '))
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('          '+d[0]+'                '+d[1]+'                   '+d[2])
 				print('                                  ',end='')
 				print(Tshirt('                                  '))
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('                                   '+e[0])
 				print()
@@ -11277,21 +10837,18 @@ while A77>0:
 				print('                          ___                  ___   ')
 				print('                         /   \                /   \  ')
 				print('                          | |                  | |   ')
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print()
 				print('                      '+b[0]+'                '+b[1])
 				print('',end='')
 				print('            ',end='')
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('',end='')
 				print(Shirt3('        '))
 				print('            '+c[0]+'                  '+c[1]+'           '+c[2])
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('     ___               ___           ___            ___          ___   ')
 				print('    /   \             /   \         /   \          /   \        /   \  ')
@@ -11299,8 +10856,7 @@ while A77>0:
 				print()
 				print('   '+d[0]+'           '+d[1]+'         '+d[2]+'          '+d[3]+'        '+d[4])
 				print('                                  ',end='')
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print(Tshirt('                                  '))
 				print('                                   '+e[0])
@@ -11312,13 +10868,11 @@ while A77>0:
 				print()
 				print()
 				print(Shirt4('                 '))
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('     '+b[0]+'              '+b[1]+'               '+b[2]+'                  '+b[3])
 				print('',end='')
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				print('                        ___                            ___   ')
 				print('                       /   \                          /   \  ')
 				print('                        | |                            | |   ')
@@ -11327,14 +10881,12 @@ while A77>0:
 				print('                        '+c[0]+'                     '+c[1])
 				print('',end='')
 				print(Shirt4('                 '))
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('    '+d[0]+'              '+d[1]+'               '+d[2]+'                  '+d[3])
 				print('                                  ',end='')
 				print(Tshirt('                                  '))
-				for k in range(3002222):
-					pass
+				time.sleep(0.5)
 				time.sleep(0.71)
 				print('                                    '+e[0])
 				print()
@@ -11372,7 +10924,10 @@ while A77>0:
 				if oncom!=offcom:
 					break
 			print()
-			print("Our commentators for today's coverage are "+oncom+' and '+offcom)
+			str = "Our commentators for today's coverage are "+oncom+' and '+offcom
+			for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 			print()
 			q3=random.randint(1,10)
 			q4=random.randint(1,6)
@@ -11384,8 +10939,7 @@ while A77>0:
 						break
 					if l==91+q4 and q3!=0:
 						print()
-						for k in range(3002222):
-							pass
+						time.sleep(0.5)
 						time.sleep(0.71)
 						print('Extra added time:',q3,' mins')
 						print()
@@ -11394,44 +10948,37 @@ while A77>0:
 						print('45+',(l-45),end="'")
 					print()
 					if (l<46 or (l>45+q4)) and l<91+q4:
-						for k in range(3002222):
-							pass
+						time.sleep(0.5)
 						if l<46:
 							print(l,end="'")
 						if l>45+q4 and l<91+q4:
 							print(l-q4,end="'")
 					if l>90+q4:
-						for k in range(3002222):
-							pass
+						time.sleep(0.5)
 						print('90+',(l-90-q4),end="'")
 					print()
 					if l==45 and q4!=1:
 						print()
-						for k in range(3002222):
-							pass
+						time.sleep(0.5)
 						time.sleep(0.71)
 						print('Extra added time:',q4-1,' mins')
 						print()
 					if l==45+q4:
 						print()
-						for k in range(3002222):
-							pass
+						time.sleep(0.5)
 						print('Half Time!')
 						print()
-						for k in range(3002222):
-							pass
+						time.sleep(0.5)
 						time.sleep(0.71)
 						print(player,goals[0],'-',goals[1],comp)
 						print()
 						for i in Pg:
-							for k in range(3002222):
-								pass
+							time.sleep(0.5)
 							print(i,"'  ",Pg[i],end='\n')
 							time.sleep(0.71)
 						print()
 						for i in Cg:
-							for k in range(3002222):
-								pass
+							time.sleep(0.5)
 							print(i,"'  ",Cg[i],end='\n')
 							time.sleep(0.71)
 						if toss==1:
@@ -11442,8 +10989,7 @@ while A77>0:
 							pos=random.choice(Pmid)
 					print()
 					if l==0:
-						for k in range(3002222):
-							pass
+						time.sleep(0.5)
 						time.sleep(0.71)
 						if aryan!='3':
 							print('Its time for the kickoff of this high octane game between '+player+' and '+comp)
@@ -11451,15 +10997,19 @@ while A77>0:
 							print('Welcome to the kickoff of this huge encounter between '+player+' and '+comp+' at '+venue)
 						toss=random.randint(1,2)
 						if toss==1:
-							for k in range(3002222):
-								pass
-							print(player+' have won the coin flip and will have possession')
+							time.sleep(0.5)
+							str = player+' have won the coin flip and will have possession'
+							for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 							pos=random.choice(Pmid)
 							ball=player
 						else:
-							for k in range(3002222):
-								pass
-							print(comp+' have won the coin flip and will have possession')
+							time.sleep(0.5)
+							str = comp+' have won the coin flip and will have possession'
+							for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 							pos=random.choice(Cmid)
 							ball=comp
 						print()
@@ -11471,12 +11021,10 @@ while A77>0:
 					elif dec>=62 and dec<=63:
 						time.sleep(0.71)
 						if pos.title() in Cxi:
-							for k in range(3002222):
-											pass
+							time.sleep(0.5)
 							xp=random.choice(Pdef)
 						else:
-							for k in range(3002222):
-											pass
+							time.sleep(0.5)
 							xp=random.choice(Cdef)
 						anm=[("Oh, a thunderous challenge echoes through the stadium, leaving the referee with no choice but to award a free-kick. "+xp+", caught in the heat of the moment, will now face the consequences."),
 
@@ -11501,39 +11049,35 @@ while A77>0:
 						ae=random.randint(0,9)
 						av=anm[ae]
 						for i in av:
+							time.sleep(0.02)
 							print(i,flush=True,end='')
 						print()
 						if pos.title() in Pxi:
-							for k in range(3002222):
-											pass
+							time.sleep(0.5)
 							print('Here are the following conversion rates of your players')
 							print()
 							F={}
 							for i in range(len(Pxi)):
-										if Pxi[i] in Pattack:
-											x=random.randint(33,52)
-											for k in range(3002222):
-												pass
-											print(Pxi[i]+':',x)
-											F[Pxi[i]]=x
-										if Pxi[i] in Pmid:
-											y=random.randint(25,62)
-											for k in range(3002222):
-												pass
-											print(Pxi[i]+':',y)
-											F[Pxi[i]]=y
-										if Pxi[i] in Pdef:
-											z=random.randint(10,20)
-											for k in range(3002222):
-												pass
-											print(Pxi[i]+':',z)
-											F[Pxi[i]]=z
-										if Pxi[i] in Pgol:
-											r=random.randint(1,10)
-											for k in range(3002222):
-												pass
-											print(Pxi[i]+':',r)
-											F[Pxi[i]]=r
+								if Pxi[i] in Pattack:
+									x=random.randint(33,52)
+									time.sleep(0.5)
+									print(Pxi[i]+':',x)
+									F[Pxi[i]]=x
+								if Pxi[i] in Pmid:
+									y=random.randint(25,62)
+									time.sleep(0.5)
+									print(Pxi[i]+':',y)
+									F[Pxi[i]]=y
+								if Pxi[i] in Pdef:
+									z=random.randint(10,20)
+									time.sleep(0.5)
+									print(Pxi[i]+':',z)
+									F[Pxi[i]]=z
+								if Pxi[i] in Pgol:
+									r=random.randint(1,10)
+									time.sleep(0.5)
+									print(Pxi[i]+':',r)
+									F[Pxi[i]]=r
 							print()
 							import random
 							while binod!=1:
@@ -11546,12 +11090,10 @@ while A77>0:
 							binod=7
 							print()
 							if random.randint(1,100)<=F[fk.title()]:
-								for k in range(3002222):
-											pass
+								time.sleep(0.5)
 								time.sleep(0.71)
 								print(fk.title()+' has shot the ball towards '+Cgol[0]+'...')
-								for k in range(3002222):
-											pass
+								time.sleep(0.5)
 								time.sleep(0.71)
 								fk=fk.title()
 								golo(fk)
@@ -11562,32 +11104,38 @@ while A77>0:
 								print(player,goals[0],'-',goals[1],comp)
 							else:
 								time.sleep(0.71)
-								for k in range(3002222):
-											pass
-								print(fk.title()+' has shot the ball towards '+Cgol[0]+'...')
-								for k in range(3002222):
-											pass
+								time.sleep(0.5)
+								str = fk.title()+' has shot the ball towards '+Cgol[0]+'...'
+								for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+								time.sleep(0.5)
 								con=random.randint(1,3)
 								time.sleep(0.71)
 								if con==1:
-									for k in range(3002222):
-										pass
+									time.sleep(0.5)
 									
 									save(Cgol[0])
 									ball=comp
 									pos=Cgol[0]
 								elif con==2:
-									for k in range(3002222):
-										pass
-									print('And it is deflected away for a corner')
+									time.sleep(0.5)
+									str = 'And it is deflected away for a corner'
+									for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 									ball=player
+									print()
 									corner(fk.title())
 								else:
-									for k in range(3002222):
-										pass
+									time.sleep(0.5)
 									kem=random.choice(Cdef)
-									print('And it is deflected away towards '+kem)
+									str = 'And it is deflected away towards '+kem
+									for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 									ball=comp
+									print()
 									pos=kem
 						else:
 							import random
@@ -11598,12 +11146,14 @@ while A77>0:
 									x=random.randint(33,52)
 									o=random.choice(Cattack)
 									if random.randint(1,100)<=x:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The free kick will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The free kick will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
 										time.sleep(0.71)
 										golo(o)
 										pos=random.choice(Pmid)
@@ -11613,43 +11163,52 @@ while A77>0:
 										print(player,goals[0],'-',goals[1],comp)
 									else:
 										time.sleep(0.71)
-										for k in range(3002222):
-											pass
-										print('The free kick will be taken by '+o)
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
+										str = 'The free kick will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
 										con=random.randint(1,3)
+										print()
 										time.sleep(0.71)
 										if con==1:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											ball=player
 											pos=Pgol[0]
 											save(pos)
 										elif con==2:
-											for k in range(3002222):
-												pass
-											print(o+' goes for goal and it is deflected away for a corner')
+											time.sleep(0.5)
+											str = o+' goes for goal and it is deflected away for a corner'
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=comp
+											print()
 											corner(o)
 										else:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											kem=random.choice(Pdef)
-											print(o+' goes for goal and it is deflected away towards '+kem)
+											str = o+' goes for goal and it is deflected away towards '+kem
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=player
+											print()
 											pos=kem
 								elif d==3:
 									x=random.randint(40,62)
 									o=random.choice(Cmid)
 									if random.randint(1,100)<=x:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The free kick will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The free kick will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
 										time.sleep(0.71)
+										print()
 										golo(o)
 										pos=random.choice(Pmid)
 										ball=player
@@ -11658,42 +11217,51 @@ while A77>0:
 										print(player,goals[0],'-',goals[1],comp)
 									else:
 										time.sleep(0.71)
-										for k in range(3002222):
-											pass
-										print('The free kick will be taken by '+o)
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
+										str = 'The free kick will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
 										con=random.randint(1,3)
 										time.sleep(0.71)
 										if con==1:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											ball=player
 											pos=Pgol[0]
 											save(pos)
 										elif con==2:
-											for k in range(3002222):
-												pass
-											print(o+' goes for goal and it is deflected away for a corner')
+											time.sleep(0.5)
+											str = o+' goes for goal and it is deflected away for a corner'
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=comp
+											print()
 											corner(o)
 										else:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											kem=random.choice(Pdef)
-											print(o+' goes for goal and it is deflected away towards '+kem)
+											str = o+' goes for goal and it is deflected away towards '+kem
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=player
 											pos=kem
+											print()
 								else:
 									x=random.randint(10,20)
 									o=random.choice(Cdef)
 									if random.randint(1,100)<=x:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The free kick will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The free kick will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
 										time.sleep(0.71)
 										golo(o)
 										pos=random.choice(Pmid)
@@ -11704,42 +11272,51 @@ while A77>0:
 										time.sleep(0.71)
 									else:
 										time.sleep(0.71)
-										for k in range(3002222):
-											pass
-										print('The free kick will be taken by '+o)
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
+										str = 'The free kick will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
 										con=random.randint(1,3)
 										time.sleep(0.71)
 										if con==1:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											ball=player
 											pos=Pgol[0]
 											save(pos)
 										elif con==2:
-											for k in range(3002222):
-												pass
-											print(o+' goes for goal and it is deflected away for a corner')
+											time.sleep(0.5)
+											str = o+' goes for goal and it is deflected away for a corner'
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=comp
+											print()
 											corner(o)
 										else:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											kem=random.choice(Pdef)
-											print(o+' goes for goal and it is deflected away towards '+kem)
+											str = o+' goes for goal and it is deflected away towards '+kem
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=player
 											pos=kem
+											print()
 							else:
 									x=random.randint(1,10)
 									o=random.choice(Cgol)
 									if random.randint(1,100)<=x:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The free kick will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The free kick will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
 										time.sleep(0.71)
 										golo(o)
 										pos=random.choice(Pmid)
@@ -11749,41 +11326,46 @@ while A77>0:
 										print(player,goals[0],'-',goals[1],comp)
 										time.sleep(0.71)
 									else:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The free kick will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The free kick will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
 										con=random.randint(1,3)
 										time.sleep(0.71)
 										if con==1:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											ball=player
 											pos=Pgol[0]
 											save(pos)
 										elif con==2:
-											for k in range(3002222):
-												pass
-											print(o+' goes for goal and it is deflected away for a corner')
+											time.sleep(0.5)
+											str = o+' goes for goal and it is deflected away for a corner'
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=comp
+											print()
 											corner(o)
 										else:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											kem=random.choice(Pdef)
-											print(o+' goes for goal and it is deflected away towards '+kem)
+											str = o+' goes for goal and it is deflected away towards '+kem
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=player
+											print()
 											pos=kem
 									
 					elif dec<54:
 						if ball==player:
-							for k in range(3002222):
-											pass
+							time.sleep(0.5)
 							if pos.title() in Pattack:
-								for k in range(3002222):
-											pass
+								time.sleep(0.5)
 								time.sleep(0.71)
 								print('The ball is with '+pos.title()+' and '+random.choice(Cdef)+' is trying to steal the ball ')
 								print()
@@ -11792,8 +11374,7 @@ while A77>0:
 								R=(bhaag/(bhaag+random.randint(25,87)))*100
 								maar=random.randint(20,87)
 								S=(maar/(maar+random.randint(20,87)))*100
-								for k in range(3002222):
-											pass
+								time.sleep(0.5)
 								print('Chances of succesful shot:',(round(S,2)))
 								while binod!=1:
 									choice=input('Would you like '+pos.title()+' to pass or shoot? [Enter Pass/Shoot]:')
@@ -11807,45 +11388,54 @@ while A77>0:
 								if choice.lower()=='shoot':
 									if random.randint(1,100)<=(S//1):
 										time.sleep(0.71)
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										pos=pos.title()
 										golo(pos)
 										goals[0]+=1
-										print(player,goals[0],'-',goals[1],comp)
+										str = player+' '+goals[0]+' - '+goals[1]+' '+comp
+										for k in str:
+														time.sleep(0.02)
+														print(k, end = '', flush = True)
 										time.sleep(0.71)
 										print()
 										Pg[l]=pos.title()
 										ball=comp
 										pos=random.choice(Cmid)
 									else:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										con=random.randint(1,3)
 										time.sleep(0.71)
 										if con==1:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											ball=comp
 											pos=Cgol[0]
 											save(pos)
 										elif con==2:
-											for k in range(3002222):
-												pass
-											print(pos.title()+' goes for goal and it is deflected away for a corner')
+											time.sleep(0.5)
+											str = pos.title()+' goes for goal and it is deflected away for a corner'
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=player
+											print()
 											corner(pos.title())
 										else:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											kem=random.choice(Cdef)
-											print(pos.title()+' goes for goal and it is deflected away towards '+kem)
+											str = pos.title()+' goes for goal and it is deflected away towards '+kem
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=comp
+											print()
 											pos=kem
 										print()
-							print('The ball is with '+pos.title())
-							for k in range(3002222):
-											pass
+							str = 'The ball is with '+pos.title()
+							for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+							print()
+							time.sleep(0.5)
 							if pos.title() not in Pxi:
 								ball=comp
 							if pos.title() not in Cxi:
@@ -11865,12 +11455,14 @@ while A77>0:
 								print(oncom+': ',end='')
 								if random.randint(1,100)<=D[Pass.title()]:
 									time.sleep(0.71)
-									for k in range(3002222):
-												pass
-									print(pos.title()+' has passed the ball towards '+Pass.title()+'...')
-									for k in range(3002222):
-												pass
+									time.sleep(0.5)
+									str = pos.title()+' has passed the ball towards '+Pass.title()+'...'
+									for k in str:
+										time.sleep(0.02)
+										print(k, end = '', flush = True)
+									time.sleep(0.5)
 									time.sleep(0.71)
+									print()
 									if Pass.title() in Pattack:
 										jh=random.choice(Cdef)
 									elif Pass.title() in Pmid:
@@ -11883,20 +11475,25 @@ while A77>0:
 									print()
 									pos=Pass
 								else:
-									for k in range(3002222):
-												pass
+									time.sleep(0.5)
 									time.sleep(0.71)
-									print(pos.title()+' has passed the ball towards '+Pass.title()+'...')
+									str = pos.title()+' has passed the ball towards '+Pass.title()+'...'
+									for k in str:
+										time.sleep(0.02)
+										print(k, end = '', flush = True)
 									time.sleep(0.71)
+									print()
 									if Pass.title() in Pattack:
 										z=random.choice(Cdef)
 									elif Pass.title() in Pmid:
 										z=random.choice(Cmid)
 									else:
 										z=random.choice(Cattack)
-										print(z+' tries to make an interception and '+player+' have lost possession at a dangerous position')
-									for k in range(3002222):
-												pass
+										str = z+' tries to make an interception and '+player+' have lost possession at a dangerous position'
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+									time.sleep(0.5)
 									anm=random.randint(1,10)
 									if Pass.title() in Pattack or Pass.title() in Pmid:
 										tackle(z)
@@ -11909,21 +11506,18 @@ while A77>0:
 										oh=random.choice(Pdef)
 										j=random.randint(1,2)
 										if j==1:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											time.sleep(0.71)
 											print('The ball is with '+pos.title()+' and '+oh+' can try to steal the ball ')
 											bhaag=random.randint(25,87)
 											R=(bhaag/(bhaag+random.randint(25,87)))*100
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											print('Chances of succesful tackle: ',(round(R,2)))
 											print()
 											choice=input('Would you like '+oh+' to go for a tackle in the box:')
 											if choice.lower()=='yes':
 												if random.randint(1,100)<=R//1:
-													for k in range(3002222):
-														pass
+													time.sleep(0.5)
 													time.sleep(0.71)
 													anm=[("Textbook defending in the penalty area! A perfectly timed tackle denies "+pos.title()+", showcasing the art of defending under pressure."),
 													("In the danger zone, "+oh+" executes a sliding challenge with surgical precision. The threat is extinguished!"),
@@ -11953,21 +11547,18 @@ while A77>0:
 												else:
 													time.sleep(0.71)
 													if random.randint(1,2)==1:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														
 														print(pos.title()+' has gone past '+oh)
 														goa=1
 													else:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														ball=comp
 														penalty(pos.title())
 												
 										if j==2 or goa==1:
 											goa=0
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											time.sleep(0.71)
 											print('The ball is with '+pos.title()+' and he is going for goal! ')
 											print()
@@ -11975,20 +11566,21 @@ while A77>0:
 											S=(maar/(maar+random.randint(13,87)))*100
 											time.sleep(0.71)
 											if random.randint(1,100)<=(S//1):
-												for k in range(3002222):
-													pass
+												time.sleep(0.5)
 												pos=pos.title()
 												golo(pos)
 												goals[1]+=1
-												print(player,goals[0],'-',goals[1],comp)
+												str = player+' '+goals[0]+' - '+goals[1]+' '+comp
+												for k in str:
+																time.sleep(0.02)
+																print(k, end = '', flush = True)
 												time.sleep(0.71)
 												print()
 												ball=player
 												Cg[l]=pos.title()
 												pos=random.choice(Pmid)
 											else:
-												for k in range(3002222):
-													pass
+												time.sleep(0.5)
 												print('He shoots and it goes over the bar')
 												print()
 												ball=player
@@ -12004,25 +11596,29 @@ while A77>0:
 													y=random.choice(Cmid)
 												print(oncom+': ',end='')
 												if random.randint(1,100)<=x:
-													for k in range(3002222):
-														pass
+													time.sleep(0.5)
 													time.sleep(0.71)
-													print(pos.title()+' has passed the ball towards '+y+'...')
-													for k in range(3002222):
-														pass
+													str = pos.title()+' has passed the ball towards '+y+'...'
+													for k in str:
+														time.sleep(0.02)
+														print(k, end = '', flush = True)
+													time.sleep(0.5)
 													time.sleep(0.71)
+													print()
 													pos=pos.title()
 													fail(gh,pos,y)
 													print()
 													pos=y
 												else:
 													time.sleep(0.71)
-													for k in range(3002222):
-														pass
-													print(pos.title()+' has passed the ball towards '+y+'...')
-													for k in range(3002222):
-														pass
+													time.sleep(0.5)
+													str = pos.title()+' has passed the ball towards '+y+'...'
+													for k in str:
+														time.sleep(0.02)
+														print(k, end = '', flush = True)
+													time.sleep(0.5)
 													time.sleep(0.71)
+													print()
 													tackle(gh)
 													print()
 													pos=gh
@@ -12037,12 +11633,14 @@ while A77>0:
 												print(oncom+': ',end='')
 												if pos.title()!=y:
 													if random.randint(1,100)<=x:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														time.sleep(0.71)
-														print(pos.title()+' has passed the ball towards '+y+'...')
-														for k in range(3002222):
-															pass
+														str = pos.title()+' has passed the ball towards '+y+'...'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+														time.sleep(0.5)
+														print()
 														time.sleep(0.71)
 														pos=pos.title()
 														fail(z,pos,y)
@@ -12050,32 +11648,37 @@ while A77>0:
 														pos=y
 													else:
 														time.sleep(0.71)
-														for k in range(3002222):
-															pass
-														print(pos.title()+' has passed the ball towards '+y+'...')
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
+														str = pos.title()+' has passed the ball towards '+y+'...'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+														time.sleep(0.5)
+														print()
 														time.sleep(0.71)
 														tackle(z)
 														print()
 														pos=z
 														ball=player
 												else:
-													for k in range(3002222):
-														pass
+													time.sleep(0.5)
 													time.sleep(0.71)
 													print(pos.title()+' is trying to dribble his way forward...')
 													time.sleep(0.71)
 													if random.randint(1,100)<=x:
-														for k in range(3002222):
-															pass
-														print(z+' tries to make an interception but he isnt quick enough ')
+														time.sleep(0.5)
+														str = z+' tries to make an interception but he is not quick enough'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 														print()
 														pos=y
 													else:
-														for k in range(3002222):
-															pass
-														print(z+' tries to make an interception and '+comp+' have lost possession at a dangerous position')
+														time.sleep(0.5)
+														str = z+' tries to make an interception and '+comp+' have lost possession at a dangerous position'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 														print()
 														pos=z
 														ball=player
@@ -12088,26 +11691,33 @@ while A77>0:
 													y=random.choice(Cdef)
 												print(oncom+': ',end='')
 												if random.randint(1,100)<=x:
-													for k in range(3002222):
-														pass
+													time.sleep(0.5)
 													time.sleep(0.71)
-													print(pos.title()+' has passed the ball towards '+y+'...')
-													for k in range(3002222):
-														pass
+													str = pos.title()+' has passed the ball towards '+y+'...'
+													for k in str:
+														time.sleep(0.02)
+														print(k, end = '', flush = True)
+													time.sleep(0.5)
+													print()
 													time.sleep(0.71)
 													pos=pos.title()
 													fail(z,pos,y)
 													print()
 													pos=y
 												else:
-													for k in range(3002222):
-														pass
+													time.sleep(0.5)
 													time.sleep(0.71)
-													print(pos.title()+' has passed the ball towards '+y+'...')
-													for k in range(3002222):
-														pass
+													str = pos.title()+' has passed the ball towards '+y+'...'
+													for k in str:
+														time.sleep(0.02)
+														print(k, end = '', flush = True)
+													time.sleep(0.5)
+													print()
 													time.sleep(0.71)
-													print(z+' tries to make an interception and '+comp+' have lost possession at a dangerous position')
+													str = z+' tries to make an interception and '+comp+' have lost possession at a dangerous position'
+													for k in str:
+														time.sleep(0.02)
+														print(k, end = '', flush = True)
 													print()
 													pos=z
 													ball=player
@@ -12118,46 +11728,56 @@ while A77>0:
 												print(oncom+': ',end='')
 												if pos.title()!=y:
 													if random.randint(1,100)<=x:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														time.sleep(0.71)
-														print(pos.title()+' has passed the ball towards '+y+'...')
-														for k in range(3002222):
-															pass
+														str = pos.title()+' has passed the ball towards '+y+'...'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+														time.sleep(0.5)
+														print()
 														time.sleep(0.71)
 														pos=pos.title()
 														fail(z,pos,y)
 														print()
 														pos=y
 													else:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														time.sleep(0.71)
-														print(pos.title()+' has passed the ball towards '+y+'...')
-														for k in range(3002222):
-															pass
+														str = pos.title()+' has passed the ball towards '+y+'...'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+														time.sleep(0.5)
 														time.sleep(0.71)
-														print(z+' tries to make an interception and '+comp+' have lost possession at a dangerous position')
+														print()
+														str = z+' tries to make an interception and '+comp+' have lost possession at a dangerous position'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 														print()
 														pos=z
 														ball=player
 												else:
-													for k in range(3002222):
-														pass
+													time.sleep(0.5)
 													time.sleep(0.71)
 													print(pos.title()+' is trying to dribble his way forward...')
 													if random.randint(1,100)<=x:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														time.sleep(0.71)
-														print(z+' tries to make an interception but he isnt quick enough ')
+														str = z+' tries to make an interception but he is not quick enough'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 														print()
 														pos=y
 													else:
 														time.sleep(0.71)
-														for k in range(3002222):
-															pass
-														print(z+' tries to make an interception and '+comp+' have lost possession at a dangerous position')
+														time.sleep(0.5)
+														str = z+' tries to make an interception and '+comp+' have lost possession at a dangerous position'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 														print()
 														pos=z
 														ball=player
@@ -12173,46 +11793,53 @@ while A77>0:
 													print(oncom+': ',end='')
 													if pos.title()!=y:
 														if random.randint(1,100)<=x:
-															for k in range(3002222):
-																pass
+															time.sleep(0.5)
 															time.sleep(0.71)
-															print(pos.title()+' has passed the ball towards '+y+'...')
-															for k in range(3002222):
-																pass
+															str = pos.title()+' has passed the ball towards '+y+'...'
+															for k in str:
+																time.sleep(0.02)
+																print(k, end = '', flush = True)
+															time.sleep(0.5)
+															print()
 															time.sleep(0.71)
 															pos=pos.title()
 															fail(z,pos,y)
 															print()
 															pos=y
 														else:
-															for k in range(3002222):
-																pass
+															time.sleep(0.5)
 															time.sleep(0.71)
-															print(pos.title()+' has passed the ball towards '+y+'...')
-															for k in range(3002222):
-																pass
+															str = pos.title()+' has passed the ball towards '+y+'...'
+															for k in str:
+																time.sleep(0.02)
+																print(k, end = '', flush = True)
+															time.sleep(0.5)
+															print()
 															time.sleep(0.71)
 															tackle(z)
 															print()
 															pos=z
 															ball=player
 													else:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														time.sleep(0.71)
 														print(pos.title()+' is trying to dribble his way forward...')
 														if random.randint(1,100)<=x:
-															for k in range(3002222):
-																pass
+															time.sleep(0.5)
 															time.sleep(0.2)
-															print(z+' tries to make an interception but he isnt quick enough ')
-															print()
+															str = z+' tries to make an interception but he is not quick enough'
+															for k in str:
+																time.sleep(0.02)
+																print(k, end = '', flush = True)
+																print()
 															pos=y
 														else:
 															time.sleep(0.71)
-															for k in range(3002222):
-																pass
-															print(z+' tries to make an interception and '+comp+' have lost possession at a dangerous position')
+															time.sleep(0.5)
+															str = z+' tries to make an interception and '+comp+' have lost possession at a dangerous position'
+															for k in str:
+																time.sleep(0.02)
+																print(k, end = '', flush = True)
 															print()
 															pos=z
 															ball=player
@@ -12224,12 +11851,14 @@ while A77>0:
 														y=random.choice(Cmid)
 													print(oncom+': ',end='')
 													if random.randint(1,100)<=x:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														time.sleep(0.71)
-														print(pos.title()+' has passed the ball towards '+y+'...')
-														for k in range(3002222):
-															pass
+														str = pos.title()+' has passed the ball towards '+y+'...'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+														time.sleep(0.5)
+														print()
 														time.sleep(0.71)
 														pos=pos.title()
 														fail(gh,pos,y)
@@ -12243,26 +11872,33 @@ while A77>0:
 														y=random.choice(Cdef)
 													print(oncom+': ',end='')
 													if random.randint(1,100)<=x:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														time.sleep(0.71)
-														print(pos.title()+' has passed the ball towards '+y+'...')
-														for k in range(3002222):
-															pass
+														str = pos.title()+' has passed the ball towards '+y+'...'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+														time.sleep(0.5)
+														print()
 														time.sleep(0.71)
 														pos=pos.title()
 														fail(z,pos,y)
 														print()
 														pos=y
 													else:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														time.sleep(0.71)
-														print(pos.title()+' has passed the ball towards '+y+'...')
-														for k in range(3002222):
-															pass
+														str = pos.title()+' has passed the ball towards '+y+'...'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+														time.sleep(0.5)
+														print()
 														time.sleep(0.71)
-														print(z+' tries to make an interception and '+comp+' have lost possession at a dangerous position')
+														str = z+' tries to make an interception and '+comp+' have lost possession at a dangerous position'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 														print()
 														pos=z
 														ball=player
@@ -12334,8 +11970,7 @@ while A77>0:
 						break
 					if l==121+q4 and q3!=0:
 						print()
-						for k in range(3002222):
-							pass
+						time.sleep(0.5)
 						time.sleep(0.71)
 						print('Extra added time:',q3,' mins')
 						print()
@@ -12344,44 +11979,37 @@ while A77>0:
 						print('105+',(l-105),end="'")
 					print()
 					if (l<106 or (l>105+q4)) and l<121+q4:
-						for k in range(3002222):
-							pass
+						time.sleep(0.5)
 						if l<106:
 							print(l,end="'")
 						if l>105+q4 and l<121+q4:
 							print(l-q4,end="'")
 					if l>120+q4:
-						for k in range(3002222):
-							pass
+						time.sleep(0.5)
 						print('120+',(l-120-q4),end="'")
 					print()
 					if l==105 and q4!=1:
 						print()
-						for k in range(3002222):
-							pass
+						time.sleep(0.5)
 						time.sleep(0.71)
 						print('Extra added time:',q4-1,' mins')
 						print()
 					if l==105+q4:
 						print()
-						for k in range(3002222):
-							pass
+						time.sleep(0.5)
 						print('Extra Time: Half Time!')
 						print()
-						for k in range(3002222):
-							pass
+						time.sleep(0.5)
 						time.sleep(0.71)
 						print(player,goals[0],'-',goals[1],comp)
 						print()
 						for i in Pg:
-							for k in range(3002222):
-								pass
+							time.sleep(0.5)
 							print(i,"'  ",Pg[i],end='\n')
 							time.sleep(0.71)
 						print()
 						for i in Cg:
-							for k in range(3002222):
-								pass
+							time.sleep(0.5)
 							print(i,"'  ",Cg[i],end='\n')
 							time.sleep(0.71)
 						if toss==1:
@@ -12392,24 +12020,30 @@ while A77>0:
 							pos=random.choice(Pmid)
 					print()
 					if l==0:
-						for k in range(3002222):
-							pass
+						time.sleep(0.5)
 						time.sleep(0.71)
 						if aryan!='3':
-							print('Its time for the kickoff of this high octane game between '+player+' and '+comp)
+							str = 'Its time for the kickoff of this high octane game between '+player+' and '+comp
 						else:
-							print('Welcome to the kickoff of this huge encounter between '+player+' and '+comp+' at '+venue)
+							str = 'Welcome to the kickoff of this huge encounter between '+player+' and '+comp+' at '+venue
+						for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 						toss=random.randint(1,2)
 						if toss==1:
-							for k in range(3002222):
-								pass
-							print(player+' have won the coin flip and will have possession')
+							time.sleep(0.5)
+							str = player+' have won the coin flip and will have possession'
+							for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 							pos=random.choice(Pmid)
 							ball=player
 						else:
-							for k in range(3002222):
-								pass
-							print(comp+' have won the coin flip and will have possession')
+							time.sleep(0.5)
+							str = comp+' have won the coin flip and will have possession'
+							for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 							pos=random.choice(Cmid)
 							ball=comp
 						print()
@@ -12421,12 +12055,10 @@ while A77>0:
 					elif dec>=62 and dec<=63:
 						time.sleep(0.71)
 						if pos.title() in Cxi:
-							for k in range(3002222):
-											pass
+							time.sleep(0.5)
 							xp=random.choice(Pdef)
 						else:
-							for k in range(3002222):
-											pass
+							time.sleep(0.5)
 							xp=random.choice(Cdef)
 						anm=[("Oh, a thunderous challenge echoes through the stadium, leaving the referee with no choice but to award a free-kick. "+xp+", caught in the heat of the moment, will now face the consequences."),
 
@@ -12454,34 +12086,29 @@ while A77>0:
 							print(i,flush=True,end='')
 						print()
 						if pos.title() in Pxi:
-							for k in range(3002222):
-											pass
+							time.sleep(0.5)
 							print('Here are the following conversion rates of your players')
 							print()
 							F={}
 							for i in range(len(Pxi)):
 										if Pxi[i] in Pattack:
 											x=random.randint(33,52)
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											print(Pxi[i]+':',x)
 											F[Pxi[i]]=x
 										if Pxi[i] in Pmid:
 											y=random.randint(25,62)
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											print(Pxi[i]+':',y)
 											F[Pxi[i]]=y
 										if Pxi[i] in Pdef:
 											z=random.randint(10,20)
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											print(Pxi[i]+':',z)
 											F[Pxi[i]]=z
 										if Pxi[i] in Pgol:
 											r=random.randint(1,10)
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											print(Pxi[i]+':',r)
 											F[Pxi[i]]=r
 							print()
@@ -12495,12 +12122,10 @@ while A77>0:
 							binod=7
 							print()
 							if random.randint(1,100)<=F[fk.title()]:
-								for k in range(3002222):
-											pass
+								time.sleep(0.5)
 								time.sleep(0.71)
 								print(fk.title()+' has shot the ball towards '+Cgol[0]+'...')
-								for k in range(3002222):
-											pass
+								time.sleep(0.5)
 								time.sleep(0.71)
 								fk=fk.title()
 								golo(fk)
@@ -12511,32 +12136,32 @@ while A77>0:
 								print(player,goals[0],'-',goals[1],comp)
 							else:
 								time.sleep(0.71)
-								for k in range(3002222):
-											pass
+								time.sleep(0.5)
 								print(fk.title()+' has shot the ball towards '+Cgol[0]+'...')
-								for k in range(3002222):
-											pass
+								time.sleep(0.5)
 								con=random.randint(1,3)
 								time.sleep(0.71)
 								if con==1:
-									for k in range(3002222):
-										pass
+									time.sleep(0.5)
 									
 									save(Cgol[0])
 									ball=comp
 									pos=Cgol[0]
 								elif con==2:
-									for k in range(3002222):
-										pass
-									print('And it is deflected away for a corner')
+									time.sleep(0.5)
+									str = 'And it is deflected away for a corner'
 									ball=player
+									print()
 									corner(fk.title())
 								else:
-									for k in range(3002222):
-										pass
+									time.sleep(0.5)
 									kem=random.choice(Cdef)
-									print('And it is deflected away towards '+kem)
+									str = 'And it is deflected away towards '+kem
+									for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 									ball=comp
+									print()
 									pos=kem
 						else:
 							import random
@@ -12547,12 +12172,14 @@ while A77>0:
 									x=random.randint(33,52)
 									o=random.choice(Cattack)
 									if random.randint(1,100)<=x:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The free kick will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The free kick will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
 										time.sleep(0.71)
 										golo(o)
 										pos=random.choice(Pmid)
@@ -12562,42 +12189,51 @@ while A77>0:
 										print(player,goals[0],'-',goals[1],comp)
 									else:
 										time.sleep(0.71)
-										for k in range(3002222):
-											pass
-										print('The free kick will be taken by '+o)
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
+										str = 'The free kick will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
 										con=random.randint(1,3)
 										time.sleep(0.71)
 										if con==1:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											ball=player
 											pos=Pgol[0]
 											save(pos)
 										elif con==2:
-											for k in range(3002222):
-												pass
-											print(o+' goes for goal and it is deflected away for a corner')
+											time.sleep(0.5)
+											str = o+' goes for goal and it is deflected away for a corner'
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=comp
+											print()
 											corner(o)
 										else:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											kem=random.choice(Pdef)
-											print(o+' goes for goal and it is deflected away towards '+kem)
+											str = o+' goes for goal and it is deflected away towards '+kem
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=player
+											print()
 											pos=kem
 								elif d==3:
 									x=random.randint(40,62)
 									o=random.choice(Cmid)
 									if random.randint(1,100)<=x:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The free kick will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The free kick will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
 										time.sleep(0.71)
 										golo(o)
 										pos=random.choice(Pmid)
@@ -12607,43 +12243,52 @@ while A77>0:
 										print(player,goals[0],'-',goals[1],comp)
 									else:
 										time.sleep(0.71)
-										for k in range(3002222):
-											pass
-										print('The free kick will be taken by '+o)
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
+										str = 'The free kick will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
 										con=random.randint(1,3)
 										time.sleep(0.71)
 										if con==1:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											ball=player
 											pos=Pgol[0]
 											save(pos)
 										elif con==2:
-											for k in range(3002222):
-												pass
-											print(o+' goes for goal and it is deflected away for a corner')
+											time.sleep(0.5)
+											str = o+' goes for goal and it is deflected away for a corner'
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=comp
+											print()
 											corner(o)
 										else:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											kem=random.choice(Pdef)
-											print(o+' goes for goal and it is deflected away towards '+kem)
+											str = o+' goes for goal and it is deflected away towards '+kem
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=player
+											print()
 											pos=kem
 								else:
 									x=random.randint(10,20)
 									o=random.choice(Cdef)
 									if random.randint(1,100)<=x:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The free kick will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The free kick will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
 										time.sleep(0.71)
+										print()
 										golo(o)
 										pos=random.choice(Pmid)
 										ball=player
@@ -12653,86 +12298,104 @@ while A77>0:
 										time.sleep(0.71)
 									else:
 										time.sleep(0.71)
-										for k in range(3002222):
-											pass
-										print('The free kick will be taken by '+o)
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
+										str = 'The free kick will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
 										con=random.randint(1,3)
 										time.sleep(0.71)
 										if con==1:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											ball=player
 											pos=Pgol[0]
 											save(pos)
 										elif con==2:
-											for k in range(3002222):
-												pass
-											print(o+' goes for goal and it is deflected away for a corner')
+											time.sleep(0.5)
+											str = o+' goes for goal and it is deflected away for a corner'
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=comp
+											print()
 											corner(o)
 										else:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											kem=random.choice(Pdef)
-											print(o+' goes for goal and it is deflected away towards '+kem)
+											str = o+' goes for goal and it is deflected away towards '+kem
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=player
+											print()
 											pos=kem
 							else:
 									x=random.randint(1,10)
 									o=random.choice(Cgol)
 									if random.randint(1,100)<=x:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The free kick will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The free kick will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
 										time.sleep(0.71)
 										golo(o)
 										pos=random.choice(Pmid)
 										ball=player
 										Cg[l]=o
 										goals[1]+=1
-										print(player,goals[0],'-',goals[1],comp)
+										str = player+' '+goals[0]+' - '+goals[1] + ' '+comp
+										for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 										time.sleep(0.71)
 									else:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										time.sleep(0.71)
-										print('The free kick will be taken by '+o)
-										for k in range(3002222):
-											pass
+										str = 'The free kick will be taken by '+o
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+										time.sleep(0.5)
+										print()
 										con=random.randint(1,3)
 										time.sleep(0.71)
+										print()
 										if con==1:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											ball=player
 											pos=Pgol[0]
 											save(pos)
 										elif con==2:
-											for k in range(3002222):
-												pass
-											print(o+' goes for goal and it is deflected away for a corner')
+											time.sleep(0.5)
+											str = o+' goes for goal and it is deflected away for a corner'
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=comp
+											print()
 											corner(o)
 										else:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											kem=random.choice(Pdef)
-											print(o+' goes for goal and it is deflected away towards '+kem)
+											str = o+' goes for goal and it is deflected away towards '+kem
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=player
+											print()
 											pos=kem
 									
 					elif dec<54:
 						if ball==player:
-							for k in range(3002222):
-											pass
+							time.sleep(0.5)
 							if pos.title() in Pattack:
-								for k in range(3002222):
-											pass
+								time.sleep(0.5)
 								time.sleep(0.71)
 								print('The ball is with '+pos.title()+' and '+random.choice(Cdef)+' is trying to steal the ball ')
 								print()
@@ -12741,8 +12404,7 @@ while A77>0:
 								R=(bhaag/(bhaag+random.randint(25,87)))*100
 								maar=random.randint(20,87)
 								S=(maar/(maar+random.randint(20,87)))*100
-								for k in range(3002222):
-											pass
+								time.sleep(0.5)
 								print('Chances of succesful shot:',(round(S,2)))
 								while binod!=1:
 									choice=input('Would you like '+pos.title()+' to pass or shoot? [Enter Pass/Shoot]:')
@@ -12756,8 +12418,7 @@ while A77>0:
 								if choice.lower()=='shoot':
 									if random.randint(1,100)<=(S//1):
 										time.sleep(0.71)
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										pos=pos.title()
 										golo(pos)
 										goals[0]+=1
@@ -12768,33 +12429,39 @@ while A77>0:
 										ball=comp
 										pos=random.choice(Cmid)
 									else:
-										for k in range(3002222):
-											pass
+										time.sleep(0.5)
 										con=random.randint(1,3)
 										time.sleep(0.71)
 										if con==1:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											ball=comp
 											pos=Cgol[0]
 											save(pos)
 										elif con==2:
-											for k in range(3002222):
-												pass
-											print(pos.title()+' goes for goal and it is deflected away for a corner')
+											time.sleep(0.5)
+											str = pos.title()+' goes for goal and it is deflected away for a corner'
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=player
+											print()
 											corner(pos.title())
 										else:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											kem=random.choice(Cdef)
-											print(pos.title()+' goes for goal and it is deflected away towards '+kem)
+											str = pos.title()+' goes for goal and it is deflected away towards '+kem
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											ball=comp
 											pos=kem
 										print()
-							print('The ball is with '+pos.title())
-							for k in range(3002222):
-											pass
+							str = 'The ball is with '+pos.title()
+							for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+							print()
+							time.sleep(0.5)
 							if pos.title() not in Pxi:
 								ball=comp
 							if pos.title() not in Cxi:
@@ -12814,12 +12481,15 @@ while A77>0:
 								print(oncom+': ',end='')
 								if random.randint(1,100)<=D[Pass.title()]:
 									time.sleep(0.71)
-									for k in range(3002222):
-												pass
-									print(pos.title()+' has passed the ball towards '+Pass.title()+'...')
-									for k in range(3002222):
-												pass
+									time.sleep(0.5)
+									str = pos.title()+' has passed the ball towards '+Pass.title()+'...'
+									for k in str:
+										time.sleep(0.02)
+										print(k, end = '', flush = True)
+									time.sleep(0.5)
 									time.sleep(0.71)
+									
+									print()
 									if Pass.title() in Pattack:
 										jh=random.choice(Cdef)
 									elif Pass.title() in Pmid:
@@ -12832,20 +12502,25 @@ while A77>0:
 									print()
 									pos=Pass
 								else:
-									for k in range(3002222):
-												pass
+									time.sleep(0.5)
 									time.sleep(0.71)
-									print(pos.title()+' has passed the ball towards '+Pass.title()+'...')
+									str = pos.title()+' has passed the ball towards '+Pass.title()+'...'
+									for k in str:
+										time.sleep(0.02)
+										print(k, end = '', flush = True)
 									time.sleep(0.71)
+									print()
 									if Pass.title() in Pattack:
 										z=random.choice(Cdef)
 									elif Pass.title() in Pmid:
 										z=random.choice(Cmid)
 									else:
 										z=random.choice(Cattack)
-										print(z+' tries to make an interception and '+player+' have lost possession at a dangerous position')
-									for k in range(3002222):
-												pass
+										str = z+' tries to make an interception and '+player+' have lost possession at a dangerous position'
+										for k in str:
+											time.sleep(0.02)
+											print(k, end = '', flush = True)
+									time.sleep(0.5)
 									anm=random.randint(1,10)
 									if Pass.title() in Pattack or Pass.title() in Pmid:
 										tackle(z)
@@ -12858,21 +12533,18 @@ while A77>0:
 										oh=random.choice(Pdef)
 										j=random.randint(1,2)
 										if j==1:
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											time.sleep(0.71)
 											print('The ball is with '+pos.title()+' and '+oh+' can try to steal the ball ')
 											bhaag=random.randint(25,87)
 											R=(bhaag/(bhaag+random.randint(25,87)))*100
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											print('Chances of succesful tackle: ',(round(R,2)))
 											print()
 											choice=input('Would you like '+oh+' to go for a tackle in the box:')
 											if choice.lower()=='yes':
 												if random.randint(1,100)<=R//1:
-													for k in range(3002222):
-														pass
+													time.sleep(0.5)
 													time.sleep(0.71)
 													anm=[("Textbook defending in the penalty area! A perfectly timed tackle denies "+pos.title()+", showcasing the art of defending under pressure."),
 													("In the danger zone, "+oh+" executes a sliding challenge with surgical precision. The threat is extinguished!"),
@@ -12902,30 +12574,29 @@ while A77>0:
 												else:
 													time.sleep(0.71)
 													if random.randint(1,2)==1:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														
 														print(pos.title()+' has gone past '+oh)
 														goa=1
 													else:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														ball=comp
 														penalty(pos.title())
 												
 										if j==2 or goa==1:
 											goa=0
-											for k in range(3002222):
-												pass
+											time.sleep(0.5)
 											time.sleep(0.71)
-											print('The ball is with '+pos.title()+' and he is going for goal! ')
+											str ='The ball is with '+pos.title()+' and he is going for goal! '
+											for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 											print()
 											maar=random.randint(13,87)
 											S=(maar/(maar+random.randint(13,87)))*100
 											time.sleep(0.71)
 											if random.randint(1,100)<=(S//1):
-												for k in range(3002222):
-													pass
+												time.sleep(0.5)
 												pos=pos.title()
 												golo(pos)
 												goals[1]+=1
@@ -12936,9 +12607,11 @@ while A77>0:
 												Cg[l]=pos.title()
 												pos=random.choice(Pmid)
 											else:
-												for k in range(3002222):
-													pass
-												print('He shoots and it goes over the bar')
+												time.sleep(0.5)
+												str = 'He shoots and it goes over the bar'
+												for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 												print()
 												ball=player
 												pos=Pgol[0]
@@ -12953,12 +12626,14 @@ while A77>0:
 													y=random.choice(Cmid)
 												print(oncom+': ',end='')
 												if random.randint(1,100)<=x:
-													for k in range(3002222):
-														pass
+													time.sleep(0.5)
 													time.sleep(0.71)
-													print(pos.title()+' has passed the ball towards '+y+'...')
-													for k in range(3002222):
-														pass
+													str = pos.title()+' has passed the ball towards '+y+'...'
+													for k in str:
+														time.sleep(0.02)
+														print(k, end = '', flush = True)
+													print()
+													time.sleep(0.5)
 													time.sleep(0.71)
 													pos=pos.title()
 													fail(gh,pos,y)
@@ -12966,11 +12641,13 @@ while A77>0:
 													pos=y
 												else:
 													time.sleep(0.71)
-													for k in range(3002222):
-														pass
-													print(pos.title()+' has passed the ball towards '+y+'...')
-													for k in range(3002222):
-														pass
+													time.sleep(0.5)
+													str = pos.title()+' has passed the ball towards '+y+'...'
+													for k in str:
+														time.sleep(0.02)
+														print(k, end = '', flush = True)
+													time.sleep(0.5)
+													print()
 													time.sleep(0.71)
 													tackle(gh)
 													print()
@@ -12986,24 +12663,28 @@ while A77>0:
 												print(oncom+': ',end='')
 												if pos.title()!=y:
 													if random.randint(1,100)<=x:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														time.sleep(0.71)
-														print(pos.title()+' has passed the ball towards '+y+'...')
-														for k in range(3002222):
-															pass
+														str = pos.title()+' has passed the ball towards '+y+'...'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+														time.sleep(0.5)
 														time.sleep(0.71)
+														print()
 														pos=pos.title()
 														fail(z,pos,y)
 														print()
 														pos=y
 													else:
 														time.sleep(0.71)
-														for k in range(3002222):
-															pass
-														print(pos.title()+' has passed the ball towards '+y+'...')
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
+														str = pos.title()+' has passed the ball towards '+y+'...'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+														time.sleep(0.5)
+														print()
 														time.sleep(0.71)
 														tackle(z)
 														print()
@@ -13011,21 +12692,24 @@ while A77>0:
 														ball=player
 												else:
 													x=random.randint(70,97)
-													for k in range(3002222):
-														pass
+													time.sleep(0.5)
 													time.sleep(0.71)
 													print(pos.title()+' is trying to dribble his way forward...')
 													time.sleep(0.71)
 													if random.randint(1,100)<=x:
-														for k in range(3002222):
-															pass
-														print(z+' tries to make an interception but he isnt quick enough ')
+														time.sleep(0.5)
+														str = z+' tries to make an interception but he is not quick enough'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 														print()
 														pos=y
 													else:
-														for k in range(3002222):
-															pass
-														print(z+' tries to make an interception and '+comp+' have lost possession at a dangerous position')
+														time.sleep(0.5)
+														str = z+' tries to make an interception and '+comp+' have lost possession at a dangerous position'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 														print()
 														pos=z
 														ball=player
@@ -13038,26 +12722,33 @@ while A77>0:
 													y=random.choice(Cdef)
 												print(oncom+': ',end='')
 												if random.randint(1,100)<=x:
-													for k in range(3002222):
-														pass
+													time.sleep(0.5)
 													time.sleep(0.71)
-													print(pos.title()+' has passed the ball towards '+y+'...')
-													for k in range(3002222):
-														pass
+													str = pos.title()+' has passed the ball towards '+y+'...'
+													for k in str:
+														time.sleep(0.02)
+														print(k, end = '', flush = True)
+													time.sleep(0.5)
 													time.sleep(0.71)
+													print()
 													pos=pos.title()
 													fail(z,pos,y)
 													print()
 													pos=y
 												else:
-													for k in range(3002222):
-														pass
+													time.sleep(0.5)
 													time.sleep(0.71)
-													print(pos.title()+' has passed the ball towards '+y+'...')
-													for k in range(3002222):
-														pass
+													str = pos.title()+' has passed the ball towards '+y+'...'
+													for k in str:
+														time.sleep(0.02)
+														print(k, end = '', flush = True)
+													time.sleep(0.5)
 													time.sleep(0.71)
-													print(z+' tries to make an interception and '+comp+' have lost possession at a dangerous position')
+													print()
+													str = z+' tries to make an interception and '+comp+' have lost possession at a dangerous position'
+													for k in str:
+														time.sleep(0.02)
+														print(k, end = '', flush = True)
 													print()
 													pos=z
 													ball=player
@@ -13068,47 +12759,57 @@ while A77>0:
 												print(oncom+': ',end='')
 												if pos.title()!=y:
 													if random.randint(1,100)<=x:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														time.sleep(0.71)
-														print(pos.title()+' has passed the ball towards '+y+'...')
-														for k in range(3002222):
-															pass
+														str = pos.title()+' has passed the ball towards '+y+'...'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+														time.sleep(0.5)
+														print()
 														time.sleep(0.71)
 														pos=pos.title()
 														fail(z,pos,y)
 														print()
 														pos=y
 													else:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														time.sleep(0.71)
-														print(pos.title()+' has passed the ball towards '+y+'...')
-														for k in range(3002222):
-															pass
+														str = pos.title()+' has passed the ball towards '+y+'...'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+														time.sleep(0.5)
+														print()
 														time.sleep(0.71)
-														print(z+' tries to make an interception and '+comp+' have lost possession at a dangerous position')
+														str = z+' tries to make an interception and '+comp+' have lost possession at a dangerous position'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 														print()
 														pos=z
 														ball=player
 												else:
 													
-													for k in range(3002222):
-														pass
+													time.sleep(0.5)
 													time.sleep(0.71)
 													print(pos.title()+' is trying to dribble his way forward...')
 													if random.randint(1,100)<=x:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														time.sleep(0.71)
-														print(z+' tries to make an interception but he isnt quick enough ')
+														str = z+' tries to make an interception but he is not quick enough'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 														print()
 														pos=y
 													else:
 														time.sleep(0.71)
-														for k in range(3002222):
-															pass
-														print(z+' tries to make an interception and '+comp+' have lost possession at a dangerous position')
+														time.sleep(0.5)
+														str = z+' tries to make an interception and '+comp+' have lost possession at a dangerous position'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 														print()
 														pos=z
 														ball=player
@@ -13124,24 +12825,28 @@ while A77>0:
 													print(oncom+': ',end='')
 													if pos.title()!=y:
 														if random.randint(1,100)<=x:
-															for k in range(3002222):
-																pass
+															time.sleep(0.5)
 															time.sleep(0.71)
-															print(pos.title()+' has passed the ball towards '+y+'...')
-															for k in range(3002222):
-																pass
+															str = pos.title()+' has passed the ball towards '+y+'...'
+															for k in str:
+																time.sleep(0.02)
+																print(k, end = '', flush = True)
+															time.sleep(0.5)
+															print()
 															time.sleep(0.71)
 															pos=pos.title()
 															fail(z,pos,y)
 															print()
 															pos=y
 														else:
-															for k in range(3002222):
-																pass
+															time.sleep(0.5)
 															time.sleep(0.71)
-															print(pos.title()+' has passed the ball towards '+y+'...')
-															for k in range(3002222):
-																pass
+															str = pos.title()+' has passed the ball towards '+y+'...'
+															for k in str:
+																time.sleep(0.02)
+																print(k, end = '', flush = True)
+															time.sleep(0.5)
+															print()
 															time.sleep(0.71)
 															tackle(z)
 															print()
@@ -13149,22 +12854,25 @@ while A77>0:
 															ball=player
 													else:
 														x=random.randint(75,97)
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														time.sleep(0.71)
 														print(pos.title()+' is trying to dribble his way forward...')
 														if random.randint(1,100)<=x:
-															for k in range(3002222):
-																pass
+															time.sleep(0.5)
 															time.sleep(0.2)
-															print(z+' tries to make an interception but he isnt quick enough ')
+															str = z+' tries to make an interception but he is not quick enough'
+															for k in str:
+																time.sleep(0.02)
+																print(k, end = '', flush = True)
 															print()
 															pos=y
 														else:
 															time.sleep(0.71)
-															for k in range(3002222):
-																pass
-															print(z+' tries to make an interception and '+comp+' have lost possession at a dangerous position')
+															time.sleep(0.5)
+															str = z+' tries to make an interception and '+comp+' have lost possession at a dangerous position'
+															for k in str:
+																time.sleep(0.02)
+																print(k, end = '', flush = True)
 															print()
 															pos=z
 															ball=player
@@ -13176,12 +12884,14 @@ while A77>0:
 														y=random.choice(Cmid)
 													print(oncom+': ',end='')
 													if random.randint(1,100)<=x:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														time.sleep(0.71)
-														print(pos.title()+' has passed the ball towards '+y+'...')
-														for k in range(3002222):
-															pass
+														str = pos.title()+' has passed the ball towards '+y+'...'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+														time.sleep(0.5)
+														print()
 														time.sleep(0.71)
 														pos=pos.title()
 														fail(gh,pos,y)
@@ -13195,26 +12905,33 @@ while A77>0:
 														y=random.choice(Cdef)
 													print(oncom+': ',end='')
 													if random.randint(1,100)<=x:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														time.sleep(0.71)
-														print(pos.title()+' has passed the ball towards '+y+'...')
-														for k in range(3002222):
-															pass
+														str = pos.title()+' has passed the ball towards '+y+'...'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+														time.sleep(0.5)
 														time.sleep(0.71)
+														print()
 														pos=pos.title()
 														fail(z,pos,y)
 														print()
 														pos=y
 													else:
-														for k in range(3002222):
-															pass
+														time.sleep(0.5)
 														time.sleep(0.71)
-														print(pos.title()+' has passed the ball towards '+y+'...')
-														for k in range(3002222):
-															pass
+														str = pos.title()+' has passed the ball towards '+y+'...'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
+														time.sleep(0.5)
+														print()
 														time.sleep(0.71)
-														print(z+' tries to make an interception and '+comp+' have lost possession at a dangerous position')
+														str = z+' tries to make an interception and '+comp+' have lost possession at a dangerous position'
+														for k in str:
+															time.sleep(0.02)
+															print(k, end = '', flush = True)
 														print()
 														pos=z
 														ball=player
@@ -14718,8 +14435,7 @@ while A77>0:
 						
 			print()
 			time.sleep(0.2)
-			for k in range(3002222):
-												pass
+			time.sleep(0.5)
 			print(player,goals[0],'-',goals[1],comp)
 			for i in Pg:
 				time.sleep(0.71)
@@ -16199,58 +15915,48 @@ while A77>0:
 			print()
 			print('                                ',end='')
 			print(Tshirt('                                '))
-			for k in range(3002222):
-				pass
+			time.sleep(0.5)
 			print('                                 Haaland')
 			print('        ',end='')
 			print(Shirt4('                 '))
-			for k in range(3002222):
-				pass
+			time.sleep(0.5)
 			print('           Grealish'+'         Gundogan'+'        De Bruyne'+'         B Silva')
 			print('',end='')
 			print(Shirt('                  '))
-			for k in range(3002222):
-				pass
+			time.sleep(0.5)
 			print('                   Rodri'+'                            Stones')
 			print('         ',end='')
 			print(Shirt3('            '))
-			for k in range(3002222):
-				pass
+			time.sleep(0.5)
 			print('             N Ake'+'                   Dias'+'                  Akanji')
 			print('                                ',end='')
 			print(Tshirt('                                '))
-			for k in range(3002222):
-				pass
+			time.sleep(0.5)
 			print('                                 Ederson')
 
 			print()
 			print()
 			print()
 			print()
-			for k in range(3002222):
-				pass
+			time.sleep(0.5)
 			print('                            Arsenal Starting XI    ')
 			print()
 			print()
 			print('             ',end='')
 			print(Shirt3('         '))
-			for k in range(3002222):
-				pass
+			time.sleep(0.5)
 			print('          Martinelli'+'                Jesus'+'                    Saka')
 			print('             ',end='')
 			print(Shirt3('         '))
-			for k in range(3002222):
-				pass
+			time.sleep(0.5)
 			print('            Xhaka'+'                  Partey'+'                 Odegaard')
 			print('',end='')
 			print(Shirt4('                 '))
-			for k in range(3002222):
-				pass
+			time.sleep(0.5)
 			print('  Zinchenko'+'              Gabriel'+'               Saliba'+'                  White')
 			print('                                  ',end='')
 			print(Tshirt('                                  '))
-			for k in range(3002222):
-				pass
+			time.sleep(0.5)
 			print('                                   Ramsdale')
 
 			print()
@@ -17666,8 +17372,7 @@ while A77>0:
 				print()
 				for i in rfix[gt]:
 					if gt<12:
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if i[0] in pointstA:
 							print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 						if i[0] in pointstB:
@@ -17698,8 +17403,7 @@ while A77>0:
 				print()
 				for i in rfix[gt]:
 					print()
-					for nbm in range(3002222):
-						pass
+					time.sleep(0.5)
 					if gt<12:
 						if i[0] in pointstA:
 							print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
@@ -17774,12 +17478,10 @@ while A77>0:
 								print('Eddie Nketiah [Attacker]')
 								print('Reiss Nelson [Attacker]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Ramsdale','Raya','Hillson','Saliba','White','Gabriel','Kiwior','Cedric','Tomiyasu','Zinchenko','Sousa','Partey','Odegaard','Trossard','Jorginho','Vieira','Elneny','Havertz','Rice','Saka','Jesus','Rowe','Martinelli','Nketiah','Nelson']
 								for t in LKI:
 									print(t)
@@ -17915,12 +17617,10 @@ while A77>0:
 								print('Álex Calatrava (Attacker)')
 								print('Abdellah Raihani (Attacker)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Moldovan','Oblak','Gomis','Iturbe','Mestre','Esquivel','Gimenez','Azpilicueta','Gabi','Savic','Molina',
 								'Hermoso','Reinildo','Kostis','Bonar','Belid','Frey','Diaz','De Paul','Koke','Saul','Lemar','Lino','Llorente','Riquelme',
 								'Vermeeren','Witsel','Barrios','Gismera','Guerrero','Griezmann','Depay','Correa','Morata','Jebari','Nino','Calatrava','Raihani']
@@ -18050,12 +17750,10 @@ while A77>0:
 								print('Fermin Lopez [Attacker]')
 								print('Marc Guiu [Attacker]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Ter Stegen','Pena','Astralaga','Kochen','Aron','Cancelo','Balde','Araujo','Inigo','Andreas','Alonso','Kounde','Casado','Cubarsi','Fort','Gavi','Pedri','Romeu','Roberto','De Jong','Gundogan','Garrido','Torres','Lewandowski','Raphinha','Felix','Yamal','Alarcon','Lopez','Guiu']
 								for t in LKI:
 									print(t)
@@ -18175,12 +17873,10 @@ while A77>0:
 								print('Thomas Muller [Attacker]')
 								print('Mathys Tel [Attacker]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Neuer','Peretz','Ulreich','Upamecano','Minjae','De Ligt','Sarr','Guerreiro','Buchmann','Mazraoui','Kimmich','Goretzka','Sane','Moting','Davies','Laimer','Musiala','Gnabry','Kane','Coman','Muller','Tel']
 								for t in LKI:
 									print(t)
@@ -18304,12 +18000,10 @@ while A77>0:
 								print('Antony [Attacker]')
 								print('Alejandro Garnacho [Attacker]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Onana','Altay','Heaton','Lindelof','Maguire','Lissandro','Malacia','Reguilon','Varane','Dalot','Shaw','Bissaka','Evans','Amrabat','Mount','Bruno','Eriksen','Casemiro','Sancho','Pellistri','Mctominay','Martial','Hojlund','Garnacho','Rashford','Antony']
 								for t in LKI:
 									print(t)
@@ -18430,12 +18124,10 @@ while A77>0:
 								print('Jacob Murphy [Attacker]')
 								print('Joe Willock [Attacker]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Dubravka','Karius','Pope','Trippier','Dummett','Botman','Schar','Lascellas','Target','Tino','Burn','Tonali','Barnes','Hall','Almiron','Longstaff','Guimaraes','Joelinton','Wilson','Gordon','Isak','Murphy','Willock']
 								for t in LKI:
 									print(t)
@@ -18557,12 +18249,10 @@ while A77>0:
 								print('Randal Kolo Muani [Attacker]')
 								print('Bradley Barcola [Attacker]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Navas','Letellier','Tenas','Donnarumma','Hakimi','Kimpembe','Marquinhos','Lucas','Mendes','Mukiele','Skriniar','Ugarte','Ruiz','Danilo','Vitinha','Kang','Soler','Warren','Mbappe','Dembele','Asensio','Goncalo','Muani','Barcola']
 								for t in LKI:
 									print(t)
@@ -18681,12 +18371,10 @@ while A77>0:
 								print('Julian Alvarez [Attacker]')
 								print('Jeremy Doku [Attacker]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Ederson','Ortega','Carson','Walker','Dias','Stones','Gomez','Ake','Gvardiol','Akanji','Kalvin','Kovacic','Grealish','Rodri','De Bruyne','Silva','Nunes','Foden','Haaland','Alvarez','Doku']
 								for t in LKI:
 									print(t)
@@ -18809,12 +18497,10 @@ while A77>0:
 								print('Rodrygo [Attacker]')
 								print('Joselu [Attacker]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Courtois','Lunin','Kepa','Gonzalez','Carvajal','Militao','Alaba','Nacho','Garcia','Rudiger','Mendy','Tobias','Bellingham','Camavinga','Kroos','Valverde','Modric','Vazquez','Tchouameni','Ceballos','Diaz','Guler','Vinicius','Rodrygo','Joselu']
 								for t in LKI:
 									print(t)
@@ -18935,12 +18621,10 @@ while A77>0:
 								print('Donyell Malen [Attacker]')
 								print('Karim Adeyemi [Attacker]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Kobel','Ostrzinski','Meyer','Lotka','Schlotterbeck','Bensebaini','Hummels','Can','Sule','Ryerson','Ozcan','Reyna','Nmecha','Reus','Duranville','Wolf','Brandt','Sabitzer','Haller','Fullkrug','Moukoko','Malen','Adeyemi']
 								for t in LKI:
 									print(t)
@@ -19618,7 +19302,7 @@ while A77>0:
 							if pjo!=1:
 								if b==pkop:
 									continue
-							time.sleep(0.8)
+							time.sleep(0.52)
 							if b in ag:
 								pey=random.randint(1,100)
 								if b>90:
@@ -20557,8 +20241,7 @@ while A77>0:
 				print()
 				for i in rfix[gt]:
 					if gt<8:
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if i[0] in pointstA:
 							print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 						if i[0] in pointstB:
@@ -20589,8 +20272,7 @@ while A77>0:
 				print()
 				for i in rfix[gt]:
 					print()
-					for nbm in range(3002222):
-						pass
+					time.sleep(0.5)
 					if gt<8:
 						if i[0] in pointstA:
 							print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
@@ -20659,12 +20341,10 @@ while A77>0:
 								print('FW: Ante Budimir (Osasuna)')
 								print('FW: Marko Livaja (Hajduk Split)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Livakovic','Ivusic','Grbic','Vida','Lovren','Barisic','Juranovic','Gvardiol','Sosa','Stanisic','Erlic','Sutaloo','Modric','Kovacic',
 								'Brozovic','Pasalaic','Vlasic','Majer','Jakic','Sucic','Perisic','Kramaric','Petkovic','Orsic','Budimir','Livaja']
 								for t in LKI:
@@ -20789,12 +20469,10 @@ while A77>0:
 								print('FW: Michy Batshuayi (Fenerbahce)')
 								print('FW: Lois Openda (RC Lens)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Courtois','Mignolet','Casteels','Vertonghen','Alderweireld','Faes','Theate','Debast','Meunier','Castagne','De Bruyne',
 								'Tielemans','Onana','Witsel','Vanaken','Dendoncker','Carrasco','Thorgan','Hazard','Ketelaere','Trossard','Mertens','Doku','Lukaku','Batshuayi','Openda']
 								for t in LKI:
@@ -20919,12 +20597,10 @@ while A77>0:
 								print('FW: Gabriel Martinelli (Arsenal)')
 								print('FW: Pedro (Flamengo)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Alisson','Ederson','Weverton','Alves','Silva','Marquinhos','Danilo','Telles','Sandro','Militao','Bremer','Guimaraes','Casemiro','Paqueta',
 								'Fabinho','Fred','Ribeiro','Neymar','Jesus','Vinicius','Antony','Neymar','Raphinha','Rodrygo','Martinelli','Pedro']
 								for t in LKI:
@@ -21049,12 +20725,10 @@ while A77>0:
 								print('FW: Niclas Fullkrug, (Werder Bremen)')
 								print('FW: Youssoufa Moukoko, (Borussia Dortmund)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Neuer','Trapp','Ter Stegen','Kehrer','Sule','Klostermann','Gunter','Kotchap','Raum','Rudiger','Schlotterbeck','Ginter',
 								'Kimmich','Gotze','Hofmann','Brandt','Goretzka','Gundogan','Havertz','Musiala','Sane','Muller','Gnabry','Adeyemi','Fullkrug','Moukoko']
 								for t in LKI:
@@ -21179,12 +20853,10 @@ while A77>0:
 								print('FW: Edinson Cavani (Valencia) ')
 								print('FW: Facundo Pellistri (Manchester United)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Muslera','Rochet','Sosa','Godin','Varela','Gimenez','Araujo','Rodriguez','Vina','Coates','Caceres','Olivera','Ugarte',
 								'Bentancur','Cruz','Arrascaeta','Torreira','Valverde','Vecino','Suarez','Nunez','Gomez','Canobbio','Torres','Cavani','Pellistri']
 								for t in LKI:
@@ -21309,12 +20981,10 @@ while A77>0:
 								print('FW: Phil Foden (Manchester City)')
 								print('FW: Harry Kane (Tottenham)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Pickford','Pope','Ramsdale','Walker','Trippier','Coady','Maguire','White','Trent','Shaw','Stones','Gallagher','Dier',
 								'Mount','Henderson','Maddison','Bellingham','Phillips','Rice','Grealish','Saka','Rashford','Sterling','Wilson','Foden','Kane']
 								for t in LKI:
@@ -21439,12 +21109,10 @@ while A77>0:
 								print('FW: Thiago Almada (Atlanta United)')
 								print('FW: Alejandro Gomez (Sevilla)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Martinez','Armani','Rulli','Acuna','Foyth','Lissandro','Tagliafico','Romero','Otamendi','Molina','Montiel','Pezzella','Di Maria','Paredes','De Paul','Mac Allister','Enzo','Palacios','Guido','Messi','Lautaro','Dybala','Correa','Alvarez','Almada','Gomez']
 								for t in LKI:
 									print(t)
@@ -21568,12 +21236,10 @@ while A77>0:
 								print('FW: Ricardo Horta (Braga)')
 								print('FW: Andre Silva (RB Leipzig')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Costa','Patricio','Jose','Cancelo','Dalot','Mendes','Dias','Antonio','Pepe','Guerreiro','Pereira','Palhinha','Nunes',
 								'Carvalho','Neves','Bruno','Mario','Bernardo','Vitinha','Otavio','Felix','Ronaldo','Ramos','Leao','Horta','Andre']
 								for t in LKI:
@@ -21698,12 +21364,10 @@ while A77>0:
 								print('FW: Daizen Maeda (Celtic)')
 								print('FW: Shuto Machino (Shonan Bellmare)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Kawashima','Gonda','Schmidt','Tomiyasu','Taniguchi','Nagatomo','Yamane','Yoshida','Sakai','Ito','Itakura','Shibasaki','Minamino',
 								'Kubo','Morita','Endo','Junya','Tanaka','Mitoma','Kamada','Doan','Soma','Ueda','Asano','Maeda','Machino']
 								for t in LKI:
@@ -21827,12 +21491,10 @@ while A77>0:
 								print('FW: Randal Kolo Muani, (Eintracht Frankfurt)')
 								print('FW: Kingsley Coman, (Bayern Munich)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Lloris','Areola','Mandanda','Pavard','Kounde','Varane','Theo','Lucas','Benoit','Ferland','Upamecano','Konate','Saliba',
 								'Camavinga','Fofana','Guendouzi','Tchouameni','Rabiot','Veretout','Dembele','Giroud','Griezmann','Mbappe','Muani','Coman']
 								for t in LKI:
@@ -21957,12 +21619,10 @@ while A77>0:
 								print('FW: Cody Gakpo, (PSV)')
 								print('FW: Vincent Janssen, (Royal Antwerp)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Noppert','Pasveer','Bijlow','Van Dijk','Ake','Blind','De Vrij','Dumfries','Malacia','Timber','Frimpong','De Ligt','Berghuis',
 								'De Jong','Klaassen','De Roon','Koopmeiners','Taylor','Simons','Luuk','Lang','Bergwijn','Depay','Weghorst','Gakpo','Janssen']
 								for t in LKI:
@@ -22087,12 +21747,10 @@ while A77>0:
 								print('FW: Robert Skov, (Hoffenheim)')
 								print('FW: Mikkel Damsgaard, (Brentford)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Schmeichel','Oliver','Ronnow','Kjaer','Andersen','Wass','Mahle','Christensen','Kristensen','Larsen','Nelsson','Bah','Delaney','Jensen',
 								'Eriksen','Hojbjerg','Norgaard','Poulsen','Olsen','Lindstrom','Cornelius','Braithwaite','Wind','Dolberg','Skov','Damsgaard']
 								for t in LKI:
@@ -22217,12 +21875,10 @@ while A77>0:
 								print('FW: Amine Harit (Olympique Marseille)')
 								print('FW: Hakim Ziyech (Chelsea)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Bounou','Kajoui','Tagnaouti','Aguerd','Yahia','Benoun','Dari','Yamiq','Hakimi','Mazraoui','Saiss','Amrabat',
 								'Amallah','Khannouss','Jabrane','Ounahi','Sabiri','Aboukhlal','Boufal','Chair','Cheddira','Nesyri','Ezzalzouli','Hamdallah','Harit','Ziyech']
 								for t in LKI:
@@ -22346,12 +22002,10 @@ while A77>0:
 								print('FW: Yeremy Pino, (Villarreal )')
 								print('FW: Danny Olmo, (RB Leipzig)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Simon','Sanchez','Raya','Azpilicueta','Carvajal','Garcia','Cubarsi','Alba','Gaya','Guillamon','Laporte','Busquets','Rodri',
 								'Gavi','Pedri','Soler','Koke','Llorente','Sarabia','Nico','Asensio','Morata','Torres','Pino','Olmo']
 								for t in LKI:
@@ -23037,7 +22691,7 @@ while A77>0:
 							if pjo!=1:
 								if b==pkop:
 									continue
-							time.sleep(0.8)
+							time.sleep(0.52)
 							if b in ag:
 								pey=random.randint(1,100)
 								if b>90:
@@ -23287,7 +22941,7 @@ while A77>0:
 			for i in JOSEF:
 				print(i,'.',sep='',end=' ')
 				print(JOSEF[i])
-				time.sleep(0.2)
+				time.sleep(0.4)
 			print()
 			while True:
 				abmn=int(input('Enter number:'))
@@ -24184,8 +23838,7 @@ while A77>0:
 				print()
 				for i in rfix[gt]:
 					if gt<6:
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if i[0] in pointstA:
 							print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 						if i[0] in pointstB:
@@ -24216,8 +23869,7 @@ while A77>0:
 				print()
 				for i in rfix[gt]:
 					print()
-					for nbm in range(3002222):
-						pass
+					time.sleep(0.5)
 					if gt<6:
 						if i[0] in pointstA:
 							print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
@@ -24291,12 +23943,10 @@ while A77>0:
 								print('FW: Marin Ljubičić (LASK)')
 								print('FW: Igor Matanović (Karlsruher SC)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Livakovic','Ivusic','Labrovic','Kotarski','Vida','Juranovic','Barisic','Gvardiol','Caleta','Sosa','Stanisic',
 								'Sutalo','Erlic','Pongracic','Sigur','Modric','Kovacic','Brozovic','Pasalic','Vlasic','Majer','Ivanusec','Sucic','Jakic',
 								'Baturina','Fruk','Petar','Perisic','Kramaric','Petkovic','Pjaca','Budimir','Marco','Ljubicic','Matanovic']
@@ -24421,12 +24071,10 @@ while A77>0:
 								print('FW: Lois Openda (RB Leipzig)')
 								print('FW: Leandro Trossard (Arsenal)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Casteels','Kaminski','Sels','Castagne','Cuyper','Debast','Faes','Meunier','Vertonghen','Theate','Witsel','Carrasco',
 								'De Bruyne','Mangala','Onana','Tielemans','Vermeeren','Vranckx','Bakayoko','De Ketelaere','Doku','Lukaku','Lukebakio','Openda','Trossard']
 								for t in LKI:
@@ -24552,12 +24200,10 @@ while A77>0:
 								print('FW: Deniz Undav (Stuttgart)')
 								print('FW: Maximilian Beier (Hoffenheim)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Neuer','Ter Stegen','Nubel','Baumann','Rudiger','Tah','Koch','Mittlestadt','Schlotterbeck','Anton','Henrichs','Raum',
 								'Kimmich','Gundogan','Gross','Andrich','Fuhrich','Pavlovic','Sane','Kroos','Musiala','Wirtz','Fullkrug','Havertz','Muller','Undav','Beier']
 								for t in LKI:
@@ -24689,12 +24335,10 @@ while A77>0:
 								print('FW: Ollie Watkins (Aston Villa)')
 								print('FW: Cole Palmer (Chelsea)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Pickford','Ramsdale','Henderson','Trafford','Trippier','Stones','Branthwaite','Dunk','Gomez','Maguire','Walker','Konsa','Shaw','Quansah','Guehi','Trent','Gallagher','Bellingham',
 								'Rice','Jones','Wharton','Mainoo','Maddison','Eberichi','Grealish','Bowen','Gordon','Saka','Foden','Kane','Toney','Watkins','Palmer']
 								for t in LKI:
@@ -24819,12 +24463,10 @@ while A77>0:
 								print('FW: Diogo Jota (Liverpool)')
 								print('FW: Pedro Neto (Wolves)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Patricio','Costa','Jose','Semedo','Antonio','Pereira','Cancelo','Dias','Pepe','Inacio','Dalot','Mendes','Palhinha',
 								'Bruno','Otavio','Neves','Vitinha','Joao','Bernardo','Goncalo','Felix','Leao','Conceicao','Ronaldo','Jota','Neto']
 								for t in LKI:
@@ -24948,12 +24590,10 @@ while A77>0:
 								print('FW: Bradley Barcola (PSG)')
 								print('FW: Kingsley Coman (Bayern Munich)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Samba','Maignan','Areola','Konate','Saliba','Kounde','Upamecano','Clauss','Pavard','Hernandez','Mendy','Kante',
 								'Camavinga','Rabiot','Warren','Fofana','Tchouameni','Giroud','Griezmann','Mbappe','Dembele','Muani','Thuram','Barcola','Coman']
 								for t in LKI:
@@ -25079,12 +24719,10 @@ while A77>0:
 								print('FW: Cody Gakpo (Liverpool)')
 
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Verbruggen','Flekken','Bijlow','Van Dijk','De Vrij','Van De Ven','Blind','De Ligt','Ake','Dumfries','Geertruida','Frimpong','Koopmeiners','Gravenberch',
 								'De Jong','Reihmders','Simons','Veerman','Schouten','Wijnaldum','Bergwijn','Depay','Brobbey','Weghorst','Malen','Gakpo']
 								for t in LKI:
@@ -25213,12 +24851,10 @@ while A77>0:
 								print('FW: Riccardo Orsolini (Bologna)')
 								print('FW: Gianluca Scamacca (Atalanta)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Donnarumma','Vicario','Meret','Provedel','Acerbi','Bastoni','Bellanova','Buongiorno','Calafiori','Cambiasso','Darmian','Di Lorenzo',
 								'Dimarco','Mancini','Scalvini','Jorginho','Barella','Cristante','Fagiolo','Folorunsho','Frattesi','Pellegrini','Ricci','Chiesa','Raspadori',
 								'El Shaarawy','Retegui','Zaccagni','Orsolini','Scamacca']
@@ -25346,12 +24982,10 @@ while A77>0:
 								print('FW: Nico Williams (Athletic Bilbao)')
 								print('FW: Lamine Yamal (Barcelona)')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Remiro','Raya','Simon','Carvajal','Cubarsi','Cucurella','Grimaldo','Laporte','Normand','Navas','Nacho','Vivian','Baena','Garcia'
 								,'Llorente','Merino','Pedri','Rodri','Ruiz','Zubimendi','Joselu','Morata','Perez','Olmo','Oyarzabal','Torres','Nico','Yamal']
 								for t in LKI:
@@ -25931,7 +25565,7 @@ while A77>0:
 							if pjo!=1:
 								if b==pkop:
 									continue
-							time.sleep(0.8)
+							time.sleep(0.52)
 							if b in ag:
 								pey=random.randint(1,100)
 								if b>90:
@@ -26611,8 +26245,7 @@ while A77>0:
 				print('Match-Week ',gt+1,':')
 				print()
 				for i in rfix[gt]:
-					for nbm in range(3002222):
-							pass
+					time.sleep(0.5)
 					print(i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 					print()
 				print()
@@ -26729,8 +26362,7 @@ while A77>0:
 				print()
 				for i in rfix[gt]:
 					print()
-					for nbm in range(3002222):
-						pass
+					time.sleep(0.5)
 					print(i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 					print()
 					if i[0]==teamsp:
@@ -26779,12 +26411,10 @@ while A77>0:
 
 
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Alisson','Kelleher','Adrian','Trent','Robertson','Van Dijk','Bradley','Konate','Gomez','Matip','Tsimikas','Quansah','Ramsay','Mac Allister','Szoboszlai',
 								'Curtis','Thiago','Elliott','Bajcetic','Endo','Gravenberch','Salah','Nunez','Chiesa','Diaz','Jota','Gakpo','Doak']
 								for t in LKI:
@@ -26914,12 +26544,10 @@ while A77>0:
 								print('FW: Pedro Neto')
 								print('FW: Deivid Washington')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Sanchez','Petrovic','Bettinelli','Reece','Chilwell','Colwill','Fofana','Disasi','Gusto','Cucurella','Chalobah','Badiashile','Gilchrist','Enzo','Caicedo',
 								'Lavia','Ugochukwu','Chukwuemeka','Casadei','Santos','Nkunku','Jackson','Palmer','Mudryk','Madueke','Broja','Neto','Deivid']
 								for t in LKI:
@@ -27062,12 +26690,10 @@ while A77>0:
 								print('FW: Divin Mubama')
 
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Ederson','Ortega','Marcus','Carson','Brits','Hudson','Dias','Stones','Ake','Gvardiol','Akanji','Lewis','Rayan','Reis','Khusanov','Alleyne','Jahmai',
 								'Kaden','Mcfarlane','De Bruyne','Bernardo','Foden','Grealish','Kovacic','Nunes','Gundogan','Gonzalez','Bobb','Mcatee','O Reilly','Echeverri','Reijnders','Rodri','Cherki',
 								'Haaland','Doku','Savinho','Marmoush','Farid','Mubama']
@@ -27216,12 +26842,10 @@ while A77>0:
 								print('FW: James Scanlon')
 
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Onana','Bayindir','Heaton','Dermot','Graczyk','Elyh','Murdock','Dalot','Lindelof','De Ligt','Mazraoui','Maguire','Lissandro','Evans','Shaw','Malacia','Yoro','Dorgu',
 								'Amass','Tyler','Heaven','Kamason','Kukonki','Ogunneye','Bruno','Casemiro','Eriksen','Mount','Ugarte','Mainoo','Collyer','Moorhouse','Fitzgerald','Fletcher','Kone','Rashford','Garnacho',
 								'Hojlund','Zirkzee','Diallo','Antony','Obi Martin','Mantato','Scanlon']
@@ -27365,12 +26989,10 @@ while A77>0:
 								print('FW: Manor Solomon')
 
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Vicario','Forster','Austin','Whiteman','Kinsky','Reguillon','Danso','Dragusin','Udogie','Romero','Porro','Spence','Davies','Van De Ven','Cassanova','Hardy','Vuskovic',
 								'Phillips','Gray','Bissouma','Maddison','Bergvall','Kulusevski','Sarr','Bentancur','Devine','Moore','Hojbjerg','Lo Celso','Son','Richarlison','Werner','Solanke','Tel','Johnson','Odobert','Scarlett','Solomon']
 								for t in LKI:
@@ -27505,12 +27127,10 @@ while A77>0:
 								print('FW: Sean Neave')
 
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Dubravka','Vlachodimos','Pope','Rudy','Mark','Trippier','Botman','Schar','Lascelles','Targett','Krafth','Hall','Livramento','Kelly','Burn','Shahar','Joelinton','Tonali',
 								'Barnes','Murphy','Willock','Longstaff','Guimaraes','Miley','Wilson','Gordon','Isak','Almiron','Osula','Sanusi','Neave']
 								for t in LKI:
@@ -27648,12 +27268,10 @@ while A77>0:
 								print('FW: Morgan Rogers')
 
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Emiliano','Olsen','Zych','Proctor','Cash','Disasi','Konsa','Mings','Digne','Pau','Garsia','Maatsen','Bogarde','Hause','Rowe','Katsukunya','Ozcan','Swinkels','Barkley','Mcginn',
 								'Tielemans','Amadou','Bailey','Ramsey','Kamara','Borland','Jimoh','Broggio','Burrowes','Rashford','Watkins','Malen','Asensio','Rogers']
 								for t in LKI:
@@ -27791,12 +27409,10 @@ while A77>0:
 								print('FW: Danny Welbeck')
 
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Verbruggen','Steele','Mcgill','Cahill','Rushworth','Lamptey','Julio','Webster','Dunk','Cashin','Van Hecke','Estupinian','Veltman','Slater','Tasker','Milner','March','Gruda','Baleba',
 								'Mitoma','Kadioglu','Gomez','Ayari','Wieffer','Matt','Hinshelwood','Knight','Sarmieonto','Moran','Pedro','Adingra','Rutter','Minteh','Welbeck']
 								for t in LKI:
@@ -27935,12 +27551,10 @@ while A77>0:
 								print('FW: Ismeal Kabia')
 
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Raya','Neto','Setford','Rojas','Porter','Saliba','Tierney','White','Gabriel','Timber','Kiwior','Zinchenko','Tomiyasu','Calafiori','Nichols','Clarke','Partey',
 								'Odegaard','Jorginho','Merino','Rice','Gower','Jack','Myles','Nwaneri','Eddine','Rosiak','Saka','Jesus','Martinelli','Trossard','Havertz','Sterling','Nathan','Ismael']
 								for t in LKI:
@@ -28412,7 +28026,7 @@ while A77>0:
 							if pjo!=1:
 								if b==pkop:
 									continue
-							time.sleep(0.8)
+							time.sleep(0.52)
 							if b in ag:
 								pey=random.randint(1,100)
 								if b>90:
@@ -31142,13 +30756,11 @@ while A77>0:
 								print('FW: Dimas Drajad (Persikabo)')
 								print()
 
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 								print()
 
-								for rq4 in range(1000000):
-										pass
+								time.sleep(0.7)
 								LKI=['Ernando','Nadeo','Syahrul','Reza','Amat','Baggott','Arhan','Asnawi','Ridho','Pattynama',
 								'Klok','Jenner','Marselino','Kambuaya','Yakob','Saddil','Struick','Sananta','Egy','Dimas']
 
@@ -31295,7 +30907,7 @@ while A77>0:
 							if pjo!=1:
 								if b==pkop:
 									continue
-							time.sleep(0.8)
+							time.sleep(0.52)
 							if b in ag:
 								pey=random.randint(1,100)
 								if b>90:
@@ -31333,7 +30945,7 @@ while A77>0:
 						sc[i[0]][i[1]]+=g2
 						print()
 						print()
-						time.sleep(2.8)
+						time.sleep(0.2)
 					if i[0]==p4[9] and arb==1:
 						arb=0
 						print()
@@ -31457,7 +31069,6 @@ while A77>0:
 					print()
 					print()
 					if gt<8:
-						time.sleep(1)
 						print('                      AFC Asian Qualifiers 2023-24 Group '+x)
 						time.sleep(1)
 						print()
@@ -31677,8 +31288,7 @@ while A77>0:
 					print('Matchday ',gt+1,':')
 					print()
 					for i in rfix[gt]:
-							for nbm in range(3002222):
-								pass
+							time.sleep(0.6)
 							if i[0] in pointstA:
 								print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 							if i[0] in pointstB:
@@ -31705,8 +31315,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 						print()
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if i[0] in pointstA:
 								print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 						if i[0] in pointstB:
@@ -31765,13 +31374,11 @@ while A77>0:
 									print('FW: Kyogo Furuhashi (Celtic)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Suzuki','Schmidt','Osako','Maekawa','Tomiyasu','Itakura','Ito','Sugawara','Nakayama','Taniguchi',
 									'Endo','Morita','Tanaka','Kamada','Hatate','Kubo','Mitoma','Doan','Minamino','Ueda','Furuhashi']
 
@@ -31892,13 +31499,11 @@ while A77>0:
 									print('FW: Sherzodbek Umarov (Navbahor)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Yusupov','Nematov','Suyunov','Dilshod','Ashurmatov','Khusanov','Mozgovoy','Sayfiev','Davron','Nasrullaev',
 									'Hamrobekov','Shukurov','Masharipov','Turgunboev','Yakhshiboev','Khamdamov','Shomurodov','Sergeev','Abdukholikov','Umarov']
 
@@ -32018,13 +31623,11 @@ while A77>0:
 									print('FW: Kusini Yengi (Portsmouth)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ryan','Gauci','Redmayne','Izzo','Souttar','Circati','Rowles','Atkinson','Behich','Burgess',
 									'Irvine','Hrustic','Baccus','Mcgree','Metcalfe','Leckie','Goodwin','Duke','Yengi']
 
@@ -32146,12 +31749,10 @@ while A77>0:
 									print('FW: Yang Hyun-jun (Celtic)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Seunggyu','Hyeonwoo','Bumkeun','Dongheon','Minjae','Younggwon','Youngwoo','Kije','Jinsu','Seunghyun',
 									'Inbeom','Jaesung','Wooyoung','Kangin','Seungho','Hyunseok','Son','Heechan','Guesung','Hyeongyu','Hyunjun']
@@ -32273,13 +31874,11 @@ while A77>0:
 									print('FW: Mahdi Abduljabbar (Al-Khaldiya)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Shubbar','Lutfalla','Ammar','Khaldi','Hayam','Shamsan','Baqer','Benaddi','Adel','Haram','Komail','Jasim','Marhoon','Dhiya','Humaidan','Malood','Helal','Abdullatif','Madan','Abduljabbar']
 
 									for t in LKI:
@@ -32399,13 +31998,11 @@ while A77>0:
 									print('FW: Dimas Drajad (Persikabo)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ernando','Nadeo','Syahrul','Reza','Amat','Baggott','Arhan','Asnawi','Ridho','Pattynama',
 									'Klok','Jenner','Marselino','Kambuaya','Yakob','Saddil','Struick','Sananta','Egy','Dimas']
 
@@ -32526,13 +32123,11 @@ while A77>0:
 									print('FW: Mehdi Ghayedi (Al-Ittihad Kalba)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Beiranvand','Hosseini','Niazmand','Abedzadeh','Milad','Pouraliganji','Majid','Khalilzadeh','Rezaeian','Moharrami',
 									'Ezatolahi','Noorollahi','Ghoddos','Jahanbakhsh','Torabi','Ebrahimi','Taremi','Azmoun','Sayyadmanesh','Ghayedi']
 
@@ -32653,13 +32248,11 @@ while A77>0:
 									print('FW: Abdullah Fawaz (Al-Seeb)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ibrahim','Faiyz','Kaabi','Mazin','Khamisi','Musalami','Braiki','Saad','Yahmadi','Busaidi','Harib','Salaah','Muqbali','Arshad','Hajri','Ghassani','Issam','Fawaz']
 
 									for t in LKI:
@@ -32784,12 +32377,10 @@ while A77>0:
 									print('FW: Rahul KP (Kerala Blasters)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Gurpreet','Amrinder','Kaith','Dheeraj','Jhingan','Bheke','Anwar','Bose','Akash','Poojary','Mehtab','Lalchungnunga',
 									'Apuia','Thapa','Sahal','Brandon','Jeakson','Suresh','Colaco','Mahesh','Chhetri','Chhangte','Manvir','Pandita','Rahul']
 
@@ -32988,7 +32579,7 @@ while A77>0:
 								if pjo!=1:
 									if b==pkop:
 										continue
-								time.sleep(0.8)
+								time.sleep(0.52)
 								if b in ag:
 									pey=random.randint(1,100)
 									if b>90:
@@ -33407,7 +32998,6 @@ while A77>0:
 					import random
 					print()
 					print()
-					time.sleep(1)
 					print('                      AFC Asian Qualifiers 2023-24 Group '+x)
 					time.sleep(1)
 					print()
@@ -33603,8 +33193,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 
-							for nbm in range(3002222):
-								pass
+							time.sleep(0.6)
 							if i[0] in pointstA:
 								print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 							if i[0] in pointstB:
@@ -33619,8 +33208,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 						print()
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if i[0] in pointstA:
 								print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 						if i[0] in pointstB:
@@ -33668,13 +33256,11 @@ while A77>0:
 									print('FW: Kyogo Furuhashi (Celtic)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Suzuki','Schmidt','Osako','Maekawa','Tomiyasu','Itakura','Ito','Sugawara','Nakayama','Taniguchi',
 									'Endo','Morita','Tanaka','Kamada','Hatate','Kubo','Mitoma','Doan','Minamino','Ueda','Furuhashi']
 
@@ -33795,13 +33381,11 @@ while A77>0:
 									print('FW: Sherzodbek Umarov (Navbahor)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Yusupov','Nematov','Suyunov','Dilshod','Ashurmatov','Khusanov','Mozgovoy','Sayfiev','Davron','Nasrullaev',
 									'Hamrobekov','Shukurov','Masharipov','Turgunboev','Yakhshiboev','Khamdamov','Shomurodov','Sergeev','Abdukholikov','Umarov']
 
@@ -33921,13 +33505,11 @@ while A77>0:
 									print('FW: Kusini Yengi (Portsmouth)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ryan','Gauci','Redmayne','Izzo','Souttar','Circati','Rowles','Atkinson','Behich','Burgess',
 									'Irvine','Hrustic','Baccus','Mcgree','Metcalfe','Leckie','Goodwin','Duke','Yengi']
 
@@ -34049,12 +33631,10 @@ while A77>0:
 									print('FW: Yang Hyun-jun (Celtic)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Seunggyu','Hyeonwoo','Bumkeun','Dongheon','Minjae','Younggwon','Youngwoo','Kije','Jinsu','Seunghyun',
 									'Inbeom','Jaesung','Wooyoung','Kangin','Seungho','Hyunseok','Son','Heechan','Guesung','Hyeongyu','Hyunjun']
@@ -34176,13 +33756,11 @@ while A77>0:
 									print('FW: Mahdi Abduljabbar (Al-Khaldiya)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Shubbar','Lutfalla','Ammar','Khaldi','Hayam','Shamsan','Baqer','Benaddi','Adel','Haram','Komail','Jasim','Marhoon','Dhiya','Humaidan','Malood','Helal','Abdullatif','Madan','Abduljabbar']
 
 									for t in LKI:
@@ -34302,13 +33880,11 @@ while A77>0:
 									print('FW: Dimas Drajad (Persikabo)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ernando','Nadeo','Syahrul','Reza','Amat','Baggott','Arhan','Asnawi','Ridho','Pattynama',
 									'Klok','Jenner','Marselino','Kambuaya','Yakob','Saddil','Struick','Sananta','Egy','Dimas']
 
@@ -34429,13 +34005,11 @@ while A77>0:
 									print('FW: Mehdi Ghayedi (Al-Ittihad Kalba)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Beiranvand','Hosseini','Niazmand','Abedzadeh','Milad','Pouraliganji','Majid','Khalilzadeh','Rezaeian','Moharrami',
 									'Ezatolahi','Noorollahi','Ghoddos','Jahanbakhsh','Torabi','Ebrahimi','Taremi','Azmoun','Sayyadmanesh','Ghayedi']
 
@@ -34556,13 +34130,11 @@ while A77>0:
 									print('FW: Abdullah Fawaz (Al-Seeb)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ibrahim','Faiyz','Kaabi','Mazin','Khamisi','Musalami','Braiki','Saad','Yahmadi','Busaidi','Harib','Salaah','Muqbali','Arshad','Hajri','Ghassani','Issam','Fawaz']
 
 									for t in LKI:
@@ -34687,12 +34259,10 @@ while A77>0:
 									print('FW: Rahul KP (Kerala Blasters)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Gurpreet','Amrinder','Kaith','Dheeraj','Jhingan','Bheke','Anwar','Bose','Akash','Poojary','Mehtab','Lalchungnunga',
 									'Apuia','Thapa','Sahal','Brandon','Jeakson','Suresh','Colaco','Mahesh','Chhetri','Chhangte','Manvir','Pandita','Rahul']
 
@@ -34854,7 +34424,7 @@ while A77>0:
 								if pjo!=1:
 									if b==pkop:
 										continue
-								time.sleep(0.8)
+								time.sleep(0.52)
 								if b in ag:
 									pey=random.randint(1,100)
 									if b>90:
@@ -35063,7 +34633,6 @@ while A77>0:
 					import random
 					print()
 					print()
-					time.sleep(1)
 					print('                      AFC Asian Qualifiers 2023-24 Group '+x)
 					time.sleep(1)
 					print()
@@ -35168,8 +34737,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 
-							for nbm in range(3002222):
-								pass
+							time.sleep(0.6)
 							if i[0] in pointstA:
 								print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 							if i[0] in pointstB:
@@ -35182,8 +34750,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 						print()
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if i[0] in pointstA:
 								print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 						if i[0] in pointstB:
@@ -35229,13 +34796,11 @@ while A77>0:
 									print('FW: Kyogo Furuhashi (Celtic)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Suzuki','Schmidt','Osako','Maekawa','Tomiyasu','Itakura','Ito','Sugawara','Nakayama','Taniguchi',
 									'Endo','Morita','Tanaka','Kamada','Hatate','Kubo','Mitoma','Doan','Minamino','Ueda','Furuhashi']
 
@@ -35356,13 +34921,11 @@ while A77>0:
 									print('FW: Sherzodbek Umarov (Navbahor)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Yusupov','Nematov','Suyunov','Dilshod','Ashurmatov','Khusanov','Mozgovoy','Sayfiev','Davron','Nasrullaev',
 									'Hamrobekov','Shukurov','Masharipov','Turgunboev','Yakhshiboev','Khamdamov','Shomurodov','Sergeev','Abdukholikov','Umarov']
 
@@ -35482,13 +35045,11 @@ while A77>0:
 									print('FW: Kusini Yengi (Portsmouth)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ryan','Gauci','Redmayne','Izzo','Souttar','Circati','Rowles','Atkinson','Behich','Burgess',
 									'Irvine','Hrustic','Baccus','Mcgree','Metcalfe','Leckie','Goodwin','Duke','Yengi']
 
@@ -35610,12 +35171,10 @@ while A77>0:
 									print('FW: Yang Hyun-jun (Celtic)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Seunggyu','Hyeonwoo','Bumkeun','Dongheon','Minjae','Younggwon','Youngwoo','Kije','Jinsu','Seunghyun',
 									'Inbeom','Jaesung','Wooyoung','Kangin','Seungho','Hyunseok','Son','Heechan','Guesung','Hyeongyu','Hyunjun']
@@ -35737,13 +35296,11 @@ while A77>0:
 									print('FW: Mahdi Abduljabbar (Al-Khaldiya)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Shubbar','Lutfalla','Ammar','Khaldi','Hayam','Shamsan','Baqer','Benaddi','Adel','Haram','Komail','Jasim','Marhoon','Dhiya','Humaidan','Malood','Helal','Abdullatif','Madan','Abduljabbar']
 
 									for t in LKI:
@@ -35863,13 +35420,11 @@ while A77>0:
 									print('FW: Dimas Drajad (Persikabo)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ernando','Nadeo','Syahrul','Reza','Amat','Baggott','Arhan','Asnawi','Ridho','Pattynama',
 									'Klok','Jenner','Marselino','Kambuaya','Yakob','Saddil','Struick','Sananta','Egy','Dimas']
 
@@ -35990,13 +35545,11 @@ while A77>0:
 									print('FW: Mehdi Ghayedi (Al-Ittihad Kalba)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Beiranvand','Hosseini','Niazmand','Abedzadeh','Milad','Pouraliganji','Majid','Khalilzadeh','Rezaeian','Moharrami',
 									'Ezatolahi','Noorollahi','Ghoddos','Jahanbakhsh','Torabi','Ebrahimi','Taremi','Azmoun','Sayyadmanesh','Ghayedi']
 
@@ -36117,13 +35670,11 @@ while A77>0:
 									print('FW: Abdullah Fawaz (Al-Seeb)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ibrahim','Faiyz','Kaabi','Mazin','Khamisi','Musalami','Braiki','Saad','Yahmadi','Busaidi','Harib','Salaah','Muqbali','Arshad','Hajri','Ghassani','Issam','Fawaz']
 
 									for t in LKI:
@@ -36248,12 +35799,10 @@ while A77>0:
 									print('FW: Rahul KP (Kerala Blasters)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Gurpreet','Amrinder','Kaith','Dheeraj','Jhingan','Bheke','Anwar','Bose','Akash','Poojary','Mehtab','Lalchungnunga',
 									'Apuia','Thapa','Sahal','Brandon','Jeakson','Suresh','Colaco','Mahesh','Chhetri','Chhangte','Manvir','Pandita','Rahul']
 
@@ -36410,7 +35959,7 @@ while A77>0:
 								if pjo!=1:
 									if b==pkop:
 										continue
-								time.sleep(0.8)
+								time.sleep(0.52)
 								if b in ag:
 									pey=random.randint(1,100)
 									if b>90:
@@ -36584,8 +36133,7 @@ while A77>0:
 					print('Matchday ',gt+1,':')
 					print()
 					for i in rfix[gt]:
-							for nbm in range(3002222):
-								pass
+							time.sleep(0.6)
 							print(i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 					print()
 					print()
@@ -36593,8 +36141,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 						print()
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 
 						print()
 						if i[0]==teamsp:
@@ -36635,13 +36182,11 @@ while A77>0:
 									print('FW: Kyogo Furuhashi (Celtic)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Suzuki','Schmidt','Osako','Maekawa','Tomiyasu','Itakura','Ito','Sugawara','Nakayama','Taniguchi',
 									'Endo','Morita','Tanaka','Kamada','Hatate','Kubo','Mitoma','Doan','Minamino','Ueda','Furuhashi']
 
@@ -36762,13 +36307,11 @@ while A77>0:
 									print('FW: Sherzodbek Umarov (Navbahor)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Yusupov','Nematov','Suyunov','Dilshod','Ashurmatov','Khusanov','Mozgovoy','Sayfiev','Davron','Nasrullaev',
 									'Hamrobekov','Shukurov','Masharipov','Turgunboev','Yakhshiboev','Khamdamov','Shomurodov','Sergeev','Abdukholikov','Umarov']
 
@@ -36888,13 +36431,11 @@ while A77>0:
 									print('FW: Kusini Yengi (Portsmouth)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ryan','Gauci','Redmayne','Izzo','Souttar','Circati','Rowles','Atkinson','Behich','Burgess',
 									'Irvine','Hrustic','Baccus','Mcgree','Metcalfe','Leckie','Goodwin','Duke','Yengi']
 
@@ -37016,12 +36557,10 @@ while A77>0:
 									print('FW: Yang Hyun-jun (Celtic)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Seunggyu','Hyeonwoo','Bumkeun','Dongheon','Minjae','Younggwon','Youngwoo','Kije','Jinsu','Seunghyun',
 									'Inbeom','Jaesung','Wooyoung','Kangin','Seungho','Hyunseok','Son','Heechan','Guesung','Hyeongyu','Hyunjun']
@@ -37143,13 +36682,11 @@ while A77>0:
 									print('FW: Mahdi Abduljabbar (Al-Khaldiya)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Shubbar','Lutfalla','Ammar','Khaldi','Hayam','Shamsan','Baqer','Benaddi','Adel','Haram','Komail','Jasim','Marhoon','Dhiya','Humaidan','Malood','Helal','Abdullatif','Madan','Abduljabbar']
 
 									for t in LKI:
@@ -37269,13 +36806,11 @@ while A77>0:
 									print('FW: Dimas Drajad (Persikabo)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ernando','Nadeo','Syahrul','Reza','Amat','Baggott','Arhan','Asnawi','Ridho','Pattynama',
 									'Klok','Jenner','Marselino','Kambuaya','Yakob','Saddil','Struick','Sananta','Egy','Dimas']
 
@@ -37396,13 +36931,11 @@ while A77>0:
 									print('FW: Mehdi Ghayedi (Al-Ittihad Kalba)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Beiranvand','Hosseini','Niazmand','Abedzadeh','Milad','Pouraliganji','Majid','Khalilzadeh','Rezaeian','Moharrami',
 									'Ezatolahi','Noorollahi','Ghoddos','Jahanbakhsh','Torabi','Ebrahimi','Taremi','Azmoun','Sayyadmanesh','Ghayedi']
 
@@ -37523,13 +37056,11 @@ while A77>0:
 									print('FW: Abdullah Fawaz (Al-Seeb)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ibrahim','Faiyz','Kaabi','Mazin','Khamisi','Musalami','Braiki','Saad','Yahmadi','Busaidi','Harib','Salaah','Muqbali','Arshad','Hajri','Ghassani','Issam','Fawaz']
 
 									for t in LKI:
@@ -37654,12 +37185,10 @@ while A77>0:
 									print('FW: Rahul KP (Kerala Blasters)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Gurpreet','Amrinder','Kaith','Dheeraj','Jhingan','Bheke','Anwar','Bose','Akash','Poojary','Mehtab','Lalchungnunga',
 									'Apuia','Thapa','Sahal','Brandon','Jeakson','Suresh','Colaco','Mahesh','Chhetri','Chhangte','Manvir','Pandita','Rahul']
 
@@ -37808,7 +37337,7 @@ while A77>0:
 								if pjo!=1:
 									if b==pkop:
 										continue
-								time.sleep(0.8)
+								time.sleep(0.52)
 								if b in ag:
 									pey=random.randint(1,100)
 									if b>90:
@@ -37971,8 +37500,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 
-							for nbm in range(3002222):
-								pass
+							time.sleep(0.6)
 							if gt<2:
 								print('Semi Final: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 							else:
@@ -37983,8 +37511,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 						print()
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if gt<2:
 								print('Semi Final: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 						else:
@@ -38042,12 +37569,10 @@ while A77>0:
 									print('FW: Marin Ljubičić (LASK)')
 									print('FW: Igor Matanović (Karlsruher SC)')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Livakovic','Ivusic','Labrovic','Kotarski','Vida','Juranovic','Barisic','Gvardiol','Caleta','Sosa','Stanisic',
 									'Sutalo','Erlic','Pongracic','Sigur','Modric','Kovacic','Brozovic','Pasalic','Vlasic','Majer','Ivanusec','Sucic','Jakic',
 									'Baturina','Fruk','Petar','Perisic','Kramaric','Petkovic','Pjaca','Budimir','Marco','Ljubicic','Matanovic']
@@ -38197,7 +37722,7 @@ while A77>0:
 								if pjo!=1:
 									if b==pkop:
 										continue
-								time.sleep(0.8)
+								time.sleep(0.52)
 								if b in ag:
 									pey=random.randint(1,100)
 									if b>90:
@@ -38283,7 +37808,6 @@ while A77>0:
 					import random
 					print()
 					print()
-					time.sleep(1)
 					print('                      OFC Oceanic Qualifiers 2024 Group '+x)
 					time.sleep(1)
 					print()
@@ -38397,8 +37921,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 
-							for nbm in range(3002222):
-								pass
+							time.sleep(0.6)
 							if gt<3:
 								if i[0] in pointstA:
 									print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
@@ -38416,8 +37939,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 						print()
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if gt<3:
 								if i[0] in pointstA:
 									print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
@@ -38467,12 +37989,10 @@ while A77>0:
 									print('FW: Elijah Just (Horsens)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Marinovic','Crocombe','Sail','Woud','Cacace','Smith','Tuiloma','Pijnaker','Payne','Roux','Bell','Lewis','Singh','Stamenic','Garbett','Rufer','Wood','Waine','Mccowatt','Just']
 
@@ -38657,7 +38177,7 @@ while A77>0:
 								if pjo!=1:
 									if b==pkop:
 										continue
-								time.sleep(0.8)
+								time.sleep(0.52)
 								if b in ag:
 									pey=random.randint(1,100)
 									if b>90:
@@ -38914,8 +38434,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 
-							for nbm in range(3002222):
-								pass
+							time.sleep(0.6)
 							print('Semi Final: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 							print()
 
@@ -38925,8 +38444,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 						print()
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						print('Semi Final: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 						print()
 						if i[0]==teamsp:
@@ -38980,12 +38498,10 @@ while A77>0:
 									print('FW: Marin Ljubičić (LASK)')
 									print('FW: Igor Matanović (Karlsruher SC)')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Livakovic','Ivusic','Labrovic','Kotarski','Vida','Juranovic','Barisic','Gvardiol','Caleta','Sosa','Stanisic',
 									'Sutalo','Erlic','Pongracic','Sigur','Modric','Kovacic','Brozovic','Pasalic','Vlasic','Majer','Ivanusec','Sucic','Jakic',
 									'Baturina','Fruk','Petar','Perisic','Kramaric','Petkovic','Pjaca','Budimir','Marco','Ljubicic','Matanovic']
@@ -39137,7 +38653,7 @@ while A77>0:
 								if pjo!=1:
 									if b==pkop:
 										continue
-								time.sleep(0.8)
+								time.sleep(0.52)
 								if b in ag:
 									pey=random.randint(1,100)
 									if b>90:
@@ -39401,7 +38917,6 @@ while A77>0:
 					import random
 					print()
 					print()
-					time.sleep(1)
 					print('                  CONCACAF North America Qualifiers 2024 Group '+x)
 					time.sleep(1)
 					print()
@@ -39513,8 +39028,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 
-							for nbm in range(3002222):
-								pass
+							time.sleep(0.6)
 							if gt<25:
 								if i[0] in pointstA:
 									print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
@@ -39536,8 +39050,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 						print()
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if gt<25:
 								if i[0] in pointstA:
 									print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
@@ -39591,13 +39104,11 @@ while A77>0:
 									print('FW: Shamar Nicholson (Spartak Moscow)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Blake','Waite','Knight','Davis','Pinnock','Lowe','Bernard','Leigh','Lembikisa','Bell',
 									'Hayden','Latibeaudiere','Palmer','Johnson','Reid','Anderson','Antonio','Bailey','Gray','Nicholson']
@@ -39741,13 +39252,11 @@ while A77>0:
 									print('FW: Jose Fajardo (Universidad Catolica Ecuador)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Mosquera','Mejia','Samudio','Roberts','Murillo','Escobar','Andrade','Cummings','Cordoba','Blackman',
 									'Carrasquilla','Martinez','Godoy','Yanis','Quintero','Rodriguez','Diaz','Guerrero','Waterman','Fajardo']
@@ -39891,13 +39400,11 @@ while A77>0:
 									print('FW: Alonso Martinez (New York City)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Navas','Sequeira','Chamorro','Moreira','Calvo','Duarte','Waston','Fuller','Vargas','Oviedo',
 									'Tejeda','Borges','Aguilera','Torres','Bennette','Wilson','Campbell','Contreras','Ugalde','Martinez']
 
@@ -40076,7 +39583,7 @@ while A77>0:
 								if pjo!=1:
 									if b==pkop:
 										continue
-								time.sleep(0.8)
+								time.sleep(0.52)
 								if b in ag:
 									pey=random.randint(1,100)
 									if b>90:
@@ -40380,7 +39887,6 @@ while A77>0:
 					import random
 					print()
 					print()
-					time.sleep(1)
 					print('         CONCACAF North American Qualifiers 2025 Group '+x)
 					time.sleep(1)
 					print()
@@ -40528,8 +40034,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 
-							for nbm in range(3002222):
-								pass
+							time.sleep(0.6)
 							if i[0] in pointstA:
 								print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 							if i[0] in pointstB:
@@ -40544,8 +40049,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 						print()
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if i[0] in pointstA:
 								print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 						if i[0] in pointstB:
@@ -40592,13 +40096,11 @@ while A77>0:
 									print('FW: Shamar Nicholson (Spartak Moscow)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Blake','Waite','Knight','Davis','Pinnock','Lowe','Bernard','Leigh','Lembikisa','Bell',
 									'Hayden','Latibeaudiere','Palmer','Johnson','Reid','Anderson','Antonio','Bailey','Gray','Nicholson']
@@ -40742,13 +40244,11 @@ while A77>0:
 									print('FW: Jose Fajardo (Universidad Catolica Ecuador)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Mosquera','Mejia','Samudio','Roberts','Murillo','Escobar','Andrade','Cummings','Cordoba','Blackman',
 									'Carrasquilla','Martinez','Godoy','Yanis','Quintero','Rodriguez','Diaz','Guerrero','Waterman','Fajardo']
@@ -40892,13 +40392,11 @@ while A77>0:
 									print('FW: Alonso Martinez (New York City)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Navas','Sequeira','Chamorro','Moreira','Calvo','Duarte','Waston','Fuller','Vargas','Oviedo',
 									'Tejeda','Borges','Aguilera','Torres','Bennette','Wilson','Campbell','Contreras','Ugalde','Martinez']
 
@@ -41062,7 +40560,7 @@ while A77>0:
 								if pjo!=1:
 									if b==pkop:
 										continue
-								time.sleep(0.8)
+								time.sleep(0.52)
 								if b in ag:
 									pey=random.randint(1,100)
 									if b>90:
@@ -41496,7 +40994,6 @@ while A77>0:
 					import random
 					print()
 					print()
-					time.sleep(1)
 					print('          CAF African Qualifiers 2025 Group '+x)
 					time.sleep(1)
 					print()
@@ -41905,8 +41402,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if i[0] in pointstA:
 							print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 						if i[0] in pointstB:
@@ -41933,8 +41429,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 						print()
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if i[0] in pointstA:
 								print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 						if i[0] in pointstB:
@@ -41993,12 +41488,10 @@ while A77>0:
 									print('FW: Zakhele Lepasa (Orlando Pirates)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Williams','Goss','Mothwa','Chaine','Xulu','Mvala','Kekana','Modiba','Mudau','Mashego','Mokoena','Sithole','Zwane','Adams','Maseko','Mosele','Tau','Foster','Makgopa','Lepasa']
 
@@ -42141,12 +41634,10 @@ while A77>0:
 									print('FW: Bryan Mbeumo (Manchester United)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Onana','Epassy','Simon','Ondoa','Nouhou','Wooh','Castelletto','Fai','Mbaizo','Ebosse','Anguissa','Baleba','Ntcham','Kunde','Ondoua','Hongla','Aboubakar','Choupo','Ekambi','Mbeumo']
 
@@ -42289,12 +41780,10 @@ while A77>0:
 									print('FW: Omar Marmoush (Eintracht Frankfurt)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Shenawy','Sobhi','Gabal','Ahmed','Hany','Hegazi','Abdelmonem','Omar','Fattouh','Gabr','Elneny','Fathi','Ashour','Attia','Zizo','Hamada','Salah','Mostafa','Trezeguet','Marmoush']
 
@@ -42437,12 +41926,10 @@ while A77>0:
 									print('FW: Amad Diallo (Manchester United)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Fofana','Sangare','Folly','Tape','Aurier','Kossounou','Ndicka','Boly','Konan','Singo','Kessie','Seko','Seri','Ibrahim','Amani','Kouame','Haller','Pepe','Bamba','Amad']
 
@@ -42585,13 +42072,11 @@ while A77>0:
 									print('FW: Antoine Semenyo (Manchester City)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Zigi','Wollacott','Ofori','Nurudeen','Salisu','Djiku','Odoi','Mensah','Lamptey','Seidu','Partey','Kudus','Samed','Ashimeru','Owusu','Ayew','Williams','Jordan','Nuamah','Semenyo']
 
@@ -42734,13 +42219,11 @@ while A77>0:
 									print('FW: Victor Boniface (Bayer Leverkusen)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Nwabali','Okoye','Uzoho','Ojo','Ekong','Bassey','Aina','Sanusi','Osayi','Ajayi','Ndidi','Iwobi','Onyeka','Onyedika','Aribo','Dele','Osimhen','Lookman','Chukwueze','Boniface']
 
@@ -42883,13 +42366,11 @@ while A77>0:
 									print('FW: Ayoub El Kaabi (Olympiacos)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Bounou','Munir','Tagnaouti','Zniti','Hakimi','Mazraoui','Aguerd','Saiss','Yamiq','Attiyat','Amrabat','Ounahi','Amallah','Khannouss','Saibari','Richardson','Ziyech','Ennesyri','Abde','Kaabi']
 
@@ -43105,7 +42586,7 @@ while A77>0:
 								if pjo!=1:
 									if b==pkop:
 										continue
-								time.sleep(0.8)
+								time.sleep(0.52)
 								if b in ag:
 									pey=random.randint(1,100)
 									if b>90:
@@ -43635,8 +43116,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 
-							for nbm in range(3002222):
-								pass
+							time.sleep(0.6)
 							if gt<2:
 								print('Semi Final: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 							else:
@@ -43647,8 +43127,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 						print()
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if gt<2:
 								print('Semi Final: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 						else:
@@ -43692,12 +43171,10 @@ while A77>0:
 									print('FW: Zakhele Lepasa (Orlando Pirates)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Williams','Goss','Mothwa','Chaine','Xulu','Mvala','Kekana','Modiba','Mudau','Mashego','Mokoena','Sithole','Zwane','Adams','Maseko','Mosele','Tau','Foster','Makgopa','Lepasa']
 
@@ -43840,12 +43317,10 @@ while A77>0:
 									print('FW: Bryan Mbeumo (Manchester United)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Onana','Epassy','Simon','Ondoa','Nouhou','Wooh','Castelletto','Fai','Mbaizo','Ebosse','Anguissa','Baleba','Ntcham','Kunde','Ondoua','Hongla','Aboubakar','Choupo','Ekambi','Mbeumo']
 
@@ -43988,12 +43463,10 @@ while A77>0:
 									print('FW: Omar Marmoush (Eintracht Frankfurt)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Shenawy','Sobhi','Gabal','Ahmed','Hany','Hegazi','Abdelmonem','Omar','Fattouh','Gabr','Elneny','Fathi','Ashour','Attia','Zizo','Hamada','Salah','Mostafa','Trezeguet','Marmoush']
 
@@ -44136,12 +43609,10 @@ while A77>0:
 									print('FW: Amad Diallo (Manchester United)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Fofana','Sangare','Folly','Tape','Aurier','Kossounou','Ndicka','Boly','Konan','Singo','Kessie','Seko','Seri','Ibrahim','Amani','Kouame','Haller','Pepe','Bamba','Amad']
 
@@ -44284,13 +43755,11 @@ while A77>0:
 									print('FW: Antoine Semenyo (Manchester City)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Zigi','Wollacott','Ofori','Nurudeen','Salisu','Djiku','Odoi','Mensah','Lamptey','Seidu','Partey','Kudus','Samed','Ashimeru','Owusu','Ayew','Williams','Jordan','Nuamah','Semenyo']
 
@@ -44433,13 +43902,11 @@ while A77>0:
 									print('FW: Victor Boniface (Bayer Leverkusen)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Nwabali','Okoye','Uzoho','Ojo','Ekong','Bassey','Aina','Sanusi','Osayi','Ajayi','Ndidi','Iwobi','Onyeka','Onyedika','Aribo','Dele','Osimhen','Lookman','Chukwueze','Boniface']
 
@@ -44582,13 +44049,11 @@ while A77>0:
 									print('FW: Ayoub El Kaabi (Olympiacos)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Bounou','Munir','Tagnaouti','Zniti','Hakimi','Mazraoui','Aguerd','Saiss','Yamiq','Attiyat','Amrabat','Ounahi','Amallah','Khannouss','Saibari','Richardson','Ziyech','Ennesyri','Abde','Kaabi']
 
@@ -44760,7 +44225,7 @@ while A77>0:
 								if pjo!=1:
 									if b==pkop:
 										continue
-								time.sleep(0.8)
+								time.sleep(0.52)
 								if b in ag:
 									pey=random.randint(1,100)
 									if b>90:
@@ -44861,7 +44326,6 @@ while A77>0:
 					import random
 					print()
 					print()
-					time.sleep(1)
 					print('             CONMEBOL South America Qualifiers')
 					time.sleep(1)
 					print()
@@ -45062,8 +44526,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if i[0] in pointstA:
 							print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 						print()
@@ -45074,8 +44537,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 						print()
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if i[0] in pointstA:
 								print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 						print()
@@ -45117,12 +44579,10 @@ while A77>0:
 									print('FW: Gonzalo Plata (Al Sadd)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Galindez','Dominguez','Ramirez','Wellington','Hincapie','Torres','Preciado','Estupinan','Pacho','Arreaga','Caicedo','Franco','Cifuentes','Paez','Gruezo','Mendez','Valencia','Rodriguez','Sarmiento','Plata']
 
@@ -45252,12 +44712,10 @@ while A77>0:
 									print('FW: Luis Sinisterra (Bournemouth)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Vargas','Ospina','Montero','Mier','Davinson','Mina','Cuesta','Mojica','Munoz','Machado','Lerma','Uribe','Rios','Carrascal','Quintero','Castano','Diaz','Borre','Duran','Sinisterra']
 
@@ -45387,12 +44845,10 @@ while A77>0:
 									print('FW: Richarlison (Tottenham)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Alisson','Ederson','Bento','Weverton','Marquinhos','Militao','Gabriel','Danilo','Lodi','Vanderson','Casemiro','Guimaraes','Paqueta','Andre','Gomes','Luiz','Vinicius','Rodrygo','Martinelli','Richarlison']
 
@@ -45522,12 +44978,10 @@ while A77>0:
 									print('FW: Brian Rodriguez (Club America)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Rochet','Muslera','Mele','Israel','Araujo','Gimenez','Caceres','Olivera','Nandez','Piquerez','Valverde','Ugarte','Bentancur','Delacruz','Arrascaeta','Vecino','Nunez','Suarez','Pellistri','Rodriguez']
 
@@ -45657,13 +45111,11 @@ while A77>0:
 									print('FW: Angel Di Maria (Rosario)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Martinez','Rulli','Benitez','Armani','Romero','Otamendi','Lisandro','Molina','Tagliafico','Acuna','Depaul','Macallister','Enzo','Locelso','Paredes','Palacios','Messi','Alvarez','Lautaro','Dimaria']
 
@@ -45828,7 +45280,7 @@ while A77>0:
 								if pjo!=1:
 									if b==pkop:
 										continue
-								time.sleep(0.8)
+								time.sleep(0.52)
 								if b in ag:
 									pey=random.randint(1,100)
 									if b>90:
@@ -46148,7 +45600,6 @@ while A77>0:
 					import random
 					print()
 					print()
-					time.sleep(1)
 					print('          UEFA European Qualifiers 2025 Group '+x)
 					time.sleep(1)
 					print()
@@ -46510,8 +45961,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if i[0] in pointstA:
 							print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 						if i[0] in pointstB:
@@ -46544,8 +45994,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 						print()
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if i[0] in pointstA:
 								print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 						if i[0] in pointstB:
@@ -46623,12 +46072,10 @@ while A77>0:
 									print('FW: Marin Ljubičić (LASK)')
 									print('FW: Igor Matanović (Karlsruher SC)')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Livakovic','Ivusic','Labrovic','Kotarski','Vida','Juranovic','Barisic','Gvardiol','Caleta','Sosa','Stanisic',
 									'Sutalo','Erlic','Pongracic','Sigur','Modric','Kovacic','Brozovic','Pasalic','Vlasic','Majer','Ivanusec','Sucic','Jakic',
 									'Baturina','Fruk','Petar','Perisic','Kramaric','Petkovic','Pjaca','Budimir','Marco','Ljubicic','Matanovic']
@@ -46749,12 +46196,10 @@ while A77>0:
 									print('FW: Adam Szalai (Retired)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Gulacsi','Dibusz','Toth','Bogdan','Orban','Szalai','Lang','Bolla','Nego','Botka','Szoboszlai','Schafer','Styles','Kleinheisler','Nagy','Gazdag','Varga','Sallai','Csoboth']
 
@@ -46883,13 +46328,11 @@ while A77>0:
 									print('FW: Krzysztof Piatek (Basaksehir)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Szczesny','Skorupski','Dragowski','Grabara','Bednarek','Kiwior','Dawidowicz','Cash','Bereszynski','Walukiewicz','Zielinski','Sebastian','Moder','Frankowski','Kozlowski','Damian','Lewandowski','Milik','Swiderski','Piatek']
 
@@ -47020,12 +46463,10 @@ while A77>0:
 									print('FW: Andriy Yarmolenko (Dynamo Kyiv)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Lunin','Trubin','Bushchan','Riznyk','Zinchenko','Mykolenko','Zabarnyi','Matviyenko','Bondar','Konoplya','Malinovskyi','Mudryk','Tsygankov','Sudakov','Sydorchuk','Pikhalyonok','Dovbyk','Yaremchuk','Vanat','Yarmolenko']
 
@@ -47159,12 +46600,10 @@ while A77>0:
 									print('FW: Kenan Yildiz (Juventus)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Cakir','Bayindir','Gunok','Alemdar','Demiral','Kabak','Soyuncu','Celik','Kadioglu','Ayhan','Calhanoglu','Kokcu','Ozcan','Yuksek','Guler','Akturkoglu','Under','Unal','Yilmaz','Yildiz']
 
@@ -47298,12 +46737,10 @@ while A77>0:
 									print('FW: Mohamed Elyounoussi (FC Copenhagen)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Nyland','Hansen','Selvik','Dyngeland','Odegaard','Ajer','Ostigard','Ryerson','Meling','Hanche','Berge','Berg','Aursnes','Thorsby','Thorstvedt','Haaland','Sorloth','Larsen','Elyounoussi']
 
@@ -47432,13 +46869,11 @@ while A77>0:
 									print('FW: Robin Quaison (Al Ettifaq)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Olsen','Johansson','Nordfeldt','Carlgren','Lindelof','Augustinsson','Hien','Holm','Helander','Olsson','Kulusevski','Forsberg','Karlsson','Cajuste','Ekdal','Svanberg','Isak','Gyokeres','Elanga','Quaison']
 
@@ -47573,13 +47008,11 @@ while A77>0:
 									print('FW: Andreas Skov Olsen (Club Brugge)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Schmeichel','Ronnow','Christensen','Hermansen','Kjaer','Andreas','Andersen','Kristensen','Maehle','Nelsson','Eriksen','Hojbjerg','Delaney','Damsgaard','Lindstrom','Norgaard','Rasmus','Poulsen','Wind','Skov']
 
@@ -47714,12 +47147,10 @@ while A77>0:
 									print('FW: Charles De Ketelaere (Atalanta)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Courtois','Casteels','Sels','Kaminski','Vertonghen','Faes','Theate','Castagne','Meunier','Debast','Bruyne','Tielemans','Onana','Mangala','Trossard','Vranckx','Lukaku','Doku','Openda','Ketelaere']
 
@@ -47862,12 +47293,10 @@ while A77>0:
 									print('FW: Randal Kolo Muani (Paris Saint-Germain)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Maignan','Areola','Samba','Lafont','Theo','Kounde','Saliba','Upamecano','Lucas','Pavard','Tchouameni','Camavinga','Rabiot','Zaire','Coman','Fofana','Mbappe','Griezmann','Dembele','Kolo']
 
@@ -48010,12 +47439,10 @@ while A77>0:
 									print('FW: Ante Budimir (Osasuna)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Livakovic','Ivusic','Labrovic','Kotarski','Gvardiol','Stanisic','Sutalo','Sosa','Pongracic','Caleta','Modric','Kovacic','Brozovic','Majer','Pasalic','Baturina','Kramaric','Petkovic','Perisic','Budimir']
 
@@ -48158,12 +47585,10 @@ while A77>0:
 									print('FW: Giacomo Raspadori (Napoli)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Donnarumma','Vicario','Meret','Provedel','Dilorenzo','Bastoni','Dimarco','Buongiorno','Mancini','Udogie','Barella','Jorginho','Tonali','Pellegrini','Frattesi','Cristante','Chiesa','Scamacca','Retegui','Raspadori']
 
@@ -48306,12 +47731,10 @@ while A77>0:
 									print('FW: Sasa Kalajdzic (Wolves)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Schlager','Lindner','Pentz','Bachmann','Alaba','Danso','Lienhart','Posch','Wober','Weimann','Laimer','Sabitzer','Baumgartner','Seiwald','Grillitsch','Schmid','Arnautovic','Gregoritsch','Adeyemi','Kalajdzic']
 
@@ -48454,12 +47877,10 @@ while A77>0:
 									print('FW: Noah Okafor (AC Milan)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Sommer','Kobel','Mvogo','Omlin','Akanji','Rodriguez','Schar','Elvedi','Widmer','Zesiger','Xhaka','Zakaria','Freuler','Sow','Jashari','Aebischer','Embolo','Vargas','Ndoye','Okafor']
 
@@ -48602,12 +48023,10 @@ while A77>0:
 									print('FW: Julian Brandt (Borussia Dortmund)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Neuer','Terstegen','Trapp','Baumann','Rudiger','Tah','Schlotterbeck','Raum','Kimmich','Henrichs','Gundogan','Musiala','Wirtz','Goretzka','Gross','Havertz','Sane','Gnabry','Fullkrug','Brandt']
 
@@ -48750,12 +48169,10 @@ while A77>0:
 									print('FW: Lamine Yamal (Barcelona)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Simon','Raya','Kepa','Remiro','Carvajal','Balde','Laporte','Lenormand','Torres','Porro','Rodri','Pedri','Gavi','Olmo','Fabian','Merino','Morata','Nico','Ferran','Yamal']
 
@@ -48898,12 +48315,10 @@ while A77>0:
 									print('FW: Joao Felix (Al Nassr)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Costa','Patricio','Sa','Lopes','Cancelo','Mendes','Dias','Silva','Pepe','Dalot','Bruno','Bernardo','Vitinha','Neves','Ruben','Nunes','Ronaldo','Leao','Ramos','Felix']
 
@@ -49046,12 +48461,10 @@ while A77>0:
 									print('FW: Jack Grealish (Everton)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Pickford','Ramsdale','Henderson','Pope','Walker','Trippier','Stones','Maguire','Guehi','Chilwell','Rice','Bellingham','Foden','Mount','Gallagher','Trent','Kane','Saka','Rashford','Grealish']
 
@@ -49194,12 +48607,10 @@ while A77>0:
 									print('FW: Brian Brobbey (Ajax)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Verbruggen','Flekken','Bijlow','Noppert','Vandijk','Deligt','Ake','Timber','Dumfries','Vandeven','Frenkie','Koopmeiners','Reijnders','Veerman','Simons','Wijnaldum','Gakpo','Depay','Malen','Brobbey']
 
@@ -49429,7 +48840,7 @@ while A77>0:
 								if pjo!=1:
 									if b==pkop:
 										continue
-								time.sleep(0.8)
+								time.sleep(0.52)
 								if b in ag:
 									pey=random.randint(1,100)
 									if b>90:
@@ -50621,8 +50032,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 
-							for nbm in range(3002222):
-								pass
+							time.sleep(0.6)
 							if gt<2:
 								if i[0] in [pot1[0],pot2[0],pot3[0],pot4[0]]:
 									print('Semi Final Path A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
@@ -50647,8 +50057,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 						print()
-						for nbm in range(3002222):
-								pass
+						time.sleep(0.6)
 						if gt<2:
 							if i[0] in [pot1[0],pot2[0],pot3[0],pot4[0]]:
 								print('Semi Final Path A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
@@ -50720,12 +50129,10 @@ while A77>0:
 									print('FW: Marin Ljubičić (LASK)')
 									print('FW: Igor Matanović (Karlsruher SC)')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Livakovic','Ivusic','Labrovic','Kotarski','Vida','Juranovic','Barisic','Gvardiol','Caleta','Sosa','Stanisic',
 									'Sutalo','Erlic','Pongracic','Sigur','Modric','Kovacic','Brozovic','Pasalic','Vlasic','Majer','Ivanusec','Sucic','Jakic',
 									'Baturina','Fruk','Petar','Perisic','Kramaric','Petkovic','Pjaca','Budimir','Marco','Ljubicic','Matanovic']
@@ -50846,12 +50253,10 @@ while A77>0:
 									print('FW: Adam Szalai (Retired)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Gulacsi','Dibusz','Toth','Bogdan','Orban','Szalai','Lang','Bolla','Nego','Botka','Szoboszlai','Schafer','Styles','Kleinheisler','Nagy','Gazdag','Varga','Sallai','Csoboth']
 
@@ -50980,13 +50385,11 @@ while A77>0:
 									print('FW: Krzysztof Piatek (Basaksehir)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Szczesny','Skorupski','Dragowski','Grabara','Bednarek','Kiwior','Dawidowicz','Cash','Bereszynski','Walukiewicz','Zielinski','Sebastian','Moder','Frankowski','Kozlowski','Damian','Lewandowski','Milik','Swiderski','Piatek']
 
@@ -51117,12 +50520,10 @@ while A77>0:
 									print('FW: Andriy Yarmolenko (Dynamo Kyiv)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Lunin','Trubin','Bushchan','Riznyk','Zinchenko','Mykolenko','Zabarnyi','Matviyenko','Bondar','Konoplya','Malinovskyi','Mudryk','Tsygankov','Sudakov','Sydorchuk','Pikhalyonok','Dovbyk','Yaremchuk','Vanat','Yarmolenko']
 
@@ -51256,12 +50657,10 @@ while A77>0:
 									print('FW: Kenan Yildiz (Juventus)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Cakir','Bayindir','Gunok','Alemdar','Demiral','Kabak','Soyuncu','Celik','Kadioglu','Ayhan','Calhanoglu','Kokcu','Ozcan','Yuksek','Guler','Akturkoglu','Under','Unal','Yilmaz','Yildiz']
 
@@ -51395,12 +50794,10 @@ while A77>0:
 									print('FW: Mohamed Elyounoussi (FC Copenhagen)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Nyland','Hansen','Selvik','Dyngeland','Odegaard','Ajer','Ostigard','Ryerson','Meling','Hanche','Berge','Berg','Aursnes','Thorsby','Thorstvedt','Haaland','Sorloth','Larsen','Elyounoussi']
 
@@ -51529,13 +50926,11 @@ while A77>0:
 									print('FW: Robin Quaison (Al Ettifaq)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Olsen','Johansson','Nordfeldt','Carlgren','Lindelof','Augustinsson','Hien','Holm','Helander','Olsson','Kulusevski','Forsberg','Karlsson','Cajuste','Ekdal','Svanberg','Isak','Gyokeres','Elanga','Quaison']
 
@@ -51670,13 +51065,11 @@ while A77>0:
 									print('FW: Andreas Skov Olsen (Club Brugge)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Schmeichel','Ronnow','Christensen','Hermansen','Kjaer','Andreas','Andersen','Kristensen','Maehle','Nelsson','Eriksen','Hojbjerg','Delaney','Damsgaard','Lindstrom','Norgaard','Rasmus','Poulsen','Wind','Skov']
 
@@ -51811,12 +51204,10 @@ while A77>0:
 									print('FW: Charles De Ketelaere (Atalanta)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Courtois','Casteels','Sels','Kaminski','Vertonghen','Faes','Theate','Castagne','Meunier','Debast','Bruyne','Tielemans','Onana','Mangala','Trossard','Vranckx','Lukaku','Doku','Openda','Ketelaere']
 
@@ -51959,12 +51350,10 @@ while A77>0:
 									print('FW: Randal Kolo Muani (Paris Saint-Germain)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Maignan','Areola','Samba','Lafont','Theo','Kounde','Saliba','Upamecano','Lucas','Pavard','Tchouameni','Camavinga','Rabiot','Zaire','Coman','Fofana','Mbappe','Griezmann','Dembele','Kolo']
 
@@ -52107,12 +51496,10 @@ while A77>0:
 									print('FW: Ante Budimir (Osasuna)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Livakovic','Ivusic','Labrovic','Kotarski','Gvardiol','Stanisic','Sutalo','Sosa','Pongracic','Caleta','Modric','Kovacic','Brozovic','Majer','Pasalic','Baturina','Kramaric','Petkovic','Perisic','Budimir']
 
@@ -52255,12 +51642,10 @@ while A77>0:
 									print('FW: Giacomo Raspadori (Napoli)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Donnarumma','Vicario','Meret','Provedel','Dilorenzo','Bastoni','Dimarco','Buongiorno','Mancini','Udogie','Barella','Jorginho','Tonali','Pellegrini','Frattesi','Cristante','Chiesa','Scamacca','Retegui','Raspadori']
 
@@ -52403,12 +51788,10 @@ while A77>0:
 									print('FW: Sasa Kalajdzic (Wolves)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Schlager','Lindner','Pentz','Bachmann','Alaba','Danso','Lienhart','Posch','Wober','Weimann','Laimer','Sabitzer','Baumgartner','Seiwald','Grillitsch','Schmid','Arnautovic','Gregoritsch','Adeyemi','Kalajdzic']
 
@@ -52551,12 +51934,10 @@ while A77>0:
 									print('FW: Noah Okafor (AC Milan)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Sommer','Kobel','Mvogo','Omlin','Akanji','Rodriguez','Schar','Elvedi','Widmer','Zesiger','Xhaka','Zakaria','Freuler','Sow','Jashari','Aebischer','Embolo','Vargas','Ndoye','Okafor']
 
@@ -52699,12 +52080,10 @@ while A77>0:
 									print('FW: Julian Brandt (Borussia Dortmund)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Neuer','Terstegen','Trapp','Baumann','Rudiger','Tah','Schlotterbeck','Raum','Kimmich','Henrichs','Gundogan','Musiala','Wirtz','Goretzka','Gross','Havertz','Sane','Gnabry','Fullkrug','Brandt']
 
@@ -52847,12 +52226,10 @@ while A77>0:
 									print('FW: Lamine Yamal (Barcelona)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Simon','Raya','Kepa','Remiro','Carvajal','Balde','Laporte','Lenormand','Torres','Porro','Rodri','Pedri','Gavi','Olmo','Fabian','Merino','Morata','Nico','Ferran','Yamal']
 
@@ -52995,12 +52372,10 @@ while A77>0:
 									print('FW: Joao Felix (Al Nassr)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Costa','Patricio','Sa','Lopes','Cancelo','Mendes','Dias','Silva','Pepe','Dalot','Bruno','Bernardo','Vitinha','Neves','Ruben','Nunes','Ronaldo','Leao','Ramos','Felix']
 
@@ -53143,12 +52518,10 @@ while A77>0:
 									print('FW: Jack Grealish (Everton)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Pickford','Ramsdale','Henderson','Pope','Walker','Trippier','Stones','Maguire','Guehi','Chilwell','Rice','Bellingham','Foden','Mount','Gallagher','Trent','Kane','Saka','Rashford','Grealish']
 
@@ -53291,12 +52664,10 @@ while A77>0:
 									print('FW: Brian Brobbey (Ajax)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Verbruggen','Flekken','Bijlow','Noppert','Vandijk','Deligt','Ake','Timber','Dumfries','Vandeven','Frenkie','Koopmeiners','Reijnders','Veerman','Simons','Wijnaldum','Gakpo','Depay','Malen','Brobbey']
 
@@ -53468,7 +52839,7 @@ while A77>0:
 								if pjo!=1:
 									if b==pkop:
 										continue
-								time.sleep(0.8)
+								time.sleep(0.52)
 								if b in ag:
 									pey=random.randint(1,100)
 									if b>90:
@@ -53932,8 +53303,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 
-							for nbm in range(3002222):
-								pass
+							time.sleep(0.6)
 							if gt<2:
 								print('Quarter Final: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 							else:
@@ -53944,8 +53314,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 						print()
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if gt<2:
 								print('Quarter Final: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
 						else:
@@ -53989,12 +53358,10 @@ while A77>0:
 									print('FW: Zakhele Lepasa (Orlando Pirates)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Williams','Goss','Mothwa','Chaine','Xulu','Mvala','Kekana','Modiba','Mudau','Mashego','Mokoena','Sithole','Zwane','Adams','Maseko','Mosele','Tau','Foster','Makgopa','Lepasa']
 
@@ -54137,12 +53504,10 @@ while A77>0:
 									print('FW: Bryan Mbeumo (Manchester United)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Onana','Epassy','Simon','Ondoa','Nouhou','Wooh','Castelletto','Fai','Mbaizo','Ebosse','Anguissa','Baleba','Ntcham','Kunde','Ondoua','Hongla','Aboubakar','Choupo','Ekambi','Mbeumo']
 
@@ -54285,12 +53650,10 @@ while A77>0:
 									print('FW: Omar Marmoush (Eintracht Frankfurt)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Shenawy','Sobhi','Gabal','Ahmed','Hany','Hegazi','Abdelmonem','Omar','Fattouh','Gabr','Elneny','Fathi','Ashour','Attia','Zizo','Hamada','Salah','Mostafa','Trezeguet','Marmoush']
 
@@ -54433,12 +53796,10 @@ while A77>0:
 									print('FW: Amad Diallo (Manchester United)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Fofana','Sangare','Folly','Tape','Aurier','Kossounou','Ndicka','Boly','Konan','Singo','Kessie','Seko','Seri','Ibrahim','Amani','Kouame','Haller','Pepe','Bamba','Amad']
 
@@ -54581,13 +53942,11 @@ while A77>0:
 									print('FW: Antoine Semenyo (Manchester City)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Zigi','Wollacott','Ofori','Nurudeen','Salisu','Djiku','Odoi','Mensah','Lamptey','Seidu','Partey','Kudus','Samed','Ashimeru','Owusu','Ayew','Williams','Jordan','Nuamah','Semenyo']
 
@@ -54730,13 +54089,11 @@ while A77>0:
 									print('FW: Victor Boniface (Bayer Leverkusen)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Nwabali','Okoye','Uzoho','Ojo','Ekong','Bassey','Aina','Sanusi','Osayi','Ajayi','Ndidi','Iwobi','Onyeka','Onyedika','Aribo','Dele','Osimhen','Lookman','Chukwueze','Boniface']
 
@@ -54879,13 +54236,11 @@ while A77>0:
 									print('FW: Ayoub El Kaabi (Olympiacos)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Bounou','Munir','Tagnaouti','Zniti','Hakimi','Mazraoui','Aguerd','Saiss','Yamiq','Attiyat','Amrabat','Ounahi','Amallah','Khannouss','Saibari','Richardson','Ziyech','Ennesyri','Abde','Kaabi']
 
@@ -55028,12 +54383,10 @@ while A77>0:
 									print('FW: Elijah Just (Horsens)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Marinovic','Crocombe','Sail','Woud','Cacace','Smith','Tuiloma','Pijnaker','Payne','Roux','Bell','Lewis','Singh','Stamenic','Garbett','Rufer','Wood','Waine','Mccowatt','Just']
 
@@ -55176,13 +54529,11 @@ while A77>0:
 									print('FW: Shamar Nicholson (Spartak Moscow)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Blake','Waite','Knight','Davis','Pinnock','Lowe','Bernard','Leigh','Lembikisa','Bell',
 									'Hayden','Latibeaudiere','Palmer','Johnson','Reid','Anderson','Antonio','Bailey','Gray','Nicholson']
@@ -55326,13 +54677,11 @@ while A77>0:
 									print('FW: Jose Fajardo (Universidad Catolica Ecuador)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Mosquera','Mejia','Samudio','Roberts','Murillo','Escobar','Andrade','Cummings','Cordoba','Blackman',
 									'Carrasquilla','Martinez','Godoy','Yanis','Quintero','Rodriguez','Diaz','Guerrero','Waterman','Fajardo']
@@ -55476,13 +54825,11 @@ while A77>0:
 									print('FW: Alonso Martinez (New York City)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Navas','Sequeira','Chamorro','Moreira','Calvo','Duarte','Waston','Fuller','Vargas','Oviedo',
 									'Tejeda','Borges','Aguilera','Torres','Bennette','Wilson','Campbell','Contreras','Ugalde','Martinez']
 
@@ -55604,13 +54951,11 @@ while A77>0:
 									print('FW: Kyogo Furuhashi (Celtic)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Suzuki','Schmidt','Osako','Maekawa','Tomiyasu','Itakura','Ito','Sugawara','Nakayama','Taniguchi',
 									'Endo','Morita','Tanaka','Kamada','Hatate','Kubo','Mitoma','Doan','Minamino','Ueda','Furuhashi']
 
@@ -55731,13 +55076,11 @@ while A77>0:
 									print('FW: Sherzodbek Umarov (Navbahor)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Yusupov','Nematov','Suyunov','Dilshod','Ashurmatov','Khusanov','Mozgovoy','Sayfiev','Davron','Nasrullaev',
 									'Hamrobekov','Shukurov','Masharipov','Turgunboev','Yakhshiboev','Khamdamov','Shomurodov','Sergeev','Abdukholikov','Umarov']
 
@@ -55857,13 +55200,11 @@ while A77>0:
 									print('FW: Kusini Yengi (Portsmouth)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ryan','Gauci','Redmayne','Izzo','Souttar','Circati','Rowles','Atkinson','Behich','Burgess',
 									'Irvine','Hrustic','Baccus','Mcgree','Metcalfe','Leckie','Goodwin','Duke','Yengi']
 
@@ -55985,12 +55326,10 @@ while A77>0:
 									print('FW: Yang Hyun-jun (Celtic)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Seunggyu','Hyeonwoo','Bumkeun','Dongheon','Minjae','Younggwon','Youngwoo','Kije','Jinsu','Seunghyun',
 									'Inbeom','Jaesung','Wooyoung','Kangin','Seungho','Hyunseok','Son','Heechan','Guesung','Hyeongyu','Hyunjun']
@@ -56112,13 +55451,11 @@ while A77>0:
 									print('FW: Mahdi Abduljabbar (Al-Khaldiya)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Shubbar','Lutfalla','Ammar','Khaldi','Hayam','Shamsan','Baqer','Benaddi','Adel','Haram','Komail','Jasim','Marhoon','Dhiya','Humaidan','Malood','Helal','Abdullatif','Madan','Abduljabbar']
 
 									for t in LKI:
@@ -56238,13 +55575,11 @@ while A77>0:
 									print('FW: Dimas Drajad (Persikabo)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ernando','Nadeo','Syahrul','Reza','Amat','Baggott','Arhan','Asnawi','Ridho','Pattynama',
 									'Klok','Jenner','Marselino','Kambuaya','Yakob','Saddil','Struick','Sananta','Egy','Dimas']
 
@@ -56365,13 +55700,11 @@ while A77>0:
 									print('FW: Mehdi Ghayedi (Al-Ittihad Kalba)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Beiranvand','Hosseini','Niazmand','Abedzadeh','Milad','Pouraliganji','Majid','Khalilzadeh','Rezaeian','Moharrami',
 									'Ezatolahi','Noorollahi','Ghoddos','Jahanbakhsh','Torabi','Ebrahimi','Taremi','Azmoun','Sayyadmanesh','Ghayedi']
 
@@ -56492,13 +55825,11 @@ while A77>0:
 									print('FW: Abdullah Fawaz (Al-Seeb)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ibrahim','Faiyz','Kaabi','Mazin','Khamisi','Musalami','Braiki','Saad','Yahmadi','Busaidi','Harib','Salaah','Muqbali','Arshad','Hajri','Ghassani','Issam','Fawaz']
 
 									for t in LKI:
@@ -56623,12 +55954,10 @@ while A77>0:
 									print('FW: Rahul KP (Kerala Blasters)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Gurpreet','Amrinder','Kaith','Dheeraj','Jhingan','Bheke','Anwar','Bose','Akash','Poojary','Mehtab','Lalchungnunga',
 									'Apuia','Thapa','Sahal','Brandon','Jeakson','Suresh','Colaco','Mahesh','Chhetri','Chhangte','Manvir','Pandita','Rahul']
 
@@ -56749,12 +56078,10 @@ while A77>0:
 									print('FW: Adam Szalai (Retired)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Gulacsi','Dibusz','Toth','Bogdan','Orban','Szalai','Lang','Bolla','Nego','Botka','Szoboszlai','Schafer','Styles','Kleinheisler','Nagy','Gazdag','Varga','Sallai','Csoboth']
 
@@ -56883,13 +56210,11 @@ while A77>0:
 									print('FW: Krzysztof Piatek (Basaksehir)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Szczesny','Skorupski','Dragowski','Grabara','Bednarek','Kiwior','Dawidowicz','Cash','Bereszynski','Walukiewicz','Zielinski','Sebastian','Moder','Frankowski','Kozlowski','Damian','Lewandowski','Milik','Swiderski','Piatek']
 
@@ -57020,12 +56345,10 @@ while A77>0:
 									print('FW: Andriy Yarmolenko (Dynamo Kyiv)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Lunin','Trubin','Bushchan','Riznyk','Zinchenko','Mykolenko','Zabarnyi','Matviyenko','Bondar','Konoplya','Malinovskyi','Mudryk','Tsygankov','Sudakov','Sydorchuk','Pikhalyonok','Dovbyk','Yaremchuk','Vanat','Yarmolenko']
 
@@ -57159,12 +56482,10 @@ while A77>0:
 									print('FW: Kenan Yildiz (Juventus)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Cakir','Bayindir','Gunok','Alemdar','Demiral','Kabak','Soyuncu','Celik','Kadioglu','Ayhan','Calhanoglu','Kokcu','Ozcan','Yuksek','Guler','Akturkoglu','Under','Unal','Yilmaz','Yildiz']
 
@@ -57298,12 +56619,10 @@ while A77>0:
 									print('FW: Mohamed Elyounoussi (FC Copenhagen)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Nyland','Hansen','Selvik','Dyngeland','Odegaard','Ajer','Ostigard','Ryerson','Meling','Hanche','Berge','Berg','Aursnes','Thorsby','Thorstvedt','Haaland','Sorloth','Larsen','Elyounoussi']
 
@@ -57432,13 +56751,11 @@ while A77>0:
 									print('FW: Robin Quaison (Al Ettifaq)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Olsen','Johansson','Nordfeldt','Carlgren','Lindelof','Augustinsson','Hien','Holm','Helander','Olsson','Kulusevski','Forsberg','Karlsson','Cajuste','Ekdal','Svanberg','Isak','Gyokeres','Elanga','Quaison']
 
@@ -57573,13 +56890,11 @@ while A77>0:
 									print('FW: Andreas Skov Olsen (Club Brugge)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Schmeichel','Ronnow','Christensen','Hermansen','Kjaer','Andreas','Andersen','Kristensen','Maehle','Nelsson','Eriksen','Hojbjerg','Delaney','Damsgaard','Lindstrom','Norgaard','Rasmus','Poulsen','Wind','Skov']
 
@@ -57714,12 +57029,10 @@ while A77>0:
 									print('FW: Charles De Ketelaere (Atalanta)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Courtois','Casteels','Sels','Kaminski','Vertonghen','Faes','Theate','Castagne','Meunier','Debast','Bruyne','Tielemans','Onana','Mangala','Trossard','Vranckx','Lukaku','Doku','Openda','Ketelaere']
 
@@ -57862,12 +57175,10 @@ while A77>0:
 									print('FW: Randal Kolo Muani (Paris Saint-Germain)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Maignan','Areola','Samba','Lafont','Theo','Kounde','Saliba','Upamecano','Lucas','Pavard','Tchouameni','Camavinga','Rabiot','Zaire','Coman','Fofana','Mbappe','Griezmann','Dembele','Kolo']
 
@@ -58010,12 +57321,10 @@ while A77>0:
 									print('FW: Ante Budimir (Osasuna)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Livakovic','Ivusic','Labrovic','Kotarski','Gvardiol','Stanisic','Sutalo','Sosa','Pongracic','Caleta','Modric','Kovacic','Brozovic','Majer','Pasalic','Baturina','Kramaric','Petkovic','Perisic','Budimir']
 
@@ -58158,12 +57467,10 @@ while A77>0:
 									print('FW: Giacomo Raspadori (Napoli)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Donnarumma','Vicario','Meret','Provedel','Dilorenzo','Bastoni','Dimarco','Buongiorno','Mancini','Udogie','Barella','Jorginho','Tonali','Pellegrini','Frattesi','Cristante','Chiesa','Scamacca','Retegui','Raspadori']
 
@@ -58306,12 +57613,10 @@ while A77>0:
 									print('FW: Sasa Kalajdzic (Wolves)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Schlager','Lindner','Pentz','Bachmann','Alaba','Danso','Lienhart','Posch','Wober','Weimann','Laimer','Sabitzer','Baumgartner','Seiwald','Grillitsch','Schmid','Arnautovic','Gregoritsch','Adeyemi','Kalajdzic']
 
@@ -58454,12 +57759,10 @@ while A77>0:
 									print('FW: Noah Okafor (AC Milan)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Sommer','Kobel','Mvogo','Omlin','Akanji','Rodriguez','Schar','Elvedi','Widmer','Zesiger','Xhaka','Zakaria','Freuler','Sow','Jashari','Aebischer','Embolo','Vargas','Ndoye','Okafor']
 
@@ -58602,12 +57905,10 @@ while A77>0:
 									print('FW: Julian Brandt (Borussia Dortmund)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Neuer','Terstegen','Trapp','Baumann','Rudiger','Tah','Schlotterbeck','Raum','Kimmich','Henrichs','Gundogan','Musiala','Wirtz','Goretzka','Gross','Havertz','Sane','Gnabry','Fullkrug','Brandt']
 
@@ -58750,12 +58051,10 @@ while A77>0:
 									print('FW: Lamine Yamal (Barcelona)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Simon','Raya','Kepa','Remiro','Carvajal','Balde','Laporte','Lenormand','Torres','Porro','Rodri','Pedri','Gavi','Olmo','Fabian','Merino','Morata','Nico','Ferran','Yamal']
 
@@ -58898,12 +58197,10 @@ while A77>0:
 									print('FW: Joao Felix (Al Nassr)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Costa','Patricio','Sa','Lopes','Cancelo','Mendes','Dias','Silva','Pepe','Dalot','Bruno','Bernardo','Vitinha','Neves','Ruben','Nunes','Ronaldo','Leao','Ramos','Felix']
 
@@ -59046,12 +58343,10 @@ while A77>0:
 									print('FW: Jack Grealish (Everton)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Pickford','Ramsdale','Henderson','Pope','Walker','Trippier','Stones','Maguire','Guehi','Chilwell','Rice','Bellingham','Foden','Mount','Gallagher','Trent','Kane','Saka','Rashford','Grealish']
 
@@ -59194,12 +58489,10 @@ while A77>0:
 									print('FW: Brian Brobbey (Ajax)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Verbruggen','Flekken','Bijlow','Noppert','Vandijk','Deligt','Ake','Timber','Dumfries','Vandeven','Frenkie','Koopmeiners','Reijnders','Veerman','Simons','Wijnaldum','Gakpo','Depay','Malen','Brobbey']
 
@@ -59342,12 +58635,10 @@ while A77>0:
 									print('FW: Gonzalo Plata (Al Sadd)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Galindez','Dominguez','Ramirez','Wellington','Hincapie','Torres','Preciado','Estupinan','Pacho','Arreaga','Caicedo','Franco','Cifuentes','Paez','Gruezo','Mendez','Valencia','Rodriguez','Sarmiento','Plata']
 
@@ -59477,12 +58768,10 @@ while A77>0:
 									print('FW: Luis Sinisterra (Bournemouth)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Vargas','Ospina','Montero','Mier','Davinson','Mina','Cuesta','Mojica','Munoz','Machado','Lerma','Uribe','Rios','Carrascal','Quintero','Castano','Diaz','Borre','Duran','Sinisterra']
 
@@ -59612,12 +58901,10 @@ while A77>0:
 									print('FW: Richarlison (Tottenham)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Alisson','Ederson','Bento','Weverton','Marquinhos','Militao','Gabriel','Danilo','Lodi','Vanderson','Casemiro','Guimaraes','Paqueta','Andre','Gomes','Luiz','Vinicius','Rodrygo','Martinelli','Richarlison']
 
@@ -59747,12 +59034,10 @@ while A77>0:
 									print('FW: Brian Rodriguez (Club America)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Rochet','Muslera','Mele','Israel','Araujo','Gimenez','Caceres','Olivera','Nandez','Piquerez','Valverde','Ugarte','Bentancur','Delacruz','Arrascaeta','Vecino','Nunez','Suarez','Pellistri','Rodriguez']
 
@@ -59882,13 +59167,11 @@ while A77>0:
 									print('FW: Angel Di Maria (Rosario)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Martinez','Rulli','Benitez','Armani','Romero','Otamendi','Lisandro','Molina','Tagliafico','Acuna','Depaul','Macallister','Enzo','Locelso','Paredes','Palacios','Messi','Alvarez','Lautaro','Dimaria']
 
@@ -60048,7 +59331,7 @@ while A77>0:
 								if pjo!=1:
 									if b==pkop:
 										continue
-								time.sleep(0.8)
+								time.sleep(0.52)
 								if b in ag:
 									pey=random.randint(1,100)
 									if b>90:
@@ -60110,6 +59393,8 @@ while A77>0:
 									WC.append(i[1])
 									fpot4.append(i[1])
 			print(fpot4)
+
+			print()
 			str="11 June 2026: It's time for the biggest sporting event, the FIFA World Cup! You have succesfully made it to the final 48 for the World Cup. This edition has the most number of teams that has ever played in the WC. All the best!"
 			for i in str:
 					print(i,flush=True,end='')
@@ -60426,6 +59711,12 @@ while A77>0:
 			oce = ['New Zealand','Solomon Islands','Fiji','Tahiti','New Caledonia','Vanuatu','Papua New Guinea','Cook Islands','American Samoa','Samoa','Tonga']
 			no = ['Panama','Costa Rica','Jamaica','Honduras','El Salvador','Haiti','Curacao','Nicaragua','Suriname','Guatemala','Trinidad and Tobago','Antigua and Barbuda','Saint Kitts and Nevis','Dominican Republic','Guyana','Puerto Rico','Saint Lucia','Cuba','Bermuda','Saint Vincent and Grenadines','Grenada','Montserrat','Barbados','Dominica','Belize','Aruba','Cayman Islands','Bahamas','Turks and Caicos Islands','US Virgin Islands','Anguilla','British Virgin Islands']
 			so = ['Argentina','Peru','Paraguay','Ecuador','Colombia','Bolivia','Brazil','Venezuela','Chile','Uruguay']
+			print()
+			str='Note: It might take a while to make the groups, as the constraints have to be met. 1 team in each group per confederation (barring UEFA). Do not panic!'
+			for i in str:
+				time.sleep(0.03)
+				print(i,flush=True,end='')
+			print()
 			while True:
 				random.shuffle(pot1)    
 				random.shuffle(pot2) 
@@ -61939,8 +61230,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if gt < 8:
 							ko=0
 							if i[0] in pointstA:
@@ -61988,8 +61278,7 @@ while A77>0:
 					print()
 					for i in rfix[gt]:
 						print()
-						for nbm in range(3002222):
-							pass
+						time.sleep(0.5)
 						if gt < 8:
 							if i[0] in pointstA:
 								print('Group A: '+i[3]+'      '+i[0]+' vs '+i[1]+' at '+i[2])
@@ -62067,13 +61356,11 @@ while A77>0:
 									print('FW: Junior Hoilett (Vancouver Whitecaps)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Borjan','Stclair','Crepeau','Mcgill','Davies','Johnston','Laryea','Cornelius','Miller','Vitoria',
 									'Eustaquio','Kone','Osorio','Choiniere','Kaye','Fraser','David','Larin','Buchanan','Hoilett']
@@ -62217,13 +61504,11 @@ while A77>0:
 									print('FW: Henry Martin (Club America)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Ochoa','Malagon','Gonzalez','Acevedo','Montes','Vasquez','Sanchez','Arteaga','Gallardo','Alvarez','Edson','Chavez','Erick','Rodriguez','Pineda','Romo','Lozano','Gimenez','Jimenez','Martin']
 
@@ -62366,13 +61651,11 @@ while A77>0:
 									print('FW: Folarin Balogun (AS Monaco)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Turner','Horvath','Steffen','Johnson','Dest','Robinson','Richards','Ream','Scally','Carter','Adams','Mckennie','Musah','Reyna','Tillman','Torre','Pulisic','Weah','Pepi','Balogun']
 
@@ -62515,12 +61798,10 @@ while A77>0:
 									print('FW: Zakhele Lepasa (Orlando Pirates)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Williams','Goss','Mothwa','Chaine','Xulu','Mvala','Kekana','Modiba','Mudau','Mashego','Mokoena','Sithole','Zwane','Adams','Maseko','Mosele','Tau','Foster','Makgopa','Lepasa']
 
@@ -62663,12 +61944,10 @@ while A77>0:
 									print('FW: Bryan Mbeumo (Manchester United)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Onana','Epassy','Simon','Ondoa','Nouhou','Wooh','Castelletto','Fai','Mbaizo','Ebosse','Anguissa','Baleba','Ntcham','Kunde','Ondoua','Hongla','Aboubakar','Choupo','Ekambi','Mbeumo']
 
@@ -62811,12 +62090,10 @@ while A77>0:
 									print('FW: Omar Marmoush (Eintracht Frankfurt)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Shenawy','Sobhi','Gabal','Ahmed','Hany','Hegazi','Abdelmonem','Omar','Fattouh','Gabr','Elneny','Fathi','Ashour','Attia','Zizo','Hamada','Salah','Mostafa','Trezeguet','Marmoush']
 
@@ -62959,12 +62236,10 @@ while A77>0:
 									print('FW: Amad Diallo (Manchester United)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Fofana','Sangare','Folly','Tape','Aurier','Kossounou','Ndicka','Boly','Konan','Singo','Kessie','Seko','Seri','Ibrahim','Amani','Kouame','Haller','Pepe','Bamba','Amad']
 
@@ -63107,13 +62382,11 @@ while A77>0:
 									print('FW: Antoine Semenyo (Manchester City)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Zigi','Wollacott','Ofori','Nurudeen','Salisu','Djiku','Odoi','Mensah','Lamptey','Seidu','Partey','Kudus','Samed','Ashimeru','Owusu','Ayew','Williams','Jordan','Nuamah','Semenyo']
 
@@ -63256,13 +62529,11 @@ while A77>0:
 									print('FW: Victor Boniface (Bayer Leverkusen)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Nwabali','Okoye','Uzoho','Ojo','Ekong','Bassey','Aina','Sanusi','Osayi','Ajayi','Ndidi','Iwobi','Onyeka','Onyedika','Aribo','Dele','Osimhen','Lookman','Chukwueze','Boniface']
 
@@ -63405,13 +62676,11 @@ while A77>0:
 									print('FW: Ayoub El Kaabi (Olympiacos)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Bounou','Munir','Tagnaouti','Zniti','Hakimi','Mazraoui','Aguerd','Saiss','Yamiq','Attiyat','Amrabat','Ounahi','Amallah','Khannouss','Saibari','Richardson','Ziyech','Ennesyri','Abde','Kaabi']
 
@@ -63554,12 +62823,10 @@ while A77>0:
 									print('FW: Elijah Just (Horsens)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Marinovic','Crocombe','Sail','Woud','Cacace','Smith','Tuiloma','Pijnaker','Payne','Roux','Bell','Lewis','Singh','Stamenic','Garbett','Rufer','Wood','Waine','Mccowatt','Just']
 
@@ -63702,13 +62969,11 @@ while A77>0:
 									print('FW: Shamar Nicholson (Spartak Moscow)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Blake','Waite','Knight','Davis','Pinnock','Lowe','Bernard','Leigh','Lembikisa','Bell',
 									'Hayden','Latibeaudiere','Palmer','Johnson','Reid','Anderson','Antonio','Bailey','Gray','Nicholson']
@@ -63852,13 +63117,11 @@ while A77>0:
 									print('FW: Jose Fajardo (Universidad Catolica Ecuador)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Mosquera','Mejia','Samudio','Roberts','Murillo','Escobar','Andrade','Cummings','Cordoba','Blackman',
 									'Carrasquilla','Martinez','Godoy','Yanis','Quintero','Rodriguez','Diaz','Guerrero','Waterman','Fajardo']
@@ -64002,13 +63265,11 @@ while A77>0:
 									print('FW: Alonso Martinez (New York City)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Navas','Sequeira','Chamorro','Moreira','Calvo','Duarte','Waston','Fuller','Vargas','Oviedo',
 									'Tejeda','Borges','Aguilera','Torres','Bennette','Wilson','Campbell','Contreras','Ugalde','Martinez']
 
@@ -64130,13 +63391,11 @@ while A77>0:
 									print('FW: Kyogo Furuhashi (Celtic)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Suzuki','Schmidt','Osako','Maekawa','Tomiyasu','Itakura','Ito','Sugawara','Nakayama','Taniguchi',
 									'Endo','Morita','Tanaka','Kamada','Hatate','Kubo','Mitoma','Doan','Minamino','Ueda','Furuhashi']
 
@@ -64257,13 +63516,11 @@ while A77>0:
 									print('FW: Sherzodbek Umarov (Navbahor)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Yusupov','Nematov','Suyunov','Dilshod','Ashurmatov','Khusanov','Mozgovoy','Sayfiev','Davron','Nasrullaev',
 									'Hamrobekov','Shukurov','Masharipov','Turgunboev','Yakhshiboev','Khamdamov','Shomurodov','Sergeev','Abdukholikov','Umarov']
 
@@ -64383,13 +63640,11 @@ while A77>0:
 									print('FW: Kusini Yengi (Portsmouth)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ryan','Gauci','Redmayne','Izzo','Souttar','Circati','Rowles','Atkinson','Behich','Burgess',
 									'Irvine','Hrustic','Baccus','Mcgree','Metcalfe','Leckie','Goodwin','Duke','Yengi']
 
@@ -64511,12 +63766,10 @@ while A77>0:
 									print('FW: Yang Hyun-jun (Celtic)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Seunggyu','Hyeonwoo','Bumkeun','Dongheon','Minjae','Younggwon','Youngwoo','Kije','Jinsu','Seunghyun',
 									'Inbeom','Jaesung','Wooyoung','Kangin','Seungho','Hyunseok','Son','Heechan','Guesung','Hyeongyu','Hyunjun']
@@ -64638,13 +63891,11 @@ while A77>0:
 									print('FW: Mahdi Abduljabbar (Al-Khaldiya)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Shubbar','Lutfalla','Ammar','Khaldi','Hayam','Shamsan','Baqer','Benaddi','Adel','Haram','Komail','Jasim','Marhoon','Dhiya','Humaidan','Malood','Helal','Abdullatif','Madan','Abduljabbar']
 
 									for t in LKI:
@@ -64764,13 +64015,11 @@ while A77>0:
 									print('FW: Dimas Drajad (Persikabo)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ernando','Nadeo','Syahrul','Reza','Amat','Baggott','Arhan','Asnawi','Ridho','Pattynama',
 									'Klok','Jenner','Marselino','Kambuaya','Yakob','Saddil','Struick','Sananta','Egy','Dimas']
 
@@ -64891,13 +64140,11 @@ while A77>0:
 									print('FW: Mehdi Ghayedi (Al-Ittihad Kalba)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Beiranvand','Hosseini','Niazmand','Abedzadeh','Milad','Pouraliganji','Majid','Khalilzadeh','Rezaeian','Moharrami',
 									'Ezatolahi','Noorollahi','Ghoddos','Jahanbakhsh','Torabi','Ebrahimi','Taremi','Azmoun','Sayyadmanesh','Ghayedi']
 
@@ -65018,13 +64265,11 @@ while A77>0:
 									print('FW: Abdullah Fawaz (Al-Seeb)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Ibrahim','Faiyz','Kaabi','Mazin','Khamisi','Musalami','Braiki','Saad','Yahmadi','Busaidi','Harib','Salaah','Muqbali','Arshad','Hajri','Ghassani','Issam','Fawaz']
 
 									for t in LKI:
@@ -65149,12 +64394,10 @@ while A77>0:
 									print('FW: Rahul KP (Kerala Blasters)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									LKI=['Gurpreet','Amrinder','Kaith','Dheeraj','Jhingan','Bheke','Anwar','Bose','Akash','Poojary','Mehtab','Lalchungnunga',
 									'Apuia','Thapa','Sahal','Brandon','Jeakson','Suresh','Colaco','Mahesh','Chhetri','Chhangte','Manvir','Pandita','Rahul']
 
@@ -65275,12 +64518,10 @@ while A77>0:
 									print('FW: Adam Szalai (Retired)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Gulacsi','Dibusz','Toth','Bogdan','Orban','Szalai','Lang','Bolla','Nego','Botka','Szoboszlai','Schafer','Styles','Kleinheisler','Nagy','Gazdag','Varga','Sallai','Csoboth']
 
@@ -65409,13 +64650,11 @@ while A77>0:
 									print('FW: Krzysztof Piatek (Basaksehir)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Szczesny','Skorupski','Dragowski','Grabara','Bednarek','Kiwior','Dawidowicz','Cash','Bereszynski','Walukiewicz','Zielinski','Sebastian','Moder','Frankowski','Kozlowski','Damian','Lewandowski','Milik','Swiderski','Piatek']
 
@@ -65546,12 +64785,10 @@ while A77>0:
 									print('FW: Andriy Yarmolenko (Dynamo Kyiv)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Lunin','Trubin','Bushchan','Riznyk','Zinchenko','Mykolenko','Zabarnyi','Matviyenko','Bondar','Konoplya','Malinovskyi','Mudryk','Tsygankov','Sudakov','Sydorchuk','Pikhalyonok','Dovbyk','Yaremchuk','Vanat','Yarmolenko']
 
@@ -65685,12 +64922,10 @@ while A77>0:
 									print('FW: Kenan Yildiz (Juventus)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Cakir','Bayindir','Gunok','Alemdar','Demiral','Kabak','Soyuncu','Celik','Kadioglu','Ayhan','Calhanoglu','Kokcu','Ozcan','Yuksek','Guler','Akturkoglu','Under','Unal','Yilmaz','Yildiz']
 
@@ -65824,12 +65059,10 @@ while A77>0:
 									print('FW: Mohamed Elyounoussi (FC Copenhagen)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Nyland','Hansen','Selvik','Dyngeland','Odegaard','Ajer','Ostigard','Ryerson','Meling','Hanche','Berge','Berg','Aursnes','Thorsby','Thorstvedt','Haaland','Sorloth','Larsen','Elyounoussi']
 
@@ -65958,13 +65191,11 @@ while A77>0:
 									print('FW: Robin Quaison (Al Ettifaq)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Olsen','Johansson','Nordfeldt','Carlgren','Lindelof','Augustinsson','Hien','Holm','Helander','Olsson','Kulusevski','Forsberg','Karlsson','Cajuste','Ekdal','Svanberg','Isak','Gyokeres','Elanga','Quaison']
 
@@ -66099,13 +65330,11 @@ while A77>0:
 									print('FW: Andreas Skov Olsen (Club Brugge)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Schmeichel','Ronnow','Christensen','Hermansen','Kjaer','Andreas','Andersen','Kristensen','Maehle','Nelsson','Eriksen','Hojbjerg','Delaney','Damsgaard','Lindstrom','Norgaard','Rasmus','Poulsen','Wind','Skov']
 
@@ -66240,12 +65469,10 @@ while A77>0:
 									print('FW: Charles De Ketelaere (Atalanta)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Courtois','Casteels','Sels','Kaminski','Vertonghen','Faes','Theate','Castagne','Meunier','Debast','Bruyne','Tielemans','Onana','Mangala','Trossard','Vranckx','Lukaku','Doku','Openda','Ketelaere']
 
@@ -66388,12 +65615,10 @@ while A77>0:
 									print('FW: Randal Kolo Muani (Paris Saint-Germain)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Maignan','Areola','Samba','Lafont','Theo','Kounde','Saliba','Upamecano','Lucas','Pavard','Tchouameni','Camavinga','Rabiot','Zaire','Coman','Fofana','Mbappe','Griezmann','Dembele','Kolo']
 
@@ -66536,12 +65761,10 @@ while A77>0:
 									print('FW: Ante Budimir (Osasuna)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Livakovic','Ivusic','Labrovic','Kotarski','Gvardiol','Stanisic','Sutalo','Sosa','Pongracic','Caleta','Modric','Kovacic','Brozovic','Majer','Pasalic','Baturina','Kramaric','Petkovic','Perisic','Budimir']
 
@@ -66684,12 +65907,10 @@ while A77>0:
 									print('FW: Giacomo Raspadori (Napoli)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Donnarumma','Vicario','Meret','Provedel','Dilorenzo','Bastoni','Dimarco','Buongiorno','Mancini','Udogie','Barella','Jorginho','Tonali','Pellegrini','Frattesi','Cristante','Chiesa','Scamacca','Retegui','Raspadori']
 
@@ -66832,12 +66053,10 @@ while A77>0:
 									print('FW: Sasa Kalajdzic (Wolves)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Schlager','Lindner','Pentz','Bachmann','Alaba','Danso','Lienhart','Posch','Wober','Weimann','Laimer','Sabitzer','Baumgartner','Seiwald','Grillitsch','Schmid','Arnautovic','Gregoritsch','Adeyemi','Kalajdzic']
 
@@ -66980,12 +66199,10 @@ while A77>0:
 									print('FW: Noah Okafor (AC Milan)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Sommer','Kobel','Mvogo','Omlin','Akanji','Rodriguez','Schar','Elvedi','Widmer','Zesiger','Xhaka','Zakaria','Freuler','Sow','Jashari','Aebischer','Embolo','Vargas','Ndoye','Okafor']
 
@@ -67128,12 +66345,10 @@ while A77>0:
 									print('FW: Julian Brandt (Borussia Dortmund)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Neuer','Terstegen','Trapp','Baumann','Rudiger','Tah','Schlotterbeck','Raum','Kimmich','Henrichs','Gundogan','Musiala','Wirtz','Goretzka','Gross','Havertz','Sane','Gnabry','Fullkrug','Brandt']
 
@@ -67276,12 +66491,10 @@ while A77>0:
 									print('FW: Lamine Yamal (Barcelona)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Simon','Raya','Kepa','Remiro','Carvajal','Balde','Laporte','Lenormand','Torres','Porro','Rodri','Pedri','Gavi','Olmo','Fabian','Merino','Morata','Nico','Ferran','Yamal']
 
@@ -67424,12 +66637,10 @@ while A77>0:
 									print('FW: Joao Felix (Al Nassr)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Costa','Patricio','Sa','Lopes','Cancelo','Mendes','Dias','Silva','Pepe','Dalot','Bruno','Bernardo','Vitinha','Neves','Ruben','Nunes','Ronaldo','Leao','Ramos','Felix']
 
@@ -67572,12 +66783,10 @@ while A77>0:
 									print('FW: Jack Grealish (Everton)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Pickford','Ramsdale','Henderson','Pope','Walker','Trippier','Stones','Maguire','Guehi','Chilwell','Rice','Bellingham','Foden','Mount','Gallagher','Trent','Kane','Saka','Rashford','Grealish']
 
@@ -67720,12 +66929,10 @@ while A77>0:
 									print('FW: Brian Brobbey (Ajax)')
 									print()
 
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 
 									LKI=['Verbruggen','Flekken','Bijlow','Noppert','Vandijk','Deligt','Ake','Timber','Dumfries','Vandeven','Frenkie','Koopmeiners','Reijnders','Veerman','Simons','Wijnaldum','Gakpo','Depay','Malen','Brobbey']
 
@@ -67868,12 +67075,10 @@ while A77>0:
 									print('FW: Gonzalo Plata (Al Sadd)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Galindez','Dominguez','Ramirez','Wellington','Hincapie','Torres','Preciado','Estupinan','Pacho','Arreaga','Caicedo','Franco','Cifuentes','Paez','Gruezo','Mendez','Valencia','Rodriguez','Sarmiento','Plata']
 
@@ -68003,12 +67208,10 @@ while A77>0:
 									print('FW: Luis Sinisterra (Bournemouth)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Vargas','Ospina','Montero','Mier','Davinson','Mina','Cuesta','Mojica','Munoz','Machado','Lerma','Uribe','Rios','Carrascal','Quintero','Castano','Diaz','Borre','Duran','Sinisterra']
 
@@ -68138,12 +67341,10 @@ while A77>0:
 									print('FW: Richarlison (Tottenham)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Alisson','Ederson','Bento','Weverton','Marquinhos','Militao','Gabriel','Danilo','Lodi','Vanderson','Casemiro','Guimaraes','Paqueta','Andre','Gomes','Luiz','Vinicius','Rodrygo','Martinelli','Richarlison']
 
@@ -68273,12 +67474,10 @@ while A77>0:
 									print('FW: Brian Rodriguez (Club America)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Rochet','Muslera','Mele','Israel','Araujo','Gimenez','Caceres','Olivera','Nandez','Piquerez','Valverde','Ugarte','Bentancur','Delacruz','Arrascaeta','Vecino','Nunez','Suarez','Pellistri','Rodriguez']
 
@@ -68408,13 +67607,11 @@ while A77>0:
 									print('FW: Angel Di Maria (Rosario)')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
 
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 
 									LKI=['Martinez','Rulli','Benitez','Armani','Romero','Otamendi','Lisandro','Molina','Tagliafico','Acuna','Depaul','Macallister','Enzo','Locelso','Paredes','Palacios','Messi','Alvarez','Lautaro','Dimaria']
 
@@ -68633,7 +67830,7 @@ while A77>0:
 							pjo=0
 							for b in MNP:
 								pjo+=1
-								time.sleep(0.8)
+								time.sleep(0.52)
 								if b in ag:
 									pey=random.randint(1,100)
 									if b>90:
@@ -69946,8 +69143,7 @@ while A77>0:
 
 			
 			def tutorial():
-				for a20 in range(79333333):
-					pass
+				time.sleep(0.8)
 				print()
 				print('                                   Fielding positions for a Right Handed Batter (RHB)')
 				print()
@@ -69991,8 +69187,7 @@ while A77>0:
 				print('    \\                                longoff                          longon                                  /')
 				print('     \_______________________________________________________________________________________________________/')
 				print()
-				for a20 in range(79333333):
-					pass
+				time.sleep(0.8)
 				print('                                     Fielding positons for a Left Handed Batter (LHB)')
 				print()
 				print('      _____________________________________________________________________________________________________')
@@ -70389,8 +69584,7 @@ while A77>0:
 					global Ccatchers
 					kya=random.randint(1,100)
 					if a785==10:
-						for a27 in range(79333333):
-							pass
+						time.sleep(0.8)
 						print()
 						print('There is a change in the field')
 						print()
@@ -70447,8 +69641,7 @@ while A77>0:
 								csk=random.choice(old)
 								old.remove(csk)
 								Ccatchers[csk]=i
-					for a27 in range(79333333):
-						pass
+					time.sleep(0.8)
 					if Ph[onstrike].lower()=='r':
 						print()
 						print('                                           Field for '+onstrike+' (Right Hander)')
@@ -70610,8 +69803,7 @@ while A77>0:
 				if inn=='player':
 					Cwkts[bowl][2]+=1
 					pwkt+=1
-					for a123 in range(19333333):
-									pass
+					time.sleep(0.5)
 					print(x,Ps[x][0],'(',Ps[x][1],')','Strike rate:',(round(100*Ps[x][0]/Ps[x][1],2)))   
 					ag=1
 					if pwkt!=10:
@@ -70790,8 +69982,7 @@ while A77>0:
 										'Aaron':36, 'Nitish':31, 'Milind':34, 'Taylor':66, 'Corey':76, 'Harmeet':78, 'Nisarg':41, 'Schalwyk':67, 'Monank':41, 'Gous':35, 'Jahangir':39, 'Ali':79, 'Jasdeep':76, 'Kenjige':77, 'Netravalkar':77,
 										'Prajapati':35, 'Shoaib':50, 'Mehran':73, 'Khalid':42, 'Ilyas':73, 'Maqsood':77, 'Rafiullah':67, 'Ayaan':74, 'Nadeem':39, 'Athavale':34, 'Khushi':35, 'Shakeel':78, 'Bilal':79, 'Fayyaz':77, 'Kaleemullah':77}
 						while ag==1:
-							for a123 in range(19333333):
-									pass
+							time.sleep(0.5)
 							print()
 							Pgaya.append(x)
 							for v in Pxi:
@@ -70828,15 +70019,13 @@ while A77>0:
 					Pwkts[bowl][2]+=1
 					cwkt+=1
 					Cgaya.append(x)
-					for a123 in range(19333333):
-									pass
+					time.sleep(0.5)
 					print(x,Cs[x][0],'(',Cs[x][1],')','Strike rate:',(round(100*Cs[x][0]/Cs[x][1],2)))
 					ag=1
 					sfs=78
 					if cwkt!=10:
 						while ag==1:
-							for a123 in range(19333333):
-									pass
+							time.sleep(0.5)
 							gbm=random.randint(1,100)
 							if gbm<=85:
 								temp=[]
@@ -71254,8 +70443,7 @@ while A77>0:
 					Commentators.remove(comm1)
 					Commentators.remove(comm2)
 				print()
-				for a123 in range(19333333):
-								pass
+				time.sleep(0.5)
 				print('Our first 2 commentators are '+comm1+' and '+comm2)
 				for k in range(overs):
 					if secondinnings=='player':
@@ -71270,8 +70458,7 @@ while A77>0:
 					if Ph[onstrike]!=Ph[offstrike]:
 						ground(1)
 					print()
-					for a123 in range(19333333):
-								pass
+					time.sleep(0.5)
 					if modeg!=1:
 						if afgv==1 and chq==1:
 							print('2019 ODI World Cup Final, Lords')
@@ -71298,28 +70485,22 @@ while A77>0:
 					print(playerteam,': ',pscore,'/',pwkt,' after ',k,' overs')
 					if k!=0:
 						rr=pscore/k
-						for a123 in range(19333333):
-								pass
+						time.sleep(0.5)
 						print('Runrate: ',(round(rr,2)))
 					print()
 					if k!=0:
-						for a123 in range(19333333):
-								pass
+						time.sleep(0.5)
 						print(onstrike,Ps[onstrike][0],'(',Ps[onstrike][1],')','    ')
 						if Ps[onstrike][1]!=0:
-							for a123 in range(19333333):
-								pass
+							time.sleep(0.5)
 							print('Strike rate:',(round(100*Ps[onstrike][0]/Ps[onstrike][1],2)),end='\t')
 						else:
-							for a123 in range(19333333):
-								pass
+							time.sleep(0.5)
 							print('Strike rate: 0',end='\t')
-							for a123 in range(19333333):
-								pass
+							time.sleep(0.5)
 						print()
 						print('                       ',bowl,Cwkts[bowl][2],'/',Cwkts[bowl][1],' (',Cwkts[bowl][0],')')
-						for a123 in range(19333333):
-								pass
+						time.sleep(0.5)
 						print(offstrike,Ps[offstrike][0],'(',Ps[offstrike][1],')','    ')
 						if Ps[offstrike][1]!=0:
 							print('Strike rate:',(round(100*Ps[offstrike][0]/Ps[offstrike][1],2)),end='\t')
@@ -71423,8 +70604,7 @@ while A77>0:
 								ag=0
 								Commentators.remove(comm1)
 								Commentators.remove(comm2)
-							for a123 in range(19333333):
-								pass
+							time.sleep(0.5)
 							print()
 							print('We have a change in the commentary box, '+ocomm1+' and '+ocomm2+' are replaced by '+comm1+' and '+comm2)
 							j=0
@@ -71447,8 +70627,7 @@ while A77>0:
 						qr=['yorker','good','full','short']
 						rot=random.choice(pqr)
 						length=random.choice(qr)
-						for a123 in range(19333333):
-								pass
+						time.sleep(0.5)
 						print(bowl+' has bowled a '+rot+' '+length+' length delivery to '+onstrike)
 						print()
 						ag=1
@@ -73451,8 +72630,7 @@ while A77>0:
 									else:
 										yy=random.randint(1,99)
 								yy*=pitche
-						for a123 in range(19333333):
-								pass
+						time.sleep(0.5)
 						if j==-7 and k%2==0:
 							print(comm1+': ',end='')
 						elif j==-7 and k%2!=0:
@@ -73462,8 +72640,7 @@ while A77>0:
 								print(comm1+': ',end='')
 							else:
 								print(comm2+': ',end='')
-						for a123 in range(9333333):
-								pass
+						time.sleep(0.5)
 						Ps[onstrike][1]+=1           
 						if shot.lower()=='cover drive':
 							if mode.lower()=='g':
@@ -83879,8 +83056,7 @@ while A77>0:
 					Commentators.remove(comm1)
 					Commentators.remove(comm2)
 				print()
-				for a123 in range(19333333):
-								pass
+				time.sleep(0.5)
 				print('Our first 2 commentators are '+comm1+' and '+comm2)
 				for k in range(overs):
 					if secondinnings=='comp':
@@ -83895,8 +83071,7 @@ while A77>0:
 					if Ch[onstrike]!=Ch[offstrike]:
 						ground(1)
 					print()
-					for a123 in range(19333333):
-								pass
+					time.sleep(0.5)
 					print('Note: In order to change the field placements, enter + for bowling length/type.')
 					print()
 					if modeg!=1:
@@ -83925,28 +83100,22 @@ while A77>0:
 					print(compteam,': ',cscore,'/',cwkt,' after ',k,' overs')
 					if k!=0:
 						rr=cscore/k
-						for a123 in range(19333333):
-								pass
+						time.sleep(0.5)
 						print('Runrate: ',(round(rr,2)))
 					print()
 					if k!=0:
-						for a123 in range(19333333):
-								pass
+						time.sleep(0.5)
 						print(onstrike,Cs[onstrike][0],'(',Cs[onstrike][1],')','    ')
 						if Cs[onstrike][1]!=0:
-							for a123 in range(19333333):
-								pass
+							time.sleep(0.5)
 							print('Strike rate:',(round(100*Cs[onstrike][0]/Cs[onstrike][1],2)),end='\t')
 						else:
-							for a123 in range(19333333):
-								pass
+							time.sleep(0.5)
 							print('Strike rate: 0',end='\t')
-							for a123 in range(19333333):
-								pass
+							time.sleep(0.5)
 						print()
 						print('                   ',bowl,Pwkts[bowl][2],'/',Pwkts[bowl][1],' (',Pwkts[bowl][0],')')
-						for a123 in range(19333333):
-								pass
+						time.sleep(0.5)
 						print(offstrike,Cs[offstrike][0],'(',Cs[offstrike][1],')','    ')
 						if Cs[offstrike][1]!=0:
 							print('Strike rate:',(round(100*Cs[offstrike][0]/Cs[offstrike][1],2)),end='\t')
@@ -84017,8 +83186,7 @@ while A77>0:
 								ag=0
 								Commentators.remove(comm1)
 								Commentators.remove(comm2)
-							for a123 in range(19333333):
-								pass
+							time.sleep(0.5)
 							print()
 							print('We have a change in the commentary box, '+ocomm1+' and '+ocomm2+' are replaced by '+comm1+' and '+comm2)
 							j=0
@@ -84121,12 +83289,10 @@ while A77>0:
 									rot='flipper'
 							ag=0
 						print()
-						for a123 in range(19333333):
-								pass
+						time.sleep(0.5)
 						print(bowl+' has bowled a '+rot+' '+length+' length delivery to '+onstrike)
 						print()
-						for a123 in range(19333333):
-								pass
+						time.sleep(0.5)
 						if j==-7 and k%2==0:
 							print(comm1+': ',end='')
 						elif j==-7 and k%2!=0:
@@ -84136,8 +83302,7 @@ while A77>0:
 								print(comm1+': ',end='')
 							else:
 								print(comm2+': ',end='')
-						for a123 in range(9333333):
-								pass
+						time.sleep(0.5)
 						Cs[onstrike][1]+=1   
 						gop=random.randint(1,100)
 						if gop<=10:
@@ -96706,85 +95871,60 @@ while A77>0:
 				print()
 				chq=int(input('Enter number:'))
 				if chq==1:
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print()
 					print('England 2019 Final XI')
 					print()
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Jason Roy')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Jonny Bairstow')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Joe Root')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Eoin Morgan (c)')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Ben Stokes')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Jos Buttler (wk)')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Chris Woakes')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Liam Plunkett')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Jofra Archer')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Adil Rashid')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Mark Wood')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print()
 					print('New Zealand 2019 Final XI')
 					print()
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Martin Guptill')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Henry Nicholls')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Kane Williamson (c)')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Ross Taylor')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Tom Latham (wk)')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('James Neesham')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Colin de Grandhomme')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Mitchell Santner')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Matt Henry')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Trent Boult')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Lockie Ferguson')
 					print()
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					while True:
 						ptr=input('Enter your team:')
 						if ptr.lower() not in ['new zealand','england']:
@@ -96829,80 +95969,56 @@ while A77>0:
 					print()
 					print('India 2011 Final XI')
 					print()
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Virender Sehwag')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Sachin Tendulkar')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Gautam Gambhir')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Virat Kohli')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('MS Dhoni (c & wk)')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Yuvraj Singh')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Suresh Raina')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Harbhajan Singh')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Zaheer Khan')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Munaf Patel')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Sreesanth')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print()
 					print('Sri Lanka 2011 Final XI')
 					print()
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Upul Tharanga')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Tillakaratne Dilshan')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Kumar Sangakkara (c & wk)')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Mahela Jayawardene')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Thilan Samaraweera')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Chamara Kapugedera')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Nuwan Kulasekara')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Thisara Perera')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Suraj Randiv')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Muttiah Muralitharan')
 	
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Lasith Malinga')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print()
 					while True:
 						ptr=input('Enter your team:')
@@ -96952,85 +96068,60 @@ while A77>0:
 				print()
 				chq=int(input('Enter number:'))
 				if chq==1:
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print()
 					print('England 2022 Final XI')
 					print()
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Jos Buttler (c & wk)')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Alex Hales')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Phil Salt')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Ben Stokes')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Harry Brook')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Moeen Ali')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Liam Livingstone')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Sam Curran')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Chris Woakes')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Chris Jordan')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Adil Rashid')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print()
 					print('Pakistan 2022 Final XI')
 					print()
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Mohammed Rizwan (wk)')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Babar Azam (c)')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Mohammed Haris')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Shan Masood')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Iftikhar Ahmed')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Shadab Khan')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Mohammed Nawaz')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Mohammed Wasim')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Shaheen Afridi')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Haris Rauf')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Naseem Shah')
 					print()
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					while True:
 						ptr=input('Enter your team:')
 						if ptr.lower() not in ['pakistan','england']:
@@ -97073,85 +96164,60 @@ while A77>0:
 						Pb={'Stokes':'p','Woakes':'p','Moeen':'s','Curran':'p','Rashid':'s','Wood':'p','Livingstone':'s'}
 						print()
 				else:
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print()
 					print('India 2007 Final XI')
 					print()
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Gautam Gambhir')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Yusuf Pathan')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Robin Uthappa')
-					for rq4 in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Yuvraj Singh')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('MS Dhoni(c & wk)')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Rohit Sharma')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Irfan Pathan')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Harbhajan Singh')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Joginder Singh')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Sreesanth')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('RP Singh')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print()
 					print('Pakistan 2007 Final XI')
 					print()
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Mohammed Hafeez')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Imran Nazir')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Kamran Akmal (wk)')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Younis Khan')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Shoaib Malik (c)')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Misbah-ul Haq')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Shahid Afridi')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Yasir Arafat')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Sohail Tanvir')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Umar Gul')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Mohammed Asif')
 					print()
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					while True:
 						ptr=input('Enter your team:')
 						if ptr.lower() not in ['pakistan','india']:
@@ -97200,85 +96266,60 @@ while A77>0:
 				print()
 				chq=int(input('Enter number:'))
 				if chq==1:
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print()
 					print('Chennai Super Kings 2023 Final XI')
 					print()
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Ruturaj Gaikwad')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Devon Conway')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Shivam Dube [Impact Sub for Matheesha Pathirana]')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Ajinkya Rahane')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Ambati Rayudu')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('MS Dhoni (c & wk)')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Ravindra Jadeja')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Moeen Ali')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Deepak Chahar')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Tushar Deshpande')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Maheesh Theekshana')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print()
 					print('Gujarat Titans 2023 Final XI')
 					print()
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Wriddhiman Saha (wk)')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Shubman Gill')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Hardik Pandya')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Vijay Shankar')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('David Miller')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Rahul Tewatia')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Rashid Khan')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Mohit Sharma')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Mohammed Shami')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Noor Ahmad')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Josh Little [Impact Sub for Sai Sudharshan]')
 					print()
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					while True:
 						ptr=input('Enter your team:')
 						if ptr.lower() not in ['chennai super kings','gujarat titans']:
@@ -97364,85 +96405,60 @@ while A77>0:
 						Call=['Jadeja','Moeen','Chahar']
 						print()
 				elif chq==2:
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print()
 					print('Mumbai Indians 2019 Final XI')
 					print()
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Quinton de Kock (wk)')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Rohit Sharma (c)')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Suryakumar Yadav')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Ishan Kishan')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Krunal Pandya')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Kieron Pollard')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Hardik Pandya')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Rahul Chahar')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Mitchell Mcclenaghan')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Jasprit Bumrah')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Lasith Malinga')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print()
 					print('Chennai Super Kings 2019 Final XI')
 					print()
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Faf du Plessis')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Shane Watson')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Suresh Raina')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Ambati Rayudu')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('MS Dhoni')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Dwayne Bravo')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Ravindra Jadeja')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Shardul Thakur')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Deepak Chahar')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Harbhajan Singh')
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					print('Imran Tahir')
 					print()
-					for k in range(14000000):
-						pass
+					time.sleep(0.5)
 					while True:
 						ptr=input('Enter your team:')
 						if ptr.lower() not in ['mumbai indians','chennai super kings']:
@@ -97509,8 +96525,7 @@ while A77>0:
 				
 				import random
 				print()
-				for rq4 in range(8000000):
-							pass
+				time.sleep(0.6)
 				print('ICC Mens ODI Cricket World Cup 2023')
 				print()
 				josef=['Afghanistan','Australia','Bangladesh','England','India','Netherlands','New Zealand','Pakistan','South Africa','Sri Lanka']
@@ -97544,14 +96559,12 @@ while A77>0:
 				nrr={'Afghanistan':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'Australia':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'Bangladesh':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'England':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'India':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'Netherlands':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'New Zealand':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'Pakistan':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'South Africa':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'Sri Lanka':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0}}
 				pointst={'Afghanistan':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'Australia':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'Bangladesh':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'England':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'India':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'New Zealand':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'Netherlands':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'Pakistan':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'Sri Lanka':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'South Africa':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0}}
 				def pointstable():
-					for rq4 in range(8000000):
-							pass
+					time.sleep(0.6)
 					print()
 					print()
 					print('       ICC Cricket World Cup 2023 Points Table [After Game ',cow,' of 45]',sep='')
 					print()
-					for rq4 in range(8000000):
-							pass
+					time.sleep(0.6)
 					F=sorted(pointst.items(), key=lambda x: (x[1]["Points"], x[1]["NRR"]), reverse=True)
 					data=dict(F)
 					headers = ['Team', 'Matches', 'Won', 'Lost','Tie','Points', 'NRR']
@@ -97575,22 +96588,20 @@ while A77>0:
 				for hf in range(10):
 					if hf<9:
 						print()
-						for rq4 in range(8000000):
-							pass
+						time.sleep(0.6)
 						print('Round',hf+1,':')
 						print()
 						for u in R[hf]:
-							for rq4 in range(4000000): pass
+							time.sleep(0.5)
 							print(u[3]+'      '+u[0]+' vs '+u[1]+' at '+u[2])
 							print()
 						print()
 						print()
-						for rq4 in range(8000000):
-							pass
+						time.sleep(0.6)
 						print('Round',hf+1,':')
 						print()
 						for u in R[hf]:
-							for rq4 in range(4000000): pass
+							time.sleep(0.5)
 							cow+=1
 							print(u[3]+'      '+u[0]+' vs '+u[1]+' at '+u[2])
 							if u[0]==teamsp:
@@ -98944,7 +97955,7 @@ while A77>0:
 								Ccatchers={'slip1':' ','slip2':' ','slip3':' ','slip4':' ','fineleg':' ','thirdman':' ','shortthirdman':' ','longleg':' ','squareleg':' ','deepsquareleg':' ','midwicket':' ','deepmidwicket':' ','midon':' ','longon':' ','midoff':' ','longoff':' ','covers':' ','deepcovers':' ','point':' ','deeppoint':' ','deepfineleg':' ','backwardpoint':' ','backwardsquareleg':' ','cowcorner':' ','deepextracovers':' ','deepcoverpoint':' ','coverpoint':' '}
 								Pgaya=[]
 								Cgaya=[]
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								
 								
 								match()    
@@ -99025,7 +98036,7 @@ while A77>0:
 										break
 									elif s1==s2:
 										break
-								for rq4 in range(4000000): pass
+								time.sleep(0.5)
 								print(bat1+': ',s1,'/',wik1,' in ',round((ovb1//6)+(0.1*(ovb1%6)),1),' overs')
 								print()
 								if bat1=='Afghanistan':
@@ -99345,23 +98356,23 @@ while A77>0:
 									oy2=math.ceil(ab/6)
 									break
 								print()
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								if overs>4:
 									print(hig1,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(sco1,'(',ove1,')',end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(bw1,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(wakt1,'/',HU[0],'(',oy1,')')
 									print()
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(hig2,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(sco2,'(',ove2,')',end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(bw2,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(wakt2,'/',HU[1],'(',oy2,')')
 									print()
 								pro=random.randint(1,100)
@@ -99392,7 +98403,7 @@ while A77>0:
 									wik2=10
 								if s2>s1:
 									wik2=random.randint(0,9)
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print()
 								print(bat2+': ',s2,'/',wik2,' in ',round((ovb2//6)+(0.1*(ovb2%6)),1),' overs')
 								print()
@@ -99570,23 +98581,23 @@ while A77>0:
 										continue
 									oy2=math.ceil(ab/6)
 									break
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								if overs>4:
 									print(hig1,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(sco1,'(',ove1,')',end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(bw1,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(wakt1,'/',HU[0],'(',oy1,')')
 									print()
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(hig2,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(sco2,'(',ove2,')',end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(bw2,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(wakt2,'/',HU[1],'(',oy2,')')
 									print()
 								if s1>s2:
@@ -99624,7 +98635,7 @@ while A77>0:
 									continue
 								G1=((nrr[k]['Runs Scored']/nrr[k]['Overs Played'])-(nrr[k]['Runs Conceded']/nrr[k]['Overs Bowled']))*6
 								pointst[k]['NRR']=round(G1,2)
-							for rq4 in range(4000000):     pass
+							time.sleep(0.5)
 							pointstable()
 					else:
 						F=sorted(pointst.items(), key=lambda x: (x[1]["Points"], x[1]["NRR"]), reverse=True)
@@ -100821,7 +99832,7 @@ while A77>0:
 								Ccatchers={'slip1':' ','slip2':' ','slip3':' ','slip4':' ','fineleg':' ','thirdman':' ','shortthirdman':' ','longleg':' ','squareleg':' ','deepsquareleg':' ','midwicket':' ','deepmidwicket':' ','midon':' ','longon':' ','midoff':' ','longoff':' ','covers':' ','deepcovers':' ','point':' ','deeppoint':' ','deepfineleg':' ','backwardpoint':' ','backwardsquareleg':' ','cowcorner':' ','deepextracovers':' ','deepcoverpoint':' ','coverpoint':' '}
 								Pgaya=[]
 								Cgaya=[]
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								
 
 								match()    
@@ -100859,7 +99870,7 @@ while A77>0:
 									break
 								if ovb1!=overs*6:
 									wik1=10
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(bat1+': ',s1,'/',wik1,' in ',round((ovb1//6)+(0.1*(ovb1%6)),1),' overs')
 								if bat1=='Afghanistan':
 									fds=['Ibrahim','Gurbaz','Rahmat','Shahidi']
@@ -101165,22 +100176,22 @@ while A77>0:
 									break
 								if overs>4:
 									print()
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(hig1,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(sco1,'(',ove1,')',end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(bw1,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(wakt1,'/',HU[0],'(',oy1,')')
 									print()
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(hig2,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(sco2,'(',ove2,')',end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(bw2,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(wakt2,'/',HU[1],'(',oy2,')')
 									print()
 								pro=random.randint(1,100)
@@ -101211,7 +100222,7 @@ while A77>0:
 									wik2=10
 								if s2>s1:
 									wik2=random.randint(0,9)
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(bat2+': ',s2,'/',wik2,' in ',round((ovb2//6)+(0.1*(ovb2%6)),1),' overs')
 								print()
 								idj=random.randint(1,100)
@@ -101378,22 +100389,22 @@ while A77>0:
 									break
 								if overs>4:
 									print()
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(hig1,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(sco1,'(',ove1,')',end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(bw1,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(wakt1,'/',HU[0],'(',oy1,')')
 									print()
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(hig2,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(sco2,'(',ove2,')',end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(bw2,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(wakt2,'/',HU[1],'(',oy2,')')
 									print()
 								if s1>s2:
@@ -101444,8 +100455,7 @@ while A77>0:
 				
 				import random
 				print()
-				for rq4 in range(8000000):
-							pass
+				time.sleep(0.6)
 				print('ICC Mens ODI Cricket World Cup 2003')
 				print()
 				josef=['Australia','Bangladesh','Canada','England','India','Namibia','Netherlands','New Zealand','Pakistan','Scotland','South Africa','Sri Lanka','West Indies','Zimbabwe']
@@ -101491,8 +100501,7 @@ while A77>0:
 						woner.append(arey)
 				nrrsuper6={}
 				def pointstable(x):
-					for rq4 in range(8000000):
-							pass
+					time.sleep(0.6)
 					print()
 					print()
 					if x=='A' or x=='B':
@@ -101504,8 +100513,7 @@ while A77>0:
 					elif x=='C':
 						print('ICC Cricket World Cup 2003 Super 6 Points Table [After Game]')
 					print()
-					for rq4 in range(8000000):
-							pass
+					time.sleep(0.6)
 					if x=='A':
 						F=sorted(pointstA.items(), key=lambda x: (x[1]["Points"], x[1]["NRR"]), reverse=True)
 					elif x=='B':
@@ -101630,8 +100638,7 @@ while A77>0:
 							fix[8][2]=[Aa[0],Bb[1],'Durban','15 Mar 2003']
 							pointstable("C")
 
-						for rq4 in range(8000000):
-							pass
+						time.sleep(0.6)
 						if hf<6:
 							print('Round ',hf+1,':')
 							print()
@@ -101640,20 +100647,19 @@ while A77>0:
 									print('Pool A: '+u[3]+'      '+u[0]+' vs '+u[1]+' at '+u[2])
 								else:
 									print('Pool B: '+u[3]+'      '+u[0]+' vs '+u[1]+' at '+u[2])
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print()
 						elif hf>5 and hf<9:
 							for u in fix[hf]:
 								print('Super 6: '+u[3]+'      '+u[0]+' vs '+u[1]+' at '+u[2])
 								print()
 						print()
-						for rq4 in range(8000000):
-							pass
+						time.sleep(0.6)
 						if hf<9:
 							print('Round',hf+1,':')
 						print()
 						for u in fix[hf]:
-							for rq4 in range(4000000): pass      
+							time.sleep(0.5)      
 							if hf<6:                   
 								if u[0] in nrrA:
 									print('Pool A: '+u[3]+'      '+u[0]+' vs '+u[1]+' at '+u[2])
@@ -101802,8 +100808,7 @@ while A77>0:
 								if teamsp=='Australia':
 									if hf==0 or answ.lower()=='yes':
 										playerteam='Australia'
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print()
 										print('Ricky Ponting (c) [Batter]')
 										print('Matthew Hayden [Batter]')
@@ -101821,12 +100826,10 @@ while A77>0:
 										print('Brett Lee [Pace Bowler]')
 										print('Nathan Bracken [Pace Bowler]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										LKI=['Ponting','Hayden','Bevan','Martyn','Maher','Lehmann','Gilchrist','Harvey','Symonds','Hogg','Hauritz','Mcgrath','Bichel','Lee','Bracken']
 										print()
 										print('Name     ','BAT  ','BOWL',sep='\t')
@@ -101877,8 +100880,7 @@ while A77>0:
 													cop+=1
 											if cop<5:
 												print()
-												for rq4 in range(1000000):
-													pass
+												time.sleep(0.5)
 												Pxi=[]
 												print('Minimum 5 Bowlers [Allrounders+Bowlers] must be picked')
 												print()
@@ -101919,8 +100921,7 @@ while A77>0:
 									if hf==0 or answ.lower()=='yes':
 										playerteam='Bangladesh'
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Habibul Bashar [Batter]')
 										print('Hannan Sarkar [Batter]')
 										print('Akram Khan [Batter]')
@@ -101937,12 +100938,10 @@ while A77>0:
 										print('Tapash Baisya [Pace Bowler]')
 										print('Talha Jubair [Pace Bowler]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										LKI=['Bashar','Sarkar','Akram','Ashraful','Sahariar','Sanuar','Tushar','Mashud','Kapali','Rafique','Haque','Mahmud','Manjurul','Baisya','Jubair']
 										print()
 										print('Name     ','BAT  ','BOWL',sep='\t')
@@ -101993,8 +100992,7 @@ while A77>0:
 													cop+=1
 											if cop<5:
 												print()
-												for rq4 in range(1000000):
-													pass
+												time.sleep(0.5)
 												Pxi=[]
 												print('Minimum 5 Bowlers [Allrounders+Bowlers] must be picked')
 												print()
@@ -102035,8 +101033,7 @@ while A77>0:
 									if hf==0 or answ.lower()=='yes':
 										playerteam='Kenya'
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Hitesh Modi [Batter]')
 										print('David Obuya [Batter]')
 										print('Ravi Shah [Batter]')
@@ -102053,12 +101050,10 @@ while A77>0:
 										print('Joseph Angara [Pace Bowler]')
 										print('Alpesh Vadher [Pace Bowler]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										LKI=['Modi','David','Shah','Patel','Otieno','Tikolo','Collins','Odumbe','Odoyo','Tony','Karim','Ongondo','Martin','Angara','Alpesh']
 										print()
 										print('Name     ','BAT  ','BOWL',sep='\t')
@@ -102148,8 +101143,7 @@ while A77>0:
 									if hf==0 or answ.lower()=='yes':
 										playerteam='Canada'
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Ishwar Maraj [Batter]')
 										print('John Davison [Batter]')
 										print('Barry Seebaran [Batter]')
@@ -102166,12 +101160,10 @@ while A77>0:
 										print('Nicholas de Groot [Pace Bowler]')
 										print('David Joseph [Pace Bowler]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										LKI=['Ishwar','Davison','Seebaran','Chumney','Billcliff','Bagai','Samad','Ifill','Harris','Austin','Patel','Fazil','Sanjayan','De Groot','Joseph']
 										print()
 										print('Name     ','BAT  ','BOWL',sep='\t')
@@ -102261,8 +101253,7 @@ while A77>0:
 									if hf==0 or answ.lower()=='yes':
 										playerteam='England'
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Nasser Hussain (c) [Batter]')
 										print('Nick Knight [Batter]')
 										print('Marcus Trescothick [Batter]')
@@ -102279,12 +101270,10 @@ while A77>0:
 										print('Steve Harmison [Pace Bowler]')
 										print('Matthew Hoggard [Pace Bowler]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										LKI=['Hussain','Knight','Trescothick','Vaughan','Stewart','Blackwell','White','Flintoff','Irani','Collingwood','Giles','Anderson','Caddick','Harmison','Hoggard']
 										print()
 										print('Name','BAT','BOWL',sep='\t')
@@ -102372,8 +101361,7 @@ while A77>0:
 									if hf==0 or answ.lower()=='yes':
 										playerteam='Namibia'
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Riaan Walters [Batter]')
 										print('Stefan Swanepoel [Batter]')
 										print('Jan-Berrie Burger [Batter]')
@@ -102390,12 +101378,10 @@ while A77>0:
 										print('Rudi van Vooren [Pace Bowler]')
 										print('Lennie Louw [Pace Bowler]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										LKI=['Walters','Swanepoel','Burger','Keulder','Van Schoor','Karg','Dean','Louis','Murgatroyd','Snyman','Johannes','Bjorn','Burton','Rudi','Louw']
 										print()
 										print('Name     ','BAT  ','BOWL',sep='\t')
@@ -102485,8 +101471,7 @@ while A77>0:
 									if hf==0 or answ.lower()=='yes':
 										playerteam='India'
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Sourav Ganguly (c) [Batter]')
 										print('Sachin Tendulkar [Batter]')
 										print('Virender Sehwag [Batter]')
@@ -102503,12 +101488,10 @@ while A77>0:
 										print('Javagal Srinath [Pace Bowler]')
 										print('Ashish Nehra [Pace Bowler]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										LKI=['Ganguly','Sachin','Sehwag','Kaif','Bangar','Dravid','Parthiv','Agarkar','Yuvraj','Mongia','Harbhajan','Kumble','Zaheer','Srinath','Nehra']
 										print()
 										print('Name','   BAT','   BOWL',sep='\t')
@@ -102602,8 +101585,7 @@ while A77>0:
 									if hf==0 or answ.lower()=='yes':
 										playerteam='West Indies'
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Brian Lara [Batter]')
 										print('Chris Gayle [Batter]')
 										print('Shivnarine Chanderpaul [Batter]')
@@ -102707,8 +101689,7 @@ while A77>0:
 									if hf==0 or answ.lower()=='yes':
 										playerteam='Pakistan'
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Saeed Anwar [Batter]')
 										print('Inzamam-ul Haq [Batter]')
 										print('Mohammed Yousuf [Batter]')
@@ -102725,12 +101706,10 @@ while A77>0:
 										print('Mohammed Sami [Pace Bowler]')
 										print('Saqlain Mushtaq [Spin Bowler]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										LKI=['Anwar','Inzamam','Yousuf','Younis','Taufeeq','Elahi','Latif','Mahmood','Razzaq','Afridi','Wasim','Waqar','Shoaib','Sami','Saqlain']
 										print()
 										print('Name','   BAT','   BOWL',sep='\t')
@@ -102822,8 +101801,7 @@ while A77>0:
 									if hf==0 or answ.lower()=='yes':
 										playerteam='New Zealand'
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Stephen Fleming [Batter]')
 										print('Nathan Astle [Batter]')
 										print('Lou Vincent [Batter]')
@@ -102840,12 +101818,10 @@ while A77>0:
 										print('Daryl Tuffey [Pace Bowler]')
 										print('Kyle Mills [Pace Bowler]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										LKI=['Fleming','Astle','Vincent','Mcmillan','Sinclair','Mccullum','Vettori','Harris','Cairns','Oram','Styris','Bond','Adams','Tuffey','Mills']
 										print()
 										print('Name','   BAT','   BOWL',sep='\t')
@@ -102935,8 +101911,7 @@ while A77>0:
 									if hf==0 or answ.lower()=='yes':
 										playerteam='Sri Lanka'
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Mahela Jayawardene [Batter]')
 										print('Aravinda de Silva [Batter]')
 										print('Marvan Atapattu [Batter]')
@@ -102953,12 +101928,10 @@ while A77>0:
 										print('Prabath Nissanka [Pace Bowler]')
 										print('Pulasthi Gunaratne [Pace Bowler]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										LKI=['Jayawardene','Aravinda','Atapattu','Avishka','Tillakaratne','Sangakkara','Jayasuriya','Arnold','Mubarak','Charith','Muralitharan','Vaas','Dilhara','Nissanka','Gunaratne']
 										print()
 										print('Name','    BAT','   BOWL',sep='\t')
@@ -103047,8 +102020,7 @@ while A77>0:
 									if hf==0 or answ.lower()=='yes':
 										playerteam='Zimbabwe'
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Andy Flower [Batter]')
 										print('Alistair Campbell [Batter]')
 										print('Craig Wishart [Batter]')
@@ -103065,12 +102037,10 @@ while A77>0:
 										print('Douglas Hondo [Pace Bowler]')
 										print('Travis Friend [Pace Bowler]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										LKI=['Andy','Campbell','Wishart','Ebrahim','Marillier','Stuart','Taibu','Ervine','Grant','Streak','Blignaut','Whittall','Olonga','Hondo','Friend']
 										print()
 										print('Name     ','BAT  ','BOWL',sep='\t')
@@ -103160,8 +102130,7 @@ while A77>0:
 									if hf==0 or answ.lower()=='yes':
 										playerteam='Netherlands'
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Bas Zuiderent [Batter]')
 										print('Klaas-Jan van Noortwijk [Batter]')
 										print('Reinout Scholte [Batter]')
@@ -103178,12 +102147,10 @@ while A77>0:
 										print('Jacob-Jan Esmeijer [Pace Bowler]')
 										print('Feiko Kloppenburg [Pace Bowler]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										LKI=['Zuiderent','Van Noortwijk','Scholte','Henk','Statham','Smits','Van Bunge','De Leede','Lefebvre','Nijman','Raja','Schiferli','Van Troost','Esmeijer','Kloppenburg']
 										print()
 										print('Name     ','BAT  ','BOWL',sep='\t')
@@ -103273,8 +102240,7 @@ while A77>0:
 									if hf==0 or answ.lower()=='yes':
 										playerteam='South Africa'
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Graeme Smith [Batter]')
 										print('Herschelle Gibbs [Batter]')
 										print('Gary Kirsten [Batter]')
@@ -103291,12 +102257,10 @@ while A77>0:
 										print('Makhaya Ntini [Pace Bowler]')
 										print('Charl Langeveldt [Pace Bowler]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 										print()
-										for rq4 in range(1000000):
-											pass
+										time.sleep(0.6)
 										LKI=['Graeme','Gibbs','Kirsten','Rhodes','Dippenaar','Boucher','Kallis','Pollock','Klusener','Hall','Peterson','Boje','Donald','Ntini','Langeveldt']
 										print()
 										print('Name     ','BAT  ','BOWL',sep='\t')
@@ -103645,7 +102609,7 @@ while A77>0:
 										break
 									elif s1==s2:
 										break
-								for rq4 in range(4000000): pass
+								time.sleep(0.5)
 								print(bat1+': ',s1,'/',wik1,' in ',round((ovb1//6)+(0.1*(ovb1%6)),1),' overs')
 								print()
 								if bat1=='Australia':
@@ -104021,23 +102985,23 @@ while A77>0:
 									oy2=math.ceil(ab/6)
 									break
 
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								if overs>4:
 									print(hig1,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(sco1,'(',ove1,')',end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(bw1,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(wakt1,'/',HU[0],'(',oy1,')')
 									print()
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(hig2,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(sco2,'(',ove2,')',end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(bw2,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(wakt2,'/',HU[1],'(',oy2,')')
 									print()
 								pro=random.randint(1,100)
@@ -104068,7 +103032,7 @@ while A77>0:
 									wik2=10
 								if s2>s1:
 									wik2=random.randint(0,9)
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print()
 								print(bat2+': ',s2,'/',wik2,' in ',round((ovb2//6)+(0.1*(ovb2%6)),1),' overs')
 								print()
@@ -104246,23 +103210,23 @@ while A77>0:
 										continue
 									oy2=math.ceil(ab/6)
 									break
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								if overs>4:
 									print(hig1,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(sco1,'(',ove1,')',end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(bw1,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(wakt1,'/',HU[0],'(',oy1,')')
 									print()
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(hig2,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(sco2,'(',ove2,')',end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(bw2,end='\t')
-									for rq4 in range(4000000):         pass
+									time.sleep(0.5)
 									print(wakt2,'/',HU[1],'(',oy2,')')
 									print()
 								if s1>s2:
@@ -104411,7 +103375,7 @@ while A77>0:
 									continue
 								G1=((nrrsuper6[k]['Runs Scored']/nrrsuper6[k]['Overs Played'])-(nrrsuper6[k]['Runs Conceded']/nrrsuper6[k]['Overs Bowled']))*6
 								super6[k]['NRR']=round(G1,2)
-							for rq4 in range(4000000):     pass
+							time.sleep(0.5)
 							if (hf<6 and (u[0]!=teamsp and u[1]!=teamsp)) or (hf<6 and (u[0]==teamsp or u[1]==teamsp) and dgr.lower()=='yes'):
 								for k in nrrA:
 									if pointstA[k]['Matches']==0:
@@ -104438,8 +103402,7 @@ while A77>0:
 				
 				import random
 				print()
-				for rq4 in range(8000000):
-							pass
+				time.sleep(0.6)
 				print('Indian Premier League 2023')
 				print()
 				josef=['Chennai Super Kings','Delhi Capitals','Gujarat Titans','Kolkata Knight Riders','Lucknow Super Giants','Mumbai Indians','Punjab Kings','Rajasthan Royals','Royal Challengers Bangalore','Sunrisers Hyderabad']
@@ -104554,14 +103517,12 @@ while A77>0:
 				inrr={'Chennai Super Kings':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'Delhi Capitals':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'Gujarat Titans':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'Kolkata Knight Riders':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'Lucknow Super Giants':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'Mumbai Indians':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'Punjab Kings':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'Rajasthan Royals':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'Royal Challengers Bangalore':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'Sunrisers Hyderabad':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0}}
 				ipointst={'Chennai Super Kings':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'Delhi Capitals':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'Gujarat Titans':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'Kolkata Knight Riders':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'Lucknow Super Giants':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'Mumbai Indians':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'Punjab Kings':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'Rajasthan Royals':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'Royal Challengers Bangalore':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'Sunrisers Hyderabad':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0}}
 				def pointstable():
-					for rq4 in range(80000):
-							pass
+					time.sleep(0.3)
 					print()
 					print()
 					print('             Indian Premier League 2023 Points Table [After Game ',cow,' of 70]',sep='')
 					print()
-					for rq4 in range(80000):
-							pass
+					time.sleep(0.3)
 					F=sorted(ipointst.items(), key=lambda x: (x[1]["Points"], x[1]["NRR"]), reverse=True)
 					data=dict(F)
 					headers = ['Team', 'Matches', 'Won', 'Lost','Tie','Points', 'NRR']
@@ -104602,14 +103563,14 @@ while A77>0:
 						print()
 						for u in R[hf]:
 							print(u[3]+'      '+u[0]+' vs '+u[1]+' at '+u[2])
-							for rq4 in range(4000000): pass
+							time.sleep(0.5)
 							print()
 					if hf<10:
 						print('Round',hf+1,':')
 						print()
 					for u in R[hf]:
 						cow+=1
-						for rq4 in range(4000000): pass      
+						time.sleep(0.5)      
 						if hf<10:                   
 							print(u[3]+'      '+u[0]+' vs '+u[1]+' at '+u[2])
 						if hf>9:
@@ -104749,8 +103710,7 @@ while A77>0:
 							if teamsp=='Chennai Super Kings':
 								if hf==0 or answ.lower()=='yes':
 									playerteam='Chennai Super Kings'
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Ruturaj Gaikwad [Batter]')
 									print('Ambati Rayudu [Batter]')
@@ -104778,12 +103738,10 @@ while A77>0:
 									print('Sisanda Magala [Overseas][Pace Bowler]')
 									print('Simarjeet Singh [Pace Bowler]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Gaikwad','Rayudu','Rahane','Rasheed','Senapati','Dhoni','Conway','Stokes','Dube','Pretorius','Rajvardhan','Jadeja','Moeen','Santner','Sindhu','Mandal','Varma','Theekshana','Solanki','Chahar','Pathirana','Deshpande','Akash','Magala','Simarjeet']
 									print('Name     ','BAT  ','BOWL',sep='\t')
 									print()
@@ -104884,8 +103842,7 @@ while A77>0:
 							if teamsp=='Delhi Capitals':
 								if hf==0 or answ.lower()=='yes':
 									playerteam='Delhi Capitals'
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('David Warner (c) [Overseas][Batter]')
 									print('Prithvi Shaw [Batter]')
@@ -104914,12 +103871,10 @@ while A77>0:
 									print('Mustafizur Rahman [Overseas][Pace Bowler]')
 									print('Mukesh Kumar [Pace Bowler]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Warner','Shaw','Pandey','Sarfaraz','Powell','Rossouw','Garg','Dhull','Ripal','Pant','Salt','Porel','Axar','Lalit','Marsh','Aman','Kuldeep','Dubey','Vicky','Khaleel','Sakariya','Nortje','Ishant','Ngidi','Mustafizur','Mukesh']
 									print()
 									print()
@@ -105030,8 +103985,7 @@ while A77>0:
 								if hf==0 or answ.lower()=='yes':
 									playerteam='Gujarat Titans'
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Shubman Gill [Batter]')
 									print('David Miller [Overseas][Batter]')
@@ -105059,12 +104013,10 @@ while A77>0:
 									print('Pradeep Sangwan [Pace Bowler]')
 									print('Yash Dayal [Pace Bowler]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Gill','Miller','Sudharshan','Saha','Wade','Bharat','Urvil','Hardik','Shankar','Shanaka','Odean','Rashid','Tewatia','Manohar','Jayant','Kishore','Noor','Alzarri','Shami','Mohit','Little','Mavi','Nalkande','Sangwan','Dayal']
 									print()
 									print()
@@ -105180,8 +104132,7 @@ while A77>0:
 								if hf==0 or answ.lower()=='yes':
 									playerteam='Kolkata Knight Riders'
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Shreyas Iyer (c) [Batter]')
 									print('Nitish Rana [Batter]')
@@ -105209,12 +104160,10 @@ while A77>0:
 									print('Vaibhav Arora [Pace Bowler]')
 									print('Kulwant Khejroliya [Pace Bowler]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Shreyas','Rana','Roy','Rinku','Narayan','Gurbaz','Charles','Liton','Mandeep','Desai','Venkatesh','Shardul','Russell','Wiese','Anukul','Narine','Shakib','Varun','Suyash','Umesh','Ferguson','Harshit','Southee','Vaibhav','Kulwant']
 									print()
 									print()
@@ -105333,8 +104282,7 @@ while A77>0:
 								if hf==0 or answ.lower()=='yes':
 									playerteam='Lucknow Super Giants'
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Ayush Badoni [Batter]')
 									print('Manan Vohra [Batter]')
@@ -105362,12 +104310,10 @@ while A77>0:
 									print('Mohsin Khan [Pace Bowler]')
 									print('Arpit Guleria [Pace Bowler]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Badoni','Vohra','Rahul','De Kock','Pooran','Krunal','Stoinis','Mayers','Hooda','Sams','Mankad','Karan','Shepherd','Gowtham','Bishnoi','Mishra','Swapnil','Wood','Avesh','Unadkat','Naveen','Yash','Yudhvir','Mohsin','Arpit']
 									print()
 									print()
@@ -105478,8 +104424,7 @@ while A77>0:
 								if hf==0 or answ.lower()=='yes':
 									playerteam='Mumbai Indians'
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Rohit Sharma (c) [Batter]')
 									print('Suryakumar Yadav [Batter]')
@@ -105509,12 +104454,10 @@ while A77>0:
 									print('Jhye Richardson [Overseas][Pace Bowler]')
 									print("Arshad Khan [Pace Bowler]")
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Rohit','Suryakumar','David','Wadhera','Tilak','Kishan','Stubbs','Vinod','Mulani','Green','Arjun','Ramandeep','Brevis','Shokeen','Chawla','Kartikeya','Goyal','Bumrah','Jordan','Madhwal','Warrier','Meredith','Duan','Archer','Behrendorff','Jhye','Arshad']
 									print()
 									print()
@@ -105625,8 +104568,7 @@ while A77>0:
 								if hf==0 or answ.lower()=='yes':
 									playerteam='Punjab Kings'
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Shikhar Dhawan (c) [Batter]')
 									print('Shahrukh Khan [Batter]')
@@ -105653,12 +104595,10 @@ while A77>0:
 									print('Vidwath Kaverappa [Pace Bowler]')
 									print('Nathan Ellis [Overseas][Pace Bowler]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Shikhar','Shahrukh','Hurley','Bhatia','Atharva','Bhanuka','Short','Jitesh','Bairstow','Prabhsimran','Rathee','Curran','Rishi','Bawa','Harpreet','Raza','Livingstone','Chahar','Arshdeep','Baltej','Gurnoor','Rabada','Kaverappa','Ellis']
 									print()
 									print()
@@ -105769,8 +104709,7 @@ while A77>0:
 								if hf==0 or answ.lower()=='yes':
 									playerteam='Rajasthan Royals'
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Yashasvi Jaiswal [Batter]')
 									print('Devdutt Padikkal [Batter]')
@@ -105799,12 +104738,10 @@ while A77>0:
 									print('Kuldeep Sen [Pace Bowler]')
 									print('Kuldip Yadav [Pace Bowler]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Jaiswal','Padikkal','Root','Hetmyer','Samson','Buttler','Ferreira','Kunal','Dhruv','Ashwin','Parag','Basith','Vasisht','Holder','Chahal','Murugan','Cariappa','Zampa','Boult','Krishna','Mccoy','Sandeep','Saini','Asif','Sen','Kuldip']
 									print()
 									print()
@@ -105924,8 +104861,7 @@ while A77>0:
 								if hf==0 or answ.lower()=='yes':
 									playerteam='Royal Challengers Bangalore'
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Virat Kohli [Batter]')
 									print('Faf du Plessis (c) [Overseas][Batter]')
@@ -105956,12 +104892,10 @@ while A77>0:
 									print('Avinash Singh [Pace Bowler]')
 									print('Rajan Kumar [Pace Bowler]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Kohli','Du Plessis','Allen','Kedar','Karthik','Rawat','Willey','Sonu','Bhandage','Suyash','Shahbaz','Maxwell','Hasaranga','Bracewell','Lomror','Jacks','Karn','Himanshu','Siraj','Hazlewood','Harshal','Vyshak','Parnell','Kaul','Akash','Topley','Avinash','Rajan']
 									print()
 									print()
@@ -106065,8 +104999,7 @@ while A77>0:
 								if hf==0 or answ.lower()=='yes':
 									playerteam='Sunrisers Hyderabad'
 									print()
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Aiden Markram (c) [Overseas][Batter]')
 									print('Harry Brook [Overseas][Batter]')
@@ -106094,12 +105027,10 @@ while A77>0:
 									print('Bhuvneshwar Kumar [Pace Bowler]')
 									print('Kartik Tyagi [Pace Bowler]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Markram','Brook','Mayank','Tripathi','Anmolpreet','Klaasen','Upendra','Phillips','Sanvir','Jansen','Hosein','Nitish','Abhishek','Sundar','Vivrant','Samad','Vyas','Markande','Dagar','Adil','Natarajan','Farooqi','Umran','Bhuvneshwar','Tyagi']
 									print()
 									print()
@@ -106341,7 +105272,7 @@ while A77>0:
 							Ccatchers={'slip1':' ','slip2':' ','slip3':' ','slip4':' ','fineleg':' ','thirdman':' ','shortthirdman':' ','longleg':' ','squareleg':' ','deepsquareleg':' ','midwicket':' ','deepmidwicket':' ','midon':' ','longon':' ','midoff':' ','longoff':' ','covers':' ','deepcovers':' ','point':' ','deeppoint':' ','deepfineleg':' ','backwardpoint':' ','backwardsquareleg':' ','cowcorner':' ','deepextracovers':' ','deepcoverpoint':' ','coverpoint':' '}
 							Pgaya=[]
 							Cgaya=[]
-							for rq4 in range(4000000): pass
+							time.sleep(0.5)
 							
 							match()    
 						else:
@@ -106421,7 +105352,7 @@ while A77>0:
 									break
 								elif s1==s2:
 									break
-							for rq4 in range(4000000): pass
+							time.sleep(0.5)
 							print(bat1+': ',s1,'/',wik1,' in ',round((ovb1//6)+(0.1*(ovb1%6)),1),' overs')
 							print()
 							if bat1=='Chennai Super Kings':
@@ -106740,23 +105671,23 @@ while A77>0:
 									continue
 								oy2=math.ceil(ab/6)
 								break
-							for rq4 in range(4000000): pass
+							time.sleep(0.5)
 							if overs>4:
 								print(hig1,end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(sco1,'(',ove1,')',end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(bw1,end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(wakt1,'/',HU[0],'(',oy1,')')
 								print()
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(hig2,end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(sco2,'(',ove2,')',end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(bw2,end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(wakt2,'/',HU[1],'(',oy2,')')
 								print()
 							pro=random.randint(1,100)
@@ -106787,7 +105718,7 @@ while A77>0:
 								wik2=10
 							if s2>s1:
 								wik2=random.randint(0,9)
-							for rq4 in range(4000000): pass
+							time.sleep(0.5)
 							print()
 							print(bat2+': ',s2,'/',wik2,' in ',round((ovb2//6)+(0.1*(ovb2%6)),1),' overs')
 							print()
@@ -106965,23 +105896,23 @@ while A77>0:
 									continue
 								oy2=math.ceil(ab/6)
 								break
-							for rq4 in range(4000000): pass
+							time.sleep(0.5)
 							if overs>4:
 								print(hig1,end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(sco1,'(',ove1,')',end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(bw1,end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(wakt1,'/',HU[0],'(',oy1,')')
 								print()
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(hig2,end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(sco2,'(',ove2,')',end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(bw2,end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(wakt2,'/',HU[1],'(',oy2,')')
 								print()
 							if s1>s2:
@@ -107053,16 +105984,14 @@ while A77>0:
 								continue
 							G1=((inrr[k]['Runs Scored']/inrr[k]['Overs Played'])-(inrr[k]['Runs Conceded']/inrr[k]['Overs Bowled']))*6
 							ipointst[k]['NRR']=round(G1,2)
-						for rq4 in range(4000000):
-							pass
+						time.sleep(0.5)
 						if hf<10:
 							pointstable()
 			if jko==4:
 				
 				import random
 				print()
-				for rq4 in range(8000000):
-							pass
+				time.sleep(0.6)
 				print('ICC T20 World Cup 2024')
 				print()
 				josef=['Afghanistan','Australia','Bangladesh','England','India','Ireland','Namibia','Netherlands','New Zealand','Pakistan','Scotland','South Africa','Sri Lanka','West Indies']
@@ -107156,8 +106085,7 @@ while A77>0:
 				tnrrd={'Bangladesh':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'Netherlands':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'Sri Lanka':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'South Africa':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0},'Nepal':{'Runs Scored':0,'Overs Played':0,'Runs Conceded':0,'Overs Bowled':0}}
 				tpointsd={'Bangladesh':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'Netherlands':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'Sri Lanka':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'South Africa':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0},'Nepal':{'Matches':0,'Won':0,'Lost':0,'Tie':0,'Points':0,'NRR':0}}
 				def pointstable():
-					for rq4 in range(80000):
-							pass
+					time.sleep(0.3)
 					print()
 					print()
 					if hf<8:
@@ -107182,8 +106110,7 @@ while A77>0:
 							print('             ICC T20 World Cup 2024 Points Table Super 8 Group 2',sep='')
 							F=sorted(tpoints2.items(), key=lambda x: (x[1]["Points"], x[1]["NRR"]), reverse=True)
 					print()
-					for rq4 in range(80000):
-							pass
+					time.sleep(0.3)
 					
 					data=dict(F)
 					headers = ['Team', 'Matches', 'Won', 'Lost','Tie','Points', 'NRR']
@@ -107290,7 +106217,7 @@ while A77>0:
 							if u[0] in tnrrd:
 								print('Group D: ',end='')
 							print(u[3]+'      '+u[0]+' vs '+u[1]+' at '+u[2])
-							for rq4 in range(4000000): pass
+							time.sleep(0.5)
 							print()
 					if hf>7 and hf<11:
 						print('Round ',hf+1,':')
@@ -107301,14 +106228,14 @@ while A77>0:
 							if u[0] in tnrr2:
 								print('Super 8 [Group 2]: ',end='')
 							print(u[3]+'      '+u[0]+' vs '+u[1]+' at '+u[2])
-							for rq4 in range(4000000): pass
+							time.sleep(0.5)
 							print()
 					if hf<11:
 						print('Round',hf+1,':')
 						print()
 					for u in R[hf]:
 						cow+=1
-						for rq4 in range(4000000): pass      
+						time.sleep(0.5)      
 						if hf<8:      
 							if u[0] in tnrra:
 								print('Group A: ',end='')
@@ -107479,8 +106406,7 @@ while A77>0:
 							if teamsp=='New Zealand':
 								if hf==0 or answ.lower()=='yes':
 									playerteam='New Zealand'
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Kane Williamson (c) [Batter]')
 									print('Finn Allen [Batter]')
@@ -107499,12 +106425,10 @@ while A77>0:
 									print('Lockie Ferguson [Pace Bowler]')
 
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Williamson','Allen','Chapman','Conway','Mitchell','Neesham','Rachin','Santner','Bracewell','Phillips','Sodhi','Boult','Henry','Southee','Ferguson']
 									print()
 									print()
@@ -107596,8 +106520,7 @@ while A77>0:
 							if teamsp=='Sri Lanka':
 								if hf==0 or answ.lower()=='yes':
 									playerteam=teamsp
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Pathum Nissanka [Batter]')
 									print('Charith Asalanka [Batter]')
@@ -107616,12 +106539,10 @@ while A77>0:
 									print('DIlshan Madushanka [Pace Bowler]')
 
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Nissanka','Asalanka','Kusal','Sadeera','Mathews','Shanaka','Dhananjaya','Kamindu','Wellalage','Hasaranga','Theekshana','Thushara','Pathirana','Chameera','Madushanka']
 									print()
 									print()
@@ -107718,8 +106639,7 @@ while A77>0:
 							if teamsp=='West Indies':
 								if hf==0 or answ.lower()=='yes':
 									playerteam=teamsp
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Rovman Powell (c) [Batter]')
 									print('Shimron Hetmyer [Batter]')
@@ -107738,12 +106658,10 @@ while A77>0:
 									print('Obed Mccoy [Pace Bowler]')
 
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Powell','Hetmyer','King','Rutherford','Hope','Charles','Pooran','Chase','Hosein','Russell','Shepherd','Motie','Alzarri','Shamar','Mccoy']
 									print()
 									print()
@@ -107844,8 +106762,7 @@ while A77>0:
 							if teamsp=='Australia':
 								if hf==0 or answ.lower()=='yes':
 									playerteam=teamsp
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('David Warner [Batter]')
 									print('Travis Head [Batter]')
@@ -107864,12 +106781,10 @@ while A77>0:
 									print('Nathan Ellis [Pace Bowler]')
 
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Warner','Head','David','Wade','Inglis','Marsh','Stoinis','Green','Maxwell','Agar','Zampa','Cummins','Starc','Hazlewood','Ellis']
 									print()
 									print()
@@ -107966,8 +106881,7 @@ while A77>0:
 							if teamsp=='England':
 								if hf==0 or answ.lower()=='yes':
 									playerteam=teamsp
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Harry Brook [Batter]')
 									print('Ben Duckett [Batter]')
@@ -107986,12 +106900,10 @@ while A77>0:
 									print('Mark Wood [Pace Bowler]')
 
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Brook','Duckett','Buttler','Bairstow','Salt','Curran','Jacks','Moeen','Livingstone','Adil','Hartley','Archer','Jordan','Topley','Wood']
 									print()
 									print()
@@ -108092,8 +107004,7 @@ while A77>0:
 							if teamsp=='India':
 								if hf==0 or answ.lower()=='yes':
 									playerteam=teamsp
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Rohit Sharma (c) [Batter]')
 									print('Yashasvi Jaiswal [Batter]')
@@ -108112,12 +107023,10 @@ while A77>0:
 									print('Mohammed Siraj [Pace Bowler]')
 
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Rohit','Jaiswal','Kohli','Suryakumar','Pant','Samson','Jadeja','Axar','Hardik','Dube','Kuldeep','Chahal','Bumrah','Arshdeep','Siraj']
 									print()
 									print()
@@ -108214,8 +107123,7 @@ while A77>0:
 							if teamsp=='South Africa':
 								if hf==0 or answ.lower()=='yes':
 									playerteam=teamsp
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Aiden Markram (c) [Batter]')
 									print('David Miller [Batter]')
@@ -108234,12 +107142,10 @@ while A77>0:
 									print('Ottniel Baartman [Pace Bowler]')
 
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Markram','Miller','Stubbs','Hendricks','De Kock','Klaasen','Rickelton','Jansen','Maharaj','Fortuin','Shamsi','Rabada','Nortje','Coetzee','Baartman']
 									print()
 									print()
@@ -108340,8 +107246,7 @@ while A77>0:
 							if teamsp=='Ireland':
 								if hf==0 or answ.lower()=='yes':
 									playerteam=teamsp
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Paul Stirling (c) [Batter]')
 									print('Andy Balbirnie [Batter]')
@@ -108360,12 +107265,10 @@ while A77>0:
 									print('Graham Hume [Pace Bowler]')
 
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Stirling','Balbirnie','Tector','Ross','Tucker','Rock','Campher','Dockrell','Delany','White','Adair','Little','Young','Mccarthy','Hume']
 									print()
 									print()
@@ -108462,8 +107365,7 @@ while A77>0:
 							if teamsp=='Afghanistan':
 								if hf==0 or answ.lower()=='yes':
 									playerteam=teamsp
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Ibrahim Zadran [Batter]')
 									print('Najibullah Zadran [Batter]')
@@ -108482,12 +107384,10 @@ while A77>0:
 									print('Naveen ul Haq [Pace Bowler]')
 
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Ibrahim','Najibullah','Gurbaz','Ishaq','Rashid','Nabi','Kharote','Gulbadin','Omarzai','Janat','Mujeeb','Noor','Fareed','Farooqi','Naveen']
 									print()
 									print()
@@ -108584,8 +107484,7 @@ while A77>0:
 							if teamsp=='Netherlands':
 								if hf==0 or answ.lower()=='yes':
 									playerteam=teamsp
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Max O Dowd [Batter]')
 									print('Michael Levitt [Batter]')
@@ -108604,12 +107503,10 @@ while A77>0:
 									print('Kyle Klein [Pace Bowler]')
 
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['O Dowd','Levitt','Vikramjit','Barresi','Teja','Engelbrecht','Edwards','De Leede','Van Beek','Zulfiqar','Pringle','Aryan','Van Meekeren','Kingma','Klein']
 									print()
 									print()
@@ -108701,8 +107598,7 @@ while A77>0:
 							if teamsp=='Namibia':
 								if hf==0 or answ.lower()=='yes':
 									playerteam=teamsp
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Jack Brassell [Batter]')
 									print('Nikolaas Davin [Batter]')
@@ -108723,12 +107619,10 @@ while A77>0:
 									
 
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Brassell','Davin','Kruger','Blignaut','Zane','Kotze','Erasmus','Van Lingen','Wiese','Smit','Frylinck','Leicher','Scholtz','Trumpelmann','Shikongo','Lungameni']
 									print()
 									print()
@@ -108825,8 +107719,7 @@ while A77>0:
 							if teamsp=='Bangladesh':
 								if hf==0 or answ.lower()=='yes':
 									playerteam=teamsp
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Najmul Hossain Shanto (c) [Batter]')
 									print('Tanzid Hasan [Batter]')
@@ -108844,12 +107737,10 @@ while A77>0:
 									print('Shoriful Islam [Pace Bowler]')
 									print('Tanzim Hasan Sakib [Pace Bowler]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Shanto','Tanzid','Hridoy','Jaker','Sarkar','Liton','Shakib','Mahedi','Mahmudullah','Rishad','Tanvir','Mustafizur','Taskin','Shoriful','Tanzim']
 									print()
 									print()
@@ -108941,8 +107832,7 @@ while A77>0:
 							if teamsp=='Scotland':
 								if hf==0 or answ.lower()=='yes':
 									playerteam=teamsp
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('George Munsey [Batter]')
 									print('Ollie Hairs [Batter]')
@@ -108960,12 +107850,10 @@ while A77>0:
 									print('Bradley Currie [Pace Bowler]')
 									print('Jack Jarvis [Pace Bowler]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Munsey','Hairs','Jones','Tear','Cross','Leask','Greaves','Berrington','Mcmullen','Watt','Sharif','Wheal','Sole','Currie','Jarvis']
 									print()
 									print()
@@ -109062,8 +107950,7 @@ while A77>0:
 							if teamsp=='Pakistan':
 								if hf==0 or answ.lower()=='yes':
 									playerteam=teamsp
-									for rq4 in range(1000000):
-											pass
+									time.sleep(0.6)
 									print()
 									print('Babar Azam (c) [Batter]')
 									print('Saim Ayub [Batter]')
@@ -109081,12 +107968,10 @@ while A77>0:
 									print('Haris Rauf [Pace Bowler]')
 									print('Abbas Afridi [Pace Bowler]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									print('Note: These are the shortened names for the players which must be entered to choose a player. [Not Case Sensitive]')
 									print()
-									for rq4 in range(1000000):
-										pass
+									time.sleep(0.7)
 									LKI=['Babar','Ayub','Zaman','Usman','Rizwan','Khan','Iftikhar','Shadab','Imad','Abrar','Shaheen','Naseem','Amir','Rauf','Abbas']
 									print()
 									print()
@@ -109412,7 +108297,7 @@ while A77>0:
 							Ccatchers={'slip1':' ','slip2':' ','slip3':' ','slip4':' ','fineleg':' ','thirdman':' ','shortthirdman':' ','longleg':' ','squareleg':' ','deepsquareleg':' ','midwicket':' ','deepmidwicket':' ','midon':' ','longon':' ','midoff':' ','longoff':' ','covers':' ','deepcovers':' ','point':' ','deeppoint':' ','deepfineleg':' ','backwardpoint':' ','backwardsquareleg':' ','cowcorner':' ','deepextracovers':' ','deepcoverpoint':' ','coverpoint':' '}
 							Pgaya=[]
 							Cgaya=[]
-							for rq4 in range(4000000): pass
+							time.sleep(0.5)
 							
 							match()    
 						else:
@@ -109492,7 +108377,7 @@ while A77>0:
 									break
 								elif s1==s2:
 									break
-							for rq4 in range(4000000): pass
+							time.sleep(0.5)
 							print(bat1+': ',s1,'/',wik1,' in ',round((ovb1//6)+(0.1*(ovb1%6)),1),' overs')
 							print()
 							if bat1=='Ireland':
@@ -109952,27 +108837,27 @@ while A77>0:
 									continue
 								oy2=math.ceil(ab/6)
 								break
-							for rq4 in range(4000000): pass
+							time.sleep(0.5)
 							if overs>4:
 								print(hig1,end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(sco1,'(',ove1,')',end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(bw1,end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(wakt1,'/',HU[0],'(',oy1,')')
 								print()
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(hig2,end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(sco2,'(',ove2,')',end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(bw2,end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(wakt2,'/',HU[1],'(',oy2,')')
 								print()
 						
-							for rq4 in range(4000000): pass
+							time.sleep(0.5)
 							print()
 							print(bat2+': ',s2,'/',wik2,' in ',round((ovb2//6)+(0.1*(ovb2%6)),1),' overs')
 							print()
@@ -110150,23 +109035,23 @@ while A77>0:
 									continue
 								oy2=math.ceil(ab/6)
 								break
-							for rq4 in range(4000000): pass
+							time.sleep(0.5)
 							if overs>4:
 								print(hig1,end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(sco1,'(',ove1,')',end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(bw1,end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(wakt1,'/',HU[0],'(',oy1,')')
 								print()
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(hig2,end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(sco2,'(',ove2,')',end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(bw2,end='\t')
-								for rq4 in range(4000000):     pass
+								time.sleep(0.5)
 								print(wakt2,'/',HU[1],'(',oy2,')')
 								print()
 							if s1>s2:
@@ -110386,8 +109271,7 @@ while A77>0:
 									continue
 								G1=((tnrr2[k]['Runs Scored']/tnrr2[k]['Overs Played'])-(tnrr2[k]['Runs Conceded']/tnrr2[k]['Overs Bowled']))*6
 								tpoints2[k]['NRR']=round(G1,2)
-						for rq4 in range(4000000):
-							pass
+						time.sleep(0.5)
 						if hf<11:
 							pointstable()
 
@@ -110441,80 +109325,67 @@ while A77>0:
 		str=''
 		str+='1. Monty Hall Simulator'
 		for k in str:
-			print(k,end='')
-			for l in range(1055655):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		print()
 		str=''
 		str+='2. Country Hangman'
 		for k in str:
-			print(k,end='')
-			for l in range(1055655):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		print()
 		str=''
 		str+='3. Test match scorecard simulator'
 		for k in str:
-			print(k,end='')
-			for l in range(1055655):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		print()
 		str=''
 		str+='4. Ball by ball cricket simulator'
 		for k in str:
-			print(k,end='')
-			for l in range(1055655):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		print()
 		str=''
 		str+='5. Rock Paper Scissors'
 		for k in str:
-			print(k,end='')
-			for l in range(1055655):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		print()
 		str=''
 		str+='6. Hand Cricket'
 		for k in str:
-			print(k,end='')
-			for l in range(1055655):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		print()
 		str=''
 		str+='7. Tic Tac Toe'
 		for k in str:
-			print(k,end='')
-			for l in range(1055655):
-
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		print()
 		str=''
 		str+='8. Connect 4'
 		for k in str:
-			print(k,end='')
-			for l in range(1055655):
-				pass
-		print()  
+			print(k,end='',flush = True)
+			time.sleep(0.02)
+		print()
 		str=''
 		str+='9. Football'
 		for k in str:
-			print(k,end='')
-			for l in range(1055655):
-				pass
-		print()  
+			print(k,end='',flush = True)
+			time.sleep(0.02)
+		print()
 		str=''
 		str+='10. Cricket'
 		for k in str:
-			print(k,end='')
-			for l in range(1055655):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		print()
-		str=''
-		str+='11. World Capitals Quiz'
+		str='11. World Capitals Quiz'
 		for k in str:
-			print(k,end='')
-			for l in range(1055655):
-				pass
+			print(k,end='',flush = True)
+			time.sleep(0.02)
 		print()
 print()
-bruhcmon=input('Click Enter to quit:')
+ending=input('Click Enter to quit:')
